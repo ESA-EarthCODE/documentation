@@ -9,6 +9,7 @@ export default defineConfig(
       title: "EarthCODE Documentation",
       description: "Documentation for the EarthCODE website",
       appearance: "dark",
+      base: "/documentation/",
     },
     {
       // https://vitepress-sidebar.cdget.com/guide/options

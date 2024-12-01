@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "EarthCODE Documentation"
-  text: "Subtitle"
-  tagline: My great tagline
+  name: "Welcome to EarthCODE"
+  text: "User Documentation"
+  tagline: Earth Science Collaborative Open Development Environment
   actions:
     - theme: brand
-      text: Page 1
+      text: Getting started
       link: /page-1
     - theme: alt
-      text: Page 2
+      text: Community and Best Practices
       link: /page-2
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Integrated Open Science Environment
+    details: A central hub for Earth System Science, seamlessly integrating data, tools, and workflows with the Open Science Catalogue to enable discovery, iterative research development, and the publishing of results.
+  - title: FAIR Tools and Workflow Support
+    details: End-to-end support for applying FAIR principles, managing data, code, workflows, and documentation with advanced version control, automated pipelines, and publication tools to ensure reproducibility, reuse, and Open Science compliance.
+  - title:  Scalable Computing & Community Engagement
+    details: Access to scalable cloud computing, data visualization, and advanced processing tools, including machine learning model execution, while fostering collaboration through community forums, guides, and interactive dashboards, and ensuring long-term storage and persistent access to research outputs with DOIs..
 ---
 

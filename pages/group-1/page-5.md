@@ -1,4 +1,7 @@
 # Troubleshooting and Support
+
+This sub-section provides solutions to common issues that users may encounter while configuring tools and platforms.
+
 ## Common Issues and Solutions
 A list of common problems users might encounter and how to resolve them.
 

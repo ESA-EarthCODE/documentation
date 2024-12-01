@@ -14,6 +14,12 @@ Familiarize yourself with the key terms and concepts used in EarthCODE. Understa
 ## Step 2: Explore EarthCODE
 Take some time to explore EarthCODE’s core features. This step will help you get familiar with the platform's tools, resources, and how they integrate to support your research.
 
+### EarthCODE platforms
+
+### Tutorials
+
+### Events
+
 ## Step 3: Understand Your Role in the EarthCODE Community
 Learn about your place within the EarthCODE community. This section will help you understand how you can collaborate, share knowledge, and contribute to ongoing research initiatives.
 

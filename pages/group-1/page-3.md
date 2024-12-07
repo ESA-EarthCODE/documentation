@@ -1,5 +1,11 @@
-# Connecting to External Platforms and Services
-Guidance on how to integrate EarthCODE with external cloud computing services and other relevant platforms.
+# Accessing EarthCODE
 
-## Creating and Managing Projects
-How to create a new research project, add team members, and organize project resources (data, workflows, documentation).
+## Creating an Account
+Step-by-step instructions for creating an EarthCODE user account.
+
+## Logging In
+Instructions on how to log in to the EarthCODE Portal and manage your user profile.
+
+## Navigating the Portal
+An overview of the user interface and how to access key features like data discovery, tool access, and community forums.
+

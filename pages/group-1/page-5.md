@@ -1,10 +1,10 @@
-# Troubleshooting and Support
+# Collaboration and Community
+## Joining or Creating a Research Team
+How to collaborate with other researchers by joining existing teams or creating new ones.
 
-This sub-section provides solutions to common issues that users may encounter while configuring tools and platforms.
+## Using Community Resources
+How to access guides, tutorials, forums, and other community resources to support research activities.
 
-## Common Issues and Solutions
-A list of common problems users might encounter and how to resolve them.
-
-## Getting Help
-Information on how to contact support, access user forums, or refer to the documentation for more help.
+## Sharing and Publishing Results
+Instructions on how to share research outputs, including data, code, and documentation, and manage their publication through the Open Science Catalogue.
 

@@ -1,11 +1,10 @@
-# Managing Your Research Outputs
+# Working with Data
+## Data Discovery and Access
+Instructions on how to search and access data through the Open Science Catalogue, including metadata and dependencies.
 
-## Version Control for Data and Code
-How to use version control systems (such as GitHub) for managing the different versions of your research outputs.
+## Uploading and Managing Your Data
+How to upload data to EarthCODE, manage storage, and apply version control to datasets.
 
-## Publishing to the Open Science Catalogue
-Detailed instructions on how to publish final research outputs to the Open Science Catalogue, including citation and DOI management.
-
-## Long-Term Storage and Access
-How to ensure the long-term preservation of your research outputs using EarthCODE’s storage services.
+## Using Data in Workflows
+How to incorporate data into your workflows and experiments within EarthCODE.
 

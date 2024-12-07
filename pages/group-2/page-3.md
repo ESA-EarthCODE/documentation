@@ -1,11 +1,23 @@
-# Developing and Executing Workflows
+# Publishing to EarthCODE
 
-## Creating Workflows
-How to develop research workflows using EarthCODE’s interactive graphical tooling, including workflow design and validation.
+This sub-section focuses on using the integrated development tools within EarthCODE. It includes:
 
-## Running Workflows
-How to execute workflows using the platform’s cloud-based resources, including how to monitor progress and manage execution.
+## Version Control (e.g., GitHub integration)
 
-## Using Machine Learning Tools
-Instructions on setting up and running machine learning models within EarthCODE’s scalable environment.
+Instructions on how to manage project versions, track changes, and collaborate with other researchers.
+
+## Workflow Management
+
+Guidance on using EarthCODE's workflow tools, such as interactive notebooks, containers, and pipeline orchestration for reproducible research.
+
+## Automation and Continuous Integration
+
+Setting up automated processes for testing, deployment, and data processing using continuous integration/continuous deployment (CI/CD) pipelines.
+
+## Best Practices for Configuration and Collaboration
+This sub-section offers practical advice for configuring tools and platforms to ensure smooth collaboration and adherence to best practices.
+
+## Optimizing Performance
+
+Tips on configuring resources to achieve optimal performance for large datasets and computational tasks.
 

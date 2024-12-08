@@ -3,29 +3,21 @@
 Welcome to 10 Minutes to EarthCODE! This quick-start guide is designed to help you set up your environment and begin working with EarthCODE in just a few minutes. Whether you're new to Earth Science, a researcher, or a developer, EarthCODE provides a collaborative, open development environment for efficient access to Earth observation data, workflows, and computational platforms.
 
 ## What is EarthCODE?
-EarthCODE stands for "Earth Science Collaborative Open Development Environment." It enables seamless interaction with various data platforms, each providing access to different Earth Science datasets. EarthCODE integrates the following platforms to facilitate your research:
-
-- Copernicus Data Space Ecosystem (CDSE)
-- Deep Earth System Data Laboratory (DeepESDL)
-- Euro Data Cube
-- EoxHub/Colcalc
-- EoxHub/Pangeo
-T
-hese platforms offer diverse datasets, tools, and services, helping you find the right data for your research. Access to these platforms is enabled via single sign-on through openID Connect, ensuring a smooth authentication process across resources requiring access credentials.
+EarthCODE stands for "Earth Science Collaborative Open Development Environment". EarthCODE is ESA’s Collaborative Open Development Environment for Earth System Science, designed to advance FAIR Open Science principles across ESA-funded activities and Science Clusters. Serving as a central hub, it integrates tools, data, and services for seamless research development, execution, and publication, while fostering collaboration and enabling long-term preservation and reuse of scientific outputs.
 
 ## Accessing EarthCODE
 To get started, sign in using openID Connect, which provides secure authentication for accessing resources on different platforms. Once authenticated, you'll have access to all the tools and data you need across EarthCODE’s integrated platforms.
 
 ## Choosing a Platform
-EarthCODE connects you to multiple platforms, each catering to different Earth Science needs:
+EarthCODE provides streamlined access to a range of platforms offering Earth Science datasets, tools, and services. With single sign-on via OpenID Connect, users can easily authenticate and explore resources tailored to their research needs. Below is a selection of supported platforms:
 
-- Copernicus Data Space Ecosystem (CDSE) – A gateway for Copernicus data and services.
-- Deep Earth System Data Laboratory (DeepESDL) – A comprehensive resource for geophysical data and modeling.
-- Euro Data Cube – A platform focused on satellite data storage and analysis.
-- EoxHub/Colcalc – A cloud-based processing system for Earth observation data.
-- EoxHub/Pangeo – A powerful environment for high-performance computation of Earth Science data.
+- Copernicus Data Space Ecosystem (CDSE): Access Copernicus data and services.
+- Deep Earth System Data Laboratory (DeepESDL): Explore geophysical data and modeling resources.
+- Euro Data Cube: Analyze and store satellite data.
+- EoxHub/Colcalc: Process Earth observation data in the cloud.
+- EoxHub/Pangeo: Perform high-performance computations on Earth Science data.
 
-Consider your research needs when selecting the platform that best aligns with your work.
+Choose the platform that best suits your research objectives.
 
 ## Exploring the EarthCODE Science Catalog
 

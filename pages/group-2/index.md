@@ -4,6 +4,6 @@ The "Technical Documentation" page provides detailed guidance on how to configur
 
 - [Choosing Tools and platforms](./page-1)
 - [Platforms](./page-2)
-- [Publishing to EarthCODE](./page-3)
-- [Working with Data](./page-4)
-- [Working with Workflows](./page-5)
+- [Working with Data](./page-3)
+- [Working with Workflows](./page-4)
+- [Publishing to EarthCODE](./page-5)

@@ -1,4 +1,4 @@
-# Platforms
+# Working with Platforms
 
 All EarthCODE platforms are listed by alphabetical order.
 We will mostly link to external documentation but to offer a consistent user experience, we will have the same sub-sections for each platform.

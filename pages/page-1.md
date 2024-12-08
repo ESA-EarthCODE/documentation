@@ -29,16 +29,17 @@ Choose your best fit, experiment, or try them all!
 
 **TBD**: Add links to the materials in the table below (once available)
 
-| **Lesson Name**                             | **Slides** | **Hands-on** | **Videos** | **Case Studies** |
-|---------------------------------------------|------------|--------------|------------|------------------|
-| Introduction to EarthCODE                   | ✅         | ✅           | ✅         | ❌               |
-| Working with Copernicus Data                | ✅         | ✅           | ✅         | ✅               |
-| Developing Workflows with EarthCODE         | ✅         | ✅           | ❌         | ✅               |
-| Using Euro Data Cube for Analysis           | ✅         | ✅           | ✅         | ❌               |
-| Introduction to EoxHub/Colcalc              | ✅         | ✅           | ✅         | ✅               |
-| Introduction to EoxHub/Pangeo               | ✅         | ✅           | ✅         | ✅               |
-| Publishing to the EarthCode Science Catalog | ✅         | ✅           | ✅         | ✅               |
-| Collaborative Research in EarthCODE         | ✅         | ✅           | ✅         | ✅               |
+| **Lesson Name**                                | **Slides** | **Hands-on** | **Videos** | **Case Studies** |
+|------------------------------------------------|------------|--------------|------------|------------------|
+| Introduction to EarthCODE                      | ✅         | ✅           | ✅         | ❌               |
+| Introduction to [Nor](https://nor-discover.org)| ❌         | ❌           | ✅ [Apply to NoR](https://youtu.be/IJEZRSac6EE?feature=shared)   | ❌               |
+| Working with Copernicus Data                   | ✅         | ✅           | ✅         | ✅               |
+| Developing Workflows with EarthCODE            | ✅         | ✅           | ❌         | ✅               |
+| Using Euro Data Cube for Analysis              | ✅         | ✅           | ✅         | ❌               |
+| Introduction to EoxHub/Colcalc                 | ✅         | ✅           | ✅         | ✅               |
+| Introduction to EoxHub/Pangeo                  | ✅         | ✅           | ✅         | ✅               |
+| Publishing to the EarthCode Science Catalog    | ✅         | ✅           | ✅         | ✅               |
+| Collaborative Research in EarthCODE            | ✅         | ✅           | ✅         | ✅               |
 
  
 Explore the complete list of [Tutorials and other resources](./group-3/) to learn more about EarthCODE.

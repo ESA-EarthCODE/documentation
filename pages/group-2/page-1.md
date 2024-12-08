@@ -1,4 +1,4 @@
-# Choosing and Configuring Tools and Platforms
+# Choosing Tools and Platforms
 
 This section guides users through the process of selecting, configuring, and integrating the tools and platforms available within EarthCODE for their research needs. It helps users make informed choices based on their project's requirements, whether they are working with cloud computing, data analysis, or machine learning.
 
@@ -29,43 +29,4 @@ Step-by-step recommendations for matching project types (e.g., small-scale analy
 ### Key Considerations
 
 Factors to consider when selecting platforms, such as cost, scalability, compatibility with existing workflows, and integration with EarthCODE’s services.
-
-## Configuring Tools and Platforms for Your Workflow
-
-Once the appropriate platform is chosen, this sub-section provides practical steps to configure and integrate the selected tools into the user’s research environment.
-
-### Connecting to Cloud Platforms
-
-Instructions for connecting to cloud services (e.g., AWS, Azure, Google Cloud), setting up virtual environments, and configuring storage.
-
-### Integration with EarthCODE Services
-
-Step-by-step guidance for linking selected platforms with EarthCODE’s Open Science Catalogue, FAIR tools, and collaborative features.
-
-### Data Access and Configuration
-
-Setting up data access points, retrieving datasets from external platforms, and configuring pipelines to process and analyze data.
-
-## Using the Development Tools
-
-This sub-section focuses on using the integrated development tools within EarthCODE. It includes:
-
-### Version Control (e.g., GitHub integration)
-
-Instructions on how to manage project versions, track changes, and collaborate with other researchers.
-
-### Workflow Management
-
-Guidance on using EarthCODE's workflow tools, such as interactive notebooks, containers, and pipeline orchestration for reproducible research.
-
-### Automation and Continuous Integration
-
-Setting up automated processes for testing, deployment, and data processing using continuous integration/continuous deployment (CI/CD) pipelines.
-
-## Best Practices for Configuration and Collaboration
-This sub-section offers practical advice for configuring tools and platforms to ensure smooth collaboration and adherence to best practices.
-
-### Optimizing Performance
-
-Tips on configuring resources to achieve optimal performance for large datasets and computational tasks.
 

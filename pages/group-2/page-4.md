@@ -1,11 +1,11 @@
-# Managing Your Research Outputs
+# Working with Workflows
 
-## Version Control for Data and Code
-How to use version control systems (such as GitHub) for managing the different versions of your research outputs.
+## Creating Workflows
+How to develop research workflows using EarthCODE’s interactive graphical tooling, including workflow design and validation.
 
-## Publishing to the Open Science Catalogue
-Detailed instructions on how to publish final research outputs to the Open Science Catalogue, including citation and DOI management.
+## Running Workflows
+How to execute workflows using the platform’s cloud-based resources, including how to monitor progress and manage execution.
 
-## Long-Term Storage and Access
-How to ensure the long-term preservation of your research outputs using EarthCODE’s storage services.
+## Using Machine Learning Tools
+Instructions on setting up and running machine learning models within EarthCODE’s scalable environment.
 

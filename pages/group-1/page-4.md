@@ -1,10 +1,6 @@
-# Collaboration and Community
-## Joining or Creating a Research Team
-How to collaborate with other researchers by joining existing teams or creating new ones.
+# Connecting External Platforms to EarthCODE
 
-## Using Community Resources
-How to access guides, tutorials, forums, and other community resources to support research activities.
+Guidance on how to integrate external cloud computing services and other relevant platforms to EarthCODE.
 
-## Sharing and Publishing Results
-Instructions on how to share research outputs, including data, code, and documentation, and manage their publication through the Open Science Catalogue.
-
+## Creating and Managing Projects
+How to create a new research project, add team members, and organize project resources (data, workflows, documentation).

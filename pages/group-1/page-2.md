@@ -1,11 +1,11 @@
-# Accessing EarthCODE
+# Deep Dive into EarthCODE
 
-## Creating an Account
-Step-by-step instructions for creating an EarthCODE user account.
+## Overview of EarthCODE
+A brief introduction to the EarthCODE platform, its purpose, and the core features it offers to researchers in Earth System Science.
 
-## Logging In
-Instructions on how to log in to the EarthCODE Portal and manage your user profile.
+## Key Components
+A high-level description of the platform’s main components: the Portal, Open Science Catalogue, FAIR tools, scalable computing resources, and community services.
 
-## Navigating the Portal
-An overview of the user interface and how to access key features like data discovery, tool access, and community forums.
+## How EarthCODE Supports FAIR and Open Science
+A summary of how the platform adheres to FAIR principles and supports reproducible, open, and collaborative science.
 

@@ -1,4 +1,4 @@
-## **Glossary**
+# Glossary
 
 Adhering by design to the "FAIR" (findable, accessible, interoperable, reproducible/reusable) principles, the Open Science Data Catalogue aims to support better knowledge discovery and innovation. It facilitates data and knowledge integration and reuse by the scientific community. With common dictionary and unified metadata across heterogeneous sources, products discovery is facilitated. Published Products are associated to Project and additional information is provided by tags. Themes and variables are used as tag to facilitate products discovery. Earth Observation Satellite Missions used to generate the product is provided by EO-Mission description in Product's metadata.
 

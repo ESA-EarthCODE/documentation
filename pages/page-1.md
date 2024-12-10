@@ -19,7 +19,7 @@ The best way to follow our tutorials and learn about EarthCODE is by using one o
 
 ### EarthCODE platforms
 
-Visit the [EarthCODE platforms](./group-2/group-2-1/) page to learn about the different EarthCODE platforms. There, you will find their respective documentation and instructions on how to access resources.
+Visit the [EarthCODE platforms](./group-2/group-2-2/) page to learn about the different EarthCODE platforms. There, you will find their respective documentation and instructions on how to access resources.
 
 ### Tutorials
 

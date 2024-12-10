@@ -1,4 +1,4 @@
-## **Discovering Resources in The EarthCODE Catalog**
+# Discovering Resources in The EarthCODE Catalog
 
 The OSC frontend is the main user interface component that allows scientists and other parties to interact with the system and consume the contents. It allows users to search for scientific products, as well as to contribute to the contents of the catalogue by ingesting new products in the catalogue or submitting requests for updates of already existing content (to be developed in the future releases).
 

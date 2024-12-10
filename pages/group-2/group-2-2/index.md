@@ -36,7 +36,7 @@ This User Guide is meant to provide explanation of the catalogue's functionaliti
 ### **Contents**
 
 * [**Glossary**](./page-1.md)
-* [**Discovering Resources in The EarthCODE Catalog**](./page-2md)
+* [**Discovering Resources in The EarthCODE Catalog**](./page-2.md)
 * [**Contributing to the EarthCODE Catalog**](./page-4.md)
 * [**Metrics and Statistics**](./page-3.md)
 

@@ -49,7 +49,7 @@ Explore the complete list of [Tutorials and other resources](./group-3/) to lear
 Before diving into EarthCODE tutorials, take a look at upcoming [EarthCODE events](./group-3/page-4) to see if there are any training sessions you can join. Learning together can often be more enjoyable and effective!
 
 ## Step 3: Understand Your Role in the EarthCODE Community
-Learn about your place within the EarthCODE community. This section will help you understand how you can collaborate, share knowledge, and contribute to ongoing research initiatives.
+Learn about your place within the [EarthCODE community](./group-5/). This section will help you understand how you can collaborate, share knowledge, and contribute to ongoing research initiatives.
 
 ## Step 4: Get Involved and Contribute to EarthCODE
 Start contributing! Whether through discussions, sharing research, or participating in development, this step will guide you on how to get involved and make meaningful contributions to the EarthCODE ecosystem.

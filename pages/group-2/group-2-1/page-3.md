@@ -1,4 +1,4 @@
-## Euro Data Cube
+# Euro Data Cube
 
 Find out more at: https://eurodatacube.com/documentation 
 

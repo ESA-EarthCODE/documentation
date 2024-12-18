@@ -10,7 +10,7 @@ Below, you will find a suggested, step-by-step pathway to help you navigate Eart
 
 ## Step 1: Understand EarthCODE Terminology
 
-Familiarize yourself with the [key terms and concepts](./page-2) used in EarthCODE. Understanding the terminology will help you navigate the platform and engage with the community effectively.
+Familiarize yourself with the [key terms and concepts](./key-terms-and-concepts) used in EarthCODE. Understanding the terminology will help you navigate the platform and engage with the community effectively.
 
 ## Step 2: Explore EarthCODE
 

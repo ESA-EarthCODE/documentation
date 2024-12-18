@@ -7,10 +7,10 @@ All EarthCODE platforms are listed by alphabetical order.
 We will mostly link to external documentation but to offer a consistent user experience, we will have the same sub-sections for each platform.
 
 
-- [OpenEO & Copernicus Data Space Ecosystem (CDSE)](./page-1)
-- [Deep Earth System Data Laboratory (DeepESDL)](./page-2)
-- [Euro Data Cube (EDC)](./page-3)
-- [EDC EoXHub](./page-4)
+- [OpenEO & Copernicus Data Space Ecosystem (CDSE)](./OpenEO.md)
+- [Deep Earth System Data Laboratory (DeepESDL)](./DeepESDL.md)
+- [Euro Data Cube (EDC)](./EDC.md)
+- [EDC EoXHub](./EoXHub%20Pangeo.md)
 
 
 ## **What is the ESA Network of Resources (NoR)?**

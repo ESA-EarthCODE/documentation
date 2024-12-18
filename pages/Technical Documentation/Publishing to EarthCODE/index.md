@@ -1,4 +1,4 @@
-# Publishing to the Open Science Catalog (EarthCODE Catalog)
+# Publishing to EarthCODE
 
 ## **Welcome to the Open Science Data Catalogue!**
 
@@ -35,10 +35,10 @@ This User Guide is meant to provide explanation of the catalogue's functionaliti
 
 ### **Contents**
 
-* [**Glossary**](./page-1.md)
-* [**Discovering Resources in The EarthCODE Catalog**](./page-2.md)
-* [**Contributing to the EarthCODE Catalog**](./page-4.md)
-* [**Metrics and Statistics**](./page-3.md)
+* [**Glossary**](./Glossary.md)
+* [**Discovering Resources in The EarthCODE Catalog**](./Discovering%20Resources%20in%20The%20EarthCODE%20Catalog.md)
+* [**Contributing to the EarthCODE Catalog**](./Contributing%20to%20the%20EarthCODE%20Catalog.md)
+* [**Metrics and Statistics**](./Metrics%20and%20Statistics%20About%20the%20EarthCODE%20Catalog.md)
 
 
 
@@ -76,7 +76,7 @@ This sub-section offers practical advice for configuring tools and platforms to 
 Tips on configuring resources to achieve optimal performance for large datasets and computational tasks.
 
 
-- [OpenEO & Copernicus Data Space Ecosystem (CDSE)](./page-1)
-- [Deep Earth System Data Laboratory (DeepESDL)](./page-2)
-- [Euro Data Cube (EDC)](./page-3)
-- [EDC EoXHub](./page-4)
+- [OpenEO & Copernicus Data Space Ecosystem (CDSE)](../Working%20With%20Platforms%20and%20Sponsorship/OpenEO.md)
+- [Deep Earth System Data Laboratory (DeepESDL)](../Working%20With%20Platforms%20and%20Sponsorship/DeepESDL.md)
+- [Euro Data Cube (EDC)](../Working%20With%20Platforms%20and%20Sponsorship/EDC.md)
+- [EDC EoXHub Pagneo](../Working%20With%20Platforms%20and%20Sponsorship/EoXHub%20Pangeo.md)

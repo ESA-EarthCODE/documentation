@@ -13,7 +13,7 @@ hero:
       link: /getting-started
     - theme: alt
       text: Community and Best Practices
-      link: /group-4/
+      link: /Community and Best Practices/
 
 features:
   - title: Integrated Open Science Environment

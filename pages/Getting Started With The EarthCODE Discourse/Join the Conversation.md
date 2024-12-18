@@ -106,7 +106,7 @@ When no relevant discussion exists, create a new topic. Follow these steps:
 2. **Provide enough context and details** to make your post useful to others.
 3. **Add relevant tags** to improve discoverability.
 
-> **Important:** Always adhere to the [**Code of Conduct**](./page-4.md). Maintain professionalism, contribute constructively, and stay on-topic.
+> **Important:** Always adhere to the [**Code of Conduct**](./Code%20of%20Conduct.md). Maintain professionalism, contribute constructively, and stay on-topic.
 
 By following these guidelines, you help keep the forum organized, useful, and welcoming for all users.
 

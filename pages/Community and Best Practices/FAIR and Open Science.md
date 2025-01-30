@@ -3,16 +3,17 @@
 ## From FAIR Principles to FAIR in Practice
 
 ### A Conceptual Overview of FAIR Principles
-The FAIR principles (Findable, Accessible, Interoperable, and Reusable) provide a structured approach to managing Earth Observation (EO) data, ensuring that both data and processing workflows can be efficiently discovered, accessed, and used across disciplines. Given the increasing volume and complexity of EO data—ranging from satellite imagery to in situ measurements—FAIR principles are essential for enabling automated discovery, seamless integration, and reproducible science.
 
-FAIR is not just about data; software, models, and workflows must also be FAIR to ensure full reproducibility of scientific analyses. This requires:
+The FAIR principles (Findable, Accessible, Interoperable, and Reusable) provide a structured approach to managing data, ensuring that both data and processing workflows can be efficiently discovered, accessed, and used across disciplines. Given the increasing volume and complexity of Earth Observation (EO) data—ranging from satellite imagery to in situ measurements—FAIR principles are essential for enabling automated discovery, seamless integration, and reproducible science.
+
+FAIR is not just about data; **software**, **models**, and **workflows** must also be FAIR to ensure full reproducibility of scientific analyses. This requires:
 
 - **FAIR metadata** for software and workflows, ensuring clear documentation of inputs, outputs, dependencies, and provenance.
 - **Persistent identifiers (PIDs)** for datasets, algorithms, and workflows to support traceability and reuse.
-- **Interoperable formats and standards**, such as netCDF, Zarr, and STAC for data, as well as CWL (Common Workflow Language) for workflow portability, OGC API - Processes for standardized execution, and openEO for cloud-based EO data processing, ensuring compatibility across platforms.
-- **Accessible computing environments**, such as the cloud-based processing platforms available in EarthCODE, which allow users to execute EO workflows.
+- **Interoperable formats and standards**, such as netCDF, Zarr, and STAC for data, or CWL (Common Workflow Language) for workflow portability, OGC API - Processes for standardized execution, and openEO for cloud-based EO data processing, ensuring compatibility across platforms.
+- **Accessible computing environments**, such as the [cloud-based processing platforms available in EarthCODE](https://esa-earthcode.github.io/documentation/Technical%20Documentation/Working%20With%20Platforms%20and%20Sponsorship/), which allow users to execute EO workflows.
 
-FAIR does not imply that data or software must be open by default, but rather that they are well-described, structured, and reusable under appropriate conditions. By applying FAIR principles to both data and processing, the EO community can enhance scientific transparency, improve cross-disciplinary collaboration, and enable scalable, automated analysis—key for addressing global challenges like climate change, disaster response, and biodiversity conservation.
+**FAIR does not imply that data or software must be open** by default, but rather that they are well-described, structured, and reusable under appropriate conditions. By applying FAIR principles to both data and processing, the EO community can enhance scientific transparency, improve cross-disciplinary collaboration, and enable scalable, automated analysis—key for addressing global challenges like climate change, disaster response, and biodiversity conservation.
 
 ### A Deep Dive into the FAIR Principles
 Everyone knows F, A, I, and R, but the FAIR Guiding Principles consist of 15 one-liners that define the key behaviors necessary for making data and services machine-actionable. In this section, we unpack the assumptions implicit in each FAIR Principle and interpret their intentions. We also examine common misconceptions and identify areas not covered by FAIR.
@@ -43,7 +44,7 @@ R1.2. (meta)data are associated with detailed provenance
 R1.3. (meta)data meet domain-relevant community standards  
 
 ## Open Science: A Collaborative and Transparent Approach
-Open Science is a movement that promotes transparency, accessibility, and collaboration in scientific research. According to UNESCO, Open Science encompasses open access to scientific knowledge, open data, open-source software, and broader participation in research processes.
+Open Science is a movement that promotes transparency, accessibility, and collaboration in scientific research. According to [UNESCO Recommendation on Open Science](https://www.unesco.org/en/open-science/about?hub=686), Open Science encompasses open access to scientific knowledge, open data, open-source software, open workflows and broader participation in research processes.
 
 ## Collaboration Tips
 A fundamental aspect of Open Science is **sharing while doing**, rather than treating data and publications as an afterthought. The earlier Open Science principles are incorporated into research workflows, the easier they are to implement. This approach enables:
@@ -56,5 +57,6 @@ By integrating Open Science with FAIR principles, the EO community can maximize 
 
 
 
+### Collaboration in EarthCODE
 
 Guidance for setting up user permissions, managing team workflows, and collaborating with other researchers within the EarthCODE environment.

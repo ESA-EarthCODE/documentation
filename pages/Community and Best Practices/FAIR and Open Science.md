@@ -36,73 +36,30 @@ To move from principles to practice, communities must develop clear, domain-spec
 
 ## Interpreting the FAIR Principles for the Earth Observation Community
 
-The FAIR principles provide high-level guidance for ensuring that data, software, and workflows are Findable, Accessible, Interoperable, and Reusable. However, their implementation requires concrete decisions on infrastructure, standards, and governance within specific communities. The Earth Observation (EO) community, including the EarthCODE initiative, follows a FAIR Implementation Profile (FIP) to ensure alignment with these principles.
+The FAIR principles provide high-level guidance for ensuring that data, software, and workflows are Findable, Accessible, Interoperable, and Reusable. However, their implementation requires concrete decisions on infrastructure, standards, and governance within specific communities. 
 
-### Findable
-- **F1. (Meta)data are assigned a globally unique and persistent identifier (PID)**
-  - **EO Implementation**: DOI (Digital Object Identifier) for datasets, ORCID for researchers, and URIs for workflows and software components.
-  - **EarthCODE Choice**: Uses DOI services such as DataCite for data, Zenodo for software, and ORCID for contributor identification.
+| **FAIR Principle** | **EarthCODE FAIR Implementation Profile (FIP) Decisions** |
+|-----------------|------------------------------------------------|
+| **[F1](https://open.spotify.com/episode/1k4FydzYW1Mx7t9vQN9KOz)** | Use of globally unique, persistent identifiers (e.g., DOIs) for datasets and workflows. |
+| **[F2](https://open.spotify.com/episode/2mEUUbAiEQYhMUZwEqgoTN)** | Metadata must comply with domain-specific standards such as ISO 19115, STAC, and DCAT. |
+| **[F3](https://open.spotify.com/episode/0WeoKjy8sUN6acOf4vxYyG)** | Metadata must explicitly include dataset identifiers using standardized references. |
+| **[F4](https://open.spotify.com/episode/2A1Zn6tOc3g8D7KZHZRygf)** | Data and metadata are indexed in community-recognized repositories (e.g., CMR, GeoNetwork). |
+| **[A1](https://open.spotify.com/episode/4kIC0yDgzADCZnxQTEl168)** | Data and metadata must be accessible via open, standardized web protocols such as HTTPS and OGC APIs. |
+| **[A1.1](https://open.spotify.com/episode/4cokyE6JL3KFJT5WykJNbE)** | Protocols used must be open, free, and universally implementable. |
+| **[A1.2](https://open.spotify.com/episode/0B9NKsy9iSf2g39bV9sKvd)** | Authentication and authorization frameworks (e.g., OpenID Connect) ensure controlled access where needed. |
+| **[A2](https://open.spotify.com/episode/1fYL1SNAmott55NxPtYYKd)** | Metadata must remain accessible even if data are no longer available. Persistent repositories ensure this. |
+| **[I1](https://open.spotify.com/episode/2nh22FG9i1zy7nbaRpPPWh)** | Use of formal, accessible, and community-adopted knowledge representation languages (e.g., JSON-LD, RDF). |
+| **[I2](https://open.spotify.com/episode/2ZOWq5ZHaD8y9xEAjoQk1i)** | Adoption of controlled vocabularies such as CF conventions, GCMD Keywords, and SWEET ontologies. |
+| **[I3](https://open.spotify.com/episode/5RLTk8HkOB4iotKVKJj3SL)** | Metadata includes qualified references to related datasets, models, and workflows. |
+| **[R1](https://open.spotify.com/episode/4nVoYz4cpPjjoAzKOQFw2D)** | Metadata includes detailed descriptions following domain-specific best practices. |
+| **[R1.1](https://open.spotify.com/episode/4jSIyFn2vxlD72meNTZ60i)** | Datasets are released with clear, standardized licenses (e.g., Creative Commons, ODbL). |
+| **[R1.2](https://open.spotify.com/episode/49kCkqLbe140FY7aCaYdJF)** | Provenance metadata is recorded using PROV-O or similar standards to ensure reproducibility. |
+| **[R1.3](https://open.spotify.com/episode/1rMIfin2bTyRDdBOHZa2PD)** | Data and metadata align with community standards like CEOS, INSPIRE, and OGC. |
 
-- **F2. Data are described with rich metadata**
-  - **EO Implementation**: INSPIRE metadata profiles, ISO 19115 for geospatial metadata, and STAC for spatiotemporal assets.
-  - **EarthCODE Choice**: Uses ISO 19115 and STAC metadata to ensure compliance with international geospatial standards.
 
-- **F3. Metadata include the identifier of the data they describe**
-  - **EO Implementation**: Linking datasets with their DOIs and referencing metadata records through PIDs.
-  - **EarthCODE Choice**: Ensures STAC and ISO metadata explicitly reference dataset DOIs.
 
-- **F4. (Meta)data are registered or indexed in a searchable resource**
-  - **EO Implementation**: Discovery through GEOSS, Copernicus Data Space, and Pangeo catalogs.
-  - **EarthCODE Choice**: Registers datasets in the EarthCODE catalog with indexing via STAC and OGC API.
-
-### Accessible
-- **A1. (Meta)data are retrievable using a standardized communications protocol**
-  - **EO Implementation**: HTTP/HTTPS, OGC API - Features, STAC API.
-  - **EarthCODE Choice**: Uses cloud-accessible endpoints, including OGC API and STAC-based search.
-
-- **A1.1 The protocol is open, free, and universally implementable**
-  - **EO Implementation**: Publicly available APIs and persistent data access points.
-  - **EarthCODE Choice**: Supports open APIs and FAIR-compliant data repositories.
-
-- **A1.2 The protocol allows for an authentication and authorization procedure where necessary**
-  - **EO Implementation**: OpenID Connect for authentication, OAuth for access control.
-  - **EarthCODE Choice**: Implements OpenID Connect authentication for secure access to protected data.
-
-- **A2. Metadata remain accessible even when the data are no longer available**
-  - **EO Implementation**: Persistent metadata records stored in repositories.
-  - **EarthCODE Choice**: Ensures metadata is retained in DataCite and STAC even if the data is deprecated.
-
-### Interoperable
-- **I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation**
-  - **EO Implementation**: JSON-LD, RDF for semantic interoperability.
-  - **EarthCODE Choice**: Uses JSON-LD in STAC metadata to enhance machine-actionability.
-
-- **I2. (Meta)data use vocabularies that follow FAIR principles**
-  - **EO Implementation**: GCMD Science Keywords, CF Conventions, Climate and Forecast (CF) metadata.
-  - **EarthCODE Choice**: Adopts CF Conventions and GCMD for semantic consistency.
-
-- **I3. (Meta)data include qualified references to other (meta)data**
-  - **EO Implementation**: Linking datasets via DOI, using provenance standards like PROV-O.
-  - **EarthCODE Choice**: Uses PROV-O to link datasets, workflows, and computational steps.
-
-### Reusable
-- **R1. (Meta)data are richly described with a plurality of accurate and relevant attributes**
-  - **EO Implementation**: Compliance with domain-specific metadata standards (ISO 19115, STAC).
-  - **EarthCODE Choice**: Ensures datasets include detailed provenance and descriptive metadata.
-
-- **R1.1. (Meta)data are released with a clear and accessible data usage license**
-  - **EO Implementation**: Creative Commons (CC-BY, CC0) for open data, specific licenses for proprietary data.
-  - **EarthCODE Choice**: Requires explicit licensing for all datasets and software components.
-
-- **R1.2. (Meta)data are associated with detailed provenance**
-  - **EO Implementation**: PROV-O and W3C standards for workflow and data lineage tracking.
-  - **EarthCODE Choice**: Uses PROV-O to ensure reproducibility in data processing.
-
-- **R1.3. (Meta)data meet domain-relevant community standards**
-  - **EO Implementation**: Compliance with Copernicus, GEO, and OGC standards.
-  - **EarthCODE Choice**: Adopts OGC, ISO, and STAC standards for metadata and interoperability.
-
-By adopting a FAIR Implementation Profile (FIP), the EarthCODE community ensures that its approach to FAIR is explicit, actionable, and aligned with best practices in Earth Observation data management and processing. This structured implementation enhances data discoverability, interoperability, and reuse while maintaining technical rigor and community consensus.
+By explicitly declaring its choices, the EarthCODE community ensures that its approach to FAIR is transparent, actionable, and aligned with best practices in Earth Observation data management and processing.
+This structured implementation enhances data discoverability, interoperability, and reuse while maintaining technical rigor and community consensus.
 
 ### References
 

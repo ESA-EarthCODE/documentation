@@ -3,7 +3,7 @@
 Welcome to 10 Minutes to EarthCODE! This quick-start guide is designed to help you begin working with EarthCODE in just a few minutes. Whether you're new to Earth Science, a researcher, or a developer, EarthCODE provides a collaborative, open development environment for efficient access to Earth observation data, workflows, and computational platforms.
 
 ## What is EarthCODE?
-EarthCODE stands for "Earth Science Collaborative Open Development Environment". EarthCODE is developed by The European Space Agency (ESA) to advance FAIR Open Science principles across ESA-funded activities, including but not limiting to the [ESA Science Clusters](https://eo4society.esa.int/communities/scientists/) and the Science Hub (https://sciencehub.esa.int/). The EarthCODE Portal provides a centralised point of access to integrated tools, data, and services for seamless research development, execution, and publication, while fostering collaboration and enabling long-term preservation and reuse of scientific outputs.
+EarthCODE stands for "Earth Science Collaborative Open Development Environment". EarthCODE is developed by The European Space Agency (ESA) to advance FAIR Open Science principles across ESA-funded activities, including but not limiting to the [ESA Science Clusters](https://eo4society.esa.int/communities/scientists/) and the [Science Hub](https://sciencehub.esa.int/). The EarthCODE Portal provides a centralised point of access to integrated tools, data, and services for seamless research development, execution, and publication, while fostering collaboration and enabling long-term preservation and reuse of scientific outputs.
 
 ## Accessing EarthCODE
 To get started, sign in using your [Github](https://github.com/) account. EarthCODE provides secure authentication for accessing resources across platforms. Once authenticated, you'll have access to all the tools and data you need across EarthCODE’s integrated platforms.
@@ -11,18 +11,17 @@ To get started, sign in using your [Github](https://github.com/) account. EarthC
 ## Choosing a Platform
 EarthCODE provides streamlined access to a range of platforms offering Earth Science datasets, tools, and services. With single sign-on via OpenID Connect, users can easily authenticate and explore resources tailored to their research needs. Below is a selection of supported platforms:
 
-- Copernicus Data Space Ecosystem (CDSE): Access Copernicus data and services.
-- Deep Earth System Data Laboratory (DeepESDL): Explore geophysical data and modeling resources.
-- OpenEO Platform: Standardised interfaces for processing of Earth observation data. 
-- Euro Data Cube: Analyze and store satellite data.
-- EoxHub/Colcalc: Process Earth observation data in the cloud.
-- EoxHub/Pangeo: Perform high-performance computations on Earth Science data.
+- Copernicus Data Space Ecosystem (CDSE): Access and process earth observation datasets in the Copernicus Data Space Ecosystem with the openEO API.
+- Deep Earth System Data Laboratory (DeepESDL): Access and process data, and apply machine learning (ML) methods on Xarray Earth System Data Cubes (ESDC).
+- Euro Data Cube: A suite of services to access and process satellite data and develop applications.
+- EoxHub/Colcalc: Process Earth observation data in the cloud with live collaboration on code.
+- EoxHub/Pangeo: Perform high-performance computations on Earth Science data leveraging geoscience libraries.
 
 Choose the platform that best suits your research objectives.
 
 ## Exploring the EarthCODE Science Catalog
 
-After finalising research on one of the platforms, your final data products and code can be published in the EarthCODE Catalog - The Open Science Data Catalogue. The catalog includes datasets, workflows, and software that have been published and validated within EarthCODE. It's your gateway to a wide range of resources, whether you're looking for environmental data, code for processing, or reusable workflows. 
+After finalising research on one of the platforms, your final data products and code can be published in the EarthCODE Catalog - The Open Science Data Catalogue. The catalog includes datasets, workflows, and software that have been published and validated within EarthCODE (i.e., on one of the integrated platforms or following the EarthCODE best practices). It's your gateway to a wide range of resources, whether you're looking for environmental data, code for processing, or reusable workflows. 
 
 ## Validating and Publishing Data
 

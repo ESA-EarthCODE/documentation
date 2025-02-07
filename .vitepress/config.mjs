@@ -98,6 +98,7 @@ export default defineConfig(
       useFolderTitleFromIndexFile: true,
       useFolderLinkFromIndexFile: true,
       excludePattern: ["README.md"],
+      sortMenusByFrontmatterOrder: true,
     }
   )
 );

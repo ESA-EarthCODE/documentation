@@ -1,3 +1,6 @@
+---
+order: 0
+---
 # EarthCODE Discourse Basics
 ## Basic Terms Used by Discourse
 
@@ -22,7 +25,7 @@ EarthCODE Discourse provides a seamless login experience by using the same crede
 
 By default, the Discourse homepage shows all **Latest** conversations, but you can filter this list in several ways:
 
-![views](./discourse_basics/mainmenu.png)
+![views](./discourse_basics/mainmenu.png){width=250px height=100px}
 - **By category**: Click the 'all categories' title to see a list of all categories:
 - **By tag**: Click the 'all tags' title to see a list of all tags.
 - **By activity level**: Click 'Top' to list topics by activity level for a specific time period.

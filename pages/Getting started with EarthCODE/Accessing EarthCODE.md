@@ -1,3 +1,6 @@
+---
+order: 2
+---
 # Accessing EarthCODE
 
 ## Creating an Account

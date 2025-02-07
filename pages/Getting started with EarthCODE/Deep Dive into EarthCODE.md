@@ -1,3 +1,6 @@
+---
+order: 1
+---
 # Deep Dive into EarthCODE
 
 ## Overview of EarthCODE

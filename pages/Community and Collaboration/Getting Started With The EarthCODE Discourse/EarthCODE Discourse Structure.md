@@ -1,3 +1,6 @@
+---
+order: 1
+---
 # EarthCODE Discourse Structure
 
 EarthCODE Discourse is organized into categories designed to keep discussions focused and easy to navigate. Each category serves a specific purpose, so it’s important to post your content where it fits best. This helps keep the forum tidy and ensures that others can easily find relevant discussions. 

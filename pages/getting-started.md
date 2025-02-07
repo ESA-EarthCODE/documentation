@@ -1,3 +1,6 @@
+---
+order: 5
+---
 # Getting started with EarthCODE
 
 
@@ -10,7 +13,7 @@ Below, you will find a suggested, step-by-step pathway to help you navigate Eart
 
 ## Step 1: Understand EarthCODE Terminology
 
-Familiarize yourself with the [key terms and concepts](./key-terms-and-concepts) used in EarthCODE. Understanding the terminology will help you navigate the platform and engage with the community effectively.
+Familiarize yourself with the [key terms and concepts](./Getting%20started%20with%20EarthCODE/key-terms-and-concepts) used in EarthCODE. Understanding the terminology will help you navigate the platform and engage with the community effectively.
 
 ## Step 2: Explore EarthCODE
 
@@ -49,7 +52,7 @@ Explore the complete list of [Tutorials and other resources](./Training%20and%20
 Before diving into EarthCODE tutorials, take a look at upcoming [EarthCODE events](./Training%20and%20Resources/Events%20and%20Workshops.md) to see if there are any training sessions you can join. Learning together can often be more enjoyable and effective!
 
 ## Step 3: Understand Your Role in the EarthCODE Community
-Learn about your place within the [EarthCODE community](./Getting%20Started%20With%20The%20EarthCODE%20Discourse/). This section will help you understand how you can collaborate, share knowledge, and contribute to ongoing research initiatives.
+Learn about your place within the [EarthCODE community](./Community%20and%20Collaboration/Getting%20Started%20With%20The%20EarthCODE%20Discourse/). This section will help you understand how you can collaborate, share knowledge, and contribute to ongoing research initiatives.
 
 ## Step 4: Get Involved and Contribute to EarthCODE
 Start contributing! Whether through discussions, sharing research, or participating in development, this step will guide you on how to get involved and make meaningful contributions to the EarthCODE ecosystem.

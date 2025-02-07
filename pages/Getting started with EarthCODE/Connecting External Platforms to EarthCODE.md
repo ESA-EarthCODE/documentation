@@ -1,3 +1,6 @@
+---
+order: 3
+---
 # Connecting External Platforms to EarthCODE
 
 Guidance on how to integrate external cloud computing services and other relevant platforms to EarthCODE.

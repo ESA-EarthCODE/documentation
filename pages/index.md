@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Getting started
-      link: /getting-started
+      link: /Getting started with EarthCODE/
     - theme: alt
       text: Community and Best Practices
       link: /Community and Best Practices/

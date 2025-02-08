@@ -1,27 +1,44 @@
-# Working With Platforms and Sponsorship
+---
+order: 0
+---
+# Working with Platforms
 
-*Note to self: should there be another one to focus just on data?*
+This section serves as a comprehensive guide to help you navigate the various platforms and tools available within the EarthCODE ecosystem, as well as to understand how to leverage the ESA Network of Resources (NoR) for your research needs. Whether you are just starting or refining your workflow, this guide will provide the necessary information to make the most out of EarthCODE's capabilities.
 
-All EarthCODE platforms are listed by alphabetical order.
+## EarthCode Platforms and Sponsorship
 
-We will mostly link to external documentation but to offer a consistent user experience, we will have the same sub-sections for each platform.
+This section will guide you through the EarthCODE platforms and how you can leverage the Network of Resources (NoR) for your research needs. The platforms listed below provide access to powerful data and services that will enhance your research capabilities.
 
+### Featured EarthCODE Platforms
+
+All EarthCODE platforms are listed in alphabetical order. While we primarily link to external documentation for each platform, we maintain consistent sub-sections for each to ensure a uniform user experience.
 
 - [OpenEO & Copernicus Data Space Ecosystem (CDSE)](./OpenEO.md)
 - [Deep Earth System Data Laboratory (DeepESDL)](./DeepESDL.md)
 - [Euro Data Cube (EDC)](./EDC.md)
 - [EDC EoXHub](./EoXHub%20Pangeo.md)
 
+## Access to Platforms via NoR
 
-## **What is the ESA Network of Resources (NoR)?**
+### **What is the ESA Network of Resources (NoR)?**
 
-The **ESA Network of Resources (NoR)** is an initiative by the European Space Agency (ESA) to support researchers, scientists, and organizations in accessing and utilizing Earth observation data and computing platforms. Through NoR, ESA provides sponsorship opportunities to help cover the costs of data access, storage, and processing on participating platforms. This ensures that users can focus on their research without being hindered by financial constraints.
+The **ESA Network of Resources (NoR)** is an initiative by the European Space Agency (ESA) offering a collection of platforms and services designed to support researchers by providing access to valuable datasets, tools, and computing resources. NoR aims to enhance collaboration and streamline the research process, making it easier for users to leverage Earth observation data and other resources for their projects.
 
-NoR works in collaboration with a wide array of service providers, including data hubs, cloud computing platforms, and analytical services. If you're working on an Earth observation project, NoR sponsorship could significantly reduce your operational costs while enhancing your access to cutting-edge resources. For more information visit: https://nor-discover.org/
+NoR collaborates with a wide range of service providers, including data hubs, cloud computing platforms, and analytical services. If you're working on an Earth observation project, NoR sponsorship can significantly reduce operational costs and enhance your access to cutting-edge resources. For more information, visit: [https://nor-discover.org/](https://nor-discover.org/).
 
----
+Access to the platforms provided by NoR is managed through this initiative. To apply for NoR sponsorship and gain access to the full range of resources, please refer to the NoR Sponsorship Application section for detailed instructions on how to apply.
 
-## **Who Can Apply?**
+::: tip
+EarthCODE will manage the NoR subscription process moving forward. However, until the integration with NoR is fully finalized, users will need to request their own subscription directly. We will notify you once this process is automated and fully integrated into EarthCODE.
+:::
+
+A key feature of NoR is that all participating platforms offer on-demand training to users. Sponsored by NoR, these training sessions provide high-quality educational materials to help researchers fully utilize the available resources. Whether you're learning to work with Earth observation data or developing complex workflows, NoR’s training is an invaluable asset for enhancing your research skills.
+
+For more details on available training materials, please visit the [Tutorials and Resources section]().
+
+Through NoR, ESA also offers sponsorship opportunities to help cover the costs of data access, storage, and processing on participating platforms, allowing researchers to focus on their projects without financial constraints.
+
+### **Who Can Apply?**
 
 NoR sponsorship is available for:
 - Researchers and scientists conducting projects with a strong focus on **Earth observation data**.
@@ -30,38 +47,37 @@ NoR sponsorship is available for:
 
 Applications are assessed based on scientific merit, societal impact, and the alignment with ESA’s mission.
 
----
 
-## **How to Apply for NoR Sponsorship**
+### **How to Apply for NoR Sponsorship**
 
 Applying for NoR sponsorship is straightforward. Here’s a step-by-step guide:
 
-### **1. Explore Available Resources**
+#### **1. Explore Available Resources**
 Visit the NoR discovery portal at [http://nor-discover.org](http://nor-discover.org) to review the portfolio of available resources.
 
-### **2. Select a Service Provider**
+#### **2. Select a Service Provider**
 Choose a suitable service provider from the list, such as **UP42** or **EarthConsole**.
 
-### **3. Use the Pricing Wizard**
+#### **3. Use the Pricing Wizard**
 Go through the pricing wizard procedure for your chosen provider to estimate costs.
 
-### **4. Prepare Your Application**
+#### **4. Prepare Your Application**
 Draft a detailed project description that explains how it will benefit from the Earth Observation (EO) services.
 
-### **5. Submit the Sponsorship Request**
+#### **5. Submit the Sponsorship Request**
 - Export the sponsorship request form from the pricing wizard page.
 - Sign the form.
 - Email it to **NoR-SponsorshipRequests@esa.int**.
 
-### **6. Wait for Evaluation**
+#### **6. Wait for Evaluation**
 ESA will review your proposal within 6–10 working days.
 
-### **7. Create a Service Provider Account**
+#### **7. Create a Service Provider Account**
 If your application is approved, create an account with your chosen service provider (e.g., UP42 or EarthConsole).
 
 A video walkthrough is available at: https://youtu.be/IJEZRSac6EE?feature=shared
 
-## **Pro Tips for a Strong Application**
+### **Pro Tips for a Strong Application**
 - Clearly align your project goals with ESA's objectives, such as **climate monitoring**, **biodiversity conservation**, or **disaster management**.
 - Emphasize the societal or environmental impact of your work.
 - Make a realistic and detailed estimate of the resources you’ll need.

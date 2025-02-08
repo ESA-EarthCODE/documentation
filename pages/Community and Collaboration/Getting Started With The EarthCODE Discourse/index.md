@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 0
 ---
 # Getting started with the EarthCODE Forum
 Welcome to the EarthCODE dedicated forum! Hosted on Discourse, this forum serves the user community by facilitating discussions on FAIR and Open Science, as well as exploring the diverse tools, published research, and solutions offered by the EarthCODE platform. As a new user, we hope you will find this space intuitive and well-structured. Here's some guidance to help you get started:

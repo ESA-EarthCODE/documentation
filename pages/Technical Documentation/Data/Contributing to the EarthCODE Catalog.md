@@ -1,4 +1,7 @@
-# **Contributing to the EarthCODE Catalog**
+---
+order: 1
+---
+# Uploading and Managing Your Data
 
 Catalogue's functionalities described in the previous sections are granted to any user (registered/and non-registered users). Catalogue exploration and content discovery and access to the products is fully open and transparent. In this section we will describe how to make new data accessible through the catalogue and make them available for broad scientific community.
 

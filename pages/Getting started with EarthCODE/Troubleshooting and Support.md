@@ -1,3 +1,6 @@
+---
+order: 5
+--- 
 # Troubleshooting and Support
 
 This sub-section provides solutions to common issues that users may encounter while configuring tools and platforms.

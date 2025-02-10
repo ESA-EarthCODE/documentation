@@ -1,3 +1,6 @@
+---
+order: 3
+---
 # Code of Conduct
 
 ## [This is a Civilized Place for Public Discussion](#civilized)

@@ -1,3 +1,6 @@
+---
+order: 2
+---
 # Join the Conversation
 
 # Finding and Posting Content on the EarthCODE Discourse

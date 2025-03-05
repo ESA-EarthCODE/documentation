@@ -1,10 +1,23 @@
 <script setup>
-import { onMounted } from "vue";
+import { onMounted, watch } from "vue";
 import { useData, useRouter } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 
 const { Layout } = DefaultTheme;
 const { site, theme, frontmatter } = useData();
+const router = useRouter();
+
+if (typeof window !== 'undefined' && window._paq) {
+  watch(() => router.route.data.relativePath, (path) => {
+    window._paq.push(["setCustomUrl", path.replace(".md", "")]);
+      window._paq.push([
+        "setDocumentTitle",
+        document.domain + "/" + document.title,
+      ]);
+      window._paq.push(["trackPageView"]);
+      window._paq.push(["enableLinkTracking"]);
+  }, { immediate: true });
+}
 
 onMounted(async () => {
   setTimeout(() => {

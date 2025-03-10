@@ -43,7 +43,9 @@ Additionally, the STAC objects include metadata information which will help make
 - Variables
 - EO Mission
 
-Valid STAC objects will be automatically parsed and added to the Open Science Catalog. The purpose is...
+Valid STAC objects will be automatically parsed and added to the Open Science Catalog ensuring that your research is both Findable, Accessible, Interoperable, and Reproducible.
+
+If you are new to using STAC, this might seem like a lot. Luckily there are many tools that can help you generate STAC objects for your datasets and workflows automatically. You can find an overview of available tools for given scenarios in [Choosing Tools and Platforms](../Technical%20Documentation/Platforms/Choosing%20Tools%20and%20Platforms.md), as well as [example noteboooks](../Technical%20Documentation/Examples/).
 
 ## Who Can Publish?
 

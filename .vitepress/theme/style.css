@@ -59,3 +59,8 @@ h6,
 .VPButton {
   font-family: "NotesESAbold", sans-serif;
 }
+
+.notebook {
+  width: 135%;
+  height: 800px;
+}

@@ -26,26 +26,28 @@ Visit the [Working with Platforms](../Technical%20Documentation/Platforms/) page
 
 After finalising research on one of the platforms, your final data products and code can be published in the EarthCODE Catalog - The [Open Science Data Catalog](https://opensciencedata.esa.int/). The catalog includes datasets, workflows, and software that have been published and validated within EarthCODE (i.e., on one of the integrated platforms or following the EarthCODE best practices). It's your gateway to a wide range of resources, whether you're looking for environmental data, code for processing, or reusable workflows. 
 
-## Validating and Publishing Data
+## Validating and Publishing Data to the Catalog
 
 EarthCODE allows you to validate products and experiments, ensuring they meet reproducibility and scientific standards. If you have an ESA-funded project, you can contribute to the platform by publishing your datasets, software, or experiments, making your work available for the broader community to use.
 
-The [Open Science Catalog](https://opensciencedata.esa.int/) is based on [STAC](https://stacspec.org/en) which is a "common language to describe geospatial information". The way you publish your research is by creating valid STAC objects and committing them to the [`open-science-catalog-metadata-staging`](https://github.com/EOEPCA/open-science-catalog-metadata-staging) repository on GitHub. 
+### How data is published
+The [Open Science Data Catalog](https://opensciencedata.esa.int/) is built on the [SpatioTemporal Asset Catalog (STAC)](https://stacspec.org/en), a standardised format for describing geospatial data. To contribute your research, you need to create valid STAC objects and commit them to the [`open-science-catalog-metadata-staging`](https://github.com/EOEPCA/open-science-catalog-metadata-staging) repository on GitHub. These STAC objects, stored as JSON files, will be automatically processed and rendered in the catalog.
 
-These objects should contain references to all the resources needed to reproduce your research:
-- Input data - with full specification about extent, bands, etc.
-- Result data - hosted on open-access data storages
-- Workflows - which combined with the input data should replicate the results
+Each STAC object should include all necessary references to ensure the reproducibility of your research, such as: 
+- **Result data** - hosted on open-access data storage provided by ESA
+- **Input data** - with full specification about spatial and temporal extent, bands, format, etc. This can also be part of the workflow.
+- **Workflows** - executable processes that, when combined with input data, reproduce the results.
 
-Additionally, the STAC objects include metadata information which will help make your products findable, such as:
+To improve discoverability, STAC objects also include metadata fields such as:
 - Project
-- Area
+- Geographic Area
 - Variables
-- EO Mission
+- Themes
+- Earth Observation (EO) Mission (e.g. Sentinel, Landsat)
 
-Valid STAC objects will be automatically parsed and added to the Open Science Catalog ensuring that your research is both Findable, Accessible, Interoperable, and Reproducible.
+Because these objects must follow a strict predefined schema, ensuring compliance can be complex. However, EarthCODE provides example guides to help you structure your data correctly. Additionally, there are automated tools that simplify the creation of STAC objects, reducing manual effort.
 
-If you are new to using STAC, this might seem like a lot. Luckily there are many tools that can help you generate STAC objects for your datasets and workflows automatically. You can find an overview of available tools for given scenarios in [Choosing Tools and Platforms](../Technical%20Documentation/Platforms/Choosing%20Tools%20and%20Platforms.md), as well as [example noteboooks](../Technical%20Documentation/Examples/).
+If you are new to STAC, you can explore [Choosing Tools and Platforms](../Technical%20Documentation/Platforms/Choosing%20Tools%20and%20Platforms.md) for an overview of available tools, as well as [example noteboooks](../Technical%20Documentation/Examples/) to guide you through the process. With these resources, publishing your datasets and workflows in a FAIR and open manner becomes significantly easier.
 
 ## Who Can Publish?
 

@@ -8430,7 +8430,7 @@ The history saving thread hit an unexpected error (OperationalError('attempt to 
 
     <span class="c1"># Inspect the local file and create a STAC Item</span>
     <span class="n">item</span> <span class="o">=</span> <span class="n">create_stac_item</span><span class="p">(</span>
-        <span class="n">source</span><span class="o">=</span><span class="s2">"tmp.tif"</span><span class="p">,</span>
+        <span class="n">source</span><span class="o">=</span><span class="n">local_tmp_file</span><span class="p">,</span>
         <span class="nb">id</span><span class="o">=</span><span class="sa">f</span><span class="s2">"item_</span><span class="si">{</span><span class="n">idx</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
         <span class="n">asset_name</span><span class="o">=</span><span class="s2">"data"</span><span class="p">,</span>
         <span class="n">asset_href</span><span class="o">=</span><span class="n">remote_url</span><span class="p">,</span>  <span class="c1"># Explicitly set the asset reference to the remote one!</span>

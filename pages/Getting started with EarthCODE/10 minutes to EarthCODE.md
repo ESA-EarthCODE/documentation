@@ -11,6 +11,10 @@ EarthCODE stands for "Earth Science Collaborative Open Development Environment".
 ## Accessing EarthCODE
 To get started, sign in using your [Github](https://github.com/) account. EarthCODE provides secure authentication for accessing resources across platforms, including the [EarthCODE Forum](https://discourse-earthcode.eox.at). Once authenticated, you'll have access to all the tools, discussions, and data you need across EarthCODE’s integrated platforms.
 
+::: tip
+If you have already completed your project, and are looking for information on how to publish your research according to FAIR principles, feel free to skip to the [data publishing section](#publishing-anchor) where we will guide you through the process.
+:::
+
 ## Choosing a Platform
 EarthCODE provides streamlined access to a range of platforms offering Earth Science datasets, tools, and services. With single sign-on via OpenID Connect, users can easily authenticate and explore resources tailored to their research needs. Below is a selection of supported platforms:
 
@@ -26,7 +30,7 @@ Visit the [Working with Platforms](../Technical%20Documentation/Platforms/) page
 
 After finalising research on one of the platforms, your final data products and code can be published in the EarthCODE Catalog - The [Open Science Data Catalog](https://opensciencedata.esa.int/). The catalog includes datasets, workflows, and software that have been published and validated within EarthCODE (i.e., on one of the integrated platforms or following the EarthCODE best practices). It's your gateway to a wide range of resources, whether you're looking for environmental data, code for processing, or reusable workflows. 
 
-## Validating and Publishing Data to the Catalog
+## Validating and Publishing Data to the Catalog {#publishing-anchor}
 
 EarthCODE allows you to validate products and experiments, ensuring they meet reproducibility and scientific standards. If you have an ESA-funded project, you can contribute to the platform by publishing your datasets, software, or experiments, making your work available for the broader community to use.
 

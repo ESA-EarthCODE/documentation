@@ -10,6 +10,18 @@ The catalog functionalities described in the previous sections are granted to an
 A STAC catalog is a structured, machine-readable collection of geospatial assets, described using JSON-based metadata records. It provides a standardized way to organize and link datasets, making it easy to search, access, and analyze geospatial data across different sources. A STAC catalog consists of collections (groupings of related datasets) and items (individual assets like satellite images or model outputs), with links connecting them for easy navigation and interoperability.
 :::
 
+### **Who can contribute?**
+
+If you are an **ESA Project PI, Data Owner or OSC Admin** you can contribute to the content of the Open Science Data Catalogue in following ways:
+
+- Data ingestion
+- Updating content (description of products/projects etc.)
+- Request removal of existing Item
+
+**Other user requirements include:**
+
+- Only users with an active GitHub account are allowed to contribute to the catalogue. In case of absence of GitHub account, please [create an account first.](https://github.com/join)
+
 ## How to Upload Data
 In order to upload your data to the OSC, you need to create valid STAC objects (a structure of JSON files) and upload these through a Pull Request to the [open-science-catalog-metadata-staging](https://github.com/EOEPCA/open-science-catalog-metadata-staging/tree/main) repository.
 
@@ -175,22 +187,21 @@ Regardless of how you create the catalog, it must be **self-contained**. This me
 :::  
 
 
-#### Uploading the Item Catalog
-The Item Catalog should be hosted separately from the Open Science Catalog, and like the data files it need to be persistent.
+#### Uploading the Item Catalog  
 
+The **Item Catalog must be hosted separately** from the Open Science Catalog, and like the data files, it should be **persistent and publicly accessible**.  
 
-### **Who can contribute?**
+Since the Item Catalog only contains metadata (JSON) files rather than actual datasets, a simple and effective solution is to store it in a public repository, such as **GitHub**. This approach is demonstrated in the [Creating an Item Catalog](../Examples/Creating%20an%20Item%20Catalog.md) notebook.  
 
-If you are an **ESA Project PI, Data Owner or OSC Admin** you can contribute to the content of the Open Science Data Catalogue in following ways:
+Alternatively, if you have access to a **reliable cloud storage service**—such as the ESA S3 Bucket—you can host your Item Catalog there.  
 
-- Data ingestion
-- Updating content (description of products/projects etc.)
-- Request removal of existing Item
+The only requirement is that __other users and the STAC browser must be able to find and read your repository!__
 
-**Other user requirements include:**
+:::info  
+In the next step where you will be uploading metadata to the Open Science Catalog, EarthCODE administrators will review your Item Catalog and assist you with any necessary adjustments.  
+:::  
 
-- Only users with an active GitHub account are allowed to contribute to the catalogue. In case of absence of GitHub account, please [create an account first.](https://github.com/join)
-
+## Example using the `stactools` CLI
 ### **System requirements**
 
 - Ubuntu OS min version \> 20. Script tested on Ubuntu 22.04 and Ubuntu 20.04 version.

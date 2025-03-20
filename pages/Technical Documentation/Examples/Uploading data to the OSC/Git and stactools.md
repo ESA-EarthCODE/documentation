@@ -1,3 +1,7 @@
+---
+order: 3
+---
+
 # Stactools Full Example
 ### **System requirements**
 

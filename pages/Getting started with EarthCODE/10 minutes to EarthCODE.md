@@ -43,15 +43,16 @@ Each STAC object should include all necessary references to ensure the reproduci
 - **Workflows** - executable processes that, when combined with input data, reproduce the results.
 
 To improve discoverability, STAC objects also include metadata fields such as:
-- Project
-- Geographic Area
+- Associated project
+- Geospatial extent
 - Variables
 - Themes
 - Earth Observation (EO) Mission (e.g. Sentinel, Landsat)
 
 Because these objects must follow a strict predefined schema, ensuring compliance can be complex. However, EarthCODE provides example guides to help you structure your data correctly. Additionally, there are automated tools that simplify the creation of STAC objects, reducing manual effort.
 
-If you are new to STAC, you can explore [Choosing Tools and Platforms](../Technical%20Documentation/Platforms/Choosing%20Tools%20and%20Platforms.md) for an overview of available tools, as well as [example noteboooks](../Technical%20Documentation/Examples/) to guide you through the process. With these resources, publishing your datasets and workflows in a FAIR and open manner becomes significantly easier.
+You can read more on how to publish data in the [Uploading Your Data](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section, and check out our [examples](../Technical%20Documentation/Examples/index.md).
+
 
 ## Who Can Publish?
 

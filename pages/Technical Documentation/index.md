@@ -8,4 +8,4 @@ The **Technical Documentation** page offers comprehensive guidance on how to con
 - [Working with Platforms](./Platforms/)
 - [Working with Data](./Data/)
 - [Working with Workflows](./Workflows/)
-- [Example Notebooks](./Notebooks)
+- [Examples](./Examples)

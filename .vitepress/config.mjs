@@ -88,6 +88,9 @@ export default defineConfig(
       themeConfig: {
         footer: {
           message: 'ESA – European Space Agency © 2020-2024',
+        },
+        search: {
+          provider: 'local'
         }
       }
     },

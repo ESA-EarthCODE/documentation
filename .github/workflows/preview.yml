@@ -61,7 +61,7 @@ jobs:
         run: cd notebooks/ && myst build --html
       - name: Move under path /notebooks
         if: github.event.action != 'closed'
-        run: mkdir deploy && mv _build/html/ deploy/notebooks/
+        run: mv _build/html/ deploy/notebooks/
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:

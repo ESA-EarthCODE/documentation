@@ -46,6 +46,8 @@ jobs:
         run: npm ci # or pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: npm run build # or pnpm docs:build / yarn docs:build / bun run docs:build
+      - name: No Jekyll build
+        run: touch .vitepress/dist/.nojekyll
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:

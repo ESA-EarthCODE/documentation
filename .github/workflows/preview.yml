@@ -62,11 +62,11 @@ jobs:
         run: npm install -g mystmd
       - name: Build MyST HTML Assets
         if: github.event.action != 'closed'
-        run: myst build --html
+        run: cd notebooks/ && myst build --html
       - name: Move under path /notebooks
         if: github.event.action != 'closed'
-        run: mv ./_build/html/ ./_build/notebooks/ && mkdir ./_build/html/ && mv ./_build/notebooks/ ./_build/html/
+        run: cd notebooks/ && mv _build/html/ _build/notebooks/ && mkdir _build/html/ && mv _build/notebooks/ _build/html/
       - name: Deploy MyST preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: ./_build/html
+          source-dir: ./notebooks/_build/html

@@ -1,8 +1,8 @@
 ---
 order: 0
 ---
-# Getting started with EarthCODE
 
+# Getting started with EarthCODE
 
 ## Welcome to EarthCODE!
 
@@ -33,7 +33,7 @@ Familiarize yourself with the [key terms and concepts](./key-terms-and-concepts.
 ## Step 2: Explore EarthCODE
 
 Take some time to explore EarthCODE’s core features. 
-This step will help you become familiar with the platform’s tools and resources, and how they integrate to support your research.
+This step will help you become familiar with the platform's tools and resources, and how they integrate to support your research.
 The best way to follow our tutorials and learn about EarthCODE is by using one of the EarthCODE platforms. We recommend visiting the page where we explain how [to choose the right tools and platforms for your work](../Technical%20Documentation/Platforms/).
 Once you're familiar with that, dive deeper into the platform by exploring:
 
@@ -59,8 +59,8 @@ Choose your best fit, experiment, or try them all!
 - Working with Copernicus Data 
 - Developing Workflows with EarthCODE  
 - Using Euro Data Cube for Analysis 
-- Introduction to EoxHub/Colcalc
-- Introduction to EoxHub/Pangeo
+- Introduction to EOxHub/CoCalc
+- Introduction to EOxHub/Pangeo
 - Publishing to the EarthCode Science Catalog
 - Collaborative Research in EarthCODE
  
@@ -74,6 +74,6 @@ Check upcoming [EarthCODE events](../Training%20and%20Resources/Events%20and%20W
 Understand the opportunities and possibilities within the [EarthCODE community](../Community%20and%20Collaboration/). In this step, you will learn how to identify where you can contribute and how collaboration within the community can enhance your research. This section will help you understand how you can actively participate in shaping the EarthCODE ecosystem.
 
 ## Step 4: Start Experimenting with EarthCODE
-Once you’ve understood your role and the resources available, it's time to experiment! Use EarthCODE’s tools and platforms to enhance your projects. Bring visibility to your research by experimenting with data, workflows, and collaborative features. This step is all about applying what you’ve learned and experimenting with real data in EarthCODE, contributing to the ecosystem through hands-on work.
+Once you’ve understood your role and the resources available, it's time to experiment! Use EarthCODE’s tools and platforms to enhance your projects. Bring visibility to your research by experimenting with data, workflows, and collaborative features. This step is all about applying what you've learned and experimenting with real data in EarthCODE, contributing to the ecosystem through hands-on work.
 
 

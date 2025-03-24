@@ -32,6 +32,7 @@ jobs:
         with:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
       - name: Setup Node
+        if: github.event.action != 'closed'
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -39,8 +40,10 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
+        if: github.event.action != 'closed'
         run: npm ci # or pnpm install / yarn install / bun install
       - name: Build with VitePress
+        if: github.event.action != 'closed'
         run: npm run build # or pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1

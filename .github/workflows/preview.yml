@@ -42,6 +42,11 @@ jobs:
       - name: Install dependencies
         if: github.event.action != 'closed'
         run: npm ci # or pnpm install / yarn install / bun install
+      - name: Adjust base path
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        if: github.event.action != 'closed'
+        run: sed -e "s|base: \"/documentation/pr-preview/pr-${PR_NUMBER}/\"|base: \"/documentation//\"|g" -i .vitepress/config.mjs
       - name: Build with VitePress
         if: github.event.action != 'closed'
         run: npm run build # or pnpm docs:build / yarn docs:build / bun run docs:build

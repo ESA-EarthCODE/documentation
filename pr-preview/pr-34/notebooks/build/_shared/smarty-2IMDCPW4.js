@@ -1,1 +1,1 @@
-import{a}from"/build/_shared/chunk-4K4JHNQP.js";import"/build/_shared/chunk-3MZURCDM.js";import"/build/_shared/chunk-2NH4LW52.js";export default a();
+import{a}from"/documentation/pr-preview/pr-34/notebooks/build/_shared/chunk-4K4JHNQP.js";import"/documentation/pr-preview/pr-34/notebooks/build/_shared/chunk-3MZURCDM.js";import"/documentation/pr-preview/pr-34/notebooks/build/_shared/chunk-2NH4LW52.js";export default a();

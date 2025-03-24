@@ -1,0 +1,56 @@
+# .github/workflows/preview.yml
+# This is a basic workflow takes care of building and deploying
+# catalog when creating merge request
+
+name: Deploy PR previews
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed # pr-preview-action will do cleanup here, but build steps can be skipped
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# do not allow running multiple of pipelines for this PR in parallel
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Not needed if lastUpdated is not enabled
+      - name: Setup Node
+        if: github.event.action != 'closed'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm # or pnpm / yarn
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Install dependencies
+        if: github.event.action != 'closed'
+        run: npm ci # or pnpm install / yarn install / bun install
+      - name: Adjust base path
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        if: github.event.action != 'closed'
+        run: sed -e "s|/documentation/|/documentation/pr-preview/pr-${PR_NUMBER}/|g" -i .vitepress/config.mjs
+      - name: Build with VitePress
+        if: github.event.action != 'closed'
+        run: npm run build # or pnpm docs:build / yarn docs:build / bun run docs:build
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: .vitepress/dist

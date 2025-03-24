@@ -18,6 +18,10 @@ on:
 # do not allow running multiple of pipelines for this PR in parallel
 concurrency: preview-${{ github.ref }}
 
+env:
+  # BASE_URL for MyST build
+  BASE_URL: /${{ github.event.repository.name }}/pr-preview/pr-${{ github.event.number }}/notebooks
+
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest

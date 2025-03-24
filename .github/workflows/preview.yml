@@ -52,11 +52,7 @@ jobs:
         run: npm run build # or pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Move under path /documentation
         if: github.event.action != 'closed'
-        run: mv .vitepress/dist/ .vitepress/documentation/ && mkdir .vitepress/dist/ && mv .vitepress/documentation/ .vitepress/dist/
-      - name: Deploy VitePress preview
-        uses: rossjrw/pr-preview-action@v1
-        with:
-          source-dir: .vitepress/dist
+        run: mkdir deploy && mv .vitepress/dist/ deploy/documentation/
       - name: Install MyST
         if: github.event.action != 'closed'
         run: npm install -g mystmd
@@ -65,8 +61,8 @@ jobs:
         run: cd notebooks/ && myst build --html
       - name: Move under path /notebooks
         if: github.event.action != 'closed'
-        run: cd notebooks/ && mv _build/html/ _build/notebooks/ && mkdir _build/html/ && mv _build/notebooks/ _build/html/
-      - name: Deploy MyST preview
+        run: mkdir deploy && mv _build/html/ deploy/notebooks/
+      - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: ./notebooks/_build/html
+          source-dir: deploy/

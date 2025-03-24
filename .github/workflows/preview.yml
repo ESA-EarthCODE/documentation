@@ -39,18 +39,34 @@ jobs:
           cache: npm # or pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Install dependencies
+      - name: Install VitePress dependencies
         if: github.event.action != 'closed'
         run: npm ci # or pnpm install / yarn install / bun install
       - name: Adjust base path
         env:
           PR_NUMBER: ${{ github.event.number }}
         if: github.event.action != 'closed'
-        run: sed -e "s|/documentation/|/documentation/pr-preview/pr-${PR_NUMBER}/|g" -i .vitepress/config.mjs
+        run: sed -e "s|/documentation/documentation/|/documentation/documentation/pr-preview/pr-${PR_NUMBER}/|g" -i .vitepress/config.mjs
       - name: Build with VitePress
         if: github.event.action != 'closed'
         run: npm run build # or pnpm docs:build / yarn docs:build / bun run docs:build
-      - name: Deploy preview
+      - name: Move under path /documentation
+        if: github.event.action != 'closed'
+        run: mv .vitepress/dist/ .vitepress/documentation/ && mkdir .vitepress/dist/ && mv .vitepress/documentation/ .vitepress/dist/
+      - name: Deploy VitePress preview
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: .vitepress/dist
+      - name: Install MyST
+        if: github.event.action != 'closed'
+        run: npm install -g mystmd
+      - name: Build MyST HTML Assets
+        if: github.event.action != 'closed'
+        run: myst build --html
+      - name: Move under path /notebooks
+        if: github.event.action != 'closed'
+        run: mv ./_build/html/ ./_build/notebooks/ && mkdir ./_build/html/ && mv ./_build/notebooks/ ./_build/html/
+      - name: Deploy MyST preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./_build/html

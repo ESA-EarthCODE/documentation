@@ -54,7 +54,7 @@ jobs:
       - name: Build with VitePress
         if: github.event.action != 'closed'
         run: npm run build # or pnpm docs:build / yarn docs:build / bun run docs:build
-      - name: Move under path /documentation
+      - name: Move VitePress build under path /documentation
         if: github.event.action != 'closed'
         run: mkdir deploy && mv .vitepress/dist/ deploy/documentation/
       - name: Install MyST
@@ -63,9 +63,12 @@ jobs:
       - name: Build MyST HTML Assets
         if: github.event.action != 'closed'
         run: cd notebooks/ && myst build --html
-      - name: Move under path /notebooks
+      - name: Move MyST build under path /notebooks
         if: github.event.action != 'closed'
         run: mv notebooks/_build/html/ deploy/notebooks/
+      - name: Add index.html for initial links
+        if: github.event.action != 'closed'
+        run: echo 'EarthCODE <a href="/documentation">Documentation</a> and <a href="/notebools">Notebooks</a>' > deploy/notebooks/index.html
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:

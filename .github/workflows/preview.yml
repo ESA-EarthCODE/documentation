@@ -68,7 +68,7 @@ jobs:
         run: mv notebooks/_build/html/ deploy/notebooks/
       - name: Add index.html for initial links
         if: github.event.action != 'closed'
-        run: echo 'EarthCODE <a href="/documentation">Documentation</a> and <a href="/notebools">Notebooks</a>' > deploy/index.html
+        run: echo 'EarthCODE <a href="documentation/">Documentation</a> and <a href="notebooks/">Notebooks</a>' > deploy/index.html
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:

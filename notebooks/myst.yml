@@ -1,0 +1,50 @@
+version: 1
+project:
+  id: 7459d850-c3ed-4933-a447-54e8d41b1409
+  title: "EarthCODE Notebooks"
+  subject: "EarthCODE Notebooks"
+  subtitle: "sub"
+  description: "desc"
+  # keywords: []
+  # authors: []
+  github: https://github.com/ESA-EarthCODE/documentation/tree/main/notebooks
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  toc:
+    - file: index.md
+    - title: Open Science Catalog
+      children:
+        - file: OSC/creating_an_item_catalog.ipynb
+  # plugins:
+  #   - directives.mjs
+  #   - picsum.mjs
+  #   - latex.mjs
+  #   - templates.mjs
+  #   - type: executable
+  #     path: picsum.py
+  #   - type: executable
+  #     path: markup.py
+  #   - type: javascript
+  #     path: markup.mjs
+  # error_rules:
+  #   - rule: link-resolves
+  #     severity: ignore
+  #     keys:
+  #       - /robots.txt
+  #       - /sitemap.xml
+  #       - /jtex/template-yml
+  #       - /jtex
+  #       - /jtex/create-a-latex-template
+  #       - /jtex/create-a-beamer-template
+  #       - /jtex/contribute-a-template
+site:
+  title: "EarthCODE Notebooks"
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
+  # domains:
+  #   - mystmd-guide.curve.space
+  # options:
+  #   style: public/style.css

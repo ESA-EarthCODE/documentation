@@ -12,8 +12,8 @@ export default defineConfig(
       description: "Documentation for the EarthCODE website",
       base: "/documentation/documentation/",
       ignoreDeadLinks: [
-          // ignore all links include "/notebooks/""
-          /\/notebooks\//,
+          // ignore all links include "/examples/""
+          /\/examples\//,
       ],
       head: [
         ["link", { rel: "icon", href: "/img/EarthCODE_Favicon_32x32px.png" }],

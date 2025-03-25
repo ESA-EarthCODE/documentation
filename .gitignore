@@ -1,4 +1,4 @@
 node_modules
 .vitepress/dist
 .vitepress/cache
-notebooks/_build
+examples/_build

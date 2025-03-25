@@ -7,7 +7,7 @@ project:
   description: "desc"
   # keywords: []
   # authors: []
-  github: https://github.com/ESA-EarthCODE/documentation/tree/main/notebooks
+  github: https://github.com/ESA-EarthCODE/documentation/tree/main/examples
   license:
     code: MIT
     content: CC-BY-4.0

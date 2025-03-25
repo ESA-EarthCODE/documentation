@@ -9,4 +9,4 @@ In the "Training and Resources" section, users will find everything they need to
 - [Videos and Webinars](./Videos%20and%20Webinars.md)
 - [Gallery](./Gallery.md)
 - [Events and Workshops](./Events%20and%20Workshops.md)
-- [Examples](./Examples/)
+- [Examples](https://earthcode.esa.int/examples)

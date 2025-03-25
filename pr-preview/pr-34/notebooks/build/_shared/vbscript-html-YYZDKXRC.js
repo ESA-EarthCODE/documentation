@@ -1,1 +1,0 @@
-import{c as t}from"/documentation/pr-preview/pr-34/notebooks/build/_shared/chunk-2NH4LW52.js";var i=t((a,n)=>{function e(s){return{name:"VBScript in HTML",subLanguage:"xml",contains:[{begin:"<%",end:"%>",subLanguage:"vbscript"}]}}n.exports=e});export default i();

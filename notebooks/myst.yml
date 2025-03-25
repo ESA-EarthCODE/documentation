@@ -39,11 +39,14 @@ project:
   #       - /jtex/create-a-beamer-template
   #       - /jtex/contribute-a-template
 site:
-  title: "EarthCODE Notebooks"
+  title: EarthCODE Notebooks
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    favicon: ./public/img/EarthCODE_Favicon_32x32px.png
+    logo_text: EarthCODE Examples
+    logo: ./public/img/EarthCODE_kv_transparent.png
+    
+
   # domains:
   #   - mystmd-guide.curve.space
   # options:

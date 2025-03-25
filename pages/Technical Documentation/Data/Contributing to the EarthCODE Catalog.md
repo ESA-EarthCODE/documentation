@@ -1,7 +1,7 @@
 ---
 order: 1
 ---
-# Uploading Your Science Results
+# Publishing Science Results
 
 The catalog functionalities described in the previous sections are granted to any user (registered/and non-registered users). Catalog exploration and content discovery and access to the products is fully open and transparent. In this section we will describe how to make new data accessible through the catalog and make them available for the broad scientific community.
 

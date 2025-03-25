@@ -10,7 +10,11 @@ export default defineConfig(
       title: "EarthCODE Documentation",
       titleTemplate: " EarthCODE",
       description: "Documentation for the EarthCODE website",
-      base: "/documentation/",
+      base: "/documentation/documentation/",
+      ignoreDeadLinks: [
+          // ignore all links include "/examples/""
+          /\/examples\//,
+      ],
       head: [
         ["link", { rel: "icon", href: "/img/EarthCODE_Favicon_32x32px.png" }],
         // Open Graph / Facebook

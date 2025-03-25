@@ -63,7 +63,7 @@ Different users of EarthCODE have different needs and goals. To help you find th
 
 If you've completed your research and are looking to **publish your data to the Open Science Catalog (OSC)**, your main priority is to ensure your data is **persistent, properly formatted and publicly available**.  
 
-Head directly to the [**Uploading Data**](/pages/Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section to learn how to:  
+Head directly to the [**Uploading Data**](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section to learn how to:  
 - Prepare your data for publication.  
 - Create valid STAC objects and metadata.  
 - Publish data products to the Open Science Data Catalog.  
@@ -85,7 +85,7 @@ Visit the [**Platform Selection**](../Technical%20Documentation/Platforms/Choosi
 - Understanding which tools will streamline your workflow.  
 - Setting up your environment for collaborative or individual work.  
 
-If you plan to publish your results later, it’s a good idea to also familiarize yourself with the [**Uploading Data**](/pages/Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section to understand the requirements early on.  
+If you plan to publish your results later, it’s a good idea to also familiarize yourself with the [**Uploading Data**](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section to understand the requirements early on.  
 
 ### Users Exploring Published Research  
 

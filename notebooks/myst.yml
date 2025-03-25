@@ -1,8 +1,8 @@
 version: 1
 project:
   id: 7459d850-c3ed-4933-a447-54e8d41b1409
-  title: "EarthCODE Notebooks"
-  subject: "EarthCODE Notebooks"
+  title: "EarthCODE Examples"
+  subject: "EarthCODE Examples"
   subtitle: "sub"
   description: "desc"
   # keywords: []
@@ -14,8 +14,12 @@ project:
   toc:
     - file: index.md
     - title: Open Science Catalog
+      file: OSC/index.md
       children:
         - file: OSC/creating_an_item_catalog.ipynb
+        - file: OSC/manual_example.md
+        - file: OSC/git_clerk_example.md
+        - file: OSC/deepcode_example.md
   # plugins:
   #   - directives.mjs
   #   - picsum.mjs
@@ -39,7 +43,7 @@ project:
   #       - /jtex/create-a-beamer-template
   #       - /jtex/contribute-a-template
 site:
-  title: EarthCODE Notebooks
+  title: EarthCODE Examples
   template: book-theme
   options:
     favicon: ./public/img/EarthCODE_Favicon_32x32px.png

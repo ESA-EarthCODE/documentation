@@ -1,11 +1,15 @@
 ---
 # https://next.jupyterbook.org/
-title: "EarthCODE Notebooks"
+title: "EarthCODE Examples"
 date: 2025-02-24
 #authors:
 #  - name: TBD
 #    affiliations:
 #      - TBD
 ---
+👋 Welcome to the EarthCODE examples book!
 
-Welcome to the EarthCODE notebook collection
+Here you will find guides and examples on how to use the various EarthCODE resources.
+
+If you are looking to upload data to the Open Science Catalog, check out our [Open Science Catalog Examples](OSC/index.md).
+

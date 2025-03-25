@@ -17,6 +17,7 @@ What you'll find in this section:
 - [**Metrics and Statistics About the EarthCODE Catalog**](#metrics-and-statistics-about-the-earthcode-catalog)
 - [**Optimizing Performance for Large Datasets**](#optimizing-performance-for-large-datasets)
 
+
 ## Introduction to the Open Science Catalog
 
 The Open Science Catalog (OSC), a key component of the ESA EO Open Science framework, is a publicly available web-based application designed to provide easy access to scientific datasets, geoscience products, and scientific resources developed under ESA-funded Earth Observation (EO) research projects. These resources vary in geographical and temporal extent, production methodology, validation, and quality, supporting a wide range of scientific applications. The OSC supports data discovery, access, and integration, promoting Open Science principles.
@@ -59,9 +60,7 @@ The majority of the entries only hold metadata for each Product and Project. The
 
 The Open Science Catalog is free to use by any user with access to the Internet. Contributing to the catalog (ingesting new products or updating existing) is reserved to authorized users only (project PIs, data owners).
 
-**What are the capabilities of the Open Science Catalog?**
-
-The Open Science Catalog is not only a project's metadata browser. It brings new functionalities and makes them available to scientific community of users, such as:
+The Open Science Catalog is not only a projects' metadata browser. It brings new functionalities and makes them available to scientific community of users, such as:
 
 - Discovery and access for geospatial products + documentation (or/and code)
 - Unified metadata across heterogeneous sources
@@ -69,9 +68,10 @@ The Open Science Catalog is not only a project's metadata browser. It brings new
 - Open to community curation & contribution
 - Synoptic view for EO gap analysis
 
+
 ## Discovering Catalog Content
 
-The OSC Catalog page is built upon the open-source STAC Browser application (STAC Browser, 2023), allowing users to explore the available contents stored in a static STAC Catalog. This catalog consists of inter-linked JSON files (Collections and Items) along with supplementary metadata. The catalog facilitates the discovery of the following elements:
+The OSC Catalog page is built upon the open-source STAC Browser application, allowing users to explore the available contents stored in a static STAC Catalog. This catalog consists of inter-linked JSON files along with supplementary metadata. The catalog facilitates the discovery of the following elements:
 
 - Themes
 - Variables
@@ -81,138 +81,139 @@ The OSC Catalog page is built upon the open-source STAC Browser application (STA
 - Workflows
 - Experiments
 
-Each element lists number of objects of selected type, which are in turn represented as a STAC Catalog or STAC Collection. These objects use the OSC STAC extension to reference elements of other groups they are associated with. e.g a Product has an "osc:variables" field, that lists the measurement variables this product is comprised of. More information on how the items are linked in **Contribution** section).
+Each entry lists the number of objects of the selected type, which are represented as a STAC Catalog, STAC Collection, or OGC API Record. These objects use the OSC STAC extension to reference elements of other groups they are associated with, e.g., a Product has an `osc:variables` field, that lists the measurement variables this product is comprised of. More information on how the items are linked is provided in the [Uploading Your Data](Contributing%20to%20the%20EarthCODE%20Catalog) section.
 
 ![STACBrowser-OSC](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/257daa0c-a567-4ed2-a8bc-3fb594079b2c)
 
-**Overview** button on the top of the page provides possibility to navigate between folders in current Open Science Catalog structure. It also gives access to a list of STAC Static Catalogs and STAC APIs available under STAC Index.
+The **Overview** button on the top of the page provides the option to navigate between folders in the current Open Science Catalog structure.
 
-STAC Browser allows to filter existing catalogs by their title, order them by name and display as tiles or list. As a minimum requirement for each STAC catalog, the date of the latest update is provided in metadata field.
+STAC Browser allows to filter entries by their title, order them by name, and display them either as tiles or as list. As a minimum requirement for each STAC Catalog, the date of the latest update is provided in a metadata field.
 
 ![EO-missions-page](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/4b49bdee-61e3-4481-96a3-6416be261761)
 
-Each element in the catalog has associated description, link and product(s) related to that element. In this example we can see 51 products associated with Aqua (EOS/PM-1) EO-Mission.
+Each element in the catalog has an associated description, link, and product(s) related to that element. In this example we can see 51 Products associated with the Aqua (EOS/PM-1) EO-Mission.
 
 ![Aqua-eomission](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/ba016cfd-ff4e-4684-b159-37cbd7165b89)
 
-For the time being more than 270 products have been imported and made available to discover by scientific community. 
+For the time being more than 270 products have been imported and made available to discover by the scientific community.
 
 ![products-stac](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/0b3e31c8-ce9d-4f8b-99d6-3061628be47d)
 
-The Browser lists all products gathered in the Open Science Catalog, with temporal extent (start and end date of the product) provided next to the product title (in grey box). Filtering by product name is also possible.
-Clicking the product will provide the main information about each item ingested to the catalog. An example page of the selected product published in Open Science Catalog is provided here:
+The Browser lists all products published in the Open Science Catalog, with temporal extent (start and end date of the product) provided next to the product title (in grey box). Filtering by product name is also possible.
+Clicking the product will provide the main information about each item ingested into the catalog as shown in the image.
+
 ![product-page-2](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/4753f91b-b646-4255-a948-d2cce0b9adf0)
 
-In the Product page: general description, metadata, access to the resource (URL link), website – URL to documentation of the product and product extent are provided.
+In the Product page the general description, metadata, access to the resource (URL link), website – URL to documentation of the product, and product extent are displayed.
+Related STAC objects are linked to the corresponding files, i.e., Project, EO Mission, Variable, Theme, etc.
 
-Full metadata description of the selected product is provided here. Here the contents of the metadata description from .json file are displayed, and related STAC objects are linked to corresponding files i.e. Project, EO Mission, Variable, Theme etc.
 ![metadata-product](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/1e8c597d-031f-4763-8a11-382f8b587c22)
 
-Source metadata is used to provide Access to **external** (source) data repository – from data provider or project PI and Documentation, which gives a link to description of the dataset, scientific publications etc.
+The **Source metadata** is used to provide Access to **external** (source) data repository – from the data provider or the project PI and Documentation, which gives a link to the description of the product, scientific publications, etc.
 
 Additionally search keywords are added to allow product retrieval.
 
-In some cases when the data is publicly available and can be downloaded, the access to single tiles or granules of products are being provided to broader community. Another embedded STAC Catalog is created then to host the spatial data itself. By selecting the catalog you can browse through single items and download one image out of vast collection of files directly from the portal.
+In some cases, when the data is publicly available and downloadable, the access to single tiles or granules of products is being provided to the broader community. In this case another embedded STAC Catalog is created to host the spatial data itself. By selecting the catalog you can browse through single items and download one image out of vast collection of files directly from the portal.
 
 ![products-assets](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/b229ad19-9868-4f94-a011-1381db43661a)
 
-Select single item from a daily collection of products. Under Assets expand more information about dataset and click Open to download single tile to your local storage.
+The images shows the selection of a single item from a daily collection of products. Under **Assets** more information about the item can be expanded and the **Open** button allows to download the single tile to your local storage.
 
 ![metadata-assets](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/8cbd1bf2-1afa-4b99-80a7-13513157e7d1)
 
-Up botton allows to return to the previous element in the hierarchy. Depending on the metadata wirtten in the single file (for example: tif or nc file) additional metadata like projection or image dimensions are provided.
+The **Up** button allows to return to the previous element in the hierarchy.
 
-Here additionally an example of Project page is displayed. Catalogs on the right panel represent products collections associated with the given project and discoverable from Project page.
+Depending on the metadata written in the single file (for example a ``.tif` or `.nc` file) additional metadata like projection or image dimensions are provided.
+
+The next image shows an example of a Project page. Catalogs on the right panel represent Product collections associated with the given Project and discoverable from the Project page.
 
 ![project-page](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/ae9b723b-383a-434b-941a-9b700eaceace)
 
-Additionally in Project metadata, link to EO4Society page and dedicated project page built by consortium members is provided, as well as list of consortium members and technical officer assigned to the project at ESA.
+In the Project metadata a link to the corresponding EO4Society page and potentially dedicated project page built by the consortium members is additionally provided, as well as a list of consortium members and the ESA Technical Officer assigned to the project.
 
-### **Search**
+### Search
 
-Once harvested into the resource management, the STAC API of the Resource Catalog allows efficient searching for Products using text, geospatial, temporal and other metadata attributes. Search results independently from the way the search was performed by user (described in the section above) will present the list of products that match the query.
+The STAC Browser provides client side searching directly in the browser as described above.
+Additionally the static STAC files are harvested into the Resource Catalog building block provided by the EOEPCA project.
+This software provides a STAC API allowing efficient searching for Products and other entries using filters on text, geospatial, temporal, and other metadata attributes.
 
 ![search](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/fd73379e-16f9-4649-b1db-4d55f44b8511)
 
-Filters possible to apply to limit products number returned are available on the left side panel. User can search by Theme, Variable, Project, EO Mission and Region. Region parameter can be used by drawing user-defined shape on the interactive world map, and selecting an option to filter the products by their spatial coverage, taking only products that are contained within the selected geometry, or intersecting products.
+The client side search offers a list of filters on the left side panel which can be applied to limit the number of products returned. Users can search by Theme, Variable, Project, EO Mission, and Region. The Region parameter can be used by drawing a user-defined shape on the interactive map, and selecting an option to filter the products by their spatial coverage, selecting only products that are either fully contained within the selected geometry, or intersecting it.
 
-To select other filters, expand given filter name with the arrow and select or type a name of the filter to be applied.
 ![search-1](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/3824063b-e89c-4906-9077-8f2d429031d0)
 
-Products that match the query are displayed under the Results list. The number in the brackets indicate how many products match that request.
+To add further filters, expand the given filter name with the arrow on the right and either select item(s) to filter for or type the search string to be applied.
 
-Click on "RESET" button to clear up all filters previously applied and apply different filtering.
+Products that match the filters are displayed in the Results list. The number in the brackets indicates how many products match that search.
+
+The **RESET ALL** button clears all currently applied filters and allows to start a new search.
+
 
 ## Standardized Metadata and Taxonomies for FAIR Data Access
 
-Adhering by design to the "FAIR" (findable, accessible, interoperable, reproducible/reusable) principles, the Open Science Catalog aims to support better knowledge discovery and innovation. It facilitates data and knowledge integration and reuse by the scientific community. With common dictionary and unified metadata across heterogeneous sources, products discovery is facilitated. Published Products are associated to Project and additional information is provided by tags. Themes and variables are used as tag to facilitate products discovery. Earth Observation Satellite Missions used to generate the product is provided by EO-Mission description in Product's metadata.
+Adhering by design to the "FAIR" (findable, accessible, interoperable, reproducible/reusable) principles, the Open Science Catalog aims to support better knowledge discovery and innovation. It facilitates data and knowledge integration and reuse by the scientific community. With common dictionary and unified metadata across heterogeneous sources, products discovery is facilitated. Published Products are associated to Projects and additional information is provided by tags. Themes and Variables are used as tags to facilitate Products discovery. Earth Observation Satellite Missions used to generate the Product are provided by EO-Mission description in Product's metadata.
 
-**THEMES**: one of the Earth Science topics linked to the grand science challenges set in the ESA strategy.
+**Themes**: One of the Earth Science topics linked to the grand science challenges set in the ESA strategy.
 
-**PROJECT**: scientific research projects funded by ESA EO​
+**Project**: Scientific research projects funded by ESA EO.
 
-**PRODUCT**: a geoscience product representing the measured or inferred/estimated values of one or more variables over a given time range and spatial area. Products can be distinguished by geographical and temporal extent, production methodology, validation, quality and EO Mission/sensor used to produce them.​
+**Product**: A geoscience product representing the measured or inferred/estimated values of one or more variables over a given time range and spatial area. Products can be distinguished by geographical and temporal extent, production methodology, validation, quality, and EO Mission/sensor used to produce them.
 
-**VARIABLES**: geoscience, climate and environmental variable. Variables are represented in the hierarchical set of Earth Science variables based on GCMD Keywords convention.
+**Variables**: Geoscience, climate, and environmental variable. Variables are represented in the hierarchical set of Earth Science variables based on the NASA GCMD keywords convention.
 
-**KEYWORDS**:  Keywords are used to facilitate products discovery. Based on hierarchical relationships adopted from NASA GCMD keywords database, keywords usually refer to broader term regarding the variable and are assigned to a given product.
+**Keywords**: Keywords are used to facilitate Product discovery. Based on hierarchical relationships adopted from the NASA GCMD keywords database, keywords usually refer to broader terms regarding the Variable and are assigned to a given Product.
 
-**EO MISSION**: Earth Observation Satellite Missions used to generate the product.
+**EO Mission**: Earth Observation Satellite Missions used to generate the Product.
 
 ![OSC-structure](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/8d4d4390-ec7c-40bb-9605-a02e7f33decb)
 
 
 ## Metrics and Statistics About the EarthCODE Catalog
 
-### **Metrics**
+### Metrics
 
-Open Science Catalog provides and stores also metrics and statistics on records available for users to explore. The OSC Metrics Page provides an overview of the available geospatial products, aggregated by one of selected elements: Variables (default), Themes, Projects, EO Missions. Temporal and spatial coverage of products aggregated under selected category (element) is displayed.
+The Open Science Catalog stores and provides also metrics and statistics on entries available for users to explore. The OSC Metrics Page provides an overview of the available geospatial Products, aggregated by either Variables (default), Themes, Projects, or EO Missions. The temporal and spatial coverage of the available Products aggregated by the selected category is displayed.
+
 ![metrics-1](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/25264857-1c89-45fa-b048-17d64b845968)
 
-The slider below the metrics window: 
+The slider below the metrics window
 ![slider](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/c0cb1e4f-3440-44e1-a7fb-af0fa1264218)
-allows zoom in and out the display of table containing the metrics.
+allows to zoom the display in and out.
 
-Products can also be filtered out using a Filter box above the metrics table. The Filter works in the same way as Search, meaning that the product list can be narrowed down by filtering by free typing or by selecting given type of content (by selecting particular Theme, Variable, Project, Product, EO Mission, Geometry: by area of interest indicated on the interactive map or Free text filter).
-
-Once selected, filter name and selected value appears in the text box to facilitate the user removal of selected filter and remembering of different filters applied.
+Products can also be filtered using the box labeled "Search and add filter" above the metrics table. The Filters work in the same way as the Search, meaning that the Product list can be narrowed down by filtering on the Theme, Variable, Project, EO Mission, geometry, or free text search. Once selected, the filter is shown in the text box allowing to remove it and showing the currently applied filters.
 
 ![metrics-2](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/d42070bb-999a-4d23-8011-1cfe35f987e5)
 
-The filter takes also free text as an input, so any word typed in the filter field will be taken to search through the variable names but also their acronyms, product names and description field. Therefore, it is also possible to use keywords if the exact variable or product name of an item is not known. For example, the term _"carbon"_ will return the list of following variables and products _(Carbon Flux, Carbonate, Microphytoplankton Carbon etc.)_.
+The filter takes also free text as an input. Thus, any string typed in the filter field will be taken to search through the variable names but also their acronyms, product names, and description fields. Therefore, it is also possible to use keywords if the exact variable or product name of an item is not known. For example, the term _"carbon"_ will return the list of following variables and products _(Carbon Flux, Carbonate, Microphytoplankton Carbon, etc.)_.
+
 ![metrics-3](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/8dbed4f4-e41c-4fc2-808c-040b8ca3d23f)
 
-The last column in that page provides details about spatial coverage of selected product. Click on the globe icon to display the list of products and access their spatial footprint.
+The last column in that page provides details about the spatial coverage of selected products. Clicking on the globe icon displays the list of products and their spatial footprint.
 
-To highlight the spatial coverage of selected product select the pin 
-![pin-icon](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/faa609f0-bf94-4d4a-a1dc-f91f2dcc2bbb) icon.
+To highlight the spatial coverage of a selected product click the pin
+![pin-icon](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/faa609f0-bf94-4d4a-a1dc-f91f2dcc2bbb)
+icon.
 
-Click on Access  
-![access-icon](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/92d05d0e-c98b-4f6e-85f0-f3f92c1ac344) icon to preview the product page (new tab with providing product details will open automatically).
+Click on the access
+![access-icon](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/92d05d0e-c98b-4f6e-85f0-f3f92c1ac344)
+icon to view the product page in a new tab.
+
 ![metrics-4](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/4244eaac-3174-4cda-81e3-dbfe3478f542)
 
-### **Statistics**
+### Statistics
 
-Within the metrics functionality, the **"Statistics"** button is available to summary of the content available within the catalog.User can summarize the products by chosen elements: Variables (default), Themes, Projects, EO Mission.
-![statistics](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/4492a17a-5411-462a-a16a-fe68784b738c)
+Within the metrics page, the **Statistics** button is available providing a summary of the content available within the catalog.
+Product statistics are provided as number of products over time, by Variable, and by EO Mission.
 
-Click on the **Statistics** button to see the pop-up window divided in three sections:
+- Temporal coverage: A bar chart representing the number of Products per year (summary of temporal coverage of Products). Hovering over the bars shows the number of Products available in each year.
 
-- Bar chart: representing number of products per year (summary of temporal coverage of products). By navigating over selected bar that represents single year, the description on how many products are available in each year is displayed (as shown below).
-![stats-bar](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/21a06cc0-68f6-4015-b125-e6683c6bdcbd)
+  ![stats-bar](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/21a06cc0-68f6-4015-b125-e6683c6bdcbd)
 
-- Pie chart: representing number of products that belong to each variable and percentage in a total sum of variables available in the catalog.
-![stats-pie](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/2019eec5-b706-4573-9960-fd6414fccb58)
+- Variable distribution: A list and a pie chart representing the number of products that belong to each variable and percentage in a total sum of variables available in the catalog.
 
-- Multicolor pie-chart – representing the distribution of satellite missions used to generate products.
-![stats-pie2](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/88e2b1d3-797d-4e9b-ad82-bbbc48771678)
+  ![stats-pie](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/2019eec5-b706-4573-9960-fd6414fccb58)
 
-## Optimizing Performance for Large Datasets 
+- Satellite mission distribution: A multi-color pie chart representing the distribution of satellite missions used to generate products.
 
-Tips on configuring resources to achieve optimal performance for large datasets and computational tasks.
-
-
-- [OpenEO & Copernicus Data Space Ecosystem (CDSE)](../Platforms/OpenEO.md)
-- [Deep Earth System Data Laboratory (DeepESDL)](../Platforms/DeepESDL.md)
-- [Euro Data Cube (EDC)](../Platforms/EDC.md)
-- [EDC EOxHub Pangeo](../Platforms/EOxHub_Pangeo.md)
+  ![stats-pie2](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/88e2b1d3-797d-4e9b-ad82-bbbc48771678)

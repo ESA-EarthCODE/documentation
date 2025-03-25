@@ -178,7 +178,7 @@ Typically, this workflow starts by defining individual STAC objects (a Catalog a
 
 In the final step, the Catalog is __saved and normalized__ to a specified root directory. At this stage, you can choose to set the Catalog type to __"self-contained"__. When enabled, this ensures that all internal links are automatically resolved and adjusted to be relative, making the Catalog portable and independent of absolute file paths. 
 
-The process is straightforward, and we highly recommend checking out [this notebook](../examples/creating-an-item-catalog).
+The process is straightforward, and we highly recommend checking out [this notebook](../../../examples/creating-an-item-catalog).
 
 ::: warning IMPORTANT  
 Regardless of how you create the catalog, it must be **self-contained**. This means:  
@@ -191,7 +191,7 @@ Regardless of how you create the catalog, it must be **self-contained**. This me
 
 The **Item Catalog must be hosted separately** from the Open Science Catalog, and like the data files, it should be **persistent and publicly accessible**.  
 
-Since the Item Catalog only contains metadata (JSON) files rather than actual datasets, a simple and effective solution is to store it in a public repository, such as **GitHub**. This approach is demonstrated in the [Creating an Item Catalog notebook](../examples/creating-an-item-catalog).
+Since the Item Catalog only contains metadata (JSON) files rather than actual datasets, a simple and effective solution is to store it in a public repository, such as **GitHub**. This approach is demonstrated in the [Creating an Item Catalog notebook](../../../examples/creating-an-item-catalog).
 
 Alternatively, if you have access to a **reliable cloud storage service**—such as the ESA S3 Bucket—you can host your Item Catalog there.  
 

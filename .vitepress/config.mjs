@@ -109,7 +109,7 @@ const sideBar = withSidebar(
 )
 
 const trainingSection = sideBar.themeConfig.sidebar.find(section => section.text === 'Training and Resources')
-trainingSection.items.push({ text: 'Examples', link: '../examples' })
+trainingSection.items.push({ text: 'Examples', link: 'https://earthcode.esa.int/examples' })
 
 export default defineConfig(
   sideBar

@@ -47,7 +47,7 @@ To improve discoverability, STAC objects also include metadata fields such as:
 
 Because these objects must follow a strict predefined schema, ensuring compliance can be complex. However, EarthCODE provides example guides to help you structure your data correctly. Additionally, there are automated tools that simplify the creation of STAC objects, reducing manual effort.
 
-You can read more on how to publish data in the [Uploading Your Data](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section, and check out our [examples](https://earthcode.esa.int/examples).
+You can read more on how to publish data in the [Uploading Your Data](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section, and check out our [examples](../../examples).
 
 
 ## Who Can Publish?

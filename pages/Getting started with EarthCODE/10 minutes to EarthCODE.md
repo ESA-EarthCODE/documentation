@@ -22,16 +22,16 @@ EarthCODE provides streamlined access to a range of platforms offering Earth Sci
 
 Visit the [Working with Platforms](../Technical%20Documentation/Platforms/) page for help on how to choose the platform that best suits your research objectives.
 
-## Exploring the EarthCODE Science Catalog
+## Exploring the EarthCODE Open Science Catalog
 
-After finalising research on one of the platforms, your final data products and code can be published in the EarthCODE Catalog - The [Open Science Data Catalog](https://opensciencedata.esa.int/). The catalog includes datasets, workflows, and software that have been published and validated within EarthCODE (i.e., on one of the integrated platforms or following the EarthCODE best practices). It's your gateway to a wide range of resources, whether you're looking for environmental data, code for processing, or reusable workflows. 
+After finalising research on one of the platforms, your final data products and code can be published in the EarthCODE Catalog - The [Open Science Catalog](https://opensciencedata.esa.int/). The catalog includes datasets, workflows, and software that have been published and validated within EarthCODE (i.e., on one of the integrated platforms or following the EarthCODE best practices). It's your gateway to a wide range of resources, whether you're looking for environmental data, code for processing, or reusable workflows.
 
 ## Validating and Publishing Data to the Catalog {#publishing-anchor}
 
 EarthCODE allows you to validate products and experiments, ensuring they meet reproducibility and scientific standards. If you have an ESA-funded project, you can contribute to the platform by publishing your datasets, software, or experiments, making your work available for the broader community to use.
 
 ### How data is published
-The [Open Science Data Catalog](https://opensciencedata.esa.int/) is built on the [SpatioTemporal Asset Catalog (STAC)](https://stacspec.org/en), a standardised format for describing geospatial data. To contribute your research, you need to create valid STAC objects and commit them to the [`open-science-catalog-metadata-staging`](https://github.com/EOEPCA/open-science-catalog-metadata-staging) repository on GitHub. These STAC objects, stored as JSON files, will be automatically processed and rendered in the catalog.
+The [Open Science Catalog](https://opensciencedata.esa.int/) is built on the [SpatioTemporal Asset Catalog (STAC)](https://stacspec.org/en), a standardised format for describing geospatial data. To contribute your research, you need to create valid STAC objects and commit them to the [`open-science-catalog-metadata-staging`](https://github.com/EOEPCA/open-science-catalog-metadata-staging) repository on GitHub. These STAC objects, stored as JSON files, will be automatically processed and rendered in the catalog.
 
 Each STAC object should include all necessary references to ensure the reproducibility of your research, such as: 
 - **Result data** - hosted on open-access data storage provided by ESA
@@ -64,9 +64,9 @@ Different users of EarthCODE have different needs and goals. To help you find th
 If you've completed your research and are looking to **publish your data to the Open Science Catalog (OSC)**, your main priority is to ensure your data is **persistent, properly formatted and publicly available**.  
 
 Head directly to the [**Uploading Data**](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section to learn how to:  
-- Prepare your data for publication.  
-- Create valid STAC objects and metadata.  
-- Publish data products to the Open Science Data Catalog.  
+- Prepare your data for publication.
+- Create valid STAC objects and metadata.
+- Publish data products to the Open Science Catalog.
 
 This section will guide you through the entire upload process, including validating your metadata and ensuring your data assets are accessible.  
 

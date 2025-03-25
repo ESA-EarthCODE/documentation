@@ -3,7 +3,7 @@ order: 1
 ---
 # Uploading Your Data
 
-The catalog functionalities described in the previous sections are granted to any user (registered/and non-registered users). Catalogue exploration and content discovery and access to the products is fully open and transparent. In this section we will describe how to make new data accessible through the catalogue and make them available for broad scientific community.
+The catalog functionalities described in the previous sections are granted to any user (registered/and non-registered users). Catalog exploration and content discovery and access to the products is fully open and transparent. In this section we will describe how to make new data accessible through the catalog and make them available for broad scientific community.
 
 
 :::tip :peanuts: STAC IN A NUTSHELL
@@ -12,7 +12,7 @@ A STAC catalog is a structured, machine-readable collection of geospatial assets
 
 ### **Who can contribute?**
 
-If you are an **ESA Project PI, Data Owner or OSC Admin** you can contribute to the content of the Open Science Data Catalogue in following ways:
+If you are an **ESA Project PI, Data Owner or OSC Admin** you can contribute to the content of the Open Science Catalog in following ways:
 
 - Data ingestion
 - Updating content (description of products/projects etc.)
@@ -20,7 +20,7 @@ If you are an **ESA Project PI, Data Owner or OSC Admin** you can contribute to 
 
 **Other user requirements include:**
 
-- Only users with an active GitHub account are allowed to contribute to the catalogue. In case of absence of GitHub account, please [create an account first.](https://github.com/join)
+- Only users with an active GitHub account are allowed to contribute to the catalog. In case of absence of GitHub account, please [create an account first.](https://github.com/join)
 
 ### How to Upload Data
 In order to upload your data to the OSC, you need to create valid STAC objects (a structure of JSON files) and upload these through a Pull Request to the [open-science-catalog-metadata-staging](https://github.com/EOEPCA/open-science-catalog-metadata-staging/tree/main) repository.
@@ -33,7 +33,7 @@ In fact, in most cases you would need to create two separate STAC objects:
 Earth observation research can generate large amounts of datasets with extensive metadata. Keeping data assets separate ensures faster __loading, less clutter, and a consistent access method__, while the OSC remains focused on structured metadata.
 :::
 
-If you are new to using STAC, git, or both, this can be an intimidating process, but luckily there are many tools available to more or less automate this process depending on your setup. Check out the [STAC helper tools page](STAC%20Tools.md) for an overview.
+If you are new to using STAC, git, or both, this can be an intimidating process, but luckily there are many tools available to more or less automate this process depending on your setup. Check out the [examples](../../../examples/index-1) for an overview.
 
 __Typical workflow for uploading data to OSC:__
 1. Upload your data to a persistent remote storage (e.g. ESA S3 bucket, Zenodo, ...).
@@ -213,11 +213,11 @@ All themes, variables, project and products are hosted as a metadata repository 
 
 The design document describes the architecture of Open Science Catalog and its design: [URL here]()
 
-At the moment Open Science Data Catalogue supports ingestion of new products via **GitHub only**. This allows data providers/ projects PI to apply **multiple changes or adding several new products at once**.
+At the moment Open Science Catalog supports ingestion of new products via **GitHub only**. This allows data providers/ projects PI to apply **multiple changes or adding several new products at once**.
 
-In this section the contribution procedure is described in an example of Product. Please note that in the same way new Variables, Projects and Themes and EO Missions can be added. We will be using three Use Case scenarios to better describe the procedure of product ingestion to the catalogue:
+In this section the contribution procedure is described in an example of Product. Please note that in the same way new Variables, Projects and Themes and EO Missions can be added. We will be using three Use Case scenarios to better describe the procedure of product ingestion to the catalog:
 
-1. Adding metadata of a single product (item) to the catalogue manually.
+1. Adding metadata of a single product (item) to the catalog manually.
 2. Ingesting metadata of assets with STAC Catalog:
   1. Adding multiple or single product(s) stored in external server (open-access storage)
   2. Adding multiple or single product(s) stored locally
@@ -226,7 +226,7 @@ In this section the contribution procedure is described in an example of Product
 
 Before making any changes to the catalog's content please make sure you have already prepared following information about your product:
 
-- Product should be related to a result of ESA-funded project. Check if the Project's page already existing within the ESA Open Science Data Catalogue: [https://opensciencedata.esa.int/](https://opensciencedata.esa.int/). If not **create a Project page first.**
+- Product should be related to a result of ESA-funded project. Check if the Project's page already existing within the ESA Open Science Catalog: [https://opensciencedata.esa.int/](https://opensciencedata.esa.int/). If not **create a Project page first.**
 - **Complete metadata available** (to correctly describe the Product)
 - Product should be stored in an external database that is approved and **stable data repository** (. CEDA Data Archive: [https://catalogue.ceda.ac.uk/](https://catalogue.ceda.ac.uk/); Zenodo repository: [https://zenodo.org/](https://zenodo.org/) etc.)
 - If the product you would like to ingest is stored elsewhere, see other data ingestion scenarios described in the section xyz.

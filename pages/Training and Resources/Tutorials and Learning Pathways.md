@@ -15,7 +15,7 @@ Once you're familiar with the basics, this pathway takes you deeper into EarthCO
 
 - Setting up and executing more complex workflows using different platforms.
 - Collaborative data sharing and version control.
-- Publishing results and workflows to the Open Science Catalogue.
+- Publishing results and workflows to the Open Science Catalog.
 
 You'll also work with Jupyter Notebooks for more advanced tasks like analyzing geospatial data and automating workflows.
 

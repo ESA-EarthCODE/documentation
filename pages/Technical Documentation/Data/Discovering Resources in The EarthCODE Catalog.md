@@ -3,30 +3,30 @@ order: 0
 ---
 # Data Discovery and Access
 
-Data discovery and access in EarthCODE are facilitated through the Open Science Data Catalogue, which provides a structured way to explore and retrieve scientific datasets, metadata, and dependencies. This ensures that researchers can efficiently find and integrate the right data into their projects while promoting transparency and reproducibility.
+Data discovery and access in EarthCODE are facilitated through the Open Science Catalog, which provides a structured way to explore and retrieve scientific datasets, metadata, and dependencies. This ensures that researchers can efficiently find and integrate the right data into their projects while promoting transparency and reproducibility.
 
 This section will guide you through the key aspects of data discovery and access, including how to search for datasets, retrieve data via APIs, upload and manage your own data, and incorporate it into workflows for scientific research.
 
 What You’ll Find in This Section:
 
-- [**Introduction to the ESA Open Science Data Catalogue**](#introduction-to-the-open-science-data-catalogue)
+- [**Introduction to the ESA Open Science Catalog**](#introduction-to-the-open-science-catalog)
 - [**Discovering Catalog Content**](#discovering-catalog-content)
 - [**Standardized Metadata and Taxonomies for FAIR Data Access**](#standardized-metadata-and-taxonomies-for-fair-data-access)
 - [**Metrics and Statistics About the EarthCODE Catalog**](#metrics-and-statistics-about-the-earthcode-catalog)
 - [**Optimizing Performance for Large Datasets**](#optimizing-performance-for-large-datasets)
 
-This User Guide is meant to provide explanation of the catalogue's functionalities from starting the catalog, explaining registration and login process through searching for information in the catalogue to data ingestion and user's contribution.
+This User Guide is meant to provide explanation of the catalog's functionalities from starting the catalog, explaining registration and login process through searching for information in the catalog to data ingestion and user's contribution.
 
-## Introduction to the Open Science Data Catalogue
+## Introduction to the Open Science Catalog
 
-The Open Science Data Catalogue is a web-based application designed to provide easy access to scientific datasets, geoscience products, and resources developed within ESA Earth Observation (EO) research projects. It supports data discovery, access, and integration, promoting Open Science principles.
+The Open Science Catalog is a web-based application designed to provide easy access to scientific datasets, geoscience products, and resources developed within ESA Earth Observation (EO) research projects. It supports data discovery, access, and integration, promoting Open Science principles.
 
-### Accessing the Open Science Data Catalogue
+### Accessing the Open Science Catalog
 
-You can explore the Open Science Data Catalogue from any web browser by navigating to:
+You can explore the Open Science Catalog from any web browser by navigating to:
 - 👉 [https://opensciencedata.esa.int/](https://opensciencedata.esa.int/)
 
-Upon entering the portal, you will see a welcome page that introduces the catalogue and its functionalities. The catalogue organizes resources into six thematic research domains, allowing users to easily browse and discover relevant projects and products.
+Upon entering the portal, you will see a welcome page that introduces the catalog and its functionalities. The catalog organizes resources into six thematic research domains, allowing users to easily browse and discover relevant projects and products.
 
 From the landing page, you can also access:
 
@@ -38,7 +38,7 @@ From the landing page, you can also access:
 
 ![OSC-main-page](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/a97e40c1-0f69-4204-9aef-95030c5a8455)
 
-### The Open Science Catalogue Landing Page
+### The Open Science Catalog Landing Page
 
 The OSC frontend serves as the primary user interface, enabling scientists and other users to interact with the system and access its contents. Through this interface, users can search for scientific products and contribute to the catalog by submitting new products or requesting updates to existing content. (Note: The request feature for updating content is planned for future releases.)
 
@@ -47,7 +47,7 @@ Exploration begins from the landing page where user can select one of six themes
 ![themes](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/070f3e88-f2a4-4956-bfc7-00e2a660cbb2)
 
 Description of selected scientific domain is provided together with link to reference given description. 
-Each theme lists number of objects associated to that theme via osc:themes field in the STAC Catalogue or STAC Collection. Making products discoverable by specific domain name. 
+Each theme lists number of objects associated to that theme via `osc:themes` field in the STAC Catalog or STAC Collection. Making products discoverable by specific domain name.
 
 ![cryosphere-theme](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/b1e33838-484d-45c2-bdc0-52c5785c7eef)
 
@@ -56,19 +56,19 @@ From this page user can View the Item _(Theme)_ in open-access GitHub repository
 Or proceed with Product’s further exploration display the full description and metadata of given product and access data. 
 ![product-page-1](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/2c89b757-2da8-41ef-9422-0456d583c97c)
 
-### Key Features of the Open Science Data Catalogue
+### Key Features of the Open Science Catalog
 
-The Open Science Data Catalogue is a key component of the ESA EO Open Science framework. It is a publicly available platform that provides access to datasets, products, and scientific resources developed under ESA-funded Earth Observation (EO) research projects. These products vary in geographical and temporal extent, production methodology, validation, and quality, supporting a wide range of scientific applications.
+The Open Science Catalog is a key component of the ESA EO Open Science framework. It is a publicly available platform that provides access to datasets, products, and scientific resources developed under ESA-funded Earth Observation (EO) research projects. These products vary in geographical and temporal extent, production methodology, validation, and quality, supporting a wide range of scientific applications.
 
-This section explains the functionality of the Open Science Data Catalogue, detailing how researchers can explore, access, and utilize geoscience products and datasets stored within the platform.
+This section explains the functionality of the Open Science Catalog, detailing how researchers can explore, access, and utilize geoscience products and datasets stored within the platform.
 
 ![OSC-main](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/9f3ae080-47fd-494b-bceb-ba9db48f0799)
 
-The majority of pages on _https://opensciencedata.esa.int_ only hold metadata for each Product and Project. The actual data and its documentation are maintained and accessible by the data providers, outside of esa.int, for the majority of cases. This catalogue provides the metadata and links to the data as it exists in those many other locations.
+The majority of pages on _https://opensciencedata.esa.int_ only hold metadata for each Product and Project. The actual data and its documentation are maintained and accessible by the data providers, outside of esa.int, for the majority of cases. This catalog provides the metadata and links to the data as it exists in those many other locations.
 
-Open Science Data Catalogue is free to use by any user with an access to Internet. Contributing to catalogue (ingesting new products or updating existing) is reserved to authorized users only (project PIs, data owners).
+Open Science Catalog is free to use by any user with an access to Internet. Contributing to catalog (ingesting new products or updating existing) is reserved to authorized users only (project PIs, data owners).
 
-**What are the capabilities of the Open Science Data Catalogue?**
+**What are the capabilities of the Open Science Catalog?**
 
 Open Science Catalog is not only a project's metadata browser. It brings new functionalities and makes them available to scientific community of users, such as:
 
@@ -91,11 +91,11 @@ The OSC Catalog page is built upon the open-source STAC Browser application (STA
 - Products
 - Processes
 
-Each element lists number of objects of selected type, which are in turn represented as a STAC Catalogue or STAC Collection. These objects use the OSC STAC extension to reference elements of other groups they are associated with. e.g a Product has an "osc:variables" field, that lists the measurement variables this product is comprised of. More information on how the items are linked in **Contribution** section).
+Each element lists number of objects of selected type, which are in turn represented as a STAC Catalog or STAC Collection. These objects use the OSC STAC extension to reference elements of other groups they are associated with. e.g a Product has an "osc:variables" field, that lists the measurement variables this product is comprised of. More information on how the items are linked in **Contribution** section).
 
 ![STACBrowser-OSC](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/257daa0c-a567-4ed2-a8bc-3fb594079b2c)
 
-**Overview** button on the top of the page provides possibility to navigate between folders in current Open Science Data Catalogue structure. It also gives access to a list of STAC Static Catalogs and STAC APIs available under STAC Index.
+**Overview** button on the top of the page provides possibility to navigate between folders in current Open Science Catalog structure. It also gives access to a list of STAC Static Catalogs and STAC APIs available under STAC Index.
 
 STAC Browser allows to filter existing catalogs by their title, order them by name and display as tiles or list. As a minimum requirement for each STAC catalog, the date of the latest update is provided in metadata field.
 
@@ -109,8 +109,8 @@ For the time being more than 270 products have been imported and made available 
 
 ![products-stac](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/0b3e31c8-ce9d-4f8b-99d6-3061628be47d)
 
-The Browser lists all products gathered in the Open Science Data Catalogue, with temporal extent (start and end date of the product) provided next to the product title (in grey box). Filtering by product name is also possible. 
-Clicking the product will provide the main information about each item ingested to the catalog. An example page of the selected product published in Open Science Data Catalogue is provided here: 
+The Browser lists all products gathered in the Open Science Catalog, with temporal extent (start and end date of the product) provided next to the product title (in grey box). Filtering by product name is also possible.
+Clicking the product will provide the main information about each item ingested to the catalog. An example page of the selected product published in Open Science Catalog is provided here:
 ![product-page-2](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/4753f91b-b646-4255-a948-d2cce0b9adf0)
 
 In the Product page: general description, metadata, access to the resource (URL link), website – URL to documentation of the product and product extent are provided.
@@ -140,7 +140,7 @@ Additionally in Project metadata, link to EO4Society page and dedicated project 
 
 ### **Search**
 
-Once harvested into the resource management, the STAC API of the Resource Catalogue allows efficient searching for Products using text, geospatial, temporal and other metadata attributes. Search results independently from the way the search was performed by user (described in the section above) will present the list of products that match the query.
+Once harvested into the resource management, the STAC API of the Resource Catalog allows efficient searching for Products using text, geospatial, temporal and other metadata attributes. Search results independently from the way the search was performed by user (described in the section above) will present the list of products that match the query.
 
 ![search](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/fd73379e-16f9-4649-b1db-4d55f44b8511)
 
@@ -155,7 +155,7 @@ Click on "RESET" button to clear up all filters previously applied and apply dif
 
 ## Standardized Metadata and Taxonomies for FAIR Data Access
 
-Adhering by design to the "FAIR" (findable, accessible, interoperable, reproducible/reusable) principles, the Open Science Data Catalogue aims to support better knowledge discovery and innovation. It facilitates data and knowledge integration and reuse by the scientific community. With common dictionary and unified metadata across heterogeneous sources, products discovery is facilitated. Published Products are associated to Project and additional information is provided by tags. Themes and variables are used as tag to facilitate products discovery. Earth Observation Satellite Missions used to generate the product is provided by EO-Mission description in Product's metadata.
+Adhering by design to the "FAIR" (findable, accessible, interoperable, reproducible/reusable) principles, the Open Science Catalog aims to support better knowledge discovery and innovation. It facilitates data and knowledge integration and reuse by the scientific community. With common dictionary and unified metadata across heterogeneous sources, products discovery is facilitated. Published Products are associated to Project and additional information is provided by tags. Themes and variables are used as tag to facilitate products discovery. Earth Observation Satellite Missions used to generate the product is provided by EO-Mission description in Product's metadata.
 
 **THEMES**: one of the Earth Science topics linked to the grand science challenges set in the ESA strategy.
 
@@ -203,7 +203,7 @@ Click on Access
 
 ### **Statistics**
 
-Within the metrics functionality, the_ **"Statistics"** _button is available to summary of the content available within the catalog.User can summarize the products by chosen elements: Variables (default), Themes, Projects, EO Mission.
+Within the metrics functionality, the **"Statistics"** button is available to summary of the content available within the catalog.User can summarize the products by chosen elements: Variables (default), Themes, Projects, EO Mission.
 ![statistics](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/4492a17a-5411-462a-a16a-fe68784b738c)
 
 Click on the **Statistics** button to see the pop-up window divided in three sections:
@@ -225,4 +225,4 @@ Tips on configuring resources to achieve optimal performance for large datasets 
 - [OpenEO & Copernicus Data Space Ecosystem (CDSE)](../Platforms/OpenEO.md)
 - [Deep Earth System Data Laboratory (DeepESDL)](../Platforms/DeepESDL.md)
 - [Euro Data Cube (EDC)](../Platforms/EDC.md)
-- [EDC EoXHub Pagneo](../Platforms/EoXHub%20Pangeo.md)
+- [EDC EOxHub Pangeo](../Platforms/EOxHub_Pangeo.md)

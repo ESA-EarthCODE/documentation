@@ -32,5 +32,5 @@ The endpoint for the public service is **100% open source** and fully compatible
 (TBD)
 - Configuring OpenEO for Your Workflow
 - Connecting to CDSE: https://dataspace.copernicus.eu
-- Integration CDSE with EarthCODE Open Science Catalogue
+- Integration CDSE with EarthCODE Open Science Catalog
 - Data Access on CDSE

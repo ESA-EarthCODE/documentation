@@ -18,6 +18,10 @@ on:
 # do not allow running multiple of pipelines for this PR in parallel
 concurrency: preview-${{ github.ref }}
 
+env:
+  # BASE_URL for MyST build
+  BASE_URL: /${{ github.event.repository.name }}/pr-preview/pr-${{ github.event.number }}/examples
+
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
@@ -39,18 +43,33 @@ jobs:
           cache: npm # or pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Install dependencies
+      - name: Install VitePress dependencies
         if: github.event.action != 'closed'
         run: npm ci # or pnpm install / yarn install / bun install
       - name: Adjust base path
         env:
           PR_NUMBER: ${{ github.event.number }}
         if: github.event.action != 'closed'
-        run: sed -e "s|/documentation/|/documentation/pr-preview/pr-${PR_NUMBER}/|g" -i .vitepress/config.mjs
+        run: sed -e "s|/documentation/documentation/|/documentation/pr-preview/pr-${PR_NUMBER}/documentation/|g" -i .vitepress/config.mjs
       - name: Build with VitePress
         if: github.event.action != 'closed'
         run: npm run build # or pnpm docs:build / yarn docs:build / bun run docs:build
+      - name: Move VitePress build under path /documentation
+        if: github.event.action != 'closed'
+        run: mkdir deploy && mv .vitepress/dist/ deploy/documentation/
+      - name: Install MyST
+        if: github.event.action != 'closed'
+        run: npm install -g mystmd
+      - name: Build MyST HTML Assets
+        if: github.event.action != 'closed'
+        run: cd examples/ && myst build --html
+      - name: Move MyST build under path /examples
+        if: github.event.action != 'closed'
+        run: mv examples/_build/html/ deploy/examples/
+      - name: Add index.html for initial links
+        if: github.event.action != 'closed'
+        run: echo 'EarthCODE <a href="documentation/">Documentation</a> and <a href="examples/">examples</a>' > deploy/index.html
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: .vitepress/dist
+          source-dir: deploy/

@@ -16,7 +16,7 @@ All EarthCODE platforms are listed in alphabetical order. While we primarily lin
 - [OpenEO & Copernicus Data Space Ecosystem (CDSE)](./OpenEO.md)
 - [Deep Earth System Data Laboratory (DeepESDL)](./DeepESDL.md)
 - [Euro Data Cube (EDC)](./EDC.md)
-- [EDC EoXHub](./EoXHub%20Pangeo.md)
+- [EDC EoXHub](./EOxHub_Pangeo.md)
 
 ## Access to Platforms via NoR
 

@@ -29,7 +29,7 @@ order: 6
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Earth Collaborative Open Development Environment (EarthCODE)** | A collaborative platform for developing scientific Earth Observation research projects in an open, FAIR-compliant environment.                                      |
 | **EarthCODE Portal**                | A web interface for users to interact with the EarthCODE platform, focusing on accessibility and collaboration in research projects.                                    |
-| **Open Science Catalogue**          | A platform for discovering and sharing scientific outputs, aligned with open science principles.                                                                     |
+| **Open Science Catalog**            | A platform for discovering and sharing scientific outputs, aligned with open science principles.                                                                     |
 | **Infrastructure Platform Services**| Cloud-based tools and technologies that support the execution of scientific workflows in an open, FAIR-compliant environment.                                         |
 | **Community Platform Services**     | Tools that facilitate collaboration among scientists, encouraging the exchange and development of research materials.                                                  |
 | **Development Tooling for FAIR Open Science** | Tools for managing the development of FAIR-compliant research materials, ensuring accessibility, reproducibility, and interoperability.                              |

@@ -11,5 +11,5 @@ TBD
 
 - Configuring DeepESDL for Your Workflow
 - Connecting to DeepESDL: https://deep.earthsystemdatalab.net/
-- Integration DeepESDL with EarthCODE Open Science Catalogue
+- Integration DeepESDL with EarthCODE Open Science Catalog
 - Data Access on DeepESDL

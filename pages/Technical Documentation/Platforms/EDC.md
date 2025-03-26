@@ -49,7 +49,7 @@ TBD
 
 - Configuring Euro Data Cube for Your Workflow
 - Connecting to Euro Data Cube: https://eurodatacube.com
-- Integration Euro Data Cube with EarthCODE Open Science Catalogue
+- Integration Euro Data Cube with EarthCODE Open Science Catalog
 - Data Access on Euro Data Cube
 
 ---

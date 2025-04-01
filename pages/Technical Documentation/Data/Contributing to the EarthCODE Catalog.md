@@ -6,19 +6,27 @@ order: 1
 The ESA Open Science Data Catalogue provides free and open access to geoscience products for any user, without the need for authorization. By promoting FAIR and Open Science principles, this catalogue invites contributions from authorized users, enriching the scientific community with a diverse array of geospatial products. Contributions from users willing to share scientific outcomes and experiments help foster collaboration, innovation, and the continuous growth of scientific knowledge.
 
 
-### Who can contribute?
+## Who can contribute?
+Contributions to the Open Science Data Catalogue are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.  
+We would like to specifically encourage contributions from: 
 
-If you are an **ESA Project PI, Data Owner or OSC Admin** you can contribute to the content of the Open Science Catalog (OSC) in the following ways:
+- Principal Investigators of ESA EO (Earth Observation Programme) funded Projects, 
+- Researchers, Scientists, Data Owners working on ESA-funded EO Projects, 
+- Principal Investigators, Researchers and Scientists from ESA Science Cluster Projects, 
+- ESA Technical Officers leading ESA EO Projects 
+- ESA-ESRIN Science Hub Members (e.g. ESA post-doctoral Research Fellows, ESA Living Planet Fellowship, ESA Visiting Scientists) 
+- Wider EO Research and Science Community: contact the EarthCODE team at [earth-code@esa.int](mailto:earth-code@esa.int) for more details!
 
-- Result publishing by adding content to the OSC
-- Updating content (description of Products, Projects, etc.)
-- Request removal of existing entries
+### You can enrich EarthCODE in several impactful ways:
 
-**Other user requirements include:**
+- **Publish Research Products:** Add new content to the Open Science Data Catalogue. 
+- **Update content:** Keep the descriptions and metadata of products, projects, and more up-to-date. 
+- **Request removals:** Ensure the catalogue remains accurate by requesting the removal of outdated or incorrect entries. 
 
-- Only users with an active GitHub account are allowed to contribute to the catalog. In case of absence of GitHub account, please [create an account first.](https://github.com/join)
+To contribute, you to have an active GitHub account. If you don't have one yet, please [create an account](https://github.com/signup) to get started.
 
-### How to Publish Results
+
+## How to Publish Results
 
 In order to publish your results to the OSC, you need to create valid STAC and/or OGC API Record objects (a structure of JSON files) and upload these through a Pull Request to the [open-science-catalog-metadata](https://github.com/ESA-EarthCODE/open-science-catalog-metadata/tree/main) repository.
 
@@ -40,6 +48,8 @@ __Typical workflow for uploading a product to OSC:__
 
 :::tip :peanuts: STAC IN A NUTSHELL
 A STAC catalog is a structured, machine-readable collection of geospatial assets, described using JSON-based metadata records. It provides a standardized way to organize and link datasets, making it easy to search, access, and analyze geospatial data across different sources. A STAC catalog consists of collections (groupings of related datasets) and items (individual assets like satellite images or model outputs), with links connecting them for easy navigation and interoperability.
+
+Learn more in the [official STAC tutorial](https://stacspec.org/en/tutorials/intro-to-stac/).
 :::
 
 ## Step 1: Uploading your data to a remote storage

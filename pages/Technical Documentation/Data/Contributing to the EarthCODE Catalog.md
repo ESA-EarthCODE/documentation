@@ -27,20 +27,55 @@ To contribute, you to have an active GitHub account. If you don't have one yet, 
 
 
 ## How to Publish Results
-Open Science Data Catalogue provides functionalities of data discovery and access to any user/ Earth Observation Scientist, with or without GitHub account. Open Science Data Catalogue offers easy and transparent way of accessing and exploitation of wide range of the latest EO project's results (research outcomes). Implementation of structured and harmonized way of describing result's metadata facilitates publication and data discovery process. 
-The Open Science Data Catalogue is built on the open-source STAC Browser application, that allows users to explore various inter-linked elements: themes, variables, eo-missions, projects, products, workflows and experiments described in format of JSON files structured in a STAC Catalog. 
 
-**To publish your scientific outcomes you need to provide following:** 
+The **Open Science Data Catalog** is a publicly accessible platform that enables anyone—whether or not they have a GitHub account—to **discover and access Earth Observation research**. It provides a transparent and structured way to explore the latest results from EO projects by organizing metadata in a consistent and harmonized format.
 
-- valid STAC and/or OGC API Record objects (JSON files) 
-- create Pull Request on [open-science-catalog-metadata](https://github.com/ESA-EarthCODE/open-science-catalog-metadata/tree/main) repository to ingest new entry. 
-[Here add a part STAC in a nutshell]
+Built on the open-source **STAC Browser**, the catalog allows users to browse and explore interlinked elements such as **themes, variables, EO missions, projects, products, workflows, and experiments**, all described using **STAC-compliant JSON files**.
 
-To share your outcomes with wide research world, you would need to prepare your research experiments according to the Open Science Catalogue structure and adopted strategy for data sharing: 
+---
 
-- Create your Product Package (Research Experiment): Dataset (files), Code and Documentation should be accessible* (expalin what accessible means: (e.g. : data should be available for discovery and expoitation from remote storage (e.g. ESA's Projects Results Repository [link here to its descirption + information that it can be provided], object storage (S3 bucket), Zenodo, CEDA, dataverse or other). 
-- Create valid STAC Objects from your Dataset: A self-contained STAC Catalog with individual items (in JSON format) hosted in your own (or institutional) public GitHub repository (to be made accessible*) 
-- Describe your Research Experiment in Open Science Data Catalogue: to ensure the discoverability of your products, create and upload specific entries to describe your Dataset, Workflow, Experiment by linking them to related Projects, Themes, Variables (with access to STAC Catalog (point 2) 
+### What You Need to Publish
+
+To publish your scientific results to the Open Science Catalog, you must:
+
+- Create valid **STAC** and/or **OGC API Record** objects (in JSON format).
+- Submit a **Pull Request** to the [open-science-catalog-metadata-**staging**](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging/tree/main) repository with your new entry.  
+
+---
+
+### Preparing Your Research for Publication
+
+To make your research outcomes accessible and discoverable by the broader scientific community, follow these steps:
+
+1. **Create Your Product Package (Research Experiment)**  
+   This includes:
+   - **Dataset files**
+   - **Code**
+   - **Documentation**
+
+   All of these should be *accessible*, meaning they are stored on **remote, persistent storage** that allows discovery and access. Examples include:
+   - ESA’s Project Results Repository (PRR)
+   - S3-compatible object storage (e.g. ESA S3 Bucket)
+   - Zenodo, CEDA, Dataverse, or other persistent archives
+
+   ::: details Requesting PRR Storage
+   At the moment, requests to store data on ESA PRR is done by the ESA PLES engineering team. If you need to request permanent storage, contact the team at [earth-code@esa.int](mailto:earth-code@esa.int)
+   :::
+
+2. **Generate a Self-Contained STAC Catalog**  
+   - Use tools like [`stactools`](https://stactools.readthedocs.io/en/stable/), [`rio-stac`](https://github.com/developmentseed/rio-stac), or [`PySTAC`](https://pystac.readthedocs.io/en/stable/) to generate a STAC Catalog.
+   - Host the resulting JSON files (Catalog + Items) in a **public GitHub repository** (or institutional equivalent).
+   ::: warning Important
+    Make sure the Catalog uses **relative paths** and points to remote asset URLs!
+   :::
+   
+
+3. **Describe Your Research in the Open Science Catalog**  
+   - Create entries that describe your **dataset, workflow, and experiment**.
+   - Link them to relevant **projects, variables, themes, and EO missions**.
+   - Include a `related` link to your external STAC Catalog to ensure it is discoverable from the Open Science Catalog.
+
+By following these steps, your research becomes part of a broader ecosystem of reusable, discoverable, and connected scientific outputs.
 
 :::tip :peanuts: STAC IN A NUTSHELL
 A STAC catalog is a structured, machine-readable collection of geospatial assets, described using JSON-based metadata records. It provides a standardized way to organize and link datasets, making it easy to search, access, and analyze geospatial data across different sources. A STAC catalog consists of collections (groupings of related datasets) and items (individual assets like satellite images or model outputs), with links connecting them for easy navigation and interoperability.

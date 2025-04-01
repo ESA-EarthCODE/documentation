@@ -58,9 +58,6 @@ To make your research outcomes accessible and discoverable by the broader scient
    - S3-compatible object storage (e.g. ESA S3 Bucket)
    - Zenodo, CEDA, Dataverse, or other persistent archives
 
-   ::: details Requesting PRR Storage
-   At the moment, requests to store data on ESA PRR is done by the ESA PLES engineering team. If you need to request permanent storage, contact the team at [earth-code@esa.int](mailto:earth-code@esa.int)
-   :::
 
 2. **Generate a Self-Contained STAC Catalog**  
    - Use tools like [`stactools`](https://stactools.readthedocs.io/en/stable/), [`rio-stac`](https://github.com/developmentseed/rio-stac), or [`PySTAC`](https://pystac.readthedocs.io/en/stable/) to generate a STAC Catalog.
@@ -77,17 +74,24 @@ To make your research outcomes accessible and discoverable by the broader scient
 
 By following these steps, your research becomes part of a broader ecosystem of reusable, discoverable, and connected scientific outputs.
 
-## Step 1: Uploading your data to a remote storage
+## Step 1: Make Your Data Accessible  
 
-To share your data, it must be __openly accessible via the cloud__. How you achieve this depends on your use case. If your data is already hosted by a cloud storage provider, there's no need to duplicate it, simply use those links. The key requirement is that the data is __publicly available and persistent__ (i.e., it won't be deleted).
+To contribute to the Open Science Catalog, your research data must be openly accessible and persistent. Begin by preparing your **Research Experiments**, which includes:  
+- **Data files** , which will be added to the Item Catalog. 
+- **Workflow** (e.g., Jupyter Notebooks, Python scripts, CWL records)  
+- **Documentation** (e.g., links to peer-reviewed publications or public product descriptions)  
 
-If your data isn't in the cloud or its persistence is uncertain, the recommended process is to request access to the official
-[ESA PRR](https://eoresults.esa.int/data_provider_guide.html#) and upload it there following the described procedure.
-After requesting a data provider account you need to request a PRR collection which is used in the next steps as the STAC Item Catalog.
+All of these components should be **publicly available and stored on persistent platforms**—meaning they should not be tied to your local machine or a temporary location.  
 
-Alternatively there is also an object storage bucket maintained by the EarthCODE team that can be used to persistently store data.
-Feel free to [contact the EarthCODE team](https://earthcode.esa.int/contact) to discuss available options.
+If your data is already hosted on a reliable cloud storage provider (e.g., Zenodo, CEDA, an institutional repository, or S3), you can use those links directly.  
 
+If your data is not yet in the cloud or its persistence is uncertain, we recommend uploading it to the official **ESA Project Results Repository (PRR)**. To do this:  
+1. Request a data provider account.  
+2. Then, request a PRR collection, which will be used in later steps to define your STAC Item Catalog.  
+
+::: details Requesting PRR Storage
+At the moment, requests to store data on ESA PRR is done by the ESA PLES engineering team. If you need to request permanent storage, contact the team at [earth-code@esa.int](mailto:earth-code@esa.int)
+:::
 
 ## Step 2: Creating and uploading a STAC Item Catalog
 ### Description

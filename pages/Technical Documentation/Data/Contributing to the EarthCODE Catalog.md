@@ -77,12 +77,6 @@ To make your research outcomes accessible and discoverable by the broader scient
 
 By following these steps, your research becomes part of a broader ecosystem of reusable, discoverable, and connected scientific outputs.
 
-:::tip :peanuts: STAC IN A NUTSHELL
-A STAC catalog is a structured, machine-readable collection of geospatial assets, described using JSON-based metadata records. It provides a standardized way to organize and link datasets, making it easy to search, access, and analyze geospatial data across different sources. A STAC catalog consists of collections (groupings of related datasets) and items (individual assets like satellite images or model outputs), with links connecting them for easy navigation and interoperability.
-
-Learn more in the [official STAC tutorial](https://stacspec.org/en/tutorials/intro-to-stac/).
-:::
-
 ## Step 1: Uploading your data to a remote storage
 
 To share your data, it must be __openly accessible via the cloud__. How you achieve this depends on your use case. If your data is already hosted by a cloud storage provider, there's no need to duplicate it, simply use those links. The key requirement is that the data is __publicly available and persistent__ (i.e., it won't be deleted).

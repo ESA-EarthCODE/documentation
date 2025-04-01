@@ -5,9 +5,6 @@ order: 1
 
 The ESA Open Science Data Catalogue provides free and open access to geoscience products for any user, without the need for authorization. By promoting FAIR and Open Science principles, this catalogue invites contributions from authorized users, enriching the scientific community with a diverse array of geospatial products. Contributions from users willing to share scientific outcomes and experiments help foster collaboration, innovation, and the continuous growth of scientific knowledge.
 
-:::tip :peanuts: STAC IN A NUTSHELL
-A STAC catalog is a structured, machine-readable collection of geospatial assets, described using JSON-based metadata records. It provides a standardized way to organize and link datasets, making it easy to search, access, and analyze geospatial data across different sources. A STAC catalog consists of collections (groupings of related datasets) and items (individual assets like satellite images or model outputs), with links connecting them for easy navigation and interoperability.
-:::
 
 ### Who can contribute?
 
@@ -41,6 +38,10 @@ __Typical workflow for uploading a product to OSC:__
 3. Create an OSC product entry, with a link to your Item Catalog.
 
 
+:::tip :peanuts: STAC IN A NUTSHELL
+A STAC catalog is a structured, machine-readable collection of geospatial assets, described using JSON-based metadata records. It provides a standardized way to organize and link datasets, making it easy to search, access, and analyze geospatial data across different sources. A STAC catalog consists of collections (groupings of related datasets) and items (individual assets like satellite images or model outputs), with links connecting them for easy navigation and interoperability.
+:::
+
 ## Step 1: Uploading your data to a remote storage
 
 To share your data, it must be __openly accessible via the cloud__. How you achieve this depends on your use case. If your data is already hosted by a cloud storage provider, there's no need to duplicate it, simply use those links. The key requirement is that the data is __publicly available and persistent__ (i.e., it won't be deleted).
@@ -54,7 +55,6 @@ Feel free to [contact the EarthCODE team](https://earthcode.esa.int/contact) to 
 
 
 ## Step 2: Creating and uploading a STAC Item Catalog
-
 ### Description
 
 The purpose of the STAC Item Catalog is to collect metadata and references to your assets in a format that can be easily reused by other scientists and automated workflows, and displayed correctly in the Open Science Catalog.

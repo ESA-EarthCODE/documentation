@@ -27,24 +27,20 @@ To contribute, you to have an active GitHub account. If you don't have one yet, 
 
 
 ## How to Publish Results
+Open Science Data Catalogue provides functionalities of data discovery and access to any user/ Earth Observation Scientist, with or without GitHub account. Open Science Data Catalogue offers easy and transparent way of accessing and exploitation of wide range of the latest EO project's results (research outcomes). Implementation of structured and harmonized way of describing result's metadata facilitates publication and data discovery process. 
+The Open Science Data Catalogue is built on the open-source STAC Browser application, that allows users to explore various inter-linked elements: themes, variables, eo-missions, projects, products, workflows and experiments described in format of JSON files structured in a STAC Catalog. 
 
-In order to publish your results to the OSC, you need to create valid STAC and/or OGC API Record objects (a structure of JSON files) and upload these through a Pull Request to the [open-science-catalog-metadata](https://github.com/ESA-EarthCODE/open-science-catalog-metadata/tree/main) repository.
+**To publish your scientific outcomes you need to provide following:** 
 
-In fact, in most cases you would need to create two separate STAC or Record objects:
-1. __Item catalog__ — A self-contained STAC catalog, typically hosted in your own public GitHub repository (__Accessible__).
-2. __Product, Workflow, or Experiment entry__  — The metadata record you upload to the OSC, linking to related Projects, Themes, Variables, and your external Item Catalog (__Findable__).
+- valid STAC and/or OGC API Record objects (JSON files) 
+- create Pull Request on [open-science-catalog-metadata](https://github.com/ESA-EarthCODE/open-science-catalog-metadata/tree/main) repository to ingest new entry. 
+[Here add a part STAC in a nutshell]
 
-::: details Why keep them separate?
-Earth observation research can generate large amounts of datasets with extensive metadata. Keeping data assets separate ensures faster __loading, less clutter, and a consistent access method__, while the OSC remains focused on structured metadata.
-:::
+To share your outcomes with wide research world, you would need to prepare your research experiments according to the Open Science Catalogue structure and adopted strategy for data sharing: 
 
-If you are new to using STAC, git, or both, this can be an intimidating process, but luckily there are many tools available to more or less automate this process depending on your setup. Check out the [OSC examples](../../../examples/index-1) for an overview.
-
-__Typical workflow for uploading a product to OSC:__
-1. Upload your data to a persistent remote storage (e.g. ESA's Project Results Repository (PRR), an object storage (S3) bucket, Zenodo, etc.).
-2. Create the Item Catalog, with links to your assets in the remote storage.
-3. Create an OSC product entry, with a link to your Item Catalog.
-
+- Create your Product Package (Research Experiment): Dataset (files), Code and Documentation should be accessible* (expalin what accessible means: (e.g. : data should be available for discovery and expoitation from remote storage (e.g. ESA's Projects Results Repository [link here to its descirption + information that it can be provided], object storage (S3 bucket), Zenodo, CEDA, dataverse or other). 
+- Create valid STAC Objects from your Dataset: A self-contained STAC Catalog with individual items (in JSON format) hosted in your own (or institutional) public GitHub repository (to be made accessible*) 
+- Describe your Research Experiment in Open Science Data Catalogue: to ensure the discoverability of your products, create and upload specific entries to describe your Dataset, Workflow, Experiment by linking them to related Projects, Themes, Variables (with access to STAC Catalog (point 2) 
 
 :::tip :peanuts: STAC IN A NUTSHELL
 A STAC catalog is a structured, machine-readable collection of geospatial assets, described using JSON-based metadata records. It provides a standardized way to organize and link datasets, making it easy to search, access, and analyze geospatial data across different sources. A STAC catalog consists of collections (groupings of related datasets) and items (individual assets like satellite images or model outputs), with links connecting them for easy navigation and interoperability.

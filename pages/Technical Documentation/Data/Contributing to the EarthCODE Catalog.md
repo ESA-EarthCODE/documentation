@@ -3,7 +3,7 @@ order: 1
 ---
 # Publishing Science Results
 
-The catalog functionalities described in the previous sections are granted to any user (registered/and non-registered users). Catalog exploration and content discovery and access to the products is fully open and transparent. In this section we will describe how to make new data accessible through the catalog and make them available for the broad scientific community.
+The ESA Open Science Data Catalogue provides free and open access to geoscience products for any user, without the need for authorization. By promoting FAIR and Open Science principles, this catalogue invites contributions from authorized users, enriching the scientific community with a diverse array of geospatial products. Contributions from users willing to share scientific outcomes and experiments help foster collaboration, innovation, and the continuous growth of scientific knowledge.
 
 :::tip :peanuts: STAC IN A NUTSHELL
 A STAC catalog is a structured, machine-readable collection of geospatial assets, described using JSON-based metadata records. It provides a standardized way to organize and link datasets, making it easy to search, access, and analyze geospatial data across different sources. A STAC catalog consists of collections (groupings of related datasets) and items (individual assets like satellite images or model outputs), with links connecting them for easy navigation and interoperability.

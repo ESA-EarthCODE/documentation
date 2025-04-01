@@ -1,7 +1,6 @@
 # Choosing Tools and Platforms
 
-This section guides users through the process of selecting, configuring, and integrating the tools and platforms available within EarthCODE for their research needs. It helps users make informed choices based on their project's requirements, whether they are working with cloud computing, data analysis, or machine learning.
-
+This section will guide you through the EarthCODE platforms and how you can leverage the Network of Resources (NoR) for your research needs. The platforms listed below provide access to powerful data and services that will enhance your research capabilities.
 
 | Platform             | Collections                                                | Compute Resources | Execution               | Supported Languages      |
 |----------------------|-------------------------------------------------------------|--------------------|--------------------------|---------------------------|
@@ -9,18 +8,6 @@ This section guides users through the process of selecting, configuring, and int
 | **EDC EOxHub**       | Sentinel (1, 2, 3, 5P), Landsat-8, WorldView, CBERS-3/4, Goes-16/17, MODIS, PlanetScope, Spot 6/7, SkySat, Pleiades, SRTM | CPU, GPU           | Jupyter                  | Python                    |
 | **OpenEO & Copernicus** | Sentinel (1, 2, 3)                                       | CPU | Jupyter, GUI          | Python, R, JavaScript     |
 
-## EarthCode Platforms and Sponsorship
-
-This section will guide you through the EarthCODE platforms and how you can leverage the Network of Resources (NoR) for your research needs. The platforms listed below provide access to powerful data and services that will enhance your research capabilities.
-
-### Featured EarthCODE Platforms
-
-All EarthCODE platforms are listed in alphabetical order. While we primarily link to external documentation for each platform, we maintain consistent sub-sections for each to ensure a uniform user experience.
-
-- [OpenEO & Copernicus Data Space Ecosystem (CDSE)](./OpenEO.md)
-- [Deep Earth System Data Laboratory (DeepESDL)](./DeepESDL.md)
-- [Euro Data Cube (EDC)](./EDC.md)
-- [EDC EoXHub](./EOxHub_Pangeo.md)
 
 ## Access to Platforms via NoR
 

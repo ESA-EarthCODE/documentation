@@ -11,6 +11,48 @@ EarthCODE stands for "Earth Science Collaborative Open Development Environment".
 ## Accessing EarthCODE
 To get started, sign in using your [GitHub](https://github.com/) account. EarthCODE provides secure authentication for accessing resources across platforms, including the [EarthCODE Forum](https://discourse-earthcode.eox.at). Once authenticated, you'll have access to all the tools, discussions, and data you need across EarthCODE’s integrated platforms.
 
+## Suggested Paths
+
+Different users of EarthCODE have different needs and goals. To help you find the most relevant information quickly, we've outlined suggested paths based on your role and intentions.  
+
+### Researchers Ready to Upload Their Data  
+
+If you've completed your research and are looking to **publish your data to the Open Science Catalog (OSC)**, your main priority is to ensure your data is **persistent, properly formatted and publicly available**.  
+
+Head directly to the [**Uploading Data**](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section to learn how to:  
+- Prepare your data for publication.
+- Create valid STAC objects and metadata.
+- Publish data products to the Open Science Catalog.
+
+This section will guide you through the entire upload process, including validating your metadata and ensuring your data assets are accessible.  
+
+
+### New Researchers Starting a Project  
+
+If you're just starting a new research project, it’s important to choose the **right platform and tools** from the beginning. Your path depends on several factors, including:  
+- The **type of data** you intend to use.  
+- Your **workflow preferences** (e.g., no-code platforms vs. Jupyter Notebooks).  
+- Whether you need **machine learning capabilities**.
+- Whether you need **storage capabilities**.
+- The level of **collaboration and sharing** required.  
+
+Visit the [**Platform Selection**](../Technical%20Documentation/Platforms/Choosing%20Tools%20and%20Platforms.md) section to get tailored recommendations on:  
+- Selecting the best platform for your needs.  
+- Understanding which tools will streamline your workflow.  
+- Setting up your environment for collaborative or individual work.  
+
+If you plan to publish your results later, it’s a good idea to also familiarize yourself with the [**Uploading Data**](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section to understand the requirements early on.  
+
+### Users Exploring Published Research  
+
+If you’re here to **explore existing research outputs**, the Open Science Catalog is your primary destination. The catalog allows you to:  
+- **Search for projects** by area, variable, theme, and more.  
+- Access **datasets, workflows, and documentation** directly from published research.  
+- View detailed **metadata and provenance information** for each project.  
+
+Go to the [**Open Science Catalog**](https://opensciencedata.esa.int/) to start browsing and discovering data relevant to your interests. Whether you're looking for specific datasets, workflows, or scientific results, the catalog provides a centralized and well-organized resource.  
+
+
 ## Choosing a Platform
 EarthCODE provides streamlined access to a range of platforms offering Earth Science datasets, tools, and services. With single sign-on via OpenID Connect, users can easily authenticate and explore resources tailored to their research needs. Below is a selection of supported platforms:
 
@@ -55,43 +97,3 @@ You can read more on how to publish data in the [Uploading Your Data](../Technic
 Anyone with an ESA-funded project is encouraged to publish in EarthCODE. We especially welcome contributions from those part of the ESA Science Clusters, as collaboration among these projects helps promote sharing and innovation in Earth Science research.
 
 
-## Suggested Paths for Different EarthCODE Users  
-
-Different users of EarthCODE have different needs and goals. To help you find the most relevant information quickly, we've outlined suggested paths based on your role and intentions.  
-
-### Researchers Ready to Upload Their Data  
-
-If you've completed your research and are looking to **publish your data to the Open Science Catalog (OSC)**, your main priority is to ensure your data is **persistent, properly formatted and publicly available**.  
-
-Head directly to the [**Uploading Data**](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section to learn how to:  
-- Prepare your data for publication.
-- Create valid STAC objects and metadata.
-- Publish data products to the Open Science Catalog.
-
-This section will guide you through the entire upload process, including validating your metadata and ensuring your data assets are accessible.  
-
-
-### New Researchers Starting a Project  
-
-If you're just starting a new research project, it’s important to choose the **right platform and tools** from the beginning. Your path depends on several factors, including:  
-- The **type of data** you intend to use.  
-- Your **workflow preferences** (e.g., no-code platforms vs. Jupyter Notebooks).  
-- Whether you need **machine learning capabilities**.
-- Whether you need **storage capabilities**.
-- The level of **collaboration and sharing** required.  
-
-Visit the [**Platform Selection**](../Technical%20Documentation/Platforms/Choosing%20Tools%20and%20Platforms.md) section to get tailored recommendations on:  
-- Selecting the best platform for your needs.  
-- Understanding which tools will streamline your workflow.  
-- Setting up your environment for collaborative or individual work.  
-
-If you plan to publish your results later, it’s a good idea to also familiarize yourself with the [**Uploading Data**](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section to understand the requirements early on.  
-
-### Users Exploring Published Research  
-
-If you’re here to **explore existing research outputs**, the Open Science Catalog is your primary destination. The catalog allows you to:  
-- **Search for projects** by area, variable, theme, and more.  
-- Access **datasets, workflows, and documentation** directly from published research.  
-- View detailed **metadata and provenance information** for each project.  
-
-Go to the [**Open Science Catalog**](https://opensciencedata.esa.int/) to start browsing and discovering data relevant to your interests. Whether you're looking for specific datasets, workflows, or scientific results, the catalog provides a centralized and well-organized resource.  

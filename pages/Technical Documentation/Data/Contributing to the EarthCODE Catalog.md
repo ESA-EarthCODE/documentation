@@ -3,8 +3,7 @@ order: 1
 ---
 # Publishing Science Results
 
-The ESA Open Science Data Catalogue provides free and open access to geoscience products for any user, without the need for authorization. By promoting FAIR and Open Science principles, this catalogue invites contributions from authorized users, enriching the scientific community with a diverse array of geospatial products. Contributions from users willing to share scientific outcomes and experiments help foster collaboration, innovation, and the continuous growth of scientific knowledge.
-
+The catalog functionalities described in the previous sections are granted to any user (registered/and non-registered users). Catalog exploration and content discovery and access to the products is fully open and transparent. In this section we will describe how to make new data accessible through the catalog and make them available for the broad scientific community.
 
 ## Who can contribute?
 Contributions to the Open Science Data Catalogue are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.  
@@ -93,7 +92,52 @@ If your data is not yet in the cloud or its persistence is uncertain, we recomme
 At the moment, requests to store data on ESA PRR is done by the ESA PLES engineering team. If you need to request permanent storage, contact the team at [earth-code@esa.int](mailto:earth-code@esa.int)
 :::
 
+### Who can contribute?
+
+If you are an **ESA Project PI, Data Owner or OSC Admin** you can contribute to the content of the Open Science Catalog (OSC) in the following ways:
+
+- Result publishing by adding content to the OSC
+- Updating content (description of Products, Projects, etc.)
+- Request removal of existing entries
+
+**Other user requirements include:**
+
+- Only users with an active GitHub account are allowed to contribute to the catalog. In case of absence of GitHub account, please [create an account first.](https://github.com/join)
+
+### How to Publish Results
+
+In order to publish your results to the OSC, you need to create valid STAC and/or OGC API Record objects (a structure of JSON files) and upload these through a Pull Request to the [open-science-catalog-metadata](https://github.com/ESA-EarthCODE/open-science-catalog-metadata/tree/main) repository.
+
+In fact, in most cases you would need to create two separate STAC or Record objects:
+1. __Item catalog__ — A self-contained STAC catalog, typically hosted in your own public GitHub repository (__Accessible__).
+2. __Product, Workflow, or Experiment entry__  — The metadata record you upload to the OSC, linking to related Projects, Themes, Variables, and your external Item Catalog (__Findable__).
+
+::: details Why keep them separate?
+Earth observation research can generate large amounts of datasets with extensive metadata. Keeping data assets separate ensures faster __loading, less clutter, and a consistent access method__, while the OSC remains focused on structured metadata.
+:::
+
+If you are new to using STAC, git, or both, this can be an intimidating process, but luckily there are many tools available to more or less automate this process depending on your setup. Check out the [OSC examples](../../../examples/index-1) for an overview.
+
+__Typical workflow for uploading a product to OSC:__
+1. Upload your data to a persistent remote storage (e.g. ESA's Project Results Repository (PRR), an object storage (S3) bucket, Zenodo, etc.).
+2. Create the Item Catalog, with links to your assets in the remote storage.
+3. Create an OSC product entry, with a link to your Item Catalog.
+
+
+## Step 1: Uploading your data to a remote storage
+
+To share your data, it must be __openly accessible via the cloud__. How you achieve this depends on your use case. If your data is already hosted by a cloud storage provider, there's no need to duplicate it, simply use those links. The key requirement is that the data is __publicly available and persistent__ (i.e., it won't be deleted).
+
+If your data isn't in the cloud or its persistence is uncertain, the recommended process is to request access to the official
+[ESA PRR](https://eoresults.esa.int/data_provider_guide.html#) and upload it there following the described procedure.
+After requesting a data provider account you need to request a PRR collection which is used in the next steps as the STAC Item Catalog.
+
+Alternatively there is also an object storage bucket maintained by the EarthCODE team that can be used to persistently store data.
+Feel free to [contact the EarthCODE team](https://earthcode.esa.int/contact) to discuss available options.
+
+
 ## Step 2: Creating and uploading a STAC Item Catalog
+
 ### Description
 
 The purpose of the STAC Item Catalog is to collect metadata and references to your assets in a format that can be easily reused by other scientists and automated workflows, and displayed correctly in the Open Science Catalog.

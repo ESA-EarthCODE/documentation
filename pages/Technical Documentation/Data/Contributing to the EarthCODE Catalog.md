@@ -77,7 +77,7 @@ By following these steps, your research becomes part of a broader ecosystem of r
 ## Step 1: Make Your Data Accessible  
 
 To contribute to the Open Science Catalog, your research data must be openly accessible and persistent. Begin by preparing your **Research Experiments**, which includes:  
-- **Data files** , which will be added to the Item Catalog. 
+- **Data files**, which will be added to the Item Catalog. 
 - **Workflow** (e.g., Jupyter Notebooks, Python scripts, CWL records)  
 - **Documentation** (e.g., links to peer-reviewed publications or public product descriptions)  
 

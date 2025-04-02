@@ -42,11 +42,7 @@ Built on the open-source **STAC Browser**, the catalog allows users to browse an
 
 To make your research outcomes accessible and discoverable by the broader scientific community, follow these steps:
 
-1. **Create Your Product Package (Research Experiment)**, including:
-   - Dataset files
-   - Code
-   - Documentation
-
+1. **Prepare your Product Package (Research Experiment)**, by uploading **dataset files**, **code** and **documentation** to appropriate, accessible locations.
 
 2. **Generate a Self-Contained STAC Catalog**  
    - Use tools like [`stactools`](https://stactools.readthedocs.io/en/stable/), [`rio-stac`](https://github.com/developmentseed/rio-stac), or [`PySTAC`](https://pystac.readthedocs.io/en/stable/) to generate a STAC Catalog.

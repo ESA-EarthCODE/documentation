@@ -85,7 +85,7 @@ At the moment, requests to store data on ESA PRR is done by the ESA PLES enginee
 
 ### Description
 
-The purpose of the STAC Item Catalog is to collect metadata and references to your assets in a format that can be easily reused by other scientists and automated workflows, and displayed correctly in the Open Science Catalog.
+The purpose of the STAC Item Catalog is to collect metadata and references to your assets in a format that can be easily reused by other scientists and automated workflows, and displayed correctly in the Open Science Catalog. The STAC Items should be created for all assets in your dataset (single files), gathered in dedicated STAC Catalogs to become available to EarthCODE users.
 
 The hierarchy is structured as follows:
 

@@ -104,26 +104,31 @@ my-item-catalog
 ```
 
 ::: details Example `catalog.json`
-```json
+```json{15,20}
 {
   "type": "Catalog",
-  "id": "item-catalog-for-my-data",
+  "id": "my-item-catalog-id",
   "stac_version": "1.1.0",
-  "description": "A useful description about the datasets in my project.",
+  "description": "Provide a meaning description of the dataset here.",
   "links": [
     {
       "rel": "root",
       "href": "./catalog.json",
       "type": "application/json",
-      "title": "Item Catalog Example"
+      "title": "Title of the Dataset"
     },
     {
       "rel": "item",
-      "href": "./item_1/item_1.json",
+      "href": "./item_1/item_1.json", // relative link to the item.json describing a single file in the dataset
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./item_2/item_2.json", // relative link to the item.json describing a single file in the dataset
       "type": "application/geo+json"
     },
   ],
-  "title": "Item Catalog Example"
+  "title": "Tile of the Dataset"
 }
 ```
 :::
@@ -178,18 +183,18 @@ my-item-catalog
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Item Catalog Example"
+      "title": "Title of the Dataset"
     },
     {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Item Catalog Example"
+      "title": "Title of the Dataset"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://EarthCODE/OSCAcssets/MY_PROJECT/MY_PRODUCT/item_1.tif",
+      "href": "https://EarthCODE/OSCAcssets/MY_PROJECT/MY_PRODUCT/item_1.tif", // link to remote asset
       "type": "image/tiff; application=geotiff",
       "eo:bands": [
         {

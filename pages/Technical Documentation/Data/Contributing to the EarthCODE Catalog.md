@@ -5,95 +5,132 @@ order: 1
 
 The catalog functionalities described in the previous sections are granted to any user (registered/and non-registered users). Catalog exploration and content discovery and access to the products is fully open and transparent. In this section we will describe how to make new data accessible through the catalog and make them available for the broad scientific community.
 
-:::tip :peanuts: STAC IN A NUTSHELL
-A STAC catalog is a structured, machine-readable collection of geospatial assets, described using JSON-based metadata records. It provides a standardized way to organize and link datasets, making it easy to search, access, and analyze geospatial data across different sources. A STAC catalog consists of collections (groupings of related datasets) and items (individual assets like satellite images or model outputs), with links connecting them for easy navigation and interoperability.
+## Who can contribute?
+Contributions to the Open Science Data Catalogue are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.  
+We would like to specifically encourage contributions from: 
+
+- Principal Investigators of ESA EO (Earth Observation Programme) funded Projects, 
+- Researchers, Scientists, Data Owners working on ESA-funded EO Projects, 
+- Principal Investigators, Researchers and Scientists from ESA Science Cluster Projects, 
+- ESA Technical Officers leading ESA EO Projects 
+- ESA-ESRIN Science Hub Members (e.g. ESA post-doctoral Research Fellows, ESA Living Planet Fellowship, ESA Visiting Scientists) 
+- Wider EO Research and Science Community: contact the EarthCODE team at [earth-code@esa.int](mailto:earth-code@esa.int) for more details!
+
+### You can enrich EarthCODE in several impactful ways:
+
+- **Publish Research Products:** Add new content to the Open Science Data Catalogue. 
+- **Update content:** Keep the descriptions and metadata of products, projects, and more up-to-date. 
+- **Request removals:** Ensure the catalogue remains accurate by requesting the removal of outdated or incorrect entries. 
+
+To contribute, you to have an active GitHub account. If you don't have one yet, please [create an account](https://github.com/signup) to get started.
+
+
+## How to Publish Results
+
+To publish your scientific results to the Open Science Catalog, you must:
+
+- Create valid **STAC** and/or **OGC API Record** objects (in JSON format).
+- Submit a **Pull Request** to the [open-science-catalog-metadata-**staging**](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging/tree/main) repository with your new entry.  
+
+::: details The Open Science Catalog
+The **Open Science Data Catalog** is a publicly accessible platform that enables anyone—whether or not they have a GitHub account—to **discover and access Earth Observation research**. It provides a transparent and structured way to explore the latest results from EO projects by organizing metadata in a consistent and harmonized format.
+
+Built on the open-source **STAC Browser**, the catalog allows users to browse and explore interlinked elements such as **themes, variables, EO missions, projects, products, workflows, and experiments**, all described using **STAC-compliant JSON files**.
 :::
 
-### Who can contribute?
+### Preparing Your Research for Publication
 
-If you are an **ESA Project PI, Data Owner or OSC Admin** you can contribute to the content of the Open Science Catalog (OSC) in the following ways:
+To make your research outcomes accessible and discoverable by the broader scientific community, follow these steps:
 
-- Result publishing by adding content to the OSC
-- Updating content (description of Products, Projects, etc.)
-- Request removal of existing entries
+1. **Prepare your Product Package (Research Experiment)**, by uploading **dataset files**, **code** and **documentation** to appropriate, accessible locations.
 
-**Other user requirements include:**
+2. **Generate a Self-Contained STAC Catalog**  
+   - Use tools like [`stactools`](https://stactools.readthedocs.io/en/stable/), [`rio-stac`](https://github.com/developmentseed/rio-stac), or [`PySTAC`](https://pystac.readthedocs.io/en/stable/) to generate a STAC Catalog.
+   - Host the resulting JSON files (Catalog + Items) in a **public GitHub repository** (or institutional equivalent).
+   ::: warning Important
+    Make sure the Catalog uses **relative paths** and points to remote asset URLs!
+   :::
+   
 
-- Only users with an active GitHub account are allowed to contribute to the catalog. In case of absence of GitHub account, please [create an account first.](https://github.com/join)
+3. **Describe Your Research in the Open Science Catalog**  
+   - Create entries that describe your **dataset, workflow, and experiment**.
+   - Link them to relevant **projects, variables, themes, and EO missions**.
+   - Include a `related` link to your external STAC Catalog to ensure it is discoverable from the Open Science Catalog.
 
-### How to Publish Results
+By following these steps, your research becomes part of a broader ecosystem of reusable, discoverable, and connected scientific outputs.
 
-In order to publish your results to the OSC, you need to create valid STAC and/or OGC API Record objects (a structure of JSON files) and upload these through a Pull Request to the [open-science-catalog-metadata](https://github.com/ESA-EarthCODE/open-science-catalog-metadata/tree/main) repository.
+## Step 1: Make Your Data Accessible  
 
-In fact, in most cases you would need to create two separate STAC or Record objects:
-1. __Item catalog__ — A self-contained STAC catalog, typically hosted in your own public GitHub repository (__Accessible__).
-2. __Product, Workflow, or Experiment entry__  — The metadata record you upload to the OSC, linking to related Projects, Themes, Variables, and your external Item Catalog (__Findable__).
+To contribute to the Open Science Catalog, your research data must be openly accessible and persistent. Begin by preparing your **Research Experiments**, which includes:  
+- **Data files**, which will be added to the Item Catalog. 
+- **Workflow** (e.g., Jupyter Notebooks, Python scripts, CWL records)  
+- **Documentation** (e.g., links to peer-reviewed publications or public product descriptions)  
 
-::: details Why keep them separate?
-Earth observation research can generate large amounts of datasets with extensive metadata. Keeping data assets separate ensures faster __loading, less clutter, and a consistent access method__, while the OSC remains focused on structured metadata.
+All of these should be *accessible*, meaning they are stored on **remote, persistent storage** that allows discovery and access. Examples include:
+- ESA’s Project Results Repository (PRR)
+- S3-compatible object storage (e.g. ESA S3 Bucket)
+- Zenodo, CEDA, Dataverse, or other persistent archives
+
+If your data is already hosted on a reliable cloud storage provider you can use those links directly.  
+
+If your data is not yet in the cloud or its persistence is uncertain, we recommend uploading it to the official **ESA Project Results Repository (PRR)**. To do this:  
+1. Request a data provider account.  
+2. Then, request a PRR collection, which will be used in later steps to define your STAC Item Catalog.  
+
+::: details Requesting PRR Storage
+At the moment, requests to store data on ESA PRR is done by the ESA PLES engineering team. If you need to request permanent storage, contact the team at [earth-code@esa.int](mailto:earth-code@esa.int)
 :::
-
-If you are new to using STAC, git, or both, this can be an intimidating process, but luckily there are many tools available to more or less automate this process depending on your setup. Check out the [OSC examples](../../../examples/index-1) for an overview.
-
-__Typical workflow for uploading a product to OSC:__
-1. Upload your data to a persistent remote storage (e.g. ESA's Project Results Repository (PRR), an object storage (S3) bucket, Zenodo, etc.).
-2. Create the Item Catalog, with links to your assets in the remote storage.
-3. Create an OSC product entry, with a link to your Item Catalog.
-
-
-## Step 1: Uploading your data to a remote storage
-
-To share your data, it must be __openly accessible via the cloud__. How you achieve this depends on your use case. If your data is already hosted by a cloud storage provider, there's no need to duplicate it, simply use those links. The key requirement is that the data is __publicly available and persistent__ (i.e., it won't be deleted).
-
-If your data isn't in the cloud or its persistence is uncertain, the recommended process is to request access to the official
-[ESA PRR](https://eoresults.esa.int/data_provider_guide.html#) and upload it there following the described procedure.
-After requesting a data provider account you need to request a PRR collection which is used in the next steps as the STAC Item Catalog.
-
-Alternatively there is also an object storage bucket maintained by the EarthCODE team that can be used to persistently store data.
-Feel free to [contact the EarthCODE team](https://earthcode.esa.int/contact) to discuss available options.
-
 
 ## Step 2: Creating and uploading a STAC Item Catalog
 
 ### Description
 
-The purpose of the STAC Item Catalog is to collect metadata and references to your assets in a format that can be easily reused by other scientists and automated workflows, and displayed correctly in the Open Science Catalog.
+The purpose of the STAC Item Catalog is to collect metadata and references to your assets in a format that can be easily reused by other scientists and automated workflows, and displayed correctly in the Open Science Catalog. The STAC Items should be created for all assets in your dataset (single files), gathered in dedicated STAC Catalogs to become available to EarthCODE users.
 
-The hierarchy is structured as follows:
+The STAC structure helps organize and describe your data in a consistent and machine-readable way. Here’s how the hierarchy works:
 
-1. Catalog – A top-level container with a title and description, grouping related data files.
-2. Items – Each Item represents a single data file and contains metadata such as geospatial extent, temporal range, and projection.
-3. Assets – Each Item has one or more Assets, which have a direct link to the actual data files and contain metadata such as file type and spectral bands.
+1. **STAC Catalog**  
+   A STAC Catalog is the top-level container that groups related data files (Items + Assets). It behaves much like a folder in a traditional file system and can include other catalogs or items to help organize your data logically.  
+2. **STAC Item**  
+   A STAC Item represents a single observation (with a given spatial and temporal extent) and is defined using a GeoJSON-like structure enriched with additional metadata—such as spatial and temporal extent, projection information, and more.  
+   Each Item contains one or more **Assets**, which are direct links to the actual data files. Assets may also describe specific bands, file types, or related resources associated with the item.
 
 __Example folder structure__
 ```
 my-item-catalog
 ├── catalog.json
-└── item_1
-    └── item_1.json
+├── item_1
+│   └── item_1.json
+└── item_2
+    └── item_2.json
 ```
 
 ::: details Example `catalog.json`
-```json
+```json{15,20}
 {
   "type": "Catalog",
-  "id": "item-catalog-for-my-data",
+  "id": "my-item-catalog-id",
   "stac_version": "1.1.0",
-  "description": "A useful description about the datasets in my project.",
+  "description": "Provide a meaning description of the dataset here.",
   "links": [
     {
       "rel": "root",
       "href": "./catalog.json",
       "type": "application/json",
-      "title": "Item Catalog Example"
+      "title": "Title of the Dataset"
     },
     {
       "rel": "item",
-      "href": "./item_1/item_1.json",
+      "href": "./item_1/item_1.json", // relative link to the item.json describing a single file in the dataset
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./item_2/item_2.json", // relative link to the item.json describing a single file in the dataset
       "type": "application/geo+json"
     },
   ],
-  "title": "Item Catalog Example"
+  "title": "Tile of the Dataset"
 }
 ```
 :::
@@ -148,18 +185,18 @@ my-item-catalog
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Item Catalog Example"
+      "title": "Title of the Dataset"
     },
     {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Item Catalog Example"
+      "title": "Title of the Dataset"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://zenodo.org/records/<project-id>/files/extent_ABC.tif",
+      "href": "https://EarthCODE/OSCAcssets/MY_PROJECT/MY_PRODUCT/item_1.tif", // link to remote asset
       "type": "image/tiff; application=geotiff",
       "eo:bands": [
         {

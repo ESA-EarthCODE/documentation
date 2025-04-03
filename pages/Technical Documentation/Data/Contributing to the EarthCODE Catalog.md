@@ -87,11 +87,13 @@ At the moment, requests to store data on ESA PRR is done by the ESA PLES enginee
 
 The purpose of the STAC Item Catalog is to collect metadata and references to your assets in a format that can be easily reused by other scientists and automated workflows, and displayed correctly in the Open Science Catalog. The STAC Items should be created for all assets in your dataset (single files), gathered in dedicated STAC Catalogs to become available to EarthCODE users.
 
-The hierarchy is structured as follows:
+The STAC structure helps organize and describe your data in a consistent and machine-readable way. Here’s how the hierarchy works:
 
-1. Catalog – A top-level container with a title and description, grouping related data files.
-2. Items – Each Item represents a single data file and contains metadata such as geospatial extent, temporal range, and projection.
-3. Assets – Each Item has one or more Assets, which have a direct link to the actual data files and contain metadata such as file type and spectral bands.
+1. **STAC Catalog**  
+   A STAC Catalog is the top-level container that groups related data files (Items + Assets). It behaves much like a folder in a traditional file system and can include other catalogs or items to help organize your data logically.  
+2. **STAC Item**  
+   A STAC Item represents a single observation (with a given spatial and temporal extent) and is defined using a GeoJSON-like structure enriched with additional metadata—such as spatial and temporal extent, projection information, and more.  
+   Each Item contains one or more **Assets**, which are direct links to the actual data files. Assets may also describe specific bands, file types, or related resources associated with the item.
 
 __Example folder structure__
 ```

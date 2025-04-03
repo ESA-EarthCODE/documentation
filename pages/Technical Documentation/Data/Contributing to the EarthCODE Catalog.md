@@ -97,8 +97,10 @@ __Example folder structure__
 ```
 my-item-catalog
 ├── catalog.json
-└── item_1
-    └── item_1.json
+├── item_1
+│   └── item_1.json
+└── item_2
+    └── item_2.json
 ```
 
 ::: details Example `catalog.json`
@@ -187,7 +189,7 @@ my-item-catalog
   ],
   "assets": {
     "data": {
-      "href": "https://zenodo.org/records/<project-id>/files/extent_ABC.tif",
+      "href": "https://EarthCODE/OSCAcssets/MY_PROJECT/MY_PRODUCT/item_1.tif",
       "type": "image/tiff; application=geotiff",
       "eo:bands": [
         {

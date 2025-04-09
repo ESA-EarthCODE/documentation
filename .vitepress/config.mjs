@@ -8,6 +8,7 @@ const sideBar = withSidebar(
     cleanUrls: true,
     title: "EarthCODE Documentation",
     titleTemplate: " EarthCODE",
+    collapsed: true,
     description: "Documentation for the EarthCODE website",
     base: "/documentation/documentation/",
     ignoreDeadLinks: [
@@ -110,6 +111,10 @@ const sideBar = withSidebar(
 
 const trainingSection = sideBar.themeConfig.sidebar.find(section => section.text === 'Training and Resources')
 trainingSection.items.push({ text: 'Examples', link: 'https://esa-earthcode.github.io/documentation/examples/' })
+
+sideBar.themeConfig.sidebar.forEach(group => {
+  group.collapsed = true;
+});
 
 export default defineConfig(
   sideBar

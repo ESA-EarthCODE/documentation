@@ -21,20 +21,24 @@ features:
       light: "/img/icons/compute.svg"
     title: "Computational Research"
     details: "Learn about advanced computational tools for Earth system science in collaborative research environments."
+    link: Technical Documentation/Platforms/index.md
   - icon:
       dark: "/img/icons/data-light.svg"
       light: "/img/icons/data.svg"
     title: "Datasets"
     details: "Learn about accessing diverse, high-quality Earth observation datasets for scientific analysis and discovery."
+    link: Technical Documentation/Data/index.md
   - details: "Learn how to find, publish, and re-use FAIR workflows to enhance reproducibility and collaboration."
     icon:
       dark: "/img/icons/workflows-light.svg"
       light: "/img/icons/workflows.svg"
     title: "Workflows"
+    link: Technical Documentation/Workflows/index.md
   - icon:
       dark: "/img/icons/community-light.svg"
       light: "/img/icons/community.svg"
     title: "Community"
     details: "Learn more about interacting with EarthCODE's community, dedicated to FAIR Open Science and sustainable innovation."
+    link: Community and Collaboration/index.md
 
 ---

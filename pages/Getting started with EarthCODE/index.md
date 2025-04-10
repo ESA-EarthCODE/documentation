@@ -4,6 +4,22 @@ order: 0
 
 # Getting started with EarthCODE
 
+<div style="display: flex; align-items: center;">
+  <!-- Text container -->
+  <div style="flex: 1; padding-right: 20px;">
+    <p>
+      EarthCODE is a strategic initiative by the <b> European Space Agency (ESA) </b> designed to empower researchers in Earth System Science to adopt FAIR and Open Science practices. By providing a collaborative development environment with integrated tools, cloud services, and expert guidance, EarthCODE helps scientists make their research more impactful, transparent, and reusable—while staying focused on the science itself.
+    </p>
+    <p> <b>Doing Open Science shouldn't be hard, and EarthCODE makes it easy!</b></p>
+  </div>
+  <!-- Image container -->
+  <div>
+    <img src="/img/EarthCODE_kv_transparent.png" alt="Descriptive Alt Text" style="max-width: 250px;" />
+  </div>
+</div>
+
+
+
 ## Welcome to EarthCODE!
 
 This page serves as your starting point for exploring the platform. Whether you're a newcomer, a student, an expert, or simply someone interested in using EarthCODE, this guide will help you get started.
@@ -66,9 +82,6 @@ Choose your best fit, experiment, or try them all!
  
 Explore the complete list of [Tutorials and other resources](../Training%20and%20Resources/) to learn more about EarthCODE.
 
-## Events
-
-Check upcoming [EarthCODE events](../Training%20and%20Resources/Events%20and%20Workshops.md) for training sessions that can enhance your learning experience before diving into the tutorials. Learning together can often be more enjoyable and effective!
 
 ## Step 3: Understand Your Role in the EarthCODE Community
 Understand the opportunities and possibilities within the [EarthCODE community](../Community%20and%20Collaboration/). In this step, you will learn how to identify where you can contribute and how collaboration within the community can enhance your research. This section will help you understand how you can actively participate in shaping the EarthCODE ecosystem.

@@ -1,7 +1,6 @@
 # Tutorials and Learning Pathways
-:::warning 🛠️ Page Under Construction
-This page is currently under construction. Content is being actively developed and updated to provide the most accurate and helpful information.
-EarthCODE's documentation is a living document and will be continuously updated with detailed reviews.
+:::warning 🛠️ Page Under Development
+Content is being actively developed and updated for this page. EarthCODE's documentation is a living document and will be continuously updated with detailed reviews.
 :::
 In this section, we group tutorials into different learning pathways to help you progressively build the skills needed to master EarthCODE. Whether you're just starting or aiming to become an expert, each pathway is designed to guide you through key concepts and features of EarthCODE. You’ll gain practical, hands-on experience as you move from basic to advanced topics, ensuring that you can apply your learning effectively in real-world research projects.
 

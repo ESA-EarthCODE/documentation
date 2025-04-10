@@ -8,5 +8,4 @@ In the "Training and Resources" section, users will find everything they need to
 - [Tutorials](./Tutorials%20and%20Learning%20Pathways.md)
 - [Videos and Webinars](./Videos%20and%20Webinars.md)
 - [Gallery](./Gallery.md)
-- [Events and Workshops](./Events%20and%20Workshops.md)
 - [Examples](../../examples/)

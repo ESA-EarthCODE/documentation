@@ -2,7 +2,10 @@
 order: 1
 ---
 # Collaboration and Community
-
+:::warning 🛠️ Page Under Construction
+This page is currently under construction. Content is being actively developed and updated to provide the most accurate and helpful information.
+EarthCODE's documentation is a living document and will be continuously updated with detailed reviews.
+:::
 In this section, you'll discover how to engage with the EarthCODE community to enhance your research collaboration and make meaningful contributions. Whether you're looking to join or create research teams, access valuable community resources, or share and publish your results, this guide will help you connect with like-minded researchers and support the growth of Open Science.
 
 - [Joining or Creating a Research Team](./Joining%20or%20Creating%20a%20Research%20Team): Learn how to collaborate with other researchers by joining existing teams or creating new ones. This section will guide you in forming or becoming part of a research team within the EarthCODE ecosystem.

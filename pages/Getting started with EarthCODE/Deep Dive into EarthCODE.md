@@ -2,9 +2,8 @@
 order: 1
 ---
 # Deep Dive into EarthCODE
-:::warning 🛠️ Page Under Construction
-This page is currently under construction. Content is being actively developed and updated to provide the most accurate and helpful information.
-EarthCODE's documentation is a living document and will be continuously updated with detailed reviews.
+:::warning 🛠️ Page Under Development
+Content is being actively developed and updated for this page. EarthCODE's documentation is a living document and will be continuously updated with detailed reviews.
 :::
 ## Overview of EarthCODE
 A brief introduction to the EarthCODE platform, its purpose, and the core features it offers to researchers in Earth System Science.

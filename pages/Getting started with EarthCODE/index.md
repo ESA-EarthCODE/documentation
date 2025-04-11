@@ -22,7 +22,7 @@ order: 0
 
 ## Welcome to EarthCODE!
 
-This page serves as your starting point for exploring the platform. Whether you're a newcomer, a student, an expert, or simply someone interested in using EarthCODE, this guide will help you get started.
+Whether you are a scientist, a member of a research project, a developer or simply someone interested in using EarthCODE, this guide will help you get started.
 
 There are two ways to explore EarthCODE:
 
@@ -45,6 +45,47 @@ Whichever path you choose, this guide will support your journey as you engage wi
 ## Step 1: Understand EarthCODE Terminology
 
 Familiarize yourself with the [key terms and concepts](./key-terms-and-concepts.md) used in EarthCODE. Understanding the terminology will help you navigate the platform and engage with the community effectively.
+
+### EarthCODE System Overview
+
+EarthCODE provides an integrated ecosystem designed to support scientists through the full lifecycle of doing Open Science.
+Here's how it works:
+1. You access all components via the **EarthCODE Portal**.
+2. You access necessary data, and develop your workflows, **run your experiments** on integrated EO platforms (with NoR sponsored compute), or locally.
+3. You **store results** in the ESA PRR and **publish metadata** to the Open Science Catalog.
+4. The community engages via the **EarthCODE Forum**, which is directly connected to the catalog.
+
+
+![EarthCODE Components](/img/gettingstarted/earthcode-components.png)
+
+The **EarthCODE Portal** ([earthcode.esa.int](https://earthcode.esa.int)), is where users access all EarthCODE services. Through this portal, researchers can explore integrated platforms, access the Open Science Catalog, and engage with peers via the Discourse community forum. The portal also hosts general information about EarthCODE, including updates, events, and documentation.
+
+EarthCODE provides access to a set of **integrated EO cloud platforms**, each offering unique tools and datasets. As an EarthCODE integrated platform they provide common capabilities: logging in with your EarthCODE account, accessing EO data (with variations in data offerings across platforms), a method for developing algorithms (referred to as **workflows** in EarthCODE), an automated way of publishing data and workflows to the EarthCODE Catalog and finally, the means of running EarthCODE published experiments. Access to computing resources and storage on these platforms is sponsored by ESA through the [Network of Resources (NoR)](https://nor-discover.org/).
+
+For those who prefer to work on their own systems—whether personal computers or institutional infrastructure—EarthCODE also supports manual publishing of data and workflows.
+
+When your research is complete, you:
+- (Optionally) Upload **Your datasets and workflows** to the **ESA Project Results Repository (PRR)**.
+- Create and upload **Metadata describing your results** to the **Open Science Catalog**, which link to your data.
+
+:::tip  *Only ESA-funded projects can publish to EarthCODE.*
+:::
+
+The **ESA Project Results Repository (ESA PRR)** is a long-term storage service provided by ESA to persistently host results from ESA-funded projects. Once users have completed their work, they can upload their datasets and workflows to the PRR to ensure they remain accessible and preserved over time. While publishing to the PRR is optional, it is strongly recommended for long-term availability and compliance with FAIR principles. A detailed guide to this process is available in the [publication section](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md).
+
+The [**Open Science Catalog (OSC)**](https://opensciencedata.esa.int/catalog) is a public, web-based application that allows users to explore and access scientific datasets, workflows, and documentation produced through ESA-funded Earth Observation research. Researchers publish metadata describing their outputs to the EarthCODE catalog, and after review, this metadata is made discoverable through the OSC. The catalog uses  STAC to describe datasets and  OGC API - Records for workflows. Through this rich metadata on the Open Science Catalog, resources are made FAIR.
+
+:::tip The Open Science Catalog only holds the metadata which points to the persistent storage repository with your dataset.
+:::
+
+The [**EarthCODE Forum**](https://discourse-earthcode.eox.at) is a **community space** where users:
+- Share insights and questions about datasets and workflows
+- Link forum discussions directly to catalog entries
+- Get help from the EarthCODE team and community
+
+Each published item in the OSC can be linked to a discussion thread, enabling exposure and ongoing discussions about outputs.
+
+---
 
 ## Step 2: Explore EarthCODE
 
@@ -85,6 +126,7 @@ Explore the complete list of [Tutorials and other resources](../Training%20and%2
 
 ## Step 3: Understand Your Role in the EarthCODE Community
 Understand the opportunities and possibilities within the [EarthCODE community](../Community%20and%20Collaboration/). In this step, you will learn how to identify where you can contribute and how collaboration within the community can enhance your research. This section will help you understand how you can actively participate in shaping the EarthCODE ecosystem.
+
 
 ## Step 4: Start Experimenting with EarthCODE
 Once you’ve understood your role and the resources available, it's time to experiment! Use EarthCODE’s tools and platforms to enhance your projects. Bring visibility to your research by experimenting with data, workflows, and collaborative features. This step is all about applying what you've learned and experimenting with real data in EarthCODE, contributing to the ecosystem through hands-on work.

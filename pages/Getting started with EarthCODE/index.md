@@ -50,11 +50,14 @@ Familiarize yourself with the [key terms and concepts](./key-terms-and-concepts.
 
 EarthCODE provides an integrated ecosystem designed to support scientists through the full lifecycle of doing Open Science.
 Here's how it works:
-1. You access all components via the **EarthCODE Portal**.
+1. You access services via the [**EarthCODE Portal**](https://earthcode.esa.int).
 2. You access necessary data, and develop your workflows, **run your experiments** on integrated EO platforms (with NoR sponsored compute), or locally.
 3. You **store results** in the ESA PRR and **publish metadata** to the Open Science Catalog.
-4. The community engages via the **EarthCODE Forum**, which is directly connected to the catalog.
+4. Anyone can browse the Open Science Catog, find your published data and workflows, reuse and *reproduce them. 
+5. The community engages via the **EarthCODE Forum**, which is directly connected to the catalog.
 
+::: tip Users can reproduce, reuse and run your workflows through EarthCODE if they are published via an EarthCODE integrated platform AND If the user has sufficient resources or sponsorship (from NoR) for the compute costs. This is why it is important to consider what tooling/platforms one uses so as to ensure reuse-ability from the start of the project.
+:::
 
 ![EarthCODE Components](/img/gettingstarted/earthcode-components.png)
 
@@ -73,7 +76,7 @@ When your research is complete, you:
 
 The **ESA Project Results Repository (ESA PRR)** is a long-term storage service provided by ESA to persistently host results from ESA-funded projects. Once users have completed their work, they can upload their datasets and workflows to the PRR to ensure they remain accessible and preserved over time. While publishing to the PRR is optional, it is strongly recommended for long-term availability and compliance with FAIR principles. A detailed guide to this process is available in the [publication section](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md).
 
-The [**Open Science Catalog (OSC)**](https://opensciencedata.esa.int/catalog) is a public, web-based application that allows users to explore and access scientific datasets, workflows, and documentation produced through ESA-funded Earth Observation research. Researchers publish metadata describing their outputs to the EarthCODE catalog, and after review, this metadata is made discoverable through the OSC. The catalog uses  STAC to describe datasets and  OGC API - Records for workflows. Through this rich metadata on the Open Science Catalog, resources are made FAIR.
+The [**Open Science Catalog (OSC)**](https://opensciencedata.esa.int/catalog) is a public, web-based application that allows users to explore and access scientific datasets, workflows, and documentation produced through ESA-funded Earth Observation research. Researchers publish metadata describing their outputs to the EarthCODE catalog, and after review, this metadata is made discoverable through the OSC. The catalog uses  STAC to describe datasets and  OGC API - Records for workflows. Through this rich metadata on the Open Science Catalog, resources are made FAIR. Additionally, the open science catalog is integrated with the EarthCODE platforms and allows users to reproduce experiments (run workflows that produce products) that they find on the catalog.
 
 :::tip The Open Science Catalog only holds the metadata which points to the persistent storage repository with your dataset.
 :::
@@ -124,9 +127,222 @@ Choose your best fit, experiment, or try them all!
 Explore the complete list of [Tutorials and other resources](../Training%20and%20Resources/) to learn more about EarthCODE.
 
 
-## Step 3: Understand Your Role in the EarthCODE Community
-Understand the opportunities and possibilities within the [EarthCODE community](../Community%20and%20Collaboration/). In this step, you will learn how to identify where you can contribute and how collaboration within the community can enhance your research. This section will help you understand how you can actively participate in shaping the EarthCODE ecosystem.
+## Step 3: Understand Your Role in the EarthCODE 
+EarthCODE enables a variety of users throughout the open science journey, from publishing to usage, as well as providers looking to collaborate and provide open science and FAIR tooling for the project. The main goal of the project is to support two types of users: 
 
+**For scientists**, EarthCODE is a platform to: Do science. Publish science. Discover data and code. Use other people’s data and code in an ethical manner. Discuss science. Collaborate on science. Learn about FAIR and Open Science.
+
+**For developers**, EarthCODE is a space to: Expand the open-source ecosystem. Contribute tools and workflows. Develop reusable components and workflows, and discover and re-use the existing ones in an ethical way. Build FAIR-by-design services for the Earth science community.
+
+You can explore what **your role** is in the EarthCODE community below:
+
+
+### I am a:
+---
+
+<!-- HTML for actor cards Note: Maybe add some icons here for each of the roles -->
+<div id="post-wrapper" class="role-cards-container">
+  <div class="role-card">
+    <h3>Part of a ESA-Funded Research Project</h3>
+    <p>Projects funded by ESA use EarthCODE to discover, develop and publish scientific data and workflows using integrated platforms and FAIR tools. They are supported throughout the full open science lifecycle. They would be interested exploring:</p>
+    <ul>
+      <li>Explore the EarthCODE catalog to discover access and reuse datasets, workflows, and related documentation.</li>
+      <li>Publish their data and workflows to the EarthCODE catalog.</li>
+      <li>Use integrated platforms to develop new workflows and reproduce experiments.</li>
+      <li>Apply for NoR sponsorship for using the EarthCODE integrated platforms.</li>
+      <li>Engage with other researchers and discuss open science on the EarthCODE Discourse.</li>
+      <li>Use learning resources, MOOCs, tutorials, and user documentation available through the portal.</li>
+    </ul>
+  </div>
+    <div class="role-card">
+    <h3>Software Developers / Algorithm Creators</h3>
+    <p>Developers create and publish workflows and contribute new open FAIR tools</p>
+    <ul>
+      <li>Explore the EarthCODE catalog to discover access and reuse datasets, workflows, and related documentation</li>
+      <li>Use integrated platforms to develop new workflows and publish them to EarthCODE</li>
+      <li>Engage with other researchers and discuss open science on the EarthCODE Discourse</li>
+      <li>Explore and use EOEPCA+ components for their tools</li>
+    </ul>
+  </div>
+    <div class="role-card">
+    <h3>Platform Providers</h3>
+    <p>Providers offer integrated EO cloud infrastructure for FAIR and Open Science. This includes registering to NoR, functionalities to run workflows, manage user environments, and support integration with EarthCODE systems.</p>
+    <ul>
+      <li>Integrate Platform to EarthCODE to provide users data access, executible environments and workflow development tools</li>
+      <li>Register and onboard their service in the NoR portfolio</li>
+      <li>Provide integration for automatically publishing data and workflows to the EarthCODE catalog</li>
+      <li>Ensure that experiments published can be executed within the platform </li>
+      <li>Integrate with the ESA Project Results Repository (PRR) for long-term data storage</li>
+      <li>Maintain and support platform and provide documentation </li>
+    </ul>
+  </div>
+  <div class="role-card">
+    <h3>ESA Technical Officers (TOs)</h3>
+    <p>TOs supervise ESA-funded research, validating outputs and ensuring compliance with ESA’s policies, they ensure that items published by researchers to the ESA Project Results Repository (PRR) are the final, verified project results.</p>
+    <ul>
+      <li>Verify Project Results Repository Items</li>
+      <li>Apply for NoR sponsorship for using the EarthCODE integrated platforms</li>
+      <li>Explore the EarthCODE catalog to discover relevant research and potential synergies between activities</li>
+      <li>Use EarthCODE provided tools for vizualization of results to share results and show scientific impact</li>
+    </ul>
+  </div>
+
+  <div class="role-card">
+    <h3>Project Principal Investigators (PIs)</h3>
+    <p>PIs oversee project execution and publication, managing assets, approving publications, and guiding research teams.</p>
+    <ul>
+      <li>Explore the EarthCODE catalog to discover access and reuse datasets, workflows, and related documentation.</li>
+      <li>Run reproducible experiments for published workflows and data</li>
+      <li>Manage published items in the ESA Project Results Repository (PRR)</li>
+      <li>Collaborate with EarthCODE Data Steward </li>
+    </ul>
+  </div>
+
+  <div class="role-card">
+    <h3>ESA Science Clusters</h3>
+    <p>Science Clusters guide strategy, define scientific requirements, and ensure metadata and workflows align with domain needs.</p>
+    <ul>
+      <li>Engage with other researchers, discuss open science on the EarthCODE events.</li>
+      <li>Propose metadata standards additions for EarthCODE to support their science.</li>
+      <li>Explore the EarthCODE catalog to discover access and reuse datasets, workflows, and related documentation.</li>
+      <li>Publish their data and workflows to the EarthCODE catalog.</li>
+      <li>Use integrated platforms to develop new workflows and reproduce experiments and apply for NoR sponsorship.</li>
+      <li>Use learning resources, MOOCs, tutorials, and user documentation available through the portal.</li>
+    </ul>
+  </div>
+
+  <div class="role-card">
+    <h3>ESRIN Science Hub</h3>
+    <p>The ESRIN Science Hub aligns EarthCODE with ESA’s open science vision and long-term scientific planning.</p>
+    <ul>
+      <li>Use learning resources, MOOCs, tutorials, and user documentation available through the portal.</li>
+      <li>Engage with other researchers, discuss open science on the EarthCODE events.</li>
+      <li>Explore the EarthCODE catalog to discover access and reuse datasets, workflows, and related documentation.</li>
+      <li>Publish their data and workflows to the EarthCODE catalog.</li>
+      <li>Use integrated platforms to develop new workflows and reproduce experiments and apply for NoR sponsorship.</li>
+    </ul>
+  </div>
+
+  <div class="role-card">
+    <h3>EarthCODE Team (Consortium)</h3>
+    <p>The core development and operations team maintains the platform, supports users, and evolves its architecture.</p>
+    <ul>
+      <li><strong>Infrastructure Platforms Team</strong> Provides cloud environments for running workflows and experiments close to EO data, including ML and containerised tools.</li>
+      <li><strong>FAIR Open Science Platforms Team</strong> Offers tools and environments for developing, testing, and packaging reproducible workflows and experiments.</li>
+      <li><strong>Community & Resources Team</strong> Manages documentation, tutorials, the EarthCODE Forum, and promotes best practices for FAIR and open science.</li>
+    </ul>
+  </div>
+
+</div>
+
+<style>
+/* Container: horizontal scroll + scroll snap. */
+.role-cards-container {
+  display: flex;
+  flex-wrap: nowrap; 
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; 
+  -webkit-overflow-scrolling: touch; 
+  padding: 1rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  scrollbar-color: #888 #f5f5f5;      
+}
+.role-cards-container::-webkit-scrollbar {
+  height: 8px;               
+  background-color: #f5f5f5;
+}
+
+.role-cards-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px; 
+}
+.role-cards-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
+.role-card {
+  scroll-snap-align: center;
+  flex: 0 0 auto; 
+  width: 400px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.role-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+}
+.role-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #0078D4;
+}
+.role-card p,
+.role-card ul {
+  font-size: 0.9rem;
+  color: #333;
+}
+#post-wrapper {
+  overflow-y: hidden;   /* off at first – script re‑enables it later*/
+  overflow-x: auto;     /* horizontal scroll remains on*/
+}
+
+</style>
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const postScroll = document.getElementById('post-wrapper')
+  if (!postScroll) return
+
+  // start in horizontal mode
+  let scrollingHorizontally = true
+  postScroll.style.overflowY = 'hidden'
+
+  // mark listener non‑passive so we can call preventDefault()
+  postScroll.addEventListener(
+    'wheel',
+    (event) => {
+      if (scrollingHorizontally) {
+        postScroll.scrollBy({
+          left: event.deltaY < 0 ? -70 : 70,
+          behavior: 'smooth'
+        })
+        event.preventDefault()
+        if (
+          postScroll.scrollLeft >=
+          postScroll.scrollWidth - postScroll.clientWidth
+        ) {
+          scrollingHorizontally = false
+          postScroll.style.overflowY = 'auto'
+        }
+      } else {
+        if (event.deltaY < 0) {
+          scrollingHorizontally = true
+          postScroll.style.overflowY = 'hidden'
+          postScroll.scrollBy({
+            left: -70,
+            behavior: 'smooth'
+          })
+          event.preventDefault()
+        }
+      }
+    },
+    { passive: false }
+  )
+})
+</script>
+
+
+
+### Community
+Understand the opportunities and possibilities within the [EarthCODE community](../Community%20and%20Collaboration/). In this sub-step, you will learn how to identify where you can contribute and how collaboration within the community can enhance your research. This section will help you understand how you can actively participate in shaping the EarthCODE ecosystem.
 
 ## Step 4: Start Experimenting with EarthCODE
 Once you’ve understood your role and the resources available, it's time to experiment! Use EarthCODE’s tools and platforms to enhance your projects. Bring visibility to your research by experimenting with data, workflows, and collaborative features. This step is all about applying what you've learned and experimenting with real data in EarthCODE, contributing to the ecosystem through hands-on work.

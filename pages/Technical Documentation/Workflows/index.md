@@ -9,6 +9,8 @@ Content is being actively developed and updated for this page. EarthCODE's docum
 
 Guidance on using EarthCODE's workflow tools, such as interactive notebooks, containers, and pipeline orchestration for reproducible research.
 
+!(cross platform)[/img/terms/cross-platform-reusability.png]
+
 ## Creating Workflows
 How to develop research workflows using EarthCODE’s interactive graphical tooling, including workflow design and validation.
 

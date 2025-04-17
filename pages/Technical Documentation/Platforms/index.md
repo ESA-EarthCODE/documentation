@@ -13,3 +13,12 @@ For detailed information about each supported platform, including their capabili
 - [**DeepESDL**](DeepESDL.md)
 - [**EDC EOxHub**](EOxHub_Pangeo.md)
 - [**OpenEO**](./OpenEO.md)
+
+
+---
+
+- [Copernicus Data Space Ecosystem (CDSE)](https://dataspace.copernicus.eu): Access and process earth observation datasets in the Copernicus Data Space Ecosystem with the openEO API.
+- [Deep Earth System Data Laboratory (DeepESDL)](https://www.earthsystemdatalab.net/): Access and process data, and apply machine learning (ML) methods on Xarray Earth System Data Cubes (ESDC).
+- [Euro Data Cube](https://eurodatacube.com/): A suite of services to access and process satellite data and develop applications.
+- EOxHub/CoCalc: Process Earth observation data in the cloud with live collaboration on code.
+- EOxHub/Pangeo: Perform high-performance computations on Earth Science data leveraging geoscience libraries.

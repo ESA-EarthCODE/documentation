@@ -91,28 +91,21 @@ Each published item in the OSC can be linked to a discussion thread, enabling ex
 ---
 
 ## Step 2: Explore EarthCODE
+This step will help you become familiar with the platform's tools and resources, and how they integrate to support your research. The best way to follow our tutorials and learn about EarthCODE is by using one of the EarthCODE platforms. We recommend visiting the page where we explain how [to choose the right tools and platforms for your work](../Technical%20Documentation/Platforms/).
 
-Take some time to explore EarthCODE’s core features. 
-This step will help you become familiar with the platform's tools and resources, and how they integrate to support your research.
-The best way to follow our tutorials and learn about EarthCODE is by using one of the EarthCODE platforms. We recommend visiting the page where we explain how [to choose the right tools and platforms for your work](../Technical%20Documentation/Platforms/).
-Once you're familiar with that, dive deeper into the platform by exploring:
+EarthCODE offers a variety of features, in the portal you will be able to find:
+- [Datasets](/Technical%20Documentation/Data): Access a variety of datasets available for your research needs and discovery. 
+- [Computational Research](/Technical%20Documentation/Platforms/): Use EarthCODE integrated platforms with advanced computational tools for Earth System Science on collaborative research environment 
+- [Workflows](/Technical%20Documentation/Workflows/) : Easily find, publish and re-use FAIR workflows to enhance reproducibility and collaboration in research 
+- [Community](/Community%20and%20Collaboration/Getting%20Started%20With%20The%20EarthCODE%20Discourse/): Fostering a collaborative community dedicated to FAIR Open Science and sustainable innovation   
 
-- [EarthCODE Data](../Technical%20Documentation/Data/): Access a variety of datasets available for your research needs.
-- [EarthCODE Workflows](../Technical%20Documentation/Workflows/): Learn how to create, manage, and optimize workflows to enhance your research.
 By exploring these sections, you’ll better understand how to leverage EarthCODE’s resources and tools to support your research.
-
-
-### EarthCODE platforms
-
-Visit the [EarthCODE platforms](../Technical%20Documentation/Platforms/) page to learn about the different EarthCODE platforms. There, you will find their respective documentation and instructions on how to access resources.
 
 ### Tutorials
 
 This compiled table will take you through the basics of EarthCODE. You can choose tutorials in various formats: Hands-on and Slides tutorials focus on text-based learning, while Videos and Case Studies provide a more visual approach.
 
 Choose your best fit, experiment, or try them all!
-
-**TBD**: Add links to the materials in the table below (once available)
 
 - Introduction to EarthCODE
 - Introduction to [NoR](https://nor-discover.org) and [Applying for NoR usage](https://youtu.be/IJEZRSac6EE?feature=shared)
@@ -127,12 +120,12 @@ Choose your best fit, experiment, or try them all!
 Explore the complete list of [Tutorials and other resources](../Training%20and%20Resources/) to learn more about EarthCODE.
 
 
-## Step 3: Understand Your Role in the EarthCODE 
-EarthCODE enables a variety of users throughout the open science journey, from publishing to usage, as well as providers looking to collaborate and provide open science and FAIR tooling for the project. The main goal of the project is to support two types of users: 
+## Step 3: Who is EarthCODE For? 
+EarthCODE is designed for the community of Earth‑science practitioners, including ESRIN Science Hub members, the ESA Science Hub and teams working on ESA‑funded projects to enable them to do science and publish their results. It further serves as a place for developers and users to contribute workflows, platforms and discover openly available Earth Science research data and code. There are two key type of roles within EarthCODE:
 
-**For scientists**, EarthCODE is a platform to: Do science. Publish science. Discover data and code. Use other people’s data and code in an ethical manner. Discuss science. Collaborate on science. Learn about FAIR and Open Science.
+**Scientists**, EarthCODE is a platform to: Do science. Publish science. Discover data and code. Use other people’s data and code in an ethical manner. Discuss science. Collaborate on science. Learn about FAIR and Open Science.
 
-**For developers**, EarthCODE is a space to: Expand the open-source ecosystem. Contribute tools and workflows. Develop reusable components and workflows, and discover and re-use the existing ones in an ethical way. Build FAIR-by-design services for the Earth science community.
+**Developers**, EarthCODE is a space to: Expand the open-source ecosystem. Contribute tools and workflows. Develop reusable components and workflows, and discover and re-use the existing ones in an ethical way. Build FAIR-by-design services for the Earth science community.
 
 You can explore what **your role** is in the EarthCODE community below:
 
@@ -346,5 +339,22 @@ Understand the opportunities and possibilities within the [EarthCODE community](
 
 ## Step 4: Start Experimenting with EarthCODE
 Once you’ve understood your role and the resources available, it's time to experiment! Use EarthCODE’s tools and platforms to enhance your projects. Bring visibility to your research by experimenting with data, workflows, and collaborative features. This step is all about applying what you've learned and experimenting with real data in EarthCODE, contributing to the ecosystem through hands-on work.
+
+1. **Open the EarthCODE Portal**  
+   Sign in with your GitHub account at <https://earthcode.esa.int> to:  
+   - Access the Open Science Catalog to browse and download curated Earth‑observation datasets  
+   - Explore the platforms offered by EarthCODE and make a NoR request to start doing science on it  
+   - Find out more about the project, current news and upcoming events
+
+2. **Onboard your project**  
+   - Post a brief introduction, information about your project and questions you have in the `Technical Suppoort` category of the [EarthCODE Forum](https://discourse-earthcode.eox.at/c/technical-support/8).  
+   - Get in touch for onboarding support, fill in the short contact form at <https://earthcode.esa.int/contact> or e‑mail **earth-code@esa.int**.  
+
+3. **Troubleshooting**  
+   If you hit a snag, check the [Common Issues & Solutions](./Troubleshooting%20and%20Support.md#common-issues-and-solutions) section first.  
+   Still stuck? Ask in the forum or drop us a line at the support address above.
+
+
+
 
 

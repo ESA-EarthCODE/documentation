@@ -102,14 +102,12 @@ Platforms differ in how they let you visualize published results from others and
 Visit the [Working with Platforms](../Technical%20Documentation/Platforms/) page to explore EarthCODE platform and for help to choose the platform that best suits your research objectives.
 
 ## Exploring the EarthCODE Open Science Catalog
-
-After finalising research on one of the platforms, your final data products and code can be published in the EarthCODE Catalog - The [Open Science Catalog](https://opensciencedata.esa.int/). The catalog includes datasets, workflows, and software that have been published and validated within EarthCODE (i.e., on one of the integrated platforms or following the EarthCODE best practices). It's your gateway to a wide range of resources, whether you're looking for environmental data, code for processing, or reusable workflows.
-
-## Validating and Publishing Data to the Catalog {#publishing-anchor}
+After completing your research and preparing your final results for journal publication, your validated data products and code can be published in the EarthCODE Catalog — the [Open Science Catalog](https://opensciencedata.esa.int/). Only finalized outputs that are ready for publication and long-term storage should be submitted. The catalog includes datasets, workflows, and software that follow EarthCODE best practices, most of which originate from integrated platforms. It's your gateway to a wide range of reusable scientific resources, from environmental data to executable workflows.ß
+### Validating and Publishing Data to the Catalog {#publishing-anchor}
 
 EarthCODE allows you to validate products and experiments, ensuring they meet reproducibility and scientific standards. If you have an ESA-funded project, you can contribute to the platform by publishing your datasets, software, or experiments, making your work available for the broader community to use.
 
-### How data is published
+####ß How data is published
 The [Open Science Catalog](https://opensciencedata.esa.int/) is built on the [SpatioTemporal Asset Catalog (STAC)](https://stacspec.org/en), a standardised format for describing geospatial data. To contribute your research, you need to create valid STAC objects and commit them to the [`open-science-catalog-metadata-staging`](https://github.com/EOEPCA/open-science-catalog-metadata-staging) repository on GitHub. These STAC objects, stored as JSON files, will be automatically processed and rendered in the catalog.
 
 Each STAC object should include all necessary references to ensure the reproducibility of your research, such as: 
@@ -129,8 +127,52 @@ Because these objects must follow a strict predefined schema, ensuring complianc
 You can read more on how to publish data in the [Uploading Your Data](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md) section, and check out our [examples](../../examples/).
 
 
+#### Best Practices
+EarthCODE makes FAIR publishing the default. Scientists are expected to:
+
+- Deliver publication‑ready outputs: final datasets, workflows, and models, kept in persistent cloud storage with open, clearly stated licences.  
+- Attach rich, standards‑based metadata: STAC/ISO 19115 descriptions with DOIs, spatial‑temporal extents, provenance, and links to source data and code.  
+- Maintain reproducibility: specify software environments, parameters, and lineage, ensuring others can rerun and verify results.
+
+These practices align with the FAIR pillars:
+
+| Findable | Accessible | Interoperable | Reusable |
+|----------|------------|---------------|----------|
+| DOIs, indexed metadata | HTTPS, STAC & OGC APIs | NetCDF, GeoTIFF, Zarr, CF vocabularies | Open licences, provenance, community standards |
+
+For detailed guide on best practices refer to the [Best Practices Page](../Community%20and%20Best%20Practices/).
+
+### FAIR-enabling tools in EarthCODE
+
+EarthCODE integrates FAIR tools and standards at every stage of the research lifecycle to make FAIR the default—without extra effort from scientists.
+
+
+| FAIR Tools                     | Description |
+|-------------------------------|-------------|
+| **Development**               | EarthCODE provides integrated platforms that provide different options for developing scientific workflows |
+| **Data, Workflows and Platforms** | EarthCODE describes Data, workflows and platforms as FAIR objects. All items published on the Open Science Catalog follow EarthCODE metadata standards (STAC, OGC) for consistency across platforms and tools. |
+| **EarthCODE Standard Variable Dictionary** | Shared [vocabulary](https://opensciencedata.esa.int/variables/catalog) for EO variables to ensure semantic consistency across datasets and workflows. |
+| **Publishing Automation**     | EarthCODE platforms provide automation to support publishing of finalized data and workflows to the EarthCODE catalog |
+| **Publishing and Maintenance**| Users can maintain (or publish) FAIR data and workflows through the EarthCODE publishing GUI. |
+| **Data Storage**              | EarthCODE provides persistent cloud storage via ESA PRR which ensures accessibility and long-term preservation. |
+| **Finding Products and Workflows** | The Open Science Catalog makes metadata discoverable via STAC API and its webpage search. |
+| **DOI Assignment** | EarthCODE generates DOIs for published data on the Open Science Catalog (in development). |
+| **Data Access**               | EarthCODE published items provide data access. Data is served over HTTPS; metadata remains accessible even if access is restricted. |
+| **Accessing Products**        | Published products are indexed in catalogs and linked to source storage for direct download or API access. |
+| **Accessing Workflows**       | Workflows are versioned and stored in GitHub, linked with executable environments (platforms) for reproducibility. |
+| **Re-Using Workflows**        | Users can directly re-use published workflows on the platform used to develop them, compatible platforms (or locally). |
+| **Code Quality**              | Automated pipelines integrate linting, code quality checking and recommendation, and security scanning to ensure code is robust and reusable. |
+| **Reproducibility**           | Published workflows are described in full as experiments, where you have information about inputs and configurations. EarthCODE provides the means to directly execute these experiments and reproduce data products. |
+| **Intraoperability**          | Shared metadata schemas and API protocols ensure you can execute worklows across platforms and published daat on EarthCODE follows common standards (Zarr, NetCDF) with standard variables (e.g. CF-Conventions). |
+| **Visualisation and Findability** | Dashboards and linked visual previews make datasets easier to interpret and explore. |
+| **Contacts and Communication**| Published items have contact details in the metadata, EarthCODE additionally provides a chat functionallity in Discourse to connect and discuss.  |
+| **Community**                 | Discourse forum, with published items linked directly to posts, and best practice documentation foster open collaboration. |
+
+
+
+
 ## Who Can Publish?
 
-Anyone with an ESA-funded project is encouraged to publish in EarthCODE. We especially welcome contributions from those part of the ESA Science Clusters, as collaboration among these projects helps promote sharing and innovation in Earth Science research.
+Anyone with an ESA-funded project is encouraged to publish in EarthCODE. We especially welcome contributions from those part of the ESA Science Clusters, as collaboration among these projects helps promote sharing and innovation in Earth Science research. If you are not ESA-funded and would like to publish your workflows or data to EarthCODE, contact us at: <earth-code@esa.int>
 
 

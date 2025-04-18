@@ -256,7 +256,6 @@ You can explore what **your role** is in the EarthCODE community below:
   background-color: #555; 
 }
 .role-card {
-  scroll-snap-align: center;
   flex: 0 0 auto; 
   width: 400px;
   background-color: #f9f9f9;
@@ -287,7 +286,7 @@ You can explore what **your role** is in the EarthCODE community below:
 }
 
 </style>
-<script setup>
+<!-- <script setup>
 import { onMounted } from 'vue'
 
 onMounted(() => {
@@ -330,7 +329,7 @@ onMounted(() => {
     { passive: false }
   )
 })
-</script>
+</script> -->
 
 
 

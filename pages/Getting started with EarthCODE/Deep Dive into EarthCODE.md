@@ -14,12 +14,10 @@ A detailed concept of what EarthCODE is and the different actors involved can be
 Need to make this bigger - and zoomable
 Can we make it clickable
 :::
-![EarthCODE Concept](/img/terms/earthcode-concept.svg)
+<!-- ![EarthCODE Concept](/img/terms/earthcode-concept.svg)
 
-V2
+V2 -->
 
-
----
 
 ![EarthCODE Concept](/img/terms/earthcode-conceptv2.svg)
 

@@ -8,7 +8,6 @@ Content is being actively developed and updated for this page. EarthCODE's docum
 This sub-section provides solutions to common issues that users may encounter while configuring tools and platforms.
 
 ## Frequently Asked Questions
-## Frequently Asked Questions (FAQ)
 
 <details>
 <summary><strong>Can I use Google Earth Engine (GEE) within EarthCODE?</strong></summary>
@@ -91,7 +90,51 @@ Not yet. Credit transfer is on our roadmap, but is complex because each platform
 ## Common Issues and Solutions
 A list of common problems users might encounter and how to resolve them.
 
-## Getting Help
+## Issues Regarding EarthCODE
+For these types of issues, the EarthCODE project team will directly support you. Please find the relevant types of issues, and their common solutions below.
+
+### EarthCODE Portal
+Problems with accounts, GitHub authentication, portal navigation, and user roles (who can contribute vs. who can view). For issues related to th
+
+### EarthCODE Discourse and Community
+Forum access, subscribing to newsletters and community guidelines.
+
+### Best Practices
+Problems with applying code, data, and workflow best practices standards, questions about publishing private data, metadata validation, FAIR compliance.
+
+### Open Science Catalog
+Problems related to finding, accessing or executing data and workflows on the Open Science Catalog.
+
+### EarthCODE APIs
+Using EarthCODE REST/OAuth APIs (authentication, rate limits, endpoints), troubleshooting common errors and versioning.
+
+### Getting Help
 Information on how to contact support, access user forums, or refer to the documentation for more help.
 
+The first place to go for issues is the **EarthCODE Discourse Forum - Technical Support Category** https://discourse-earthcode.eox.at/c/technical-support/8. If appropriate, please create a post with your problem and we will promptly answer there.
 
+- **EarthCODE General, Open Science Catalog and Portal, Discourse Support**  
+  - Email: earth-code@esa.int
+  - If you have found a bug or would like to suggest a feature, you can raise GitHub Issues on the following pages:
+    - Portal - https://github.com/ESA-EarthCODE/portal/issues
+    - Open Science Catalog - https://github.com/EOEPCA/open-science-catalog-metadata-staging/issues
+    - Documentation (this site) -  https://github.com/ESA-EarthCODE/documentation/issues
+
+
+## Issues Regarding EarthCODE Platforms
+For these types of issues, the EarthCODE platform providers will directly support you. Please find the relevant types of issues, and their common solutions below. Refer to the [specific platform pages](../Technical%20Documentation/Platforms/) for additional details.
+
+### Datasets
+Supported file formats, where and how data are stored, cloud‑based access, and instructions for preparing and uploading datasets.
+
+### Computational Research
+Selecting and accessing compute platforms (DeepESDL, Euro Data Cube, CDSE, etc.), allocation of credits, and others. Executing, reusing or accessing workflows on platforms.
+
+
+## Issues with ESA Project Results Repository
+Typically the platform provider will handle issues related to uploading your results to the ESA PRR if you are using a platform to publish to EarthCODE and you should get in touch with the relevant platform support team.
+
+If however you want to share your work through the ESA PRR and are NOT using a platform, these issues should be addressed with the EarthCODE team. Please use the contact details provided in the [getting help section](./Troubleshooting%20and%20Support.md#getting-help) above.
+
+- **Platform Helpdesks and Support Channels (Platform Providers)**  
+  - Please refer to the [specific platform page](../Technical%20Documentation/Platforms/) for support details

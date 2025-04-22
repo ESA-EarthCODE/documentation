@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 3
 ---
 # Accessing EarthCODE
 :::warning 🛠️ Page Under Development

@@ -5,18 +5,18 @@ order: 0
 # Getting started with EarthCODE
 
 <div style="display: flex; align-items: center;">
-  <!-- Text container -->
   <div style="flex: 1; padding-right: 20px;">
     <p>
-      EarthCODE is a strategic initiative by the <b> European Space Agency (ESA) </b> designed to empower researchers in Earth System Science to adopt FAIR and Open Science practices. By providing a collaborative development environment with integrated tools, cloud services, and expert guidance, EarthCODE helps scientists make their research more impactful, transparent, and reusable—while staying focused on the science itself.
+      EarthCODE is a strategic initiative by the <b> European Space Agency (ESA) </b> designed to empower researchers in Earth System Science with FAIR and Open Science practices. By providing a collaborative development environment with integrated tools, cloud services, and expert guidance, EarthCODE helps scientists make their research more impactful, transparent, and reusable—while staying focused on the science itself.
     </p>
     <p> <b>Doing Open Science shouldn't be hard, and EarthCODE makes it easy!</b></p>
   </div>
-  <!-- Image container -->
   <div>
     <img src="/img/EarthCODE_kv_transparent.png" alt="Descriptive Alt Text" style="max-width: 250px;" />
   </div>
 </div>
+
+
 
 
 
@@ -39,6 +39,9 @@ There are two ways to explore EarthCODE:
    * [Deep Dive into EarthCODE](./Deep%20Dive%20into%20EarthCODE.md) – Advanced features and in-depth guidance
    * [Connecting External Platforms to EarthCODE](./Connecting%20External%20Platforms%20to%20EarthCODE.md) – Integration of tools into EarthCODE
    * [Troubleshooting and Support](./Troubleshooting%20and%20Support.md) – Help when you need it
+
+:::tip Idea, iterate over the platform logos here
+:::
 
 Whichever path you choose, this guide will support your journey as you engage with the EarthCODE community.
 
@@ -131,6 +134,13 @@ You can explore what **your role** is in the EarthCODE community below:
 
 
 ### I am a:
+
+:::tip note to self
+Use Case Examples / Personas
+A few brief examples of how a climate scientist, ML developer, or EO analyst might use EarthCODE end-to-end. Helps make abstract concepts concrete.
+
+make these clickable and expandable as well
+:::
 ---
 
 <!-- HTML for actor cards Note: Maybe add some icons here for each of the roles -->

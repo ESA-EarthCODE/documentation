@@ -1,5 +1,5 @@
 ---
-order: 0
+order: 2
 ---
 #  10 minutes to EarthCODE
 
@@ -66,7 +66,7 @@ Go to the [**Open Science Catalog**](https://opensciencedata.esa.int/) to start 
 ## Choosing a Platform
 EarthCODE provides you *single‑sign‑on* access to a growing number of EO platforms that host EO data, development tools and compute. Once you log in with your EarthCODE account, you carry the same identity across the **EarthCODE Portal**, the **EarthCODE Forum**, each **integrated platform**, and the **Open Science Catalog**.
 
-For all of the EarthCODE integrated platforms, you can apply for Network‑of‑Resources (NoR) sponsorship to cover compute costs. Every platform comes with FAIR tooling that lets you publish results to the Open Science Catalog in an automated manner.
+For all of the EarthCODE integrated platforms, you can apply for Network‑of‑Resources (NoR) sponsorship to cover compute costs. Every platform comes with FAIR tooling that lets you publish results to the Open Science Catalog in an automated manner. Additionally, some platforms support creating and executing several types of workflows, which means that if you develop a workflow on them, it will be cross-compatible with other platforms.  
 
 ![EarthCODE Platform](/img/terms/earthcode-platfrom-generic.svg)
 
@@ -74,29 +74,63 @@ For all of the EarthCODE integrated platforms, you can apply for Network‑of‑
 
 Platforms differ in four areas: the data they give you access to (and the way you access the data), the way you develop workflows on them, specialized hardware and infrastructure they offer, and the visualisation tools they offer.
 
+---
+
 ### Data Access
 Each platform provides a variety of EO data stored on the cloud and expose access in different ways. For example you can access the full Sentinel, Landsat and Modis archives via the Sentinel Hub API on the Euro Data Cube platform. By moving your compute to data, you eliminate the need to download and handle large files and benefit from distributed, cloud-optimized services to scale at the local, regional and global level of analysis. Moreover, by referencing inputs for your workflows through links to a platform, you ensure reusability and reproducibility of your data and workflows.
-
+:::tip note to self - bigger, better, zoomable
+:::
 ![Sentinel Data https://eox.at/2024/08/sentinel-2-cloudless-2023/](/img/terms/eoxcloudless2023_mediterranean.jpg)
 *Sentinel Data at Scale - The Mediterranean - Sentinel 2 Cloudless 2023*
+
+---
 
 ### Workflow Development
 EarthCODE platforms differ in interface and how you build and run algorithms: some offer visual process designers, others provide Jupyter Notebooks with extensions, and several combine both. For example OpenEO provides both the OpenEO API and a graphical interface. Many platforms also ship pre‑configured machine‑learning environments and ready‑made domain algorithms. Pick the platform whose tooling matches the tools you already use and project goals; cloud execution keeps everything reproducible and scalable without local setup hassles. By using platforms to develop code you can directly publish end-to-end FAIR workflows that enable users to reproduce and reuse result datasets and code.
 
+:::tip Note to self turn this to a gif of how the editor produces something
+:::
 ![OpenEO Editor](/img/terms/open_eo_save_process.png)
 *Open EO Process Editor GUI*
+
+---
 
 ### Specialized Hardware and Tools
 Platforms vary in the compute they expose: some offer standard CPU and some offer tools for managing models (e.g. MLFlow) others provide options for fast storage devices or pre‑installed ML frameworks. DeepESDL, for example, supplies ready‑made GPU environments with PyTorch, TensorFlow and EO ML- specific libraries such as ml4xcube. Choosing a platform with the right hardware stack and specialised tools allows you to scale, worry less about infrastructure and spend more time on doing science.
 
+:::tip Note to self, can we get a gif of a couple of training epochs with a great looking image at the end? Something to the effect of https://docs.dask.org/en/stable/ would be great
+:::
 ![mlxcube](/img/terms/predictions_ml4xcube.png)
 *DeepESDL ml4xcube [Air Temperature Prediction Plot](https://github.com/deepesdl/ML-Toolkits/blob/master/Examples/use_case_lst_at_pytorch_mlflow.ipynb)*
+
+---
 
 ### Vizualization tools
 Platforms differ in how they let you visualize published results from others and present your own results, some embed interactive map widgets, time‑series explorers or dashboard builders, some allow you to easily combine multiple data cubes. DeepESDL, for instance, includes the xcube viewer, a browser‑based component for slicing and animating data cubes. Robust in‑platform visualisation can streamline exploratory analysis and make it easier to share insights, so factor these capabilities into your platform choice.
 
-![DeepESDL Xcube viewer](/img/terms/deepesdlseasfire.png)
-*DeepESDL [Xcube Viewer](https://viewer.earthsystemdatalab.net/) - SeasFire Data Cube*
+:::tip Note to self, would be super cool to just embed it, can we do it instead of an image?
+:::
+<!-- <details> Potential solution to scroll snapping 
+  <summary>Show DeepESDL viewer</summary>
+
+  <iframe
+    src="https://viewer.earthsystemdatalab.net/"
+    title="DeepESDL visualisation tools"
+    width="100%"
+    height="700"
+    loading="lazy"
+  ></iframe>
+</details> -->
+
+<iframe  src="https://viewer.earthsystemdatalab.net/" title="DeepESDL Vizualization Tools" width="100%" height="700" loading="lazy" onload="this.blur()">
+</iframe>
+*DeepESDL [Xcube Viewer](https://viewer.earthsystemdatalab.net/)*
+
+
+<details> 
+  <summary>Option 2, just an image </summary>
+    <img src="/img/terms/deepesdlseasfire.png"/>
+</details>
 
 
 Visit the [Working with Platforms](../Technical%20Documentation/Platforms/) page to explore EarthCODE platform and for help to choose the platform that best suits your research objectives.

@@ -1,157 +1,102 @@
 ---
-order: 1
+order: 4
 ---
 # Deep Dive into EarthCODE
 
-To better understand what EarthCODE is and what it aims to achieve, it's helpful to look at the vision of the project, how it started—and how it has evolved - and the best place to start is to understand Open Science.
-
-Open Science describes a transformational shift in how scientific research is conducted, shared, and applied. Driven by rapid advances in digital infrastructure and information technology, it reflects a broader push to make science more transparent, collaborative, and impactful for society. Today, global teams of researchers can access vast volumes of open data across disciplines, process them in cloud-based environments, and combine them with local datasets to generate new knowledge. This capability is unlocking novel scientific insights, enabling the development of actionable information products, and helping address complex, interconnected challenges—such as climate change, disaster response, and biodiversity loss.
-
-Open Science fosters a new era of **data-intensive research** that is characterized by:
-- Transparency and traceability of results  
-- **Open access** to high-volume, complex datasets  
-- Community-driven tools and interoperable standards  
-- Collaboration among researchers, developers, and data science practitioners  
-
-Importantly, Open Science is a central pillar of ESA’s strategy. By offering open data and collaborative tools, ESA aims to extend the reach of Earth and space science beyond traditional disciplinary boundaries and foster a more inclusive, connected global research community.
-
-## The Vision
-
-Modern Earth system science faces complex challenges that demand collaborative, transparent, and reproducible approaches. At the heart of this transformation is the convergence of **FAIR principles** (Findability, Accessibility, Interoperability, and Reusability), **Open Science**, and Open Innovation—all of which create unprecedented opportunities for scalable, cross-sector research and decision-making.
-
-To effectively address pressing societal challenges, researchers must be able to work across the entire science lifecycle. This requires modern, powerful, and interoperable infrastructure that can support diverse Earth Observation (EO) data types, facilitate data-intensive workflows, and enable trusted knowledge generation. This infrastructure for open science empower scientists to:
-- Access and process satellite and in-situ data in collaborative cloud environments  
-- Develop and publish reusable code and workflows  
-- Validate outputs and share reproducible results  
-- Collaborate across institutional, disciplinary, and national boundaries
-
-![Open Science](/img/terms/open-science-esa.png)
-
-The **Open Science and Innovation Vision** outlined in ESA’s Earth Observation Science Strategy (2024) defines eight foundational pillars to achieve this:  
-1) open research data,  
-2) open-source scientific code,  
-3) open access to scientific publications with data and code,  
-4) standards-based discovery of scientific experiments,  
-5) reproducible workflows across platforms,  
-6) accessible education and training on open science,  
-7) collaborative community practices, and  
-8) EO business models based on open technologies.
-
-ESA's strategic objective is to **foster the development of a culture and practice of openness in EO science, applications and industry, and of a sustainable open innovation ecosystem.**
-
-EarthCODE ([earthcode.esa.int](https://earthcode.esa.int)) is ESA’s strategic initiative to bring this vision to life. Originally starting as a simple repository for datasets from ESA-funded projects, it has since grown into a comprehensive environment that supports the full open science lifecycle—from data and workflow development to publication and community engagement.
-
-## The Roadmap
-
-By aligning with FAIR principles and leveraging cloud infrastructure, EarthCODE promotes transparency, reproducibility, and collaboration in Earth System Science. the EarthCODE **roadmap** helps clarify how this transformation has unfolded—and where the platform is heading next:
-
-<style>
-.timeline {
-  border-left: 4px solid #25AC9E;
-  padding-left: 20px;
-  margin-left: 10px;
-  position: relative;
-}
-.timeline-item {
-  position: relative;
-  margin-bottom: 40px;
-}
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -32px;
-  background: #fff;
-  border: 4px solid #25AC9E;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  top: 4px;
-}
-.timeline-item.current::before {
-  background: #25AC9E;
-}
-</style>
-
-<div class="timeline">
-
-  <div class="timeline-item">
-    <h3>Foundations</h3>
-    <p>EarthCODE began as a simple repository for storing and sharing datasets from ESA-funded Earth Observation projects. This created a foundation for structured data access and visibility.</p>
-  </div>
-
-  <div class="timeline-item">
-    <h3>Phase 2 – FAIR Metadata and Open Science Catalog</h3>
-    <p>The Open Science Catalog was introduced, enabling standardized metadata using STAC. This made datasets more discoverable, interoperable, and aligned with FAIR and Open Science principles.</p>
-  </div>
-
-  <div class="timeline-item current">
-    <h3>Phase 3 – Platforms Integration and Workflows (Current Phase)</h3>
-    <p>Support for open science infrastructure, reproducible workflows, experiments, and integrated platforms was added. Researchers can now develop, run, and document science projects across the full lifecycle.</p>
-  </div>
-
-  <div class="timeline-item">
-    <h3>Phase 4 – Open Access and Community Engagement</h3>
-    <p>EarthCODE will open to the broader scientific community with tools for publishing, citation, and open access. A growing library of reusable code and workflows will support collaboration.</p>
-  </div>
-
-  <div class="timeline-item">
-    <h3>Phase 5 – Advanced Tools and Cross-Platform Science</h3>
-    <p>The platform will integrate new services and advanced capabilities, including automation, machine learning, and complex analyses. Focus will shift toward reproducibility across platforms.</p>
-  </div>
-
-  <div class="timeline-item">
-    <h3>Ongoing – Continuous Expansion</h3>
-    <p>EarthCODE will continue to grow with new tools, datasets, and community-driven features, reinforcing its mission to support open, FAIR, and impactful Earth science.</p>
-  </div>
-
-</div>
-
-## EarthCODE Concept in Detail
-
-:::tip The rest of this guide goes into detail about how EarthCODE works and how the different entities within it are related. For the purposes of browsing the catalog or publishing through any of the integrated platforms, you do not need to necesarily understand any of these details below. If however, you are publishing manually, are a platform provider trying to integrate, or otherwise interested in how EarthCODE works this guide will give you the necessary context and background.
+:::tip This guide goes into detail about how EarthCODE works and how the different entities within it are related. For the purposes of browsing the catalog or publishing through any of the integrated platforms, you do not need to necesarily understand any of these details below. If however, you are publishing manually, are a platform provider trying to integrate, or otherwise interested in how EarthCODE works this guide will give you the necessary context and background.
 :::
 
-As described in [Step 1: Understand EarthCODE Terminology](/Getting%20started%20with%20EarthCODE/#step-1-understand-earthcode-terminology) EarthCODE provides an integrated ecosystem designed to support scientists through the full lifecycle of doing Open Science. A more detailed concept of what EarthCODE is and the different actors involved can be seen in the figure below:
+As described in [Step 1: Understand EarthCODE Terminology](/Getting%20started%20with%20EarthCODE/#step-1-understand-earthcode-terminology) EarthCODE provides an integrated ecosystem designed to support scientists through the full lifecycle of doing Open Science. EarthCODE was designed around supporting the work of scientists and developers from ESRIN, the ESA Science Clusters, the ESA Science Hub, and EC and ESA- Funded Activities.
 
+A detailed concept of what EarthCODE is and the different actors involved can be seen in the figure below:
+
+:::tip note to self, which one is better?
+Need to make this bigger - and zoomable
+Can we make it clickable
+:::
 ![EarthCODE Concept](/img/terms/earthcode-concept.svg)
 
+V2
+
+
+---
+
+![EarthCODE Concept](/img/terms/earthcode-conceptv2.svg)
+
+
 In summary, EarthCODE provides the following:
-- Offers a **central access point** via the Portal for navigating research resources and services
-- Integrates platforms for workflow development, publishing and reproducibility
+- Offers a **central access point** via the Portal for navigating a catalog of data and workflows, integrated platforms to help scientists with development and analysis, and FAIR tools to publish their research
+- Integrates platforms for workflow development, reproducibility, and publishing 
 - Leverages the **ESA Network of Resources (NoR)** to sponsor projects to use the integrated platforms
-- Implements the **EOEPCA+ Architecture** to ensure interoperability and modular integration
-- Ensures long-term preservation of results in **PRR** and version-controlled metadata publishing
 - Enables discovery and reuse through a metadata-rich **Open Science Catalog**
-- Facilitates community engagement through the EarthCODE **Discourse**
 - Promotes **FAIR principles** across all stages of research, supported by data stewards and governance mechanisms
+- Ensures long-term preservation of data results in **PRR**, code on Github, and metadata on the Open Science Catalog.
+- Facilitates community engagement through the EarthCODE **Discourse**
 
 These next sections will explore these components in detail, including their roles, relationships, and how they collectively enable a sustainable, transparent, and federated open science infrastructure.
 
-### EO Projects from ESA Funded Activities
+### Users fo EarthCODE
 
 EarthCODE is built to serve as a foundational platform for scientists and research teams engaged in ESA-funded Earth Observation (EO) activities. The primary aim is to enable the adoption of **FAIR and Open Science practices** across all stages of scientific development—ensuring that data, workflows, and documentation are not only reusable and transparent, but also persistently available for the long term.
+
+:::tip Publishing to EarthCODE
+Anyone with an ESA-funded project is encouraged to publish in EarthCODE. If you are not ESA-funded and would like to publish your workflows or data to EarthCODE, contact us at: <earth-code@esa.int>
+:::
 
 The platform specifically supports and connects communities within the **ESA Science Clusters**, helping to streamline research efforts, promote interoperability, and increase the impact of funded projects. The **EarthCODE Portal** is envisioned as the **central hub for the scientific communities** of **ESRIN Science Hub**, the **ESA Science Clusters**, and individual **ESA-funded EO research projects**. **These are currently the groups of projects that publish to EarthCODE**.
 
 As EarthCODE evolves, its scope will gradually expand to support the **broader Earth Observation science community**, fostering cross-disciplinary collaboration and making high-quality, open scientific resources more accessible to a global audience of researchers.
 
+![High Level Use Cases](/img/terms/high_level_usecase.png)
+*High Level Use Cases*
+
 Projects can use EarthCODE’s integrated cloud platforms to develop, run, and document their experiments—ensuring results can be stored, shared, and reproduced. The **EarthCODE Portal** ([earthcode.esa.int](https://earthcode.esa.int)) is the main entry point for these projects. Through the portal, users can access integrated platforms for developing workflows and publishing them, they can explore published outputs via the Open Science Catalog, and participate in discussions on the EarthCODE Discourse forum.
 
 In EarthCODE role of the projects (or researchers working on them rather) is to develop their work, create FAIR and Open data and workflows, which they then need to publish to the Open Science Catalog. EarthCODE provides the tools for helping and automating this process, but the project owns the task to publish and ensure that their data follows the FAIR and Open Science principles. Specifically, they are responsible for ensuring interoperability and reusability of their data and workflows.
 
-### EarthCODE Integrated Platforms and the EO Platform Provider
+### EarthCODE Portal
+The EarthCODE Portal is the central entry point to the EarthCODE ecosystem—a web-based hub for open, collaborative Earth science. It is the primary interface for scientists to discover, develop, and publish scientific FAIR and Open resources.
 
-EarthCODE provides access to **integrated EO cloud platforms**, each offering tools, data, and compute environments tailored for scientific Earth Observation workflows. As integrated platforms, they share a common set of capabilities:
+The portal offers a unified access point for all EarthCODE services. It integrates user authentication, data and workflow discovery, and project publishing while connecting researchers to a growing suite of platforms. Whether browsing publicly available products or running large-scale experiments in the cloud, the EarthCODE Portal is where every journey begins.
 
+The key functions of the EarthCODE Portal are:
+- **Discovery of published research** via the [Open Science Catalog](https://opensciencedata.esa.int), including data products and reproducible experiments.
+- **Publishing of new scientific outputs**, with support for linking inputs, workflows, configurations, and results to promote reuse and reproducibility through the EarthCODE publishing GUI or integrated platforms automation.
+- **Guided access to integrated FAIR Open Science Platforms**, where users can authenticate using their EarthCODE account and develop workflows using platform provided tools. They can also connection to infrastructure platforms with the storage and compute needed to process large EO datasets, including redirection to appropriate Network of Resources requests.
+- **Engagement with the EarthCODE Discourse Community**, a dedicated forum for collaboration, support, and sharing of best practices across science clusters and research teams.
+
+Users who do not log in can still explore published resources and engage with the community. Logged-in users gain access to advanced tools for workflow development, experiment execution, and publishing tools.
+
+:::tip EarthCODE is Continuously Improving
+The EarthCODE team are continously improving the portal to provide an evermore integrated user experience
+:::
+
+The EarthCODE Portal is the default workspace for Earth science development, supporting reproducible workflows, cross-platform execution, and collaboration at scale.
+
+
+
+### EarthCODE Integrated Platforms
+*The User Perspective*
+
+EarthCODE provides access to **integrated EO cloud platforms**, each offering tools, data, and compute environments tailored for scientific Earth Observation workflows. 
+
+![EarthCODE Platform](/img/terms/earthcode-platfrom-generic.svg)
+*EarthCODE Integrated Platform Capabilities*
+
+As integrated platforms, they offer some form of the following capabilities:
 - Authentication using your EarthCODE (GitHub) account  
 - Access to EO datasets (data availability varies by platform)  
-- Interfaces for developing and running scientific workflows and various capabilites (e.g. specialised towards ML)
-- Automated publishing of workflows and data products to the **EarthCODE Open Science Catalog**  
-- Execution of published **experiments**, using FAIR-compliant metadata and reproducible experiments  
+- Interfaces for developing and running scientific workflows and various specialized capabilites (e.g. specialised towards ML)
+- Tools for visualizing and exploring published datasets
+- Automated publishing of workflows and data products to the **EarthCODE Open Science Catalog**
+- Execution of published **experiments**, using FAIR-compliant metadata and reproducible experiments
+
+For some examples of what these might look like in practice, refer to the [10 minutes to EarthCODE Page](../Getting%20started%20with%20EarthCODE/10%20minutes%20to%20EarthCODE#data-access)
+
+Usage of these platforms, and the data, compute and storage resources on these platforms can be funded through the [ESA Network of Resources (NoR)](https://eo4society.esa.int/network-of-resources/), depending on the project type and eligibility.
 
 Users can also decide to use their own local environments instead of the platforms. For users working outside the integrated platforms—such as on institutional infrastructure or personal systems—EarthCODE supports **manual publishing** of datasets and workflows to the catalog, through the EarthCODE publishing GUI or manually via git pull requests (see more at [Working with Data](/Technical%20Documentation/Data)).
 
-Access to compute and storage resources on these platforms can be funded through the [ESA Network of Resources (NoR)](https://eo4society.esa.int/network-of-resources/), depending on the project type and eligibility.
 
 ### Network of Resources
 EarthCODE projects can request cloud compute resources through ESA’s **Network of Resources (NoR)**. This allows eligible research and development activities to access integrated EarthCODE platforms with sponsored processing, data access and storage capabilities. Sponsorship is available for activities that do not generate revenue, including scientific research, demonstration projects, and pre-commercial development.
@@ -171,22 +116,37 @@ To make a NoR request you need to go through the following steps:
 NoR helps bring users to the data—supporting both scientific and operational uses of EO data—by simplifying access to computing resources across a network of European platforms. The role of NoR in EarthCODE is to provide open access to the compute required to initially develop, reuse or reproduce research when required.
 
 
-#### EO Platform Providers
+### EO Platform Providers
+*The Platform Provider Perspective*
 
-Platform providers play a key role in the EarthCODE ecosystem. To become an integrated platform, providers must:
+From the perspective of the user, the platforms provide a place to develop reproducible workflows (potentially across several platforms), accessing data, and publishing items to the catalog. Platform providers play a key role in the EarthCODE ecosystem by providing the functionality for this in two ways:
 
-- Enable researchers to access EO data and develop workflows within their environment  
-- Support automated publishing of workflows and data to the EarthCODE **Open Science Catalog**  
-- Integrate with the **ESA Project Results Repository (PRR)** for long-term data storage  
-- Implement **single sign-on (SSO)** using the EarthCODE identity system (GitHub-based)  
-- Ensure that **experiments published in the Catalog** can be executed within the platform  
-- Register and onboard their service in the **NoR portfolio** for eligibility and discoverability
-- Provide documentation for use of their platform the integration with EarthCODE 
+1. By providing the FAIR Open Science Platforms for creating workflows, discovering and reusing data and publishing to the catalog and;
+2. By providing the FAIR infrastructure (compute) to run or reproduce these workflows at scale close to the hosted EO data.
 
-Integration with EarthCODE is supported by the **EOEPCA+ architecture**, which provides open-source building blocks and interface standards to ensure interoperability across platforms.
+![Integrated Platforms](/img/terms/integrated_platforms.svg)
+*EarthCODE Integrated Platforms - Infrastructure and FAIR Tools*
 
-This approach allows platforms to remain independent while contributing to a federated, reproducible, and scalable open science infrastructure. The EarthCODE project runs standard best practice procurement cycles on esa-star, platforms can apply during these tenders and propose to integrate into the EarthCODE ecosystem.
+Providers offering **FAIR Open Science Platforms** empower researchers with tools for:
+- Discovering, accessing, and reusing scientific datasets and code.
+- Developing scientific workflows and producing experiments and data.
+- Tools to explore and visualize results data
+- Integrate with the **ESA Project Results Repository (PRR)** for long-term data storage
+- Publishing datasets, code, and results to the EarthCODE Open Science Catalog.
 
+Providers offering **FAIR Infrastructure Platforms** deliver compute and data for executing scientific workflows at scale, including:
+- Provide scalable compute resources for big data Earth Observation (EO) analysis.
+- Offering efficient data access to hosted EO/Geospatial datasets.
+- Facilitate the execution of workflows developed on integrated FAIR Open Science Platforms.
+- Supporting workflow execution close to data to minimize data transfer and enhance performance - to support the key EarthCODE paradigm of bringing code to the data.
+
+All platform providers are expected to integrate with EarthCODE's Single Sign-On (SSO), register their services in the Network of Resources (NoR) portfolio to ensure visibility and accessibility, and provide documentation about the integration and usage of their platform.
+
+Integration with EarthCODE is supported by the **EOEPCA+ architecture**, which provides open-source building blocks and interface standards to ensure interoperability across platforms. This approach allows platforms to remain independent while contributing to a federated, reproducible, and scalable open science infrastructure.
+
+The EarthCODE project runs standard best practice procurement cycles on esa-star, platforms can apply during these tenders and propose to integrate into the EarthCODE ecosystem.
+
+More information about how integrating with EarthCODE works, where and how to apply, can be found at the [Integrating New Platforms Page](../Integrating%20New%20Platforms%20to%20EarthCODE/).
 
 ### Publishing Experiments Data and Workflows
 Once a research activity is complete, the results can be published to the EarthCODE ecosystem, making them findable, reproducible, and reusable by the broader scientific community. If you are working on an integrated platform, publishing is typically automated. When the experiment is finalized, the platform can generate the appropriate metadata and push it to the EarthCODE Open Science Catalog. If you're working outside of an integrated platform—on institutional infrastructure or locally—you can still publish your results manually by following the EarthCODE catalog submission guidelines ([Working with Data](/Technical%20Documentation/Data)).
@@ -270,7 +230,7 @@ In summary, EarthCODE combines the concepts of workflows and products are combin
 :::
 
 ### Open Science Catalog
-The [Open Science Catalog (OSC)](https://opensciencedata.esa.int/catalog) is the central interface for publishing, discovering and accessing scientific resources produced through ESA-funded Earth Observation research. It is where metadata describing published data products, experiments, and workflows is made publicly available and reusable. Researchers use EarthCODE platforms to generate and submit metadata, which—after validation and a manual review—is published to the Open Science Catalog.
+The [Open Science Catalog (OSC)](https://opensciencedata.esa.int/catalog) is the central interface for publishing, discovering and accessing scientific resources produced through ESA-funded Earth Observation research. It is where metadata describing published data products, experiments, and workflows is made publicly available and reusable. Integrated platforms also may provide re-usable workflow services that support FAIR an Open Science on the catalog. Researchers use EarthCODE platforms to generate and submit metadata, which—after validation and a manual review—is published to the Open Science Catalog.
 
 Metadata describing datasets (Products) is published using the **SpatioTemporal Asset Catalog (STAC)** specification. Workflows and experiments are described using the **OGC API - Records** standard. These two metadata models are connected by references. The Open Science Catalog is also integrated with EarthCODE's computing infrastructure. Users with appropriate access—such as NoR-sponsored compute—can reproduce experiments directly from the catalog. This means running the same workflow with the same input and configuration on a compatible platform, enabling reproducible results.
 

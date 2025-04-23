@@ -14,32 +14,37 @@ order: 4
 As described in [Step 1: Understand EarthCODE Terminology](/Getting%20started%20with%20EarthCODE/#step-1-understand-earthcode-terminology) EarthCODE provides an integrated ecosystem designed to support scientists through the full lifecycle of doing Open Science. EarthCODE was designed around supporting the work of scientists and developers from ESRIN, the ESA Science Clusters, the ESA Science Hub, and EC and ESA- Funded Activities.
 
 A detailed concept of what EarthCODE is and the different actors involved can be seen in the figure below:
+<!-- 
+:::tip note to self, which one is better?
+Need to make this bigger - and zoomable
+Can we make it clickable
+::: -->
+<!-- ![EarthCODE Concept](/img/terms/earthcode-concept.svg)
 
-
-<div class="zoom-container">
+V2 -->
+<!-- <div class="zoom-container">
   <img src="/img/terms/earthcode-conceptv2.svg" alt="Zoomed image" class="zoom-image" />
 </div>
 
 <style>
-.zoom-container {
+  .zoom-container {
   width: fit-content;
   height: fit-content;
   overflow: hidden;
   position: relative;
-  cursor: zoom-in; 
 }
+
 .zoom-image {
   width: 100%;
   height: auto;
   transition: transform 0.3s ease;
   transform-origin: center center;
 }
-.zoom-container:hover {
-  cursor: zoom-in; 
-}
+
 .zoom-container:hover .zoom-image {
-  transform: scale(2);
+  transform: scale(1.8);
 }
+
 .zoom-container {
   --x: 50%;
   --y: 50%;
@@ -49,9 +54,76 @@ A detailed concept of what EarthCODE is and the different actors involved can be
 }
 
 </style>
+<script setup>
+  if (typeof window !== 'undefined') {
+  document.addEventListener('mousemove', function (e) {
+    document.querySelectorAll('.zoom-container').forEach(container => {
+      const rect = container.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      container.style.setProperty('--x', `${x}%`);
+      container.style.setProperty('--y', `${y}%`);
+    });
+  });
+}
+</script> -->
 
-<!-- ![EarthCODE Concept](/img/terms/earthcode-conceptv2.svg) -->
+:::tip
+Hover to zoom
+:::
+<div class="zoom-wrapper">
+  <div class="zoom-container">
+    <img src="/img/terms/earthcode-conceptv2.svg" class="zoom-image" alt="Zoom preview" />
+  </div>
+</div>
 
+<style>
+.zoom-wrapper {
+  position: relative;
+  display: inline-block;
+  padding: 20px; /* Sensitivity margin */
+  --x: 50%;
+  --y: 50%;
+  cursor: zoom-in;
+
+}
+.zoom-container {
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  cursor: zoom-in;
+}
+
+.zoom-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  transform-origin: var(--x) var(--y);
+}
+
+.zoom-wrapper:hover .zoom-image {
+  transform: scale(1.8); /* zoom factor */
+}
+</style>
+<script setup>
+if (typeof window !== 'undefined') {
+  document.addEventListener('mousemove', (e) => {
+    document.querySelectorAll('.zoom-wrapper').forEach(wrapper => {
+      const rect = wrapper.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      // zoom jumps handle/clamp
+      if (x >= 0 && x <= 100 && y >= 0 && y <= 100) {
+        wrapper.style.setProperty('--x', `${x}%`);
+        wrapper.style.setProperty('--y', `${y}%`);
+      }
+    });
+  });
+}
+
+</script> 
 
 
 In summary, EarthCODE provides the following:

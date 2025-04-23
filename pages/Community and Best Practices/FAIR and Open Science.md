@@ -40,21 +40,21 @@ The FAIR principles provide high-level guidance for ensuring that data, software
 
 | **FAIR Principle** | **EarthCODE FAIR Implementation Profile (FIP) Decisions** |
 |-----------------|------------------------------------------------|
-| **[F1](https://open.spotify.com/episode/1k4FydzYW1Mx7t9vQN9KOz)** | Use of globally unique, persistent identifiers (e.g., DOIs) for datasets and workflows. |
-| **[F2](https://open.spotify.com/episode/2mEUUbAiEQYhMUZwEqgoTN)** | Metadata must comply with domain-specific standards such as ISO 19115, STAC, and DCAT. |
-| **[F3](https://open.spotify.com/episode/0WeoKjy8sUN6acOf4vxYyG)** | Metadata must explicitly include dataset identifiers using standardized references. |
-| **[F4](https://open.spotify.com/episode/2A1Zn6tOc3g8D7KZHZRygf)** | Data and metadata are indexed in community-recognized repositories (e.g., CMR, GeoNetwork). |
+| **[F1](https://open.spotify.com/episode/1k4FydzYW1Mx7t9vQN9KOz)** | Use of globally unique, persistent identifiers (e.g., DOIs) for datasets and workflows. Example: [10.5281/zenodo.8052519](https://doi.org/10.5281/zenodo.8052519)                |
+| **[F2](https://open.spotify.com/episode/2mEUUbAiEQYhMUZwEqgoTN)** | Metadata must comply with domain-specific standards such as ISO 19115, STAC, and DCAT. Example:  The [STAC specification](https://stacspec.org/en/about/stac-spec/) defines the metadata fields required for STAC Items. This is implemented in EarthCODE, as seen in the metadata for this STAC item [HCA_L2E_CS_LTA__SIR1SAR_FR_20121225T202845_20121225T203058_D001](https://catalog.osc.earthcode.eox.at/collections/metadata:main/items/HCA_L2E_CS_LTA__SIR1SAR_FR_20121225T202845_20121225T203058_D001?f=json) from the ESA Open Science catalog. |
+| **[F3](https://open.spotify.com/episode/0WeoKjy8sUN6acOf4vxYyG)** | Metadata must explicitly include dataset identifiers using standardized references. Example:The assets dictionary within a STAC Item provides identifiers `href` for specific files or resources associated with that data: [example of identifier in STAC item](https://github.com/radiantearth/stac-spec/blob/ec002bb93dbfa47976822def8f11b2861775b662/examples/core-item.json#L84) |
+| **[F4](https://open.spotify.com/episode/2A1Zn6tOc3g8D7KZHZRygf)** | Data and metadata are indexed in community-recognized repositories (e.g., ESA Open Science Catalog, CMR, GeoNetwork). Example: In EarthCODE, data and metadata are indexed in the [ESA Open Science Catalog](https://opensciencedata.esa.int). |
 | **[A1](https://open.spotify.com/episode/4kIC0yDgzADCZnxQTEl168)** | Data and metadata must be accessible via open, standardized web protocols such as HTTPS and OGC APIs. |
-| **[A1.1](https://open.spotify.com/episode/4cokyE6JL3KFJT5WykJNbE)** | Protocols used must be open, free, and universally implementable. |
-| **[A1.2](https://open.spotify.com/episode/0B9NKsy9iSf2g39bV9sKvd)** | Authentication and authorization frameworks (e.g., OpenID Connect) ensure controlled access where needed. |
-| **[A2](https://open.spotify.com/episode/1fYL1SNAmott55NxPtYYKd)** | Metadata must remain accessible even if data are no longer available. Persistent repositories ensure this. |
-| **[I1](https://open.spotify.com/episode/2nh22FG9i1zy7nbaRpPPWh)** | Use of formal, accessible, and community-adopted knowledge representation languages (e.g., JSON-LD, RDF). |
+| **[A1.1](https://open.spotify.com/episode/4cokyE6JL3KFJT5WykJNbE)** | Protocols used must be open, free, and universally implementable. Example: HTTPS (Hypertext Transfer Protocol Secure) is widely used in Earth Observation, for instance in EarthCODE. |
+| **[A1.2](https://open.spotify.com/episode/0B9NKsy9iSf2g39bV9sKvd)** | Authentication and authorization frameworks (e.g., OpenID Connect) ensure controlled access where needed. Example: In EarthCODE, Open Data authorization supports the practice of sharing data openly and enabling its reuse by others. |
+| **[A2](https://open.spotify.com/episode/1fYL1SNAmott55NxPtYYKd)** | Metadata must remain accessible even if data are no longer available. Persistent repositories ensure this. Example: EarthCODE's metadata preservation policy ensures that metadata remains accessible, even if the data it describes is no longer available. |
+| **[I1](https://open.spotify.com/episode/2nh22FG9i1zy7nbaRpPPWh)** | Use of formal, accessible, and community-adopted knowledge representation languages (e.g., JSON-LD, RDF). Example: EarthCODE uses JSON format for metadata records in its STAC catalog. |
 | **[I2](https://open.spotify.com/episode/2ZOWq5ZHaD8y9xEAjoQk1i)** | Adoption of controlled vocabularies such as CF conventions, GCMD Keywords, and SWEET ontologies. |
-| **[I3](https://open.spotify.com/episode/5RLTk8HkOB4iotKVKJj3SL)** | Metadata includes qualified references to related datasets, models, and workflows. |
+| **[I3](https://open.spotify.com/episode/5RLTk8HkOB4iotKVKJj3SL)** | Metadata includes qualified references to related datasets, models, and workflows. Example: In EarthCODE, versioned datasets are linked to STAC metadata using qualified references.|
 | **[R1](https://open.spotify.com/episode/4nVoYz4cpPjjoAzKOQFw2D)** | Metadata includes detailed descriptions following domain-specific best practices. |
-| **[R1.1](https://open.spotify.com/episode/4jSIyFn2vxlD72meNTZ60i)** | Datasets are released with clear, standardized licenses (e.g., Creative Commons, ODbL). |
-| **[R1.2](https://open.spotify.com/episode/49kCkqLbe140FY7aCaYdJF)** | Provenance metadata is recorded using PROV-O or similar standards to ensure reproducibility. |
-| **[R1.3](https://open.spotify.com/episode/1rMIfin2bTyRDdBOHZa2PD)** | Data and metadata align with community standards like CEOS, INSPIRE, and OGC. |
+| **[R1.1](https://open.spotify.com/episode/4jSIyFn2vxlD72meNTZ60i)** | Metadata and datasets are released with clear, standardized licenses (e.g., Creative Commons). Example: Metadata in EarthCODE is released under CC BY 4.0 (Attribution 4.0 International) and the use of open licenses is strongly encouraged for data too. |
+| **[R1.2](https://open.spotify.com/episode/49kCkqLbe140FY7aCaYdJF)** | Provenance metadata is recorded using PROV-O or similar standards to ensure reproducibility. Example: EarthCODE uses STAC metadata "standard" where links to the original data and metadata can be specified. |
+| **[R1.3](https://open.spotify.com/episode/1rMIfin2bTyRDdBOHZa2PD)** | Data and metadata align with community standards like CEOS, INSPIRE, and OGC. Example: EarthCODE uses community standards widely adopted in Earth Obsertvation, such as STAC. |
 
 
 

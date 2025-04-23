@@ -68,7 +68,7 @@ Explore the complete list of [Tutorials and other resources](../Training%20and%2
 
 ## Events
 
-Check upcoming [EarthCODE events](../Training%20and%20Resources/Events%20and%20Workshops.md) for training sessions that can enhance your learning experience before diving into the tutorials. Learning together can often be more enjoyable and effective!
+Check news and upcoming [EarthCODE events](https://earthcode.esa.int/#latest-news-updates) for training sessions that can enhance your learning experience before diving into the tutorials. Learning together can often be more enjoyable and effective!
 
 ## Step 3: Understand Your Role in the EarthCODE Community
 Understand the opportunities and possibilities within the [EarthCODE community](../Community%20and%20Collaboration/). In this step, you will learn how to identify where you can contribute and how collaboration within the community can enhance your research. This section will help you understand how you can actively participate in shaping the EarthCODE ecosystem.

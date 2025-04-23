@@ -93,13 +93,13 @@ For some examples of what these might look like in practice, refer to the [10 mi
 
 Usage of these platforms, and the data, compute and storage resources on these platforms can be funded through the [ESA Network of Resources (NoR)](https://eo4society.esa.int/network-of-resources/), depending on the project type and eligibility.
 
-Users can also decide to use their own local environments instead of the platforms. For users working outside the integrated platforms—such as on institutional infrastructure or personal systems—EarthCODE supports **manual publishing** of datasets and workflows to the catalog, through the EarthCODE publishing GUI or manually via git pull requests (see more at [Working with Data](/Technical%20Documentation/Data)).
+Users can also decide to use their own local environments instead of the platforms. For users working outside the integrated platforms—such as on institutional infrastructure or personal systems—EarthCODE supports **manual publishing** of datasets and workflows to the catalog, through the EarthCODE publishing GUI or manually via git pull requests (see more at [Working with Data](../Technical%20Documentation/Data/)).
 
 
 ### Network of Resources
 EarthCODE projects can request cloud compute resources through ESA’s **Network of Resources (NoR)**. This allows eligible research and development activities to access integrated EarthCODE platforms with sponsored processing, data access and storage capabilities. Sponsorship is available for activities that do not generate revenue, including scientific research, demonstration projects, and pre-commercial development.
 
-To explore available services and platforms, visit the [NoR Portfolio](https://eo4society.esa.int/network-of-resources/portfolio/) and refer to [Choosing Tools and Platforms](/Technical%20Documentation/Platforms/Choosing%20Tools%20and%20Platforms) for guidance within EarthCODE.
+To explore available services and platforms, visit the [NoR Portfolio](https://eo4society.esa.int/network-of-resources/portfolio/) and refer to [the Platforms Page](../Technical%20Documentation/Platforms/) for guidance within EarthCODE.
 
 We recommend reviewing the [NoR Sponsorship Guidelines](https://eo4society.esa.int/network-of-resources/nor-sponsorship/) to confirm eligibility and understand the application steps.
 
@@ -147,7 +147,7 @@ The EarthCODE project runs standard best practice procurement cycles on esa-star
 More information about how integrating with EarthCODE works, where and how to apply, can be found at the [Integrating New Platforms Page](../Integrating%20New%20Platforms%20to%20EarthCODE/).
 
 ### Publishing Experiments Data and Workflows
-Once a research activity is complete, the results can be published to the EarthCODE ecosystem, making them findable, reproducible, and reusable by the broader scientific community. If you are working on an integrated platform, publishing is typically automated. When the experiment is finalized, the platform can generate the appropriate metadata and push it to the EarthCODE Open Science Catalog. If you're working outside of an integrated platform—on institutional infrastructure or locally—you can still publish your results manually by following the EarthCODE catalog submission guidelines ([Working with Data](/Technical%20Documentation/Data)).
+Once a research activity is complete, the results can be published to the EarthCODE ecosystem, making them findable, reproducible, and reusable by the broader scientific community. If you are working on an integrated platform, publishing is typically automated. When the experiment is finalized, the platform can generate the appropriate metadata and push it to the EarthCODE Open Science Catalog. If you're working outside of an integrated platform—on institutional infrastructure or locally—you can still publish your results manually by following the EarthCODE catalog submission guidelines [Working with Data](../Technical%20Documentation/Data/index.md).
 
 At the time of publishing, it is expected that the outputs have been finalized and, where applicable, reviewed and approved by the ESA project’s Technical Officer. When you're ready to publish you:
 1. (Optional) Upload your **datasets and workflows** to the **ESA Project Results Repository (PRR)** for long-term preservation.

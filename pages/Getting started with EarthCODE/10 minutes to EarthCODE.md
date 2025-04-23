@@ -11,7 +11,7 @@ EarthCODE is a strategic initiative by the **European Space Agency (ESA)** desig
 ## Accessing EarthCODE
 To get started, sign in using your [GitHub](https://github.com/) account. EarthCODE provides secure authentication for accessing resources across platforms, including the [EarthCODE Forum](https://discourse-earthcode.eox.at). Once authenticated, you'll have access to all the tools, discussions, and data you need across EarthCODE’s integrated platforms.
 
-Anyone can explore the [EarthCODE Portal](earthcode.esa.int), the [Open Science Catalog](https://opensciencedata.esa.int/catalog) or the [EarthCODE Forum](https://discourse-earthcode.eox.at) without signing in—just open the EarthCODE Portal and browse.
+Anyone can explore the [EarthCODE Portal](https://earthcode.esa.int), the [Open Science Catalog](https://opensciencedata.esa.int/catalog) or the [EarthCODE Forum](https://discourse-earthcode.eox.at) without signing in—just open the EarthCODE Portal and browse.
 
 If you want to publish workflows and code, contribute to the forum, or use integrated platforms you need to sign in to the portal with your GitHub account. To publish scientific data to EarthCODE your project must be sponsored by ESA.
 
@@ -46,7 +46,7 @@ If you're just starting a new research project, it’s important to choose the *
 - Whether you need **storage capabilities**.
 - The level of **collaboration and sharing** required.  
 
-Visit the [**Platform Selection**](../Technical%20Documentation/Platforms/Choosing%20Tools%20and%20Platforms.md) section to get tailored recommendations on:  
+Visit the [**Platform Selection**](../Technical%20Documentation/Platforms/) section to get tailored recommendations on:  
 - Selecting the best platform for your needs.  
 - Understanding which tools will streamline your workflow.  
 - Setting up your environment for collaborative or individual work.  

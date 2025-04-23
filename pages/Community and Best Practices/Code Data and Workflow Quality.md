@@ -1,5 +1,10 @@
+---
+order: 2
+---
 # Code, Data and Workflow Quality
-
+:::warning 🛠️ Page Under Development
+Content is being actively developed and updated for this page. EarthCODE's documentation is a living document and will be continuously updated with detailed reviews.
+:::
 ## Applying and maintaining FAIR Principles
 
 The checklist below provides practical guidance for applying the FAIR principles in EarthCODE projects.

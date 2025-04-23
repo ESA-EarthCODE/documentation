@@ -149,6 +149,34 @@ Products that match the filters are displayed in the Results list. The number in
 
 The **RESET ALL** button clears all currently applied filters and allows to start a new search.
 
+The **EarthCODE Catalog** is integrated with the **EarthCODE Discourse forum**, making it easy for you to connect discussions directly to the resources you are exploring. This integration allows you to view or join forum discussions right from the catalog, without needing to leave the page you are on. Whether you’re exploring datasets, workflows, experiments, or other catalog items, you can view existing discussions or start new ones with just a few clicks.
+
+## Start Discussions Directly From the Catalog
+
+The Open Science Catalog items can be directly linked to posts in the [EarthCODE Discourse forum](../../Community%20and%20Collaboration/Getting%20Started%20With%20The%20EarthCODE%20Discourse/).
+
+![catalog](/img/discourse/oscintegration.gif)
+
+When browsing an item in the catalog, you’ll see a **"Start a new topic on the EarthCODE forum!"** button and a list of discussion posts linked to that particular item. This is how the Op
+
+- **If a discussion already exists:**  
+  You will be able to see all the existing comments on the same page. Clicking **"Start a new topic on the EarthCODE forum!"** will take you directly to the relevant topic in the Discourse forum, where you can join the discussion and add your comments.
+
+- **If no discussion exists:**  
+  Clicking **"Didn't find what you were looking for? Start a new topic on the EarthCODE forum!"** will create a new topic on the forum, pre-tagged with metadata from the catalog item. These tags help keep discussions organized and easily searchable.  
+  > **Note:** Start discussions only on items you would like to comment on, to keep the forum focused on useful content.
+
+By linking discussions to specific catalog items, EarthCODE ensures that all conversations related to a resource are centralized in one topic. This approach reduces redundancy, keeps the forum tidy, and makes it easier for you to find valuable insights. If needed, you can still create separate posts outside of these linked discussions. 
+
+When commenting on a dataset, workflow, or experiment in the EarthCODE Catalog, you can make contributions to improve reusability, quality or share constructive ideas to start a conversation about the item. You could start discussions about:
+- Missing or incomplete metadata (e.g. missing spatial/temporal coverage, provenance details, variable definitions)
+- Feedback on data quality (e.g. unexpected values, data gaps, inconsistencies)
+- Questions about the methodology used to generate the product
+- Clarifications on units, data formats, or input parameters used in the experiment
+- A showcase of what you've reused the experiment for
+- Interesting thoughts, references, links or ideas with regards to the item
+- Suggestions for improving documentation or usability
+- Issues faced when trying to reproduce the experiment or reuse the data
 
 ## Standardized Metadata and Taxonomies for FAIR Data Access
 

@@ -3,6 +3,11 @@ order: 4
 ---
 # Deep Dive into EarthCODE
 
+
+# Hey There
+
+
+
 :::tip This guide goes into detail about how EarthCODE works and how the different entities within it are related. For the purposes of browsing the catalog or publishing through any of the integrated platforms, you do not need to necesarily understand any of these details below. If however, you are publishing manually, are a platform provider trying to integrate, or otherwise interested in how EarthCODE works this guide will give you the necessary context and background.
 :::
 
@@ -10,16 +15,43 @@ As described in [Step 1: Understand EarthCODE Terminology](/Getting%20started%20
 
 A detailed concept of what EarthCODE is and the different actors involved can be seen in the figure below:
 
-:::tip note to self, which one is better?
-Need to make this bigger - and zoomable
-Can we make it clickable
-:::
-<!-- ![EarthCODE Concept](/img/terms/earthcode-concept.svg)
 
-V2 -->
+<div class="zoom-container">
+  <img src="/img/terms/earthcode-conceptv2.svg" alt="Zoomed image" class="zoom-image" />
+</div>
 
+<style>
+.zoom-container {
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  position: relative;
+  cursor: zoom-in; 
+}
+.zoom-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+}
+.zoom-container:hover {
+  cursor: zoom-in; 
+}
+.zoom-container:hover .zoom-image {
+  transform: scale(2);
+}
+.zoom-container {
+  --x: 50%;
+  --y: 50%;
+}
+.zoom-container:hover .zoom-image {
+  transform-origin: var(--x) var(--y);
+}
 
-![EarthCODE Concept](/img/terms/earthcode-conceptv2.svg)
+</style>
+
+<!-- ![EarthCODE Concept](/img/terms/earthcode-conceptv2.svg) -->
+
 
 
 In summary, EarthCODE provides the following:

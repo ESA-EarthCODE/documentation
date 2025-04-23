@@ -1,5 +1,21 @@
 # FAIR and Open Science
 
+## Open Science: A Collaborative and Transparent Approach
+Open Science is a movement that promotes transparency, accessibility, and collaboration in scientific research. According to [UNESCO Recommendation on Open Science](https://www.unesco.org/en/open-science/about?hub=686), Open Science encompasses open access to scientific knowledge, open data, open-source software, open workflows and broader participation in research processes.
+
+## Collaboration Tips
+A fundamental aspect of Open Science is **sharing while doing**, rather than treating data and publications as an afterthought. The earlier Open Science principles are incorporated into research workflows, the easier they are to implement. This approach enables:
+
+- **Early data sharing**, fostering collaboration and enabling reproducibility.
+- **Transparent methodologies**, making research processes more robust and verifiable.
+- **Open access to publications and resources**, ensuring that knowledge is freely available to the broader community.
+
+By integrating Open Science with FAIR principles, the EO community can maximize the impact of research, enhance data accessibility, and facilitate cross-domain innovation.
+
+### Collaboration in EarthCODE
+
+To ensure effective data management and collaboration within the EarthCODE environment, Project PIs should establish clear guidelines for setting up user permissions and managing team workflows from the beginning. It’s essential to define roles and access levels early on to streamline collaboration and ensure data security. PIs should encourage their teams to adopt consistent metadata practices and use standardized data formats, ensuring that datasets are properly organized, discoverable, and accessible throughout the project. Choosing appropriate licenses early in the project is also crucial to avoid any legal or access issues later on. PIs must actively show support for the adoption of Open Science practices, fostering an environment that encourages transparency, collaboration, and data sharing. By promoting these practices, PIs help create a culture of openness that facilitates seamless integration of data and enhances the research process. Regularly reviewing and adjusting workflows will help maintain alignment with project goals and data management best practices.
+
 ## From FAIR Principles to FAIR in Practice
 
 ### A Conceptual Overview of FAIR Principles
@@ -67,20 +83,3 @@ This structured implementation enhances data discoverability, interoperability, 
 - FAIR Data Maturity Model Working Group. (2020). FAIR Data Maturity Model. Specification and Guidelines (1.0). Zenodo. [DOI: 10.15497/rda00050](https://doi.org/10.15497/rda00050)
 - Annika Jacobsen, Ricardo de Miranda Azevedo, Nick Juty, Dominique Batista, Simon Coles, Ronald Cornet, Mélanie Courtot, Mercè Crosas, Michel Dumontier, Chris T. Evelo, Carole Goble, Giancarlo Guizzardi, Karsten Kryger Hansen, Ali Hasnain, Kristina Hettne, Jaap Heringa, Rob W.W. Hooft, Melanie Imming, Keith G. Jeffery, Rajaram Kaliyaperumal, Martijn G. Kersloot, Christine R. Kirkpatrick, Tobias Kuhn, Ignasi Labastida, Barbara Magagna, Peter McQuilton, Natalie Meyers, Annalisa Montesanti, Mirjam van Reisen, Philippe Rocca-Serra, Robert Pergl, Susanna-Assunta Sansone, Luiz Olavo Bonino da Silva Santos, Juliane Schneider, George Strawn, Mark Thompson, Andra Waagmeester, Tobias Weigel, Mark D. Wilkinson, Egon L. Willighagen, Peter Wittenburg, Marco Roos, Barend Mons, Erik Schultes; FAIR Principles: Interpretations and Implementation Considerations. Data Intelligence 2020; 2 (1-2): 10–29. [DOI: 10.1162/dint_r_00024](https://doi.org/10.1162/dint_r_00024)
 
-## Open Science: A Collaborative and Transparent Approach
-Open Science is a movement that promotes transparency, accessibility, and collaboration in scientific research. According to [UNESCO Recommendation on Open Science](https://www.unesco.org/en/open-science/about?hub=686), Open Science encompasses open access to scientific knowledge, open data, open-source software, open workflows and broader participation in research processes.
-
-## Collaboration Tips
-A fundamental aspect of Open Science is **sharing while doing**, rather than treating data and publications as an afterthought. The earlier Open Science principles are incorporated into research workflows, the easier they are to implement. This approach enables:
-
-- **Early data sharing**, fostering collaboration and enabling reproducibility.
-- **Transparent methodologies**, making research processes more robust and verifiable.
-- **Open access to publications and resources**, ensuring that knowledge is freely available to the broader community.
-
-By integrating Open Science with FAIR principles, the EO community can maximize the impact of research, enhance data accessibility, and facilitate cross-domain innovation.
-
-
-
-### Collaboration in EarthCODE
-
-Guidance for setting up user permissions, managing team workflows, and collaborating with other researchers within the EarthCODE environment.

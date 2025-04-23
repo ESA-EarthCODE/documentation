@@ -19,7 +19,6 @@ order: 0
 
 
 
-
 ## Welcome to EarthCODE!
 
 Whether you are a scientist, a member of a research project, a developer or simply someone interested in using EarthCODE, this guide will help you get started.
@@ -40,8 +39,18 @@ There are two ways to explore EarthCODE:
    * [Accessing EarthCODE](./Accessing%20EarthCODE.md) – Accessing EarthCODE and Platforms
    * [Troubleshooting and Support](./Troubleshooting%20and%20Support.md) – Help when you need it
 
-:::tip Idea, iterate over the platform logos here
-:::
+2. **Explore the EarthCODE Platform Ecosystem** – We have a growing ecosystem of platforms to provide [FAIR and Open Earth Observation science tools and infrastructure](../Technical%20Documentation/Platforms/index.md) to explore.
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
+  <img src="/img/platforms/platform_logos/deepesdl.webp" alt="DeepESDL" style="max-height: 120px; object-fit: contain;" />
+  <img src="/img/platforms/platform_logos/eurodatacube.png" alt="Euro Data Cube" style="max-height: 120px; object-fit: contain;" />
+  <img src="/img/platforms/platform_logos/openeo.png" alt="openEO" style="max-height: 120px; object-fit: contain;" />
+</div>
+<div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
+  <img src="/img/platforms/platform_logos/PANGEO.png" alt="DeepESDL" style="max-height: 120px; object-fit: contain;" />
+  <img src="/img/platforms/platform_logos/Polar-TEP-Logo.png" alt="Euro Data Cube" style="max-height: 120px; object-fit: contain;" />
+  <img src="/img/platforms/platform_logos/CoCalc_logo.svg.png" alt="openEO" style="max-height: 120px; object-fit: contain;" />
+</div>
 
 Whichever path you choose, this guide will support your journey as you engage with the EarthCODE community.
 
@@ -59,7 +68,8 @@ Here's how it works:
 4. Anyone can browse the Open Science Catog, find your published data and workflows, reuse and *reproduce them. 
 5. The community engages via the **EarthCODE Forum**, which is directly connected to the catalog.
 
-::: tip Users can reproduce, reuse and run your workflows through EarthCODE if they are published via an EarthCODE integrated platform AND If the user has sufficient resources or sponsorship (from NoR) for the compute costs. This is why it is important to consider what tooling/platforms one uses so as to ensure reuse-ability from the start of the project.
+::: tip Reusability of Workflows Across Platforms
+Users can reproduce, reuse and run your workflows through EarthCODE if they are published via an EarthCODE integrated platform and If the user has sufficient resources through self-sponsorship or sponsorship from the Network of Resources. This is why it is important to consider what tooling/platforms one uses so as to ensure reuse-ability from the start of the project.
 :::
 
 ![EarthCODE Components](/img/gettingstarted/earthcode-components.png)
@@ -135,12 +145,16 @@ You can explore what **your role** is in the EarthCODE community below:
 
 ### I am a:
 
-:::tip note to self
+
+:::tip 
+Hold down shift to scroll horizontally with your mousewheel
+:::
+<!-- :::tip note to self
 Use Case Examples / Personas
 A few brief examples of how a climate scientist, ML developer, or EO analyst might use EarthCODE end-to-end. Helps make abstract concepts concrete.
 
 make these clickable and expandable as well
-:::
+::: -->
 ---
 
 <!-- HTML for actor cards Note: Maybe add some icons here for each of the roles -->
@@ -239,7 +253,7 @@ make these clickable and expandable as well
 </div>
 
 <style>
-/* Container: horizontal scroll + scroll snap. */
+
 .role-cards-container {
   display: flex;
   flex-wrap: nowrap; 
@@ -291,8 +305,8 @@ make these clickable and expandable as well
   color: #333;
 }
 #post-wrapper {
-  overflow-y: hidden;   /* off at first – script re‑enables it later*/
-  overflow-x: auto;     /* horizontal scroll remains on*/
+  overflow-y: hidden;
+  overflow-x: auto;  
 }
 
 </style>

@@ -3,14 +3,26 @@ order: 0
 ---
 # Working with Platforms
 
+EarthCODE partners with a growing ecosystem of platforms to provide FAIR and Open Earth Observation science tools and infrastructure!
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
+  <img src="/img/platforms/platform_logos/deepesdl.webp" alt="DeepESDL" style="max-height: 120px; object-fit: contain;" />
+  <img src="/img/platforms/platform_logos/eurodatacube.png" alt="Euro Data Cube" style="max-height: 120px; object-fit: contain;" />
+  <img src="/img/platforms/platform_logos/openeo.png" alt="openEO" style="max-height: 120px; object-fit: contain;" />
+</div>
+<div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
+  <img src="/img/platforms/platform_logos/PANGEO.png" alt="DeepESDL" style="max-height: 120px; object-fit: contain;" />
+  <img src="/img/platforms/platform_logos/Polar-TEP-Logo.png" alt="Euro Data Cube" style="max-height: 120px; object-fit: contain;" />
+  <img src="/img/platforms/platform_logos/CoCalc_logo.svg.png" alt="openEO" style="max-height: 120px; object-fit: contain;" />
+</div>
+
+
 This section is your starting point for exploring the platforms and tools available in the EarthCODE ecosystem. Whether you're launching a new project or looking to streamline your existing workflow, you'll find guidance here on how to choose the right platform and their key capabilities.
 
 
 Here provide only the information that the platforms can be self-sponsored (for those who have already access to them) or can be requested by ESA NOR portal (provide a link and the link to tutorial, for those new to NoR) 
 
 The EarthCODE integrated platforms can either be self-sponsored if your team already have access to them. You can alternatively apply for sponsorship from the [Network of Resources](https://nor-discover.org/) for access & resources on your selected platform. Please refer to the [NoR Tutorial Page](../../Training%20and%20Resources/NoR.md) for more details about making a NoR application.
-
----
 
 ## Choosing Tools and Platforms
 

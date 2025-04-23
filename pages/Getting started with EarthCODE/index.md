@@ -37,7 +37,7 @@ There are two ways to explore EarthCODE:
 
    * [10 minutes to EarthCODE](./10%20minutes%20to%20EarthCODE.md) – A quick overview to get started fast
    * [Deep Dive into EarthCODE](./Deep%20Dive%20into%20EarthCODE.md) – Advanced features and in-depth guidance
-   * [Connecting External Platforms to EarthCODE](./Connecting%20External%20Platforms%20to%20EarthCODE.md) – Integration of tools into EarthCODE
+   * [Accessing EarthCODE](./Accessing%20EarthCODE.md) – Accessing EarthCODE and Platforms
    * [Troubleshooting and Support](./Troubleshooting%20and%20Support.md) – Help when you need it
 
 :::tip Idea, iterate over the platform logos here
@@ -97,10 +97,10 @@ Each published item in the OSC can be linked to a discussion thread, enabling ex
 This step will help you become familiar with the platform's tools and resources, and how they integrate to support your research. The best way to follow our tutorials and learn about EarthCODE is by using one of the EarthCODE platforms. We recommend visiting the page where we explain how [to choose the right tools and platforms for your work](../Technical%20Documentation/Platforms/).
 
 EarthCODE offers a variety of features, in the portal you will be able to find:
-- [Datasets](/Technical%20Documentation/Data): Access a variety of datasets available for your research needs and discovery. 
-- [Computational Research](/Technical%20Documentation/Platforms/): Use EarthCODE integrated platforms with advanced computational tools for Earth System Science on collaborative research environment 
-- [Workflows](/Technical%20Documentation/Workflows/) : Easily find, publish and re-use FAIR workflows to enhance reproducibility and collaboration in research 
-- [Community](/Community%20and%20Collaboration/Getting%20Started%20With%20The%20EarthCODE%20Discourse/): Fostering a collaborative community dedicated to FAIR Open Science and sustainable innovation   
+- [Datasets](../Technical%20Documentation/Data/): Access a variety of datasets available for your research needs and discovery. 
+- [Computational Research](../Technical%20Documentation/Platforms/): Use EarthCODE integrated platforms with advanced computational tools for Earth System Science on collaborative research environment 
+- [Workflows](../Technical%20Documentation/Workflows/) : Easily find, publish and re-use FAIR workflows to enhance reproducibility and collaboration in research 
+- [Community](../Community%20and%20Collaboration/Getting%20Started%20With%20The%20EarthCODE%20Discourse/): Fostering a collaborative community dedicated to FAIR Open Science and sustainable innovation   
 
 By exploring these sections, you’ll better understand how to leverage EarthCODE’s resources and tools to support your research.
 

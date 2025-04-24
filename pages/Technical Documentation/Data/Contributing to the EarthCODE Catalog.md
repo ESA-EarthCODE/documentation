@@ -22,7 +22,7 @@ We would like to specifically encourage contributions from:
 - **Update content:** Keep the descriptions and metadata of products, projects, and more up-to-date. 
 - **Request removals:** Ensure the catalogue remains accurate by requesting the removal of outdated or incorrect entries. 
 
-To contribute, you to have an active GitHub account. If you don't have one yet, please [create an account](https://github.com/signup) to get started.
+To contribute, you only need to have an active GitHub account. If you don't have one yet, please [create an account](https://github.com/signup) to get started.
 
 
 ## How to Publish Results

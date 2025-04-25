@@ -1,5 +1,7 @@
 # Euro Data Cube
-
+:::warning 🛠️ Page Under Development
+Content is being actively developed and updated for this page. EarthCODE's documentation is a living document and will be continuously updated with detailed reviews.
+:::
 Find out more at: https://eurodatacube.com/documentation 
 
 ## **Earth Observation Information Factory**

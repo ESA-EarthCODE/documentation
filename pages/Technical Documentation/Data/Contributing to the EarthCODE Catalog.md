@@ -6,21 +6,21 @@ order: 1
 The catalog functionalities described in the previous sections are granted to any user (registered/and non-registered users). Catalog exploration and content discovery and access to the products is fully open and transparent. In this section we will describe how to make new data accessible through the catalog and make them available for the broad scientific community.
 
 ## Who can contribute?
-Contributions to the Open Science Data Catalogue are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.  
-We would like to specifically encourage contributions from: 
+Contributions to the Open Science Data Catalogue are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.
+We would like to specifically encourage contributions from:
 
-- Principal Investigators of ESA EO (Earth Observation Programme) funded Projects, 
-- Researchers, Scientists, Data Owners working on ESA-funded EO Projects, 
-- Principal Investigators, Researchers and Scientists from ESA Science Cluster Projects, 
-- ESA Technical Officers leading ESA EO Projects 
-- ESA-ESRIN Science Hub Members (e.g. ESA post-doctoral Research Fellows, ESA Living Planet Fellowship, ESA Visiting Scientists) 
+- Principal Investigators of ESA EO (Earth Observation Programme) funded Projects,
+- Researchers, Scientists, Data Owners working on ESA-funded EO Projects,
+- Principal Investigators, Researchers and Scientists from ESA Science Cluster Projects,
+- ESA Technical Officers leading ESA EO Projects
+- ESA-ESRIN Science Hub Members (e.g. ESA post-doctoral Research Fellows, ESA Living Planet Fellowship, ESA Visiting Scientists)
 - Wider EO Research and Science Community: contact the EarthCODE team at [earth-code@esa.int](mailto:earth-code@esa.int) for more details!
 
 ### You can enrich EarthCODE in several impactful ways:
 
-- **Publish Research Products:** Add new content to the Open Science Data Catalogue. 
-- **Update content:** Keep the descriptions and metadata of products, projects, and more up-to-date. 
-- **Request removals:** Ensure the catalogue remains accurate by requesting the removal of outdated or incorrect entries. 
+- **Publish Research Products:** Add new content to the Open Science Data Catalogue.
+- **Update content:** Keep the descriptions and metadata of products, projects, and more up-to-date.
+- **Request removals:** Ensure the catalogue remains accurate by requesting the removal of outdated or incorrect entries.
 
 To contribute, you to have an active GitHub account. If you don't have one yet, please [create an account](https://github.com/signup) to get started.
 
@@ -30,7 +30,7 @@ To contribute, you to have an active GitHub account. If you don't have one yet, 
 To publish your scientific results to the Open Science Catalog, you must:
 
 - Create valid **STAC** and/or **OGC API Record** objects (in JSON format).
-- Submit a **Pull Request** to the [open-science-catalog-metadata-**staging**](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging/tree/main) repository with your new entry.  
+- Submit a **Pull Request** to the [open-science-catalog-metadata-**staging**](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging/tree/main) repository with your new entry.
 
 ::: details The Open Science Catalog
 The **Open Science Data Catalog** is a publicly accessible platform that enables anyone—whether or not they have a GitHub account—to **discover and access Earth Observation research**. It provides a transparent and structured way to explore the latest results from EO projects by organizing metadata in a consistent and harmonized format.
@@ -44,38 +44,38 @@ To make your research outcomes accessible and discoverable by the broader scient
 
 1. **Prepare your Product Package (Research Experiment)**, by uploading **dataset files**, **code** and **documentation** to appropriate, accessible locations.
 
-2. **Generate a Self-Contained STAC Catalog**  
+2. **Generate a Self-Contained STAC Catalog**
    - Use tools like [`stactools`](https://stactools.readthedocs.io/en/stable/), [`rio-stac`](https://github.com/developmentseed/rio-stac), or [`PySTAC`](https://pystac.readthedocs.io/en/stable/) to generate a STAC Catalog.
    - Host the resulting JSON files (Catalog + Items) in a **public GitHub repository** (or institutional equivalent).
    ::: warning Important
     Make sure the Catalog uses **relative paths** and points to remote asset URLs!
    :::
-   
 
-3. **Describe Your Research in the Open Science Catalog**  
+
+3. **Describe Your Research in the Open Science Catalog**
    - Create entries that describe your **dataset, workflow, and experiment**.
    - Link them to relevant **projects, variables, themes, and EO missions**.
    - Include a `related` link to your external STAC Catalog to ensure it is discoverable from the Open Science Catalog.
 
 By following these steps, your research becomes part of a broader ecosystem of reusable, discoverable, and connected scientific outputs.
 
-## Step 1: Make Your Data Accessible  
+## Step 1: Make Your Data Accessible
 
-To contribute to the Open Science Catalog, your research data must be openly accessible and persistent. Begin by preparing your **Research Experiments**, which includes:  
-- **Data files**, which will be added to the Item Catalog. 
-- **Workflow** (e.g., Jupyter Notebooks, Python scripts, CWL records)  
-- **Documentation** (e.g., links to peer-reviewed publications or public product descriptions)  
+To contribute to the Open Science Catalog, your research data must be openly accessible and persistent. Begin by preparing your **Research Experiments**, which includes:
+- **Data files**, which will be added to the Item Catalog.
+- **Workflow** (e.g., Jupyter Notebooks, Python scripts, CWL records)
+- **Documentation** (e.g., links to peer-reviewed publications or public product descriptions)
 
 All of these should be *accessible*, meaning they are stored on **remote, persistent storage** that allows discovery and access. Examples include:
 - ESA’s Project Results Repository (PRR)
 - S3-compatible object storage (e.g. ESA S3 Bucket)
 - Zenodo, CEDA, Dataverse, or other persistent archives
 
-If your data is already hosted on a reliable cloud storage provider you can use those links directly.  
+If your data is already hosted on a reliable cloud storage provider you can use those links directly.
 
-If your data is not yet in the cloud or its persistence is uncertain, we recommend uploading it to the official **ESA Project Results Repository (PRR)**. To do this:  
-1. Request a data provider account.  
-2. Then, request a PRR collection, which will be used in later steps to define your STAC Item Catalog.  
+If your data is not yet in the cloud or its persistence is uncertain, we recommend uploading it to the official **ESA Project Results Repository (PRR)**. To do this:
+1. Request a data provider account.
+2. Then, request a PRR collection, which will be used in later steps to define your STAC Item Catalog.
 
 ::: details Requesting PRR Storage
 At the moment, requests to store data on ESA PRR is done by the ESA PLES engineering team. If you need to request permanent storage, contact the team at [earth-code@esa.int](mailto:earth-code@esa.int)
@@ -215,7 +215,7 @@ Typically, this workflow starts by defining individual STAC objects (a Catalog a
 
 In the final step, the Catalog is __saved and normalized__ to a specified root directory. At this stage, you can choose to set the Catalog type to __"self-contained"__. When enabled, this ensures that all internal links are automatically resolved and adjusted to be relative, making the Catalog portable and independent of absolute file paths. 
 
-The process is straightforward, and we highly recommend checking out [this notebook](../../../examples/creating-an-item-catalog).
+The process is straightforward, and we highly recommend checking out [this notebook](https://esa-earthcode.github.io/examples/creating-an-item-catalog).
 
 ::: warning IMPORTANT  
 Regardless of how you create the catalog, it must be **self-contained**. This means:
@@ -227,7 +227,7 @@ Regardless of how you create the catalog, it must be **self-contained**. This me
 
 The **Item Catalog must be hosted separately** from the Open Science Catalog, and like the data files, it should be **persistent and publicly accessible**.
 
-Since the Item Catalog only contains metadata (JSON) files rather than actual datasets, a simple and effective solution is to store it in a public repository, such as **GitHub**. This approach is demonstrated in the [Creating an Item Catalog notebook](../../../examples/creating-an-item-catalog).
+Since the Item Catalog only contains metadata (JSON) files rather than actual datasets, a simple and effective solution is to store it in a public repository, such as **GitHub**. This approach is demonstrated in the [Creating an Item Catalog notebook](https://esa-earthcode.github.io/examples/creating-an-item-catalog).
 
 Alternatively, if you have access to a **reliable cloud storage service**—such as the EarthCODE object storage bucket—you can host your Item Catalog there.
 

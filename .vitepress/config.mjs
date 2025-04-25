@@ -8,12 +8,9 @@ const sideBar = withSidebar(
     cleanUrls: true,
     title: "EarthCODE Documentation",
     titleTemplate: " EarthCODE",
+    collapsed: true,
     description: "Documentation for the EarthCODE website",
-    base: "/documentation/documentation/",
-    ignoreDeadLinks: [
-        // ignore all links include "/examples/""
-        /\/examples\//,
-    ],
+    base: "/documentation/",
     head: [
       ["link", { rel: "icon", href: "/img/EarthCODE_Favicon_32x32px.png" }],
       // Open Graph / Facebook
@@ -109,7 +106,11 @@ const sideBar = withSidebar(
 )
 
 const trainingSection = sideBar.themeConfig.sidebar.find(section => section.text === 'Training and Resources')
-trainingSection.items.push({ text: 'Examples', link: 'https://esa-earthcode.github.io/documentation/examples/' })
+trainingSection.items.push({ text: 'Examples', link: 'https://esa-earthcode.github.io/examples/' })
+
+sideBar.themeConfig.sidebar.forEach(group => {
+  group.collapsed = true;
+});
 
 export default defineConfig(
   sideBar

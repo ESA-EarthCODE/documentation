@@ -9,4 +9,4 @@ In the "Training and Resources" section, users will find everything they need to
 - [Network of Resources Sponsorship](./NoR.md)
 - [Videos and Webinars](./Videos%20and%20Webinars.md)
 - [Gallery](./Gallery.md)
-- [Examples](../../examples/)
+- [Examples](https://esa-earthcode.github.io/examples/)

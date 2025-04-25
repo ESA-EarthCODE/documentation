@@ -1,7 +1,6 @@
 node_modules
 .vitepress/dist
 .vitepress/cache
-examples/_build
 .DS_Store
 pages/.DS_Store
 pages/Community and Collaboration/.DS_Store

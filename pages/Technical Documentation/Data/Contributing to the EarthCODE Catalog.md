@@ -33,7 +33,7 @@ In fact, in most cases you would need to create two separate STAC or Record obje
 Earth observation research can generate large amounts of datasets with extensive metadata. Keeping data assets separate ensures faster __loading, less clutter, and a consistent access method__, while the OSC remains focused on structured metadata.
 :::
 
-If you are new to using STAC, git, or both, this can be an intimidating process, but luckily there are many tools available to more or less automate this process depending on your setup. Check out the [OSC examples](../../../examples/index-1) for an overview.
+If you are new to using STAC, git, or both, this can be an intimidating process, but luckily there are many tools available to more or less automate this process depending on your setup. Check out the [OSC examples](https://esa-earthcode.github.io/examples/index-1) for an overview.
 
 __Typical workflow for uploading a product to OSC:__
 1. Upload your data to a persistent remote storage (e.g. ESA's Project Results Repository (PRR), an object storage (S3) bucket, Zenodo, etc.).
@@ -187,7 +187,7 @@ Typically, this workflow starts by defining individual STAC objects (a Catalog a
 
 In the final step, the Catalog is __saved and normalized__ to a specified root directory. At this stage, you can choose to set the Catalog type to __"self-contained"__. When enabled, this ensures that all internal links are automatically resolved and adjusted to be relative, making the Catalog portable and independent of absolute file paths. 
 
-The process is straightforward, and we highly recommend checking out [this notebook](../../../examples/creating-an-item-catalog).
+The process is straightforward, and we highly recommend checking out [this notebook](https://esa-earthcode.github.io/examples/creating-an-item-catalog).
 
 ::: warning IMPORTANT  
 Regardless of how you create the catalog, it must be **self-contained**. This means:
@@ -199,7 +199,7 @@ Regardless of how you create the catalog, it must be **self-contained**. This me
 
 The **Item Catalog must be hosted separately** from the Open Science Catalog, and like the data files, it should be **persistent and publicly accessible**.
 
-Since the Item Catalog only contains metadata (JSON) files rather than actual datasets, a simple and effective solution is to store it in a public repository, such as **GitHub**. This approach is demonstrated in the [Creating an Item Catalog notebook](../../../examples/creating-an-item-catalog).
+Since the Item Catalog only contains metadata (JSON) files rather than actual datasets, a simple and effective solution is to store it in a public repository, such as **GitHub**. This approach is demonstrated in the [Creating an Item Catalog notebook](https://esa-earthcode.github.io/examples/creating-an-item-catalog).
 
 Alternatively, if you have access to a **reliable cloud storage service**—such as the EarthCODE object storage bucket—you can host your Item Catalog there.
 

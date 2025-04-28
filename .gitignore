@@ -1,4 +1,11 @@
 node_modules
 .vitepress/dist
 .vitepress/cache
-examples/_build
+.DS_Store
+pages/.DS_Store
+pages/Community and Collaboration/.DS_Store
+pages/Community and Collaboration/Getting Started With The EarthCODE Discourse/.DS_Store
+pages/Integrating New Platforms to EarthCODE/.DS_Store
+pages/public/img/.DS_Store
+pages/public/img/platforms/.DS_Store
+pages/public/img/terms/.DS_Store

@@ -23,10 +23,6 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-env:
-  # BASE_URL for MyST build
-  BASE_URL: /${{ github.event.repository.name }}/examples
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -50,22 +46,10 @@ jobs:
         run: npm ci # or pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: npm run build # or pnpm docs:build / yarn docs:build / bun run docs:build
-      - name: Move VitePress build under path /documentation
-        run: mkdir deploy && mv .vitepress/dist/ deploy/documentation/
-      - name: Install MyST
-        run: npm install -g mystmd
-      - name: Build MyST HTML Assets
-        run: cd examples/ && myst build --html
-      - name: Move MyST build under path /examples
-        run: mv examples/_build/html/ deploy/examples/
-      - name: Add index.html for initial links
-        run: echo 'EarthCODE <a href="documentation/">Documentation</a> and <a href="examples/">examples</a>' > deploy/index.html
-      - name: No Jekyll build
-        run: touch deploy/.nojekyll
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: deploy/
+          folder: .vitepress/dist
           branch: gh-pages
           clean-exclude: pr-preview
           force: false

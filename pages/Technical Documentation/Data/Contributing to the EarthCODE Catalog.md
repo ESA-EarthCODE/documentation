@@ -111,7 +111,7 @@ my-item-catalog
   "type": "Catalog",
   "id": "my-item-catalog-id",
   "stac_version": "1.1.0",
-  "description": "Provide a meaning description of the dataset here.",
+  "description": "Provide a meaningful description of the dataset here.",
   "links": [
     {
       "rel": "root",

@@ -85,43 +85,52 @@ At the moment, requests to store data on ESA PRR is done by the ESA PLES enginee
 
 ### Description
 
-The purpose of the STAC Item Catalog is to collect metadata and references to your assets in a format that can be easily reused by other scientists and automated workflows, and displayed correctly in the Open Science Catalog.
+The purpose of the STAC Item Catalog is to collect metadata and references to your assets in a format that can be easily reused by other scientists and automated workflows, and displayed correctly in the Open Science Catalog. The STAC Items should be created for all assets in your dataset (single files), gathered in dedicated STAC Catalogs to become available to EarthCODE users.
 
-The hierarchy is structured as follows:
+The STAC structure helps organize and describe your data in a consistent and machine-readable way. Here’s how the hierarchy works:
 
-1. Catalog – A top-level container with a title and description, grouping related data files.
-2. Items – Each Item represents a single data file and contains metadata such as geospatial extent, temporal range, and projection.
-3. Assets – Each Item has one or more Assets, which have a direct link to the actual data files and contain metadata such as file type and spectral bands.
+1. **STAC Catalog**  
+   A STAC Catalog is the top-level container that groups related data files (Items + Assets). It behaves much like a folder in a traditional file system and can include other catalogs or items to help organize your data logically.  
+2. **STAC Item**  
+   A STAC Item represents a single observation (with a given spatial and temporal extent) and is defined using a GeoJSON-like structure enriched with additional metadata—such as spatial and temporal extent, projection information, geophysical variables, and more.  
+   Each Item contains one or more **Assets**, which are direct links to the actual data files. Assets may also describe specific bands, file types, or related resources associated with the item.
 
 __Example folder structure__
 ```
 my-item-catalog
 ├── catalog.json
-└── item_1
-    └── item_1.json
+├── item_1
+│   └── item_1.json
+└── item_2
+    └── item_2.json
 ```
 
 ::: details Example `catalog.json`
-```json
+```json{15,20}
 {
   "type": "Catalog",
-  "id": "item-catalog-for-my-data",
+  "id": "my-item-catalog-id",
   "stac_version": "1.1.0",
-  "description": "A useful description about the datasets in my project.",
+  "description": "Provide a meaningful description of the dataset here.",
   "links": [
     {
       "rel": "root",
       "href": "./catalog.json",
       "type": "application/json",
-      "title": "Item Catalog Example"
+      "title": "Title of the Dataset"
     },
     {
       "rel": "item",
-      "href": "./item_1/item_1.json",
+      "href": "./item_1/item_1.json", // relative link to the item.json describing a single file in the dataset
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./item_2/item_2.json", // relative link to the item.json describing a single file in the dataset
       "type": "application/geo+json"
     },
   ],
-  "title": "Item Catalog Example"
+  "title": "Tile of the Dataset"
 }
 ```
 :::
@@ -176,18 +185,18 @@ my-item-catalog
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Item Catalog Example"
+      "title": "Title of the Dataset"
     },
     {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Item Catalog Example"
+      "title": "Title of the Dataset"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://zenodo.org/records/<project-id>/files/extent_ABC.tif",
+      "href": "https://EarthCODE/OSCAcssets/MY_PROJECT/MY_PRODUCT/item_1.tif", // link to remote asset
       "type": "image/tiff; application=geotiff",
       "eo:bands": [
         {

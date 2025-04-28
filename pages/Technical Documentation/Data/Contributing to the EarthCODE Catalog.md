@@ -33,7 +33,7 @@ To publish your scientific results to the Open Science Catalog, you must:
 - Submit a **Pull Request** to the [open-science-catalog-metadata-**staging**](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging/tree/main) repository with your new entry.  
 
 ::: details The Open Science Catalog
-The **Open Science Data Catalog** is a publicly accessible platform that enables anyone—whether or not they have a GitHub account—to **discover and access Earth Observation research**. It provides a transparent and structured way to explore the latest results from EO projects by organizing metadata in a consistent and harmonized format.
+The [**Open Science Data Catalog**](https://opensciencedata.esa.int/) is a publicly accessible platform that enables anyone—whether or not they have a GitHub account—to **discover and access Earth Observation research**. It provides a transparent and structured way to explore the latest results from EO projects by organizing metadata in a consistent and harmonized format.
 
 Built on the open-source **STAC Browser**, the catalog allows users to browse and explore interlinked elements such as **themes, variables, EO missions, projects, products, workflows, and experiments**, all described using **STAC-compliant JSON files**.
 :::

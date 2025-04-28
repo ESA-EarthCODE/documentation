@@ -92,7 +92,7 @@ The STAC structure helps organize and describe your data in a consistent and mac
 1. **STAC Catalog**  
    A STAC Catalog is the top-level container that groups related data files (Items + Assets). It behaves much like a folder in a traditional file system and can include other catalogs or items to help organize your data logically.  
 2. **STAC Item**  
-   A STAC Item represents a single observation (with a given spatial and temporal extent) and is defined using a GeoJSON-like structure enriched with additional metadata—such as spatial and temporal extent, projection information, and more.  
+   A STAC Item represents a single observation (with a given spatial and temporal extent) and is defined using a GeoJSON-like structure enriched with additional metadata—such as spatial and temporal extent, projection information, geophysical variables, and more.  
    Each Item contains one or more **Assets**, which are direct links to the actual data files. Assets may also describe specific bands, file types, or related resources associated with the item.
 
 __Example folder structure__

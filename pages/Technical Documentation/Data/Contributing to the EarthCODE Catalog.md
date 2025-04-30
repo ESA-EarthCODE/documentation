@@ -258,48 +258,50 @@ The only requirement is that **other users and the STAC browser must be able to 
 In the next step where you will be uploading metadata to the Open Science Catalog, EarthCODE administrators will review your Item Catalog and assist you with any necessary adjustments.  
 :::
 
-## Step 3: Creating a Product entry in the Open Science Catalog
+## Step 3: Creating a Product Entry in the Open Science Catalog
 
-After preparing your data package in steps 1 and 2, it is finally time to add a product entry to the OSC.
-This is done by adding another collection folder under `products` in the [`open-science-catalog-metadata-staging`](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging) repository, which is a relatively simple process, especially if you are already familiar with Git.
+After completing steps 1 and 2 to prepare your data package, you're now ready to add a product entry to the Open Science Catalog (OSC).
 
-The `collection.json` file you create should include some general metadata, and links to related objects:
+This involves creating a new collection folder under the `products` directory in the [`open-science-catalog-metadata-staging`](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging) repository. The process is straightforward, especially if you're already familiar with Git.
+
+Your `collection.json` file should include general metadata and links to related resources:
 
 - A link to your Item Collection
-- Links to existing metadata collections, such as Variables, Missions, Projects and Themes (`)
-- Other related links, such as documentation, DOI, websites, and more
+- Links to relevant metadata collections (e.g., Variables, Missions, Projects, and Themes)
+- Other useful links, such as documentation, DOIs, websites, etc.
 
-See the graphic below for details about the required fields for OSC products.
+Refer to the diagram below for a detailed overview of the required fields for OSC products:
 
 ![metadata-stac](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/71b8e8a7-9a86-491b-ae54-1fb4de9ccf32)
 
-The red arrows indicate links between other objects in the OSC.
+The red arrows indicate the interconnections between objects in the OSC.
 
 ::: warning
-If you can't find the appropriate Project, Themes, Variables or EO Mission to correctly describe your product, you must upload a new collection for these as well!
+If you can't find a relevant Project, Theme, Variable, or EO Mission to describe your product, you'll need to create a new collection for it as well!
 :::
 
-### How to publish new product to the catalog?
+### How to Publish a New Product to the Catalog
 
-By far the easiest approach to create a new product is to simply copy and paste an existing product, making the necessary modifications to fit your data. This does however require some knowledge of Git and GitHub.
-The general approach is as follows:
+The simplest way to add a new product is to copy an existing one and update it for your use case. This method assumes you have basic Git and GitHub experience.
 
-1. Create a fork of the [`open-science-catalog-metadata-staging`](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging) repository to your own GitHub profile
-2. Manually create a new collection under `products` by copying an existing product
-3. Make the required edits to fit your use-case
-4. Remember to also edit the metadata collections to add a link to your new product (the linking goes both ways)
-5. Save and commit the changes to your forked repository
-6. Open a pull request in the official [`open-science-catalog-metadata-staging`](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging) repository requesting to merge your fork
+Here’s the general workflow:
+
+1. Fork the [`open-science-catalog-metadata-staging`](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging) repository to your own GitHub account.
+2. Create a new folder under `products` and copy the structure of an existing product.
+3. Modify the contents as needed to represent your product.
+4. Update any relevant metadata collections to link back to your new product (the links should be bidirectional).
+5. Commit the changes to your forked repository.
+6. Open a pull request to the original repository to propose your changes.
 
 ::: tip
-If you are not entirely comfortable with Git, or are unsure about parts of the upload process, there are tools under development to automate this entire process!
+If you're not confident using Git or find the process cumbersome, tools are being developed to simplify it!
 
-Check out the GUI-based [Git Clerk](https://dashboard.earthcode-staging.earthcode.eox.at/osc-editor) or CLI-based [deep-code](https://github.com/deepesdl/deep-code) to read more.
+Check out the GUI-based [Git Clerk](https://dashboard.earthcode-staging.earthcode.eox.at/osc-editor) or the CLI-based [deep-code](https://github.com/deepesdl/deep-code) for a smoother experience.
 :::
 
 ### Example Product
 
-Below is a template for a product `collection.json`. Feel free to copy the template and make your changes!
+Below is a sample `collection.json` file for a product. You can use it as a template:
 
 ::: details `products/my-product/collection.json`
 
@@ -424,7 +426,7 @@ Below is a template for a product `collection.json`. Feel free to copy the templ
 ```
 :::
 
-You also need to make changes to **all** the collections we have linked to. For example for the "ice velocity" variable:
+You also need to make changes to **all** the collections we have linked to. Below is an example of the changes required for the "ice velocity" variable in the above example.
 
 ::: details `variables/ice-velocity/catalog.json`
 ```json

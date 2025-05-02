@@ -1,11 +1,13 @@
 ---
 order: 1
 ---
+
 # Publishing Science Results
 
 The catalog functionalities described in the previous sections are granted to any user (registered/and non-registered users). Catalog exploration and content discovery and access to the products is fully open and transparent. In this section we will describe how to make new data accessible through the catalog and make them available for the broad scientific community.
 
 ## Who can contribute?
+
 Contributions to the Open Science Data Catalogue are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.
 We would like to specifically encourage contributions from:
 
@@ -23,7 +25,6 @@ We would like to specifically encourage contributions from:
 - **Request removals:** Ensure the catalogue remains accurate by requesting the removal of outdated or incorrect entries.
 
 To contribute, you only need to have an active GitHub account. If you don't have one yet, please [create an account](https://github.com/signup) to get started.
-
 
 ## How to Publish Results
 
@@ -45,12 +46,12 @@ To make your research outcomes accessible and discoverable by the broader scient
 1. **Prepare your Product Package (Research Experiment)**, by uploading **dataset files**, **code** and **documentation** to appropriate, accessible locations.
 
 2. **Generate a Self-Contained STAC Catalog**
+
    - Use tools like [`stactools`](https://stactools.readthedocs.io/en/stable/), [`rio-stac`](https://github.com/developmentseed/rio-stac), or [`PySTAC`](https://pystac.readthedocs.io/en/stable/) to generate a STAC Catalog.
    - Host the resulting JSON files (Catalog + Items) in a **public GitHub repository** (or institutional equivalent).
-   ::: warning Important
-    Make sure the Catalog uses **relative paths** and points to remote asset URLs!
-   :::
-
+     ::: warning Important
+     Make sure the Catalog uses **relative paths** and points to remote asset URLs!
+     :::
 
 3. **Describe Your Research in the Open Science Catalog**
    - Create entries that describe your **dataset, workflow, and experiment**.
@@ -62,11 +63,13 @@ By following these steps, your research becomes part of a broader ecosystem of r
 ## Step 1: Make Your Data Accessible
 
 To contribute to the Open Science Catalog, your research data must be openly accessible and persistent. Begin by preparing your **Research Experiments**, which includes:
+
 - **Data files**, which will be added to the Item Catalog.
 - **Workflow** (e.g., Jupyter Notebooks, Python scripts, CWL records)
 - **Documentation** (e.g., links to peer-reviewed publications or public product descriptions)
 
-All of these should be *accessible*, meaning they are stored on **remote, persistent storage** that allows discovery and access. Examples include:
+All of these should be _accessible_, meaning they are stored on **remote, persistent storage** that allows discovery and access. Examples include:
+
 - ESA’s Project Results Repository (PRR)
 - S3-compatible object storage (e.g. ESA S3 Bucket)
 - Zenodo, CEDA, Dataverse, or other persistent archives
@@ -74,6 +77,7 @@ All of these should be *accessible*, meaning they are stored on **remote, persis
 If your data is already hosted on a reliable cloud storage provider you can use those links directly.
 
 If your data is not yet in the cloud or its persistence is uncertain, we recommend uploading it to the official **ESA Project Results Repository (PRR)**. To do this:
+
 1. Request a data provider account.
 2. Then, request a PRR collection, which will be used in later steps to define your STAC Item Catalog.
 
@@ -90,12 +94,13 @@ The purpose of the STAC Item Catalog is to collect metadata and references to yo
 The STAC structure helps organize and describe your data in a consistent and machine-readable way. Here’s how the hierarchy works:
 
 1. **STAC Catalog**  
-   A STAC Catalog is the top-level container that groups related data files (Items + Assets). It behaves much like a folder in a traditional file system and can include other catalogs or items to help organize your data logically.  
+   A STAC Catalog is the top-level container that groups related data files (Items + Assets). It behaves much like a folder in a traditional file system and can include other catalogs or items to help organize your data logically.
 2. **STAC Item**  
    A STAC Item represents a single observation (with a given spatial and temporal extent) and is defined using a GeoJSON-like structure enriched with additional metadata—such as spatial and temporal extent, projection information, geophysical variables, and more.  
    Each Item contains one or more **Assets**, which are direct links to the actual data files. Assets may also describe specific bands, file types, or related resources associated with the item.
 
-__Example folder structure__
+**Example folder structure**
+
 ```
 my-item-catalog
 ├── catalog.json
@@ -106,6 +111,7 @@ my-item-catalog
 ```
 
 ::: details Example `catalog.json`
+
 ```json{15,20}
 {
   "type": "Catalog",
@@ -133,9 +139,11 @@ my-item-catalog
   "title": "Tile of the Dataset"
 }
 ```
+
 :::
 
 ::: details Example `item.json`
+
 ```json{60}
 {
   "type": "Feature",
@@ -209,6 +217,7 @@ my-item-catalog
   }
 }
 ```
+
 :::
 
 ### Creating the Item Catalog
@@ -222,15 +231,16 @@ Manually editing STAC Items can be tedious, and extracting all the required meta
 
 Typically, this workflow starts by defining individual STAC objects (a Catalog and its Items). Once created, these objects are linked together using STAC relationships.
 
-In the final step, the Catalog is __saved and normalized__ to a specified root directory. At this stage, you can choose to set the Catalog type to __"self-contained"__. When enabled, this ensures that all internal links are automatically resolved and adjusted to be relative, making the Catalog portable and independent of absolute file paths. 
+In the final step, the Catalog is **saved and normalized** to a specified root directory. At this stage, you can choose to set the Catalog type to **"self-contained"**. When enabled, this ensures that all internal links are automatically resolved and adjusted to be relative, making the Catalog portable and independent of absolute file paths.
 
 The process is straightforward, and we highly recommend checking out [this notebook](https://esa-earthcode.github.io/examples/creating-an-item-catalog).
 
 ::: warning IMPORTANT  
 Regardless of how you create the catalog, it must be **self-contained**. This means:
+
 - Internal links should use **relative paths** (e.g., `"../catalog.json"` instead of `"/Users/name/catalog/catalog.json"`).
 - Data asset paths should point to **remote storage**, not local files on your system.
-:::  
+  :::
 
 ### Uploading the Item Catalog
 
@@ -242,16 +252,383 @@ Alternatively, if you have access to a **reliable cloud storage service**—such
 
 If you choose to use the ESA PRR the generated STAC Items have to be sent via `POST` requests to the [PRR Registration Gateway](https://eoresults.esa.int/reg-api/docs#/) for registration using the previously requested collection.
 
-The only requirement is that __other users and the STAC browser must be able to find and read your repository!__
+The only requirement is that **other users and the STAC browser must be able to find and read your repository!**
 
 :::info  
 In the next step where you will be uploading metadata to the Open Science Catalog, EarthCODE administrators will review your Item Catalog and assist you with any necessary adjustments.  
-:::  
+:::
+
+## Step 3: Creating a Product Entry in the Open Science Catalog
+
+After completing steps 1 and 2 to prepare your data package, you're now ready to add a product entry to the Open Science Catalog (OSC).
+
+This involves creating a new collection folder under the `products` directory in the [`open-science-catalog-metadata-staging`](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging) repository. The process is straightforward, especially if you're already familiar with Git.
+
+Your `collection.json` file should include general metadata and links to related resources:
+
+- A link to your Item Collection
+- Links to relevant metadata collections (e.g., Variables, Missions, Projects, and Themes)
+- Other useful links, such as documentation, DOIs, websites, etc.
+
+Refer to the diagram below for a detailed overview of the required fields for OSC products:
+
+![metadata-stac](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/71b8e8a7-9a86-491b-ae54-1fb4de9ccf32)
+
+Red arrows indicate how your product entry should link to other metadata collections.
+
+::: warning
+If you can't find a relevant Project, Theme, Variable, or EO Mission to describe your product, you'll need to create a new collection for it as well!
+:::
+
+### How to Publish a New Product to the Catalog
+
+The simplest way to add a new product is to copy an existing one and update it for your use case. This method assumes you have basic Git and GitHub experience.
+
+Here’s the general workflow:
+
+1. Fork the [`open-science-catalog-metadata-staging`](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging) repository to your own GitHub account.
+2. Create a new folder under `products` and copy the structure of an existing product.
+3. Modify the contents as needed to represent your product.
+4. Update any relevant metadata collections to link back to your new product (the links should be bidirectional).
+5. Commit the changes to your forked repository.
+6. Open a pull request to the original repository to propose your changes.
+
+::: tip
+If you're not confident using Git or find the process cumbersome, tools are being developed to simplify it!
+
+Check out the GUI-based [Git Clerk](https://dashboard.earthcode-staging.earthcode.eox.at/osc-editor) or the CLI-based [deep-code](https://github.com/deepesdl/deep-code) for a smoother experience.
+:::
+
+### Example Product Collection
+
+Below is a sample `collection.json` file for a product. You can use it as a template:
+
+::: details `products/my-product/collection.json`
+
+```json{3,5,7,12-15,22-23,30-32,49,80,90,}:line-numbers
+{
+  "type": "Collection",
+  "id": "short-descriptive-product-identifier",
+  "stac_version": "1.0.0",
+  "description": "Detailed description of my data product.",
+  "updated": "2024-09-12T20:32:06.219108Z",
+  "title": "Proper Product Title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          -63.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-01T00:00:00Z",
+          "2021-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "Snow/Ice",
+    "Ice Velocity",
+    "Terrestrial Hydrosphere"
+  ],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "child",
+      "href": "https://<remote-storage>/my-item-collection/collection.json", // link to your remote Item Collection
+      "type": "application/json",
+      "title": "Items"
+    },
+    // Add related projects, themes, EO-missions and variables
+    {
+      "rel": "related",
+      "href": "../../projects/4d-antarctica/collection.json",
+      "type": "application/json",
+      "title": "Project: 4D-ANTARCTICA"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/ice-velocity/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Ice Velocity"
+    },
+    {
+      "rel": "related",
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "type": "application/json",
+      "title": "EO Mission: Sentinel-1"
+    },
+    {
+      "rel": "via",
+      "href": "https://<link-to-my-documentation>.org",
+      "title": "Documentation"
+    },
+  ],
+  // STAC extensions for more extensive metadata. Visit their links for more information.
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
+  ],
+  "osc:project": "my-project-title",
+  "osc:status": "completed",
+  "osc:region": "Antarctica",
+  "osc:type": "product",
+  "created": "2022-04-20T00:00:00Z",
+  "version": "1.0",
+  "cf:parameter": [
+    {
+      "name": "ice-sheet-velocity-antarctic-2021"
+    }
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "ice-velocity"
+  ],
+  "osc:missions": [
+    "sentinel-1"
+  ],
+}
+```
+:::
+
+You also need to make changes to **all** the collections we have linked to. Below is an example of the changes required for the "ice velocity" variable in the above example.
+
+::: details `variables/ice-velocity/catalog.json`
+```json
+{
+  "type": "Catalog",
+  "id": "ice-velocity",
+  "stac_version": "1.0.0",
+  "description": "Pertaining to the rate at which ice formations (glaciers, ice sheets, etc.) are moving. [NOAA Satellite and Information Service]",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/cee7ed2f-3ed1-44ad-b48b-513a68bb3244?gtm_keyword=ICE%20VELOCITY&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/Earth%20Science/3896f032-388f-408e-b988-bf7e100704ba?gtm_keyword=ICE%20VELOCITY&gtm_scheme=Earth%20Science",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/ice-sheet-velocity-antarctic-2021/collection.json",
+      "type": "application/json",
+      "title": "Antarctic Ice Sheet monthly ice velocity - 2021"
+    },
+    { // [!code ++]
+      "rel": "child", // [!code ++]
+      "href": "../../products/my-product/collection.json", // [!code ++]
+      "type": "application/json", // [!code ++]
+      "title": "The Title of My Product" // [!code ++]
+    }, // [!code ++]
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/ice-velocity/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "updated": "2024-09-12T20:23:29.837131Z",
+  "keywords": [],
+  "title": "Ice Velocity"
+}
+```
+:::
+
+### Example Project Collection
+If this is your first time contributing, your project is likely not yet registered in the Open Science Catalog. In that case, you’ll need to add a proper project description before (or alongside) publishing your product.
+
+Below is a template for a project collection that you can copy and include together with your product entry.
 
 
-## Step 3: Creating a Product entry in the OSC
+::: details `projects/my-project/collection.json`
+```json{3,5,6,7,12-15,22-23,29,39,44,46,56,61,63,71,74,77,85,88,92,96,98,102,104}
+{
+  "type": "Collection",
+  "id": "my-project-id",
+  "stac_version": "1.0.0",
+  "description": "A detailed description of the project",
+  "updated": "2024-09-12T20:32:22.986110Z", // Change to the current time
+  "title": "My Project Title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2023-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via", // Add all relevant websites, documentation, etc., with "via" links
+      "href": "https://www.<my-project-website>.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/my-product/collection.json",
+      "type": "application/json",
+      "title": "My Product Title"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/<my-project>/collection.json", // name of this file
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json", // Add all related Themes to your project
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land" // must match the themes linked above
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [ // Add all affiliations and contact points
+    {
+      "name": "Your Name",
+      "emails": [
+        {
+          "value": "your.email@institution.org"
+        }
+      ],
+      "roles": [
+        "technical_officer" // change to appropriate
+      ]
+    },
+    {
+      "name": "Name of an affiliated institution, organisation, etc.",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Name of another institution, organisation, etc.",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+}
+:::
 
-### How to publish new data to the catalog?
+::: tip  
+Browsing through the existing collections on the [Open Science Catalog GitHub](https://github.com/ESA-EarthCODE/open-science-catalog-metadata) is a great way to learn how to structure and publish your own metadata, and to discover what’s already available.
+
+All contributions to the OSC are reviewed by our administrators, who will provide guidance and feedback throughout the process—so don’t hesitate to get started!
+:::
+
+<!-- 
 
 Data ingestion to the catalog can be performed in different ways, depending on **where the products are originally stored** , but also depending on **the number of products to be ingested** and therefore size.
 
@@ -282,4 +659,4 @@ Before making any changes to the catalog's content please make sure you have alr
 
 Please refer to the graphic below to check which metadata are required for your product **before starting the Product upload.**
 
-![metadata-stac](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/71b8e8a7-9a86-491b-ae54-1fb4de9ccf32)
+![metadata-stac](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/71b8e8a7-9a86-491b-ae54-1fb4de9ccf32) -->

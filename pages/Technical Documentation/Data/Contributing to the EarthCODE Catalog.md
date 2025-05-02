@@ -299,7 +299,7 @@ If you're not confident using Git or find the process cumbersome, tools are bein
 Check out the GUI-based [Git Clerk](https://dashboard.earthcode-staging.earthcode.eox.at/osc-editor) or the CLI-based [deep-code](https://github.com/deepesdl/deep-code) for a smoother experience.
 :::
 
-### Example Product
+### Example Product Collection
 
 Below is a sample `collection.json` file for a product. You can use it as a template:
 
@@ -503,9 +503,132 @@ You also need to make changes to **all** the collections we have linked to. Belo
 }
 ```
 :::
----
 
-### Old from here
+### Example Project Collection
+If this is your first time contributing, your project is likely not yet registered in the Open Science Catalog. In that case, you’ll need to add a proper project description before (or alongside) publishing your product.
+
+Below is a template for a project collection that you can copy and include together with your product entry.
+
+
+::: details `projects/my-project/collection.json`
+```json{3,5,6,7,12-15,22-23,29,39,44,46,56,61,63,71,74,77,85,88,92,96,98,102,104}
+{
+  "type": "Collection",
+  "id": "my-project-id",
+  "stac_version": "1.0.0",
+  "description": "A detailed description of the project",
+  "updated": "2024-09-12T20:32:22.986110Z", // Change to the current time
+  "title": "My Project Title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2023-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": []
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via", // Add all relevant websites, documentation, etc., with "via" links
+      "href": "https://www.<my-project-website>.org/",
+      "title": "Website"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/my-product/collection.json",
+      "type": "application/json",
+      "title": "My Product Title"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Projects"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/<my-project>/collection.json", // name of this file
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json", // Add all related Themes to your project
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v0.1.1/schema.json"
+  ],
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land" // must match the themes linked above
+        }
+      ]
+    }
+  ],
+  "osc:type": "project",
+  "contacts": [ // Add all affiliations and contact points
+    {
+      "name": "Your Name",
+      "emails": [
+        {
+          "value": "your.email@institution.org"
+        }
+      ],
+      "roles": [
+        "technical_officer" // change to appropriate
+      ]
+    },
+    {
+      "name": "Name of an affiliated institution, organisation, etc.",
+      "roles": [
+        "consortium_member"
+      ]
+    },
+    {
+      "name": "Name of another institution, organisation, etc.",
+      "roles": [
+        "consortium_member"
+      ]
+    }
+  ],
+}
+:::
+
+::: tip  
+Browsing through the existing collections on the [Open Science Catalog GitHub](https://github.com/ESA-EarthCODE/open-science-catalog-metadata) is a great way to learn how to structure and publish your own metadata, and to discover what’s already available.
+
+All contributions to the OSC are reviewed by our administrators, who will provide guidance and feedback throughout the process—so don’t hesitate to get started!
+:::
+
+<!-- 
 
 Data ingestion to the catalog can be performed in different ways, depending on **where the products are originally stored** , but also depending on **the number of products to be ingested** and therefore size.
 
@@ -536,4 +659,4 @@ Before making any changes to the catalog's content please make sure you have alr
 
 Please refer to the graphic below to check which metadata are required for your product **before starting the Product upload.**
 
-![metadata-stac](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/71b8e8a7-9a86-491b-ae54-1fb4de9ccf32)
+![metadata-stac](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/71b8e8a7-9a86-491b-ae54-1fb4de9ccf32) -->

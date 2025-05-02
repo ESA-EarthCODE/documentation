@@ -274,7 +274,7 @@ Refer to the diagram below for a detailed overview of the required fields for OS
 
 ![metadata-stac](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/71b8e8a7-9a86-491b-ae54-1fb4de9ccf32)
 
-The red arrows indicate the interconnections between objects in the OSC.
+Red arrows indicate how your product entry should link to other metadata collections.
 
 ::: warning
 If you can't find a relevant Project, Theme, Variable, or EO Mission to describe your product, you'll need to create a new collection for it as well!

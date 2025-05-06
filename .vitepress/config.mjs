@@ -68,6 +68,8 @@ const sideBar = withSidebar(
         var _paq = (window._paq = window._paq || []);
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(["requireCookieConsent"]);
+        _paq.push(['setCookieSameSite', 'None']);
+        _paq.push(['setCookieSecure', true]);
         _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
         _paq.push(["trackPageView"]);
         _paq.push(["enableLinkTracking"]);

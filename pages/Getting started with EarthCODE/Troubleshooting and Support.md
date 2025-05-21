@@ -16,9 +16,9 @@ Google Earth Engine is not yet one of the integrated EarthCODE platforms, and th
 </details>
 
 <details>
-<summary><strong>Can I publish pretrained models or anonymised data?</strong></summary>
+<summary><strong>Can I publish pre-trained models or anonymized data?</strong></summary>
 
-Yes. The FAIR principles do **not** require assets to be fully open, so you may publish pretrained models or anonymised datasets. Wherever possible, include a small sample dataset to help others reproduce and validate your workflow.
+Yes. The FAIR principles do **not** require assets to be fully open, so you may publish pre-trained models or anonymized datasets. Wherever possible, include a small sample dataset to help others reproduce and validate your workflow.
 </details>
 
 <details>

@@ -11,11 +11,18 @@ This section will guide you through the key aspects of data discovery and access
 
 What you'll find in this section:
 
-- [**Introduction to the ESA Open Science Catalog**](#introduction-to-the-open-science-catalog)
-- [**Discovering Catalog Content**](#discovering-catalog-content)
-- [**Standardized Metadata and Taxonomies for FAIR Data Access**](#standardized-metadata-and-taxonomies-for-fair-data-access)
-- [**Metrics and Statistics About the EarthCODE Catalog**](#metrics-and-statistics-about-the-earthcode-catalog)
-- [**Optimizing Performance for Large Datasets**](#optimizing-performance-for-large-datasets)
+- [Data Discovery and Access](#data-discovery-and-access)
+  - [Introduction to the Open Science Catalog](#introduction-to-the-open-science-catalog)
+    - [Accessing the Open Science Catalog](#accessing-the-open-science-catalog)
+    - [The Open Science Catalog Landing Page](#the-open-science-catalog-landing-page)
+    - [Key Features of the Open Science Catalog](#key-features-of-the-open-science-catalog)
+  - [Discovering Catalog Content](#discovering-catalog-content)
+    - [Search](#search)
+  - [Start Discussions Directly From the Catalog](#start-discussions-directly-from-the-catalog)
+  - [Standardized Metadata and Taxonomies for FAIR Data Access](#standardized-metadata-and-taxonomies-for-fair-data-access)
+  - [Metrics and Statistics About the Open Science Catalog](#metrics-and-statistics-about-the-open-science-catalog)
+    - [Metrics](#metrics)
+    - [Statistics](#statistics)
 
 
 ## Introduction to the Open Science Catalog
@@ -149,7 +156,7 @@ Products that match the filters are displayed in the Results list. The number in
 
 The **RESET ALL** button clears all currently applied filters and allows to start a new search.
 
-The **EarthCODE Catalog** is integrated with the **EarthCODE Discourse forum**, making it easy for you to connect discussions directly to the resources you are exploring. This integration allows you to view or join forum discussions right from the catalog, without needing to leave the page you are on. Whether you’re exploring datasets, workflows, experiments, or other catalog items, you can view existing discussions or start new ones with just a few clicks.
+The **Open Science Catalog** is integrated with the **EarthCODE Discourse forum**, making it easy for you to connect discussions directly to the resources you are exploring. This integration allows you to view or join forum discussions right from the catalog, without needing to leave the page you are on. Whether you’re exploring datasets, workflows, experiments, or other catalog items, you can view existing discussions or start new ones with just a few clicks.
 
 ## Start Discussions Directly From the Catalog
 
@@ -168,7 +175,7 @@ When browsing an item in the catalog, you’ll see a **"Start a new topic on the
 
 By linking discussions to specific catalog items, EarthCODE ensures that all conversations related to a resource are centralized in one topic. This approach reduces redundancy, keeps the forum tidy, and makes it easier for you to find valuable insights. If needed, you can still create separate posts outside of these linked discussions. 
 
-When commenting on a dataset, workflow, or experiment in the EarthCODE Catalog, you can make contributions to improve reusability, quality or share constructive ideas to start a conversation about the item. You could start discussions about:
+When commenting on a dataset, workflow, or experiment in the Open Science Catalog, you can make contributions to improve reusability, quality or share constructive ideas to start a conversation about the item. You could start discussions about:
 - Missing or incomplete metadata (e.g. missing spatial/temporal coverage, provenance details, variable definitions)
 - Feedback on data quality (e.g. unexpected values, data gaps, inconsistencies)
 - Questions about the methodology used to generate the product
@@ -197,7 +204,7 @@ Adhering by design to the "FAIR" (findable, accessible, interoperable, reproduci
 ![OSC-structure](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/8d4d4390-ec7c-40bb-9605-a02e7f33decb)
 
 
-## Metrics and Statistics About the EarthCODE Catalog
+## Metrics and Statistics About the Open Science Catalog
 
 ### Metrics
 

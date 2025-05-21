@@ -7,7 +7,7 @@ order: 2
 
 Finding content on the **EarthCODE Discourse forum** is key to making the most of the platform and avoiding duplication of the same questions. Before posting about a topic, follow these three steps:
 
-## 1. Use the EarthCODE Catalog
+## 1. Use the Open Science Catalog
 
 If you are looking for a discussion about a particular item on the Open Science Catalog, you can see all the linked topics about that particular item on its open science catalog webpage. 
 
@@ -92,7 +92,7 @@ For more formatting tips, [try this 10-minute markdown tutorial](https://commonm
 Posting on the **EarthCODE Discourse forum** is straightforward, but following a few best practices ensures discussions remain relevant and organized.
 
 You can start discussions about a variety of topics such as:
-- Sharing datasets from Open Science Data Catalogue, discussing yours or others' project’s results and new ideas.
+- Sharing datasets from Open Science Catalogue, discussing yours or others' project’s results and new ideas.
 - Discussing platforms which will be integrated to EarthCODE, their features, and how to make the most out of them.
 - Ask a question, share a resource (training, blog, article), or just share something relevant you’re passionate about
 - Discuss an event, gathering or other community engagement
@@ -100,7 +100,7 @@ You can start discussions about a variety of topics such as:
 - Ask for technical support and post about issues you're facing
 
 
-When posting about a dataset, workflow, or experiment in the EarthCODE Catalog, you can make contributions to improve reusability, quality or share constructive ideas to start a conversation about the item. You could start discussions about:
+When posting about a dataset, workflow, or experiment in the Open Science Catalog, you can make contributions to improve reusability, quality or share constructive ideas to start a conversation about the item. You could start discussions about:
 - Missing or incomplete metadata (e.g. missing spatial/temporal coverage, provenance details, variable definitions)
 - Feedback on data quality (e.g. unexpected values, data gaps, inconsistencies)
 - Questions about the methodology used to generate the product
@@ -130,9 +130,9 @@ When no relevant discussion exists, create a new topic. Follow these steps:
 
 By following these guidelines, you help keep the forum organized, useful, and welcoming for all users.
 
-**Starting a Discussion About an Item in the EarthCODE Catalog**
+**Starting a Discussion About an Item in the Open Science Catalog**
 
-If your discussion relates to an item in the **EarthCODE Catalog**, it’s best to use the [integrated features on the catalog](../../Technical%20Documentation/Data/Discovering%20Resources%20in%20The%20EarthCODE%20Catalog.md#start-discussions-directly-from-the-catalog):
+If your discussion relates to an item in the **Open Science Catalog**, it’s best to use the [integrated features on the catalog](../../Technical%20Documentation/Data/Discovering%20Resources%20in%20The%20EarthCODE%20Catalog.md#start-discussions-directly-from-the-catalog):
 1. Navigate to the catalog and locate the item.
 2. Use the **"Start a new topic on the EarthCODE forum"** button.
 
@@ -153,7 +153,7 @@ Discourse includes a **chat feature** that allows you to connect directly with o
 2. Start a chat directly from their profile on a post.
 ![onebox-paste-link](/img/discourse/chatfrompost.gif)
 
-For example, you could find an interesting item in the EarthCODE catalog and want to ask the researcher who published it some questions. If they are registered on Discourse, you can search for them by name and send them a direct message.
+For example, you could find an interesting item in the Open Science catalog and want to ask the researcher who published it some questions. If they are registered on Discourse, you can search for them by name and send them a direct message.
 
 
 ## Chat Etiquette

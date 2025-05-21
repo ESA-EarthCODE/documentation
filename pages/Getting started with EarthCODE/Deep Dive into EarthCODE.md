@@ -269,7 +269,7 @@ The core units of publication in EarthCODE are data and workflows (combined in e
 
 In EarthCODE, the final outputs of your research—referred to as **Products** or data products—are stored, described, and published in a way that ensures long-term FAIRness and availability.
 
-These data products can be hosted on the ESA Project Results Repository (PRR) or an external repository of your choice. The PRR is ESA’s dedicated long-term storage service for project results. Uploading to the PRR is optional but recommended, especially for ensuring compliance with FAIR principles and facilitating persistent access to your work. You simply provide a link to the data location as part of the product’s metadata. For detailed instructions on uploading to the PRR, refer to the [Contributing to the EarthCODE Catalog guide](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md).
+These data products can be hosted on the ESA Project Results Repository (PRR) or an external repository of your choice. The PRR is ESA’s dedicated long-term storage service for project results. Uploading to the PRR is optional but recommended, especially for ensuring compliance with FAIR principles and facilitating persistent access to your work. You simply provide a link to the data location as part of the product’s metadata. For detailed instructions on uploading to the PRR, refer to the [Contributing to the Open Science Catalog guide](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md).
 
 Each product is described using **STAC (SpatioTemporal Asset Catalog) metadata**, specifically through a `Collection` that captures key attributes like the spatial and temporal extent, scientific context, provenance, and more.
 

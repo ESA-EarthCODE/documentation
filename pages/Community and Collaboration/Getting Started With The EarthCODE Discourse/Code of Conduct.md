@@ -91,7 +91,7 @@ Help us maintain an organized forum by:
 
 Use the EarthCODE portal to find and access published experiments, products, data or workflows and join discussions. From there, you have the ability to either contribute to the existing topic about the item or start a new one.
 
-When using the EarthCODE Catalog:
+When using the Open Science Catalog:
 
 * Use the "Discuss This" feature to start forum discussions directly from catalog items
 * Topics created this way will be automatically tagged with relevant metadata

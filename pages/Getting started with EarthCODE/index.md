@@ -35,11 +35,10 @@ There are two ways to explore EarthCODE:
 2. **Jump straight to what you need** – If you’re short on time or already familiar with EarthCODE, you can go directly to specific topics:
 
    * [10 minutes to EarthCODE](./10%20minutes%20to%20EarthCODE.md) – A quick overview to get started fast
-   * [Deep Dive into EarthCODE](./Deep%20Dive%20into%20EarthCODE.md) – Advanced features and in-depth guidance
    * [Accessing EarthCODE](./Accessing%20EarthCODE.md) – Accessing EarthCODE and Platforms
    * [Troubleshooting and Support](./Troubleshooting%20and%20Support.md) – Help when you need it
 
-2. **Explore the EarthCODE Platform Ecosystem** – We have a growing ecosystem of platforms to provide [FAIR and Open Earth Observation science tools and infrastructure](../Technical%20Documentation/Platforms/index.md) to explore.
+3. **Explore the EarthCODE Platform Ecosystem** – We have a growing ecosystem of platforms to provide [FAIR and Open Earth Observation science tools and infrastructure](../Technical%20Documentation/Platforms/index.md) to explore.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
   <img src="/img/platforms/platform_logos/deepesdl.webp" alt="DeepESDL" style="max-height: 120px; object-fit: contain;" />

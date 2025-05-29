@@ -29,6 +29,23 @@ EarthCODE ([earthcode.esa.int](https://earthcode.esa.int)) is ESA’s strategic 
 Open Science is a movement to make the entire research process more accessible and reproducible, including input data, analysis methods, results, and the dissemination and reception of those results.
 :::
 
+<!-- what is open science
+
+Open science principles are increasingly being embraced in Earth sciences to promote transparency, collaboration, and accessibility of research. Commonly, these principles are being applied by promoting open access publications, preprints and an open review process, sharing data and methodologies openly for verification, reproducibility and reuse, embracing open-source principles in software development to allow others to inspect, modify, and contribute to the code, encouraging collaboration among researchers through various platforms like GitHub, GitLab and other collaborative tools, sharing educational resources openly to allow for a global audience, and by promoting citizen science. 
+
+  
+
+Open Science is also creating global impact, as shown by the increasing number of resources on open science, and by the dedicated programmes and initiatives to promote open science adoption in the community (AGU, 2024), (Murphy, 2021), (P. J. Zellner et al., 2024). Policies and recommendations from international bodies (EU, 2020), (European Commission, 2021), (UNESCO, 2022), further aim to make the scientific process more transparent, accessible, and inclusive. 
+
+  
+
+This global trend comes in the age of the cloud revolution, making advanced and resource hungry processing increasingly accessible, as researchers can discover, access and process huge amounts of Earth data from EO platforms, couple their analyses with models, and run complex workflows on powerful infrastructures that can scale and are accessed on demand, from the convenience of their desk. 
+
+  
+
+Together, Open Science and EO platforms create huge opportunities for Earth System science. Still, there is significant complexity to consider. One good example of where common principles promoted by open science are insufficient for a cloud computing scenario is making available the dataset package for a publication, in which researchers should aim to make their data accessible for download in “1-click”. Consider the case of high-resolution global datasets produced by workflows executed on platforms that accesses cloud-optimized Earth Observation and other Earth data. Not only it is cost and resource ineffective to deliver this dataset for download, but it also hinders reproducibility and use, as its sole delivery, even with the accompanying code, is insufficient without the access to the infrastructure. Sustainable Open Science must account for the new complexities and requirements of the cloud-computing research era. 
+ -->
+
 ## The Roadmap
 
 By aligning with FAIR principles and leveraging cloud infrastructure, EarthCODE promotes transparency, reproducibility, and collaboration in Earth System Science. the EarthCODE **roadmap** helps clarify how this transformation has unfolded—and where the platform is heading next:

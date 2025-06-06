@@ -3,7 +3,7 @@
 Content is being actively developed and updated for this page. EarthCODE's documentation is a living document and will be continuously updated with detailed reviews.
 :::
 
-Find out more at: https://documentation.dataspace.copernicus.eu/APIs/openEO/openEO.html 
+Find out more at: https://documentation.dataspace.copernicus.eu/APIs/openEO/federation/openeo_federation.html
 
 
 # openEO: A Community Standard for Geospatial Data Processing and Analysis
@@ -14,7 +14,7 @@ Find out more at: https://documentation.dataspace.copernicus.eu/APIs/openEO/open
 
 With openEO’s collaborative nature, users can:
 
-- Seamlessly share code, workflows, and data processing methods across platforms and tools.
+- Seamlessly share code, workflows, and data processing methods across openEO-based platforms and tools.
 - Foster collaboration while advancing the accessibility, scalability, and reproducibility of Earth observation data.
 - Utilize intuitive programming libraries that simplify the analysis of diverse Earth observation datasets.
 - Efficiently access and process large-scale data across a federation of existing cloud infrastructures, supporting:

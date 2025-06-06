@@ -3,14 +3,6 @@ order: 4
 ---
 # Deep Dive into EarthCODE
 
-
-# Hey There
-
-
-
-:::tip This guide goes into detail about how EarthCODE works and how the different entities within it are related. For the purposes of browsing the catalog or publishing through any of the integrated platforms, you do not need to necessarily understand any of these details below. If however, you are publishing manually, are a platform provider trying to integrate, or otherwise interested in how EarthCODE works this guide will give you the necessary context and background.
-:::
-
 As described in [Step 1: Understand EarthCODE Terminology](/Getting%20started%20with%20EarthCODE/#step-1-understand-earthcode-terminology) EarthCODE provides an integrated ecosystem designed to support scientists through the full lifecycle of doing Open Science. EarthCODE was designed around supporting the work of scientists and developers from ESRIN, the ESA Science Clusters, the ESA Science Hub, and EC and ESA- Funded Activities.
 
 A detailed concept of what EarthCODE is and the different actors involved can be seen in the figure below:
@@ -246,6 +238,18 @@ All platform providers are expected to integrate with EarthCODE's Single Sign-On
 
 Integration with EarthCODE is supported by the **EOEPCA+ architecture**, which provides open-source building blocks and interface standards to ensure interoperability across platforms. This approach allows platforms to remain independent while contributing to a federated, reproducible, and scalable open science infrastructure.
 
+<!-- The Interoperable Building Block Evolution Framework
+ensures continuity of the Common Architecture (EOEPCA) -
+which has defined a reference architecture for cloud EO
+platforms and has delivered a number of Building Blocks (BB)
+at different level of maturity and supporting community. They
+represent the state-of-the-art in terms of OGC standards.
+EOEPCA+ also ensures international engagement in
+interoperability, setting the framework for generic building
+block development. The Common Architecture Building Blocks
+provide interoperable open-source elements for the EarthCODE
+Architecture. -->
+
 The EarthCODE project runs standard best practice procurement cycles on esa-star, platforms can apply during these tenders and propose to integrate into the EarthCODE ecosystem.
 
 More information about how integrating with EarthCODE works, where and how to apply, can be found at the [Integrating New Platforms Page](../Integrating%20New%20Platforms%20to%20EarthCODE/).
@@ -338,6 +342,23 @@ Metadata describing datasets (Products) is published using the **SpatioTemporal 
 
 The catalog acts as both a registry of published research artifacts and an operational gateway for executing FAIR experiments across federated EO platforms. More information about the catalog and how it works can be found at [Data - Discovering Resources in The Open Science Catalog)](../Technical%20Documentation/Data/Discovering%20Resources%20in%20The%20EarthCODE%20Catalog)
 
+<!-- One such component developed on top of EOEPCA open-
+source building blocks and which will be integrated in
+EarthCODE is the Open Science Catalogue (OSC).
+The Open Science Data Catalogue (ESA OSC, 2024) is an ESA
+Open Science activity aiming to enhance the discoverability and
+use of the various scientific and value-added results (i.e. data,
+code, documentation) achieved in Earth System Science
+research activities funded by ESA EO. The OSC provides open
+access for the scientific community to geoscience products
+(based on EO data from ESA and non-ESA missions and other
+geospatial information and models) across the whole spectrum
+of Earth Science domains. The OSC adheres to FAIR principles
+and promotes reproducibility of scientific studies. The OSC
+makes use of various Open-Source geospatial technologies such
+as pycsw, PySTAC, and OpenLayers and tries to contribute
+back to these projects in terms of software and standardisation
+(Schindler, 2023).  -->
 
 ### How EarthCODE is FAIR
 

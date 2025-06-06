@@ -35,11 +35,10 @@ There are two ways to explore EarthCODE:
 2. **Jump straight to what you need** – If you’re short on time or already familiar with EarthCODE, you can go directly to specific topics:
 
    * [10 minutes to EarthCODE](./10%20minutes%20to%20EarthCODE.md) – A quick overview to get started fast
-   * [Deep Dive into EarthCODE](./Deep%20Dive%20into%20EarthCODE.md) – Advanced features and in-depth guidance
    * [Accessing EarthCODE](./Accessing%20EarthCODE.md) – Accessing EarthCODE and Platforms
    * [Troubleshooting and Support](./Troubleshooting%20and%20Support.md) – Help when you need it
 
-2. **Explore the EarthCODE Platform Ecosystem** – We have a growing ecosystem of platforms to provide [FAIR and Open Earth Observation science tools and infrastructure](../Technical%20Documentation/Platforms/index.md) to explore.
+3. **Explore the EarthCODE Platform Ecosystem** – We have a growing ecosystem of platforms to provide [FAIR and Open Earth Observation science tools and infrastructure](../Technical%20Documentation/Platforms/index.md) to explore.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
   <img src="/img/platforms/platform_logos/deepesdl.webp" alt="DeepESDL" style="max-height: 120px; object-fit: contain;" />
@@ -134,7 +133,9 @@ Explore the complete list of [Tutorials and other resources](../Training%20and%2
 
 
 ## Step 3: Who is EarthCODE For? 
-EarthCODE is designed for the community of Earth‑science practitioners, including ESRIN Science Hub members, the ESA Science Hub and teams working on ESA‑funded projects to enable them to do science and publish their results. It further serves as a place for developers and users to contribute workflows, platforms and discover openly available Earth Science research data and code. There are two key type of roles within EarthCODE:
+EarthCODE is designed for the community of Earth‑science practitioners, including ESRIN Science Hub members, the ESA Science Hub and teams working on ESA‑funded projects to enable them to do science and publish their results. A key stakeholder group are the ESA Science Clusters which aim at promoting networking, collaborative research, and fostering international collaboration in various Earth science domains, including: atmosphere, ocean, carbon, water cycle, polar, extremes and natural disasters, biosphere, land and agriculture, solid and magnetic earth. Clusters involve different ESA funded projects and activities bringing together expertise, data and resources in a synergistic manner.
+
+There are two key type of roles within EarthCODE:
 
 **Scientists**, EarthCODE is a platform to: Do science. Publish science. Discover data and code. Use other people’s data and code in an ethical manner. Discuss science. Collaborate on science. Learn about FAIR and Open Science.
 
@@ -155,6 +156,39 @@ A few brief examples of how a climate scientist, ML developer, or EO analyst mig
 
 make these clickable and expandable as well
 ::: -->
+
+<!-- 
+A key stakeholder group are the ESA Science Clusters which aim at promoting networking, collaborative research, and fostering international collaboration in various Earth science domains, including: atmosphere, ocean, carbon, water cycle, polar, extremes and natural disasters, biosphere, land and agriculture, solid and magnetic earth. Clusters involve different ESA funded projects and activities bringing together expertise, data and resources in a synergistic manner. 
+
+The key user persona (Figure 3) for EarthCODE is the earth
+observation scientist, for whom EarthCODE looks to provide
+capabilities such as: development and execution of workflows
+to capture large scale processes over climatic temporal scales;
+conducting complex multi-variate spatio-temporal analyses;
+running various analyses and models, including ML; setting up
+automated execution of algorithms, potentially recurrent;
+performing dataset and feature engineering; performing pipeline
+building and automation; accessing and processing
+heterogeneous data sources including online collections, data
+cubes and data at native resolution; having access to complete
+metadata for the datasets including data lineage and provenance,
+source and (pre-)processing; extracting, reading, writing and
+downloading data from APIs; storing, describing, publishing
+and documenting new data; using own data such as field
+measurements within scientific workflows; accessing the newest
+(EO) data available, programmatically; packaging, publishing
+and preserving the scientific outputs (data and code) with
+persistent identifiers (e.g., DOIs) in long-term storage
+repositories; setting up and using software environments;
+importing and running environments on EO Platforms;
+exporting environments (e.g. Docker, application package,
+openEO graph, etc) and sharing them; using Git, including
+provided by own organisation; managing versions of data, code
+and documentation; making projects/repositories citable;
+contributing to open source projects; publishing scientific
+results and other research outcomes on web, including scientific
+visualisations; discovering and exploring scientific results, data,
+code and documentation of other contributing researchers. -->
 ---
 
 <!-- HTML for actor cards Note: Maybe add some icons here for each of the roles -->

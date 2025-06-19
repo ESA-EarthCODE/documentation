@@ -43,8 +43,8 @@ Platforms differ in four areas: the data they give you access to (and the way yo
 | [**EDC EOxHub Workspaces**](./EDC.md)    | Sentinel (1, 2, 3, 5P), Landsat-8, WorldView, CBERS-3/4, GOES-16/17, MODIS, PlanetScope, SPOT 6/7, SkySat, Pleiades, SRTM |  GPU                         | Jupyter notebooks, OGC API Processes         |
 | [**Pangeo (via EDC)**](./EDC_options.md) | Sentinel (1, 2, 3, 5P), Landsat-8, WorldView, CBERS-3/4, GOES-16/17, MODIS, PlanetScope, SPOT 6/7, SkySat, Pleiades, SRTM | Dask Gateway, GPUs                     | Jupyter notebooks, OGC API Processes         |
 | [**CDSE openEO Federation**](./OpenEO.md) | Sentinel (1, 2, 3)                                                                                       | GPU                              | OpenEO Process Graphs     |
-| [**CoCalc (via EDC)**](/EDC_options.md) | Sentinel (1, 2, 3, 5P), Landsat-8, WorldView, CBERS-3/4, GOES-16/17, MODIS, PlanetScope, SPOT 6/7, SkySat, Pleiades, SRTM |  GPU                         | Jupyter notebooks, OGC API Processes         |
-| [**Polar TEP (via EDC)**](/EDC_options.md) | Sentinel (1, 2, 3, 5P), Landsat-8, WorldView, CBERS-3/4, GOES-16/17, MODIS, PlanetScope, SPOT 6/7, SkySat, Pleiades, SRTM |  GPU                         | Jupyter notebooks, OGC API Processes         |
+| [**CoCalc (via EDC)**](./EDC_options.md) | Sentinel (1, 2, 3, 5P), Landsat-8, WorldView, CBERS-3/4, GOES-16/17, MODIS, PlanetScope, SPOT 6/7, SkySat, Pleiades, SRTM |  GPU                         | Jupyter notebooks, OGC API Processes         |
+| [**Polar TEP (via EDC)**](./EDC_options.md) | Sentinel (1, 2, 3, 5P), Landsat-8, WorldView, CBERS-3/4, GOES-16/17, MODIS, PlanetScope, SPOT 6/7, SkySat, Pleiades, SRTM |  GPU                         | Jupyter notebooks, OGC API Processes         |
 
 ## FAIR Open Science Development Capabilities
 
@@ -54,8 +54,8 @@ Platforms differ in four areas: the data they give you access to (and the way yo
 | [**EDC EOxHub Workspaces**](./EDC.md)    | Jupyter                                | Python                       | [eodash](https://eodash.org) - Dashboard as a Service, Jupyter                                          | OGC API Processes          |
 | [**Pangeo (via EDC)**](./EDC_options.md) | Jupyter                                | Python                       | [eodash](https://eodash.org) - Dashboard as a Service, Jupyter                                          | OGC API Processes          |
 | [**CDSE openEO Federation**](./OpenEO.md) | Jupyter, openEO Web Editor, openEO client libraries         | Python, R, JavaScript        | GUI, Jupyter                                     | OpenEO Process Graphs      |
-| [**CoCalc (via EDC)**](/EDC_options.md) | Jupyter                                | Python                       | [eodash](https://eodash.org) - Dashboard as a Service, Jupyter                                          | OGC API Processes          |
-| [**Polar TEP (via EDC)**](/EDC_options.md) | Jupyter                                | Python                       | [eodash](https://eodash.org) - Dashboard as a Service, Jupyter                                          | OGC API Processes          |
+| [**CoCalc (via EDC)**](./EDC_options.md) | Jupyter                                | Python                       | [eodash](https://eodash.org) - Dashboard as a Service, Jupyter                                          | OGC API Processes          |
+| [**Polar TEP (via EDC)**](./EDC_options.md) | Jupyter                                | Python                       | [eodash](https://eodash.org) - Dashboard as a Service, Jupyter                                          | OGC API Processes          |
 
 
 <!-- To compare platforms at a glance start with [**Choosing Tools and Platforms**](./Choosing%20Tools%20and%20Platforms.md). -->

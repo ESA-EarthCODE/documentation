@@ -344,8 +344,8 @@ The catalog acts as both a registry of published research artifacts and an opera
 
 <!-- One such component developed on top of EOEPCA open-
 source building blocks and which will be integrated in
-EarthCODE is the Open Science Catalogue (OSC).
-The Open Science Data Catalogue (ESA OSC, 2024) is an ESA
+EarthCODE is the Open Science Catalog (OSC).
+The Open Science Catalog (ESA OSC, 2024) is an ESA
 Open Science activity aiming to enhance the discoverability and
 use of the various scientific and value-added results (i.e. data,
 code, documentation) achieved in Earth System Science
@@ -362,9 +362,9 @@ back to these projects in terms of software and standardisation
 
 ### How EarthCODE is FAIR
 
-All data and workflows in EarthCODE need to be FAIR​.
+All data and workflows in EarthCODE need to be FAIR.
 
-:::tip Most data in EarthCODE is Open. However, the PRR allows datasets to be closed one could find the product in the Open Science Catalogue (sees the metadata), but not access the data (unless authorized).​
+:::tip Most data in EarthCODE is Open. However, the PRR allows datasets to be closed one could find the product in the Open Science Catalog (sees the metadata), but not access the data (unless authorized).
 :::
 
 EarthCODE is designed to support FAIR and Open Science practices across the lifecycle of Earth Observation research. It enables researchers to create and publish **FAIR digital objects**—datasets, workflows, and metadata—through a reproducible, transparent, and collaborative infrastructure. At the core of the EarthCODE approach are three key components to enable FAIRness:

@@ -77,11 +77,11 @@ Platforms differ in four areas: the data they give you access to (and the way yo
 ---
 
 ### Data Access
-Each platform provides a variety of EO data stored on the cloud and expose access in different ways. For example you can access the full Sentinel, Landsat and Modis archives via the Sentinel Hub API on the Euro Data Cube platform. By moving your compute to data, you eliminate the need to download and handle large files and benefit from distributed, cloud-optimized services to scale at the local, regional and global level of analysis. Moreover, by referencing inputs for your workflows through links to a platform, you ensure reusability and reproducibility of your data and workflows.
+Each platform provides a variety of EO data stored on the cloud and expose access in different ways. For example you can access the full Sentinel, Landsat, and MODIS archives via the Sentinel Hub API on the Euro Data Cube platform. By moving your compute to data, you eliminate the need to download and handle large files and benefit from distributed, cloud-optimized services to scale at the local, regional and global level of analysis. Moreover, by referencing inputs for your workflows through links to a platform, you ensure reusability and reproducibility of your data and workflows.
 <!-- :::tip note to self - bigger, better, zoomable
 ::: -->
-![Sentinel Data https://eox.at/2024/08/sentinel-2-cloudless-2023/](/img/terms/eoxcloudless2023_mediterranean.jpg)
-*Sentinel Data at Scale - The Mediterranean - Sentinel 2 Cloudless 2023*
+[![Sentinel Data https://eox.at/2024/08/sentinel-2-cloudless-2023/](/img/terms/eoxcloudless2023_mediterranean.jpg)](https://s2maps.eu)
+*Sentinel Data at Scale - The Mediterranean - [Sentinel-2 cloudless 2023](https://s2maps.eu)*
 
 ---
 
@@ -98,8 +98,8 @@ EarthCODE platforms differ in interface and how you build and run workflows: som
 ### Specialized Hardware and Tools
 Platforms vary in the compute they expose: some offer standard CPU and some offer tools for managing models (e.g. MLFlow) others provide options for fast storage devices or pre‑installed ML frameworks. DeepESDL, for example, supplies ready‑made GPU environments with PyTorch, TensorFlow and EO ML- specific libraries such as ml4xcube. Choosing a platform with the right hardware stack and specialised tools allows you to scale, worry less about infrastructure and spend more time on doing science.
 
-:::tip Note to self, can we get a gif of a couple of training epochs with a great looking image at the end? Something to the effect of https://docs.dask.org/en/stable/ would be great
-:::
+<!-- :::tip Note to self, can we get a gif of a couple of training epochs with a great looking image at the end? Something to the effect of https://docs.dask.org/en/stable/ would be great
+::: -->
 ![mlxcube](/img/terms/predictions_ml4xcube.png)
 *DeepESDL ml4xcube [Air Temperature Prediction Plot](https://github.com/deepesdl/ML-Toolkits/blob/master/Examples/use_case_lst_at_pytorch_mlflow.ipynb)*
 

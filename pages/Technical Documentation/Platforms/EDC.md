@@ -1,11 +1,11 @@
-# Euro Data Cube
+# Euro Data Cube (EDC) EOxHub Workspaces
 :::warning 🛠️ Page Under Development
 Content is being actively developed and updated for this page. EarthCODE's documentation is a living document and will be continuously updated with detailed reviews.
 :::
-Find out more at: https://eurodatacube.com/documentation 
+Find out more at: https://eurodatacube.com
 
 ## **Earth Observation Information Factory**
-Euro Data Cube is your **one-stop-shop for EO**, offering a comprehensive range of Earth Observation (EO) and derived data products in one place. It enables you to:
+Euro Data Cube (EDC) is your **one-stop-shop for EO**, offering a comprehensive range of Earth Observation (EO) and derived data products in one place. It enables you to:
 - **Analyze events or phenomena** from multiple perspectives.
 - Access **multiple data sources** and compare or correlate variables simultaneously.
 - **Customize your data pipeline** to suit specific needs.
@@ -34,7 +34,7 @@ Euro Data Cube combines several services to provide unparalleled EO capabilities
 - **Controlled access**: Manage data distribution to specific users or user groups.
 
 ### **Exploitation**
-- **EOxHub Workspace**: A managed compute and storage environment to:
+- **EOxHub Workspaces**: A managed compute and storage environment to:
   - Run **Jupyter Notebooks**.
   - Host **custom applications**.
 
@@ -45,6 +45,7 @@ Euro Data Cube combines several services to provide unparalleled EO capabilities
 Start using Euro Data Cube today to unlock the full potential of Earth Observation!
 
 
+<!--
 ---
 
 TBD
@@ -55,3 +56,4 @@ TBD
 - Data Access on Euro Data Cube
 
 ---
+-->

@@ -6,7 +6,7 @@ order: 1
 The catalog functionalities described in the previous sections are granted to any user (registered/and non-registered users). Catalog exploration and content discovery and access to the products is fully open and transparent. In this section we will describe how to make new data accessible through the catalog and make them available for the broad scientific community.
 
 ## Who can contribute?
-Contributions to the Open Science Catalogue are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.
+Contributions to the Open Science Catalog are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.
 We would like to specifically encourage contributions from:
 
 - Principal Investigators of ESA EO (Earth Observation Programme) funded Projects,
@@ -18,9 +18,9 @@ We would like to specifically encourage contributions from:
 
 ### You can enrich EarthCODE in several impactful ways:
 
-- **Publish Research Products:** Add new content to the Open Science Catalogue.
+- **Publish Research Products:** Add new content to the Open Science Catalog.
 - **Update content:** Keep the descriptions and metadata of products, projects, and more up-to-date.
-- **Request removals:** Ensure the catalogue remains accurate by requesting the removal of outdated or incorrect entries.
+- **Request removals:** Ensure the catalog remains accurate by requesting the removal of outdated or incorrect entries.
 
 To contribute, you only need to have an active GitHub account. If you don't have one yet, please [create an account](https://github.com/signup) to get started.
 

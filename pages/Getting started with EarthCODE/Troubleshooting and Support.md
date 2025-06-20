@@ -16,9 +16,9 @@ Google Earth Engine is not yet one of the integrated EarthCODE platforms, and th
 </details>
 
 <details>
-<summary><strong>Can I publish pretrained models or anonymised data?</strong></summary>
+<summary><strong>Can I publish pre-trained models or anonymized data?</strong></summary>
 
-Yes. The FAIR principles do **not** require assets to be fully open, so you may publish pretrained models or anonymised datasets. Wherever possible, include a small sample dataset to help others reproduce and validate your workflow.
+Yes. The FAIR principles do **not** require assets to be fully open, so you may publish pre-trained models or anonymized datasets. Wherever possible, include a small sample dataset to help others reproduce and validate your workflow.
 </details>
 
 <details>
@@ -45,11 +45,11 @@ The first set of integrated platforms will be available by **30 June 2025**. F
 ESA issues “Best‑Practice” procurement tenders periodically. Responding to a tender is the route to integration. Requirements include:
 
 - GitHub‑based single sign‑on  
-- Automated publication of data and workflows to the Open Science Catalog  
-- Connection to the ESA Project Results Repository for long‑term storage  
-- Ability to execute published experiments on the platform  
-- Registration in the Network of Resources (NoR) catalogue  
-- User documentation and a service‑level agreement (SLA)  
+- Automated publication of data and workflows to the Open Science Catalog (OSC)
+- Connection to the ESA Project Results Repository (PRR) for long‑term storage
+- Ability to execute published experiments on the platform
+- Registration in the Network of Resources (NoR) discovery portal
+- User documentation and a service‑level agreement (SLA)
 
 The latest call is described on the [EarthCODE blog](https://earthcode.esa.int/blog/itt-bp2).
 </details>

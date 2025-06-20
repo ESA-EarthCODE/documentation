@@ -6,7 +6,7 @@ order: 1
 The catalog functionalities described in the previous sections are granted to any user (registered/and non-registered users). Catalog exploration and content discovery and access to the products is fully open and transparent. In this section we will describe how to make new data accessible through the catalog and make them available for the broad scientific community.
 
 ## Who can contribute?
-Contributions to the Open Science Data Catalogue are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.
+Contributions to the Open Science Catalog are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.
 We would like to specifically encourage contributions from:
 
 - Principal Investigators of ESA EO (Earth Observation Programme) funded Projects,
@@ -18,9 +18,9 @@ We would like to specifically encourage contributions from:
 
 ### You can enrich EarthCODE in several impactful ways:
 
-- **Publish Research Products:** Add new content to the Open Science Data Catalogue.
+- **Publish Research Products:** Add new content to the Open Science Catalog.
 - **Update content:** Keep the descriptions and metadata of products, projects, and more up-to-date.
-- **Request removals:** Ensure the catalogue remains accurate by requesting the removal of outdated or incorrect entries.
+- **Request removals:** Ensure the catalog remains accurate by requesting the removal of outdated or incorrect entries.
 
 To contribute, you only need to have an active GitHub account. If you don't have one yet, please [create an account](https://github.com/signup) to get started.
 
@@ -33,7 +33,7 @@ To publish your scientific results to the Open Science Catalog, you must:
 - Submit a **Pull Request** to the [open-science-catalog-metadata-**staging**](https://github.com/ESA-EarthCODE/open-science-catalog-metadata-staging/tree/main) repository with your new entry.
 
 ::: details The Open Science Catalog
-The [**Open Science Data Catalog**](https://opensciencedata.esa.int/) is a publicly accessible platform that enables anyone—whether or not they have a GitHub account—to **discover and access Earth Observation research**. It provides a transparent and structured way to explore the latest results from EO projects by organizing metadata in a consistent and harmonized format.
+The [**Open Science Catalog**](https://opensciencedata.esa.int/) is a publicly accessible platform that enables anyone—whether or not they have a GitHub account—to **discover and access Earth Observation research**. It provides a transparent and structured way to explore the latest results from EO projects by organizing metadata in a consistent and harmonized format.
 
 Built on the open-source **STAC Browser**, the catalog allows users to browse and explore interlinked elements such as **themes, variables, EO missions, projects, products, workflows, and experiments**, all described using **STAC-compliant JSON files**.
 :::

@@ -26,7 +26,7 @@ While EarthCODE offers comprehensive training specific to our platform, we also 
 
 Some of the key external resources include:
 - **[Cubes & Clouds](https://eo-college.org/courses/cubes-and-clouds/)**: A course focused on data cubes, cloud computing, and open science in Earth observation. This aligns well with EarthCODE’s mission to promote open access to scientific data.
-- **External Platforms and Tools**: We also highlight other platforms like the Copernicus Data Space Ecosystem (CDSE) and Euro Data Cube, which offer additional learning materials that integrate with EarthCODE.
+- **External Platforms and Tools**: We also highlight other platforms like the Copernicus Data Space Ecosystem (CDSE) and Euro Data Cube (EDC), which offer additional learning materials that integrate with EarthCODE.
 
 ## Where to Find the Materials
 - **EarthCODE Training Materials**: All of the EarthCODE-developed training materials, including NoR Training, are available on our **GitHub repository**. You can explore tutorials, case studies, Jupyter Notebooks, and NoR Training materials here: [EarthCODE Training Portal](#).

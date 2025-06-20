@@ -124,7 +124,7 @@ In summary, EarthCODE provides the following:
 - Leverages the **ESA Network of Resources (NoR)** to sponsor projects to use the integrated platforms
 - Enables discovery and reuse through a metadata-rich **Open Science Catalog**
 - Promotes **FAIR principles** across all stages of research, supported by data stewards and governance mechanisms
-- Ensures long-term preservation of data results in **PRR**, code on Github, and metadata on the Open Science Catalog.
+- Ensures long-term preservation of data results in **ESA Project Results Repository (PRR)**, code on Github, and metadata on the Open Science Catalog.
 - Facilitates community engagement through the EarthCODE **Discourse**
 
 These next sections will explore these components in detail, including their roles, relationships, and how they collectively enable a sustainable, transparent, and federated open science infrastructure.
@@ -162,7 +162,7 @@ The key functions of the EarthCODE Portal are:
 Users who do not log in can still explore published resources and engage with the community. Logged-in users gain access to advanced tools for workflow development, experiment execution, and publishing tools.
 
 :::tip EarthCODE is Continuously Improving
-The EarthCODE team are continously improving the portal to provide an evermore integrated user experience
+The EarthCODE team are continuously improving the portal to provide an evermore integrated user experience
 :::
 
 The EarthCODE Portal is the default workspace for Earth science development, supporting reproducible workflows, cross-platform execution, and collaboration at scale.
@@ -180,9 +180,9 @@ EarthCODE provides access to **integrated EO cloud platforms**, each offering to
 As integrated platforms, they offer some form of the following capabilities:
 - Authentication using your EarthCODE (GitHub) account  
 - Access to EO datasets (data availability varies by platform)  
-- Interfaces for developing and running scientific workflows and various specialized capabilites (e.g. specialised towards ML)
+- Interfaces for developing and running scientific workflows and various specialized capabilities (e.g. specialised towards ML)
 - Tools for visualizing and exploring published datasets
-- Automated publishing of workflows and data products to the **EarthCODE Open Science Catalog**
+- Automated publishing of workflows and data products to the **Open Science Catalog**
 - Execution of published **experiments**, using FAIR-compliant metadata and reproducible experiments
 
 For some examples of what these might look like in practice, refer to the [10 minutes to EarthCODE Page](../Getting%20started%20with%20EarthCODE/10%20minutes%20to%20EarthCODE#data-access)
@@ -226,7 +226,7 @@ Providers offering **FAIR Open Science Platforms** empower researchers with tool
 - Developing scientific workflows and producing experiments and data.
 - Tools to explore and visualize results data
 - Integrate with the **ESA Project Results Repository (PRR)** for long-term data storage
-- Publishing datasets, code, and results to the EarthCODE Open Science Catalog.
+- Publishing datasets, code, and results to the Open Science Catalog.
 
 Providers offering **FAIR Infrastructure Platforms** deliver compute and data for executing scientific workflows at scale, including:
 - Provide scalable compute resources for big data Earth Observation (EO) analysis.
@@ -255,7 +255,7 @@ The EarthCODE project runs standard best practice procurement cycles on esa-star
 More information about how integrating with EarthCODE works, where and how to apply, can be found at the [Integrating New Platforms Page](../Integrating%20New%20Platforms%20to%20EarthCODE/).
 
 ### Publishing Experiments Data and Workflows
-Once a research activity is complete, the results can be published to the EarthCODE ecosystem, making them findable, reproducible, and reusable by the broader scientific community. If you are working on an integrated platform, publishing is typically automated. When the experiment is finalized, the platform can generate the appropriate metadata and push it to the EarthCODE Open Science Catalog. If you're working outside of an integrated platform—on institutional infrastructure or locally—you can still publish your results manually by following the EarthCODE catalog submission guidelines [Working with Data](../Technical%20Documentation/Data/index.md).
+Once a research activity is complete, the results can be published to the EarthCODE ecosystem, making them findable, reproducible, and reusable by the broader scientific community. If you are working on an integrated platform, publishing is typically automated. When the experiment is finalized, the platform can generate the appropriate metadata and push it to the Open Science Catalog. If you're working outside of an integrated platform—on institutional infrastructure or locally—you can still publish your results manually by following the Open Science Catalog submission guidelines [Working with Data](../Technical%20Documentation/Data/index.md).
 
 At the time of publishing, it is expected that the outputs have been finalized and, where applicable, reviewed and approved by the ESA project’s Technical Officer. When you're ready to publish you:
 1. (Optional) Upload your **datasets and workflows** to the **ESA Project Results Repository (PRR)** for long-term preservation.
@@ -269,11 +269,11 @@ The core units of publication in EarthCODE are data and workflows (combined in e
 
 
 
-### Data
+### Data Products
 
 In EarthCODE, the final outputs of your research—referred to as **Products** or data products—are stored, described, and published in a way that ensures long-term FAIRness and availability.
 
-These data products can be hosted on the ESA Project Results Repository (PRR) or an external repository of your choice. The PRR is ESA’s dedicated long-term storage service for project results. Uploading to the PRR is optional but recommended, especially for ensuring compliance with FAIR principles and facilitating persistent access to your work. You simply provide a link to the data location as part of the product’s metadata. For detailed instructions on uploading to the PRR, refer to the [Contributing to the EarthCODE Catalog guide](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md).
+These data products can be hosted on the ESA Project Results Repository (PRR) or an external repository of your choice. The PRR is ESA’s dedicated long-term storage service for project results. Uploading to the PRR is optional but recommended, especially for ensuring compliance with FAIR principles and facilitating persistent access to your work. You simply provide a link to the data location as part of the product’s metadata. For detailed instructions on uploading to the PRR, refer to the [Contributing to the Open Science Catalog guide](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md).
 
 Each product is described using **STAC (SpatioTemporal Asset Catalog) metadata**, specifically through a `Collection` that captures key attributes like the spatial and temporal extent, scientific context, provenance, and more.
 
@@ -322,13 +322,13 @@ The source code that supports a workflow may be referenced, but the workflow its
 :::tip if you have not used a platform to develop your workflow, or have not ported it to run on a platform, it would not be reproducible on EarthCODE. You can still publish it to the catalog and allow for reuse-ability and recognition of your work.
 :::
 
-Workflows are typically stored in the **EarthCODE GitHub organization**, and referenced in the EarthCODE Open Science Catalog as part of the workflow metadata.
+Workflows are typically stored in the **EarthCODE GitHub organization**, and referenced in the Open Science Catalog as part of the workflow metadata.
 
 Experiments also declare the **input datasets** used and a **configuration** that defines any parameters passed to the workflow at runtime. Inputs are referenced using unique identifiers, making it easier to validate and re-run experiments with the same data. Configuration values are usually a set of simple name–value pairs, but can vary depending on workflow complexity.
 
 ---
 
-In summary, EarthCODE combines the concepts of workflows and products are combined. A **product** is the result of a successfully run experiment. The product metadata links back to the experiment metadata, which in turn references the workflow, input, and config. Together, this structure ensures reproducibility, FAIRness and Openness.
+In summary, an experiment combines the concepts of workflows and products. A product is the result of a successfully run experiment. The product metadata links back to the experiment metadata, which in turn references the workflow, input, and config. Together, this structure ensures reproducibility, FAIRness and Openness.
 
 ![all together](/img/terms/metadata-components.svg)
 
@@ -340,12 +340,12 @@ The [Open Science Catalog (OSC)](https://opensciencedata.esa.int/catalog) is the
 
 Metadata describing datasets (Products) is published using the **SpatioTemporal Asset Catalog (STAC)** specification. Workflows and experiments are described using the **OGC API - Records** standard. These two metadata models are connected by references. The Open Science Catalog is also integrated with EarthCODE's computing infrastructure. Users with appropriate access—such as NoR-sponsored compute—can reproduce experiments directly from the catalog. This means running the same workflow with the same input and configuration on a compatible platform, enabling reproducible results.
 
-The catalog acts as both a registry of published research artifacts and an operational gateway for executing FAIR experiments across federated EO platforms. More information about the catalog and how it works can be found at [Data - Discovering Resources in The EarthCODE Catalog)](../Technical%20Documentation/Data/Discovering%20Resources%20in%20The%20EarthCODE%20Catalog)
+The catalog acts as both a registry of published research artifacts and an operational gateway for executing FAIR experiments across federated EO platforms. More information about the catalog and how it works can be found at [Data - Discovering Resources in The Open Science Catalog)](../Technical%20Documentation/Data/Discovering%20Resources%20in%20The%20EarthCODE%20Catalog)
 
 <!-- One such component developed on top of EOEPCA open-
 source building blocks and which will be integrated in
-EarthCODE is the Open Science Catalogue (OSC).
-The Open Science Data Catalogue (ESA OSC, 2024) is an ESA
+EarthCODE is the Open Science Catalog (OSC).
+The Open Science Catalog (ESA OSC, 2024) is an ESA
 Open Science activity aiming to enhance the discoverability and
 use of the various scientific and value-added results (i.e. data,
 code, documentation) achieved in Earth System Science
@@ -362,9 +362,9 @@ back to these projects in terms of software and standardisation
 
 ### How EarthCODE is FAIR
 
-All data and workflows in EarthCODE need to be FAIR​.
+All data and workflows in EarthCODE need to be FAIR.
 
-:::tip Most data in EarthCODE is Open. However, the PRR allows datasets to be closed one could find the product in the Open Science Catalogue (sees the metadata), but not access the data (unless authorized).​
+:::tip Most data in EarthCODE is Open. However, the PRR allows datasets to be closed one could find the product in the Open Science Catalog (sees the metadata), but not access the data (unless authorized).
 :::
 
 EarthCODE is designed to support FAIR and Open Science practices across the lifecycle of Earth Observation research. It enables researchers to create and publish **FAIR digital objects**—datasets, workflows, and metadata—through a reproducible, transparent, and collaborative infrastructure. At the core of the EarthCODE approach are three key components to enable FAIRness:
@@ -380,7 +380,7 @@ EarthCODE ensures that each of these is formally described, uniquely identified,
 The product data that is ultimately published to the EarthCODE Open Science Catalog is the result of a workflow being executed on an integrated platform, using well-defined input data and parameters. The metadata describing these objects is compliant with the **EarthCODE FAIR principles**, which focus on making results:
 - **Findable**: Metadata is indexed and searchable via the [Open Science Catalog](https://opensciencedata.esa.int/catalog) using STAC and OGC API standards. Unique identifiers and tags make content easy to discover. EarthCODE provides additional functionality to support this by offering to assign DOIs to published items.
 - **Accessible**: Data and workflows are published to persistent storage, such as the ESA Project Results Repository (PRR), and openly linked via the catalog.
-- **Interoperable**: Data products use common standards such as NetCDF, .Zarr to ensure intraoperability. Metadata formats and workflow definitions follow community standards like STAC, CWL, and openEO, ensuring compatibility across tools and platforms.
+- **Interoperable**: Data products use common standards such as NetCDF, Zarr to ensure intraoperability. Metadata formats and workflow definitions follow community standards like STAC, CWL, and openEO, ensuring compatibility across tools and platforms.
 - **Reusable**: Resources are enriched with documentation, provenance,licensing, configuration details, and versioning.
 
 Importantly, EarthCODE doesn't only describe results—it enables others to act on them. Published experiments in the Open Science Catalog can be directly reused on compatible EarthCODE platforms, assuming the user has the required permissions and resources.
@@ -400,11 +400,11 @@ After validation, the metadata is published to the Open Science Catalog, making 
 ### EarthCODE Discourse Forum Community
 The [EarthCODE Forum](https://discourse-earthcode.eox.at) is a community discussion space where users can collaborate, share feedback, ask questions, and get help related to datasets, workflows, and other EarthCODE resources.
 
-The forum is directly integrated with the EarthCODE Open Science Catalog. Each published item—such as a dataset, workflow, or experiment—can be linked to a dedicated discussion thread. This makes it easy for users to connect conversations directly to the resources they’re viewing, without leaving the catalog interface. The forum is structured into dedicated categories to keep discussions focused and easy to navigate. See more informaion about the forum at [the EarthCODE Discourse Community page](/Community%20and%20Collaboration/Getting%20Started%20With%20The%20EarthCODE%20Discourse/)
+The forum is directly integrated with the EarthCODE Open Science Catalog. Each published item—such as a dataset, workflow, or experiment—can be linked to a dedicated discussion thread. This makes it easy for users to connect conversations directly to the resources they’re viewing, without leaving the catalog interface. The forum is structured into dedicated categories to keep discussions focused and easy to navigate. See more information about the forum at [the EarthCODE Discourse Community page](/Community%20and%20Collaboration/Getting%20Started%20With%20The%20EarthCODE%20Discourse/)
 
-### APEX
-[APEx](https://esa-apex.github.io/apex_documentation/), developed by the European Space Agency (ESA), transforms Earth Observation (EO) research outcomes, such as algorithms and workflows, into interoperable and scalable cloud-ready services. APEx standardizes and optimizes these outputs, and integrates them into a dynamic Algorithm Services Catalogue, enhancing their discoverability and usability.
+### APEx
+[APEx](https://apex.esa.int/), developed by the European Space Agency (ESA), transforms Earth Observation (EO) research outcomes, such as algorithms and workflows, into interoperable and scalable cloud-ready services. APEx standardizes and optimizes these outputs, and integrates them into a dynamic Algorithm Services Catalogue, enhancing their discoverability and usability.
 
-APEx provides dynamic project environments that include customizable project portals, interactive development environments, secure user workspaces, and structured product catalogues based on the SpatioTemporal Asset Catalog (STAC) standard. Additionally, it facilitates efficient scaling of EO services, supporting extensive geographical analyses and large dataset processing through optimized cloud workflows.
+APEx provides dynamic project environments that include customizable project portals, interactive development environments, secure user workspaces, structured product catalogues based on the SpatioTemporal Asset Catalog (STAC) standard and more. Additionally, it facilitates efficient scaling of EO services, supporting extensive geographical analyses and large dataset processing through optimized cloud workflows.
 
 EarthCODE and APEx complement each other to maximize the impact and longevity of EO research projects. Typically, projects first publish their data, workflows, and algorithms on EarthCODE, ensuring structured data stewardship, FAIRness, and reproducibility. Subsequently, APEx identifies these proven workflows and data assets, optimizing and scaling them into fully operational, interoperable cloud-based services. This streamlines the transition from research outputs hosted on EarthCODE to widely accessible, optimized, and scalable EO applications delivered via APEx.

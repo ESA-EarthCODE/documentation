@@ -3,7 +3,7 @@ order: 1
 ---
 # Publishing Science Results
 
-This section describes how to add entries - data, workflows, products and projects - to the (Open Science Catalog)[https://opensciencedata.esa.int/]. 
+This section describes how to publish entries - data, workflows, products and projects - to the (Open Science Catalog)[https://opensciencedata.esa.int/]. 
 
 ## Who can contribute?
 Contributions to the Open Science Catalog are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.
@@ -35,9 +35,9 @@ To publish your scientific results to the Open Science Catalog, you must:
 Sometimes parts of the data and workflows are protected or private. Although not open, these experiments can still become FAIR and added to the catalogue. The process for adding the entries is the same, until the review, when the EarthCODE team will reach out with specific questions regarding your data.
 :::
 
-2. Create entries (STAC Collections) that describe the **dataset files**, **code** and their relationships to existing items in the catalog.
+2. Create entries (STAC Collections) that describe the **dataset files**, **code** and their relationships to existing items in the catalog. These entries follow the [OSC STAC specification](https://github.com/stac-extensions/osc).
 
-3. Request to add them to the PRR. 
+3. Request to add them to the PRR via one of the three options described below.
 
 By following these steps, your research becomes part of a broader ecosystem of reusable, discoverable, and connected scientific outputs.
 
@@ -53,10 +53,10 @@ To contribute to the Open Science Catalog, your research data and workflows/code
 
 If your data is already hosted on a reliable storage provider you do **not** need to make changes.
 
-If your data is not yet in the cloud or its persistence is uncertain, we recommend uploading it to the **ESA Project Results Repository (PRR)**. The PRR provides access to data, workflows, experiments and documentation from ESA Projects organised across Collections, accessible via the [STAC API](https://github.com/radiantearth/stac-api-spec). Each Collection contains [STAC Items](https://github.com/radiantearth/stac-spec/blob/master/item-spec/item-spec.md), with their related Assets stored within the PRR storage. **Therefore, to upload your data to the PRR you have to generate a STAC collection that describes your data, code and documentation.**
+If your data is not yet hosted online or its persistence is uncertain, we recommend uploading it to the **ESA Project Results Repository (PRR)**. The PRR provides access to data, workflows, experiments and documentation from ESA Projects organised across Collections, accessible via the [STAC API](https://github.com/radiantearth/stac-api-spec). Each Collection contains [STAC Items](https://github.com/radiantearth/stac-spec/blob/master/item-spec/item-spec.md), with their related Assets stored within the PRR storage. **Therefore, to upload your data to the PRR you have to generate a STAC collection that describes your data, code and documentation.**
 
 <!-- Change to see the PRR page -->
-See the [PRR introduction example](https://esa-earthcode.github.io/examples/prr-stac-introduction/) for a detailed, interactive introduction about how to do this, or the [bank of examples](https://esa-earthcode.github.io/examples/index-1/) to see how different ESA projects have generated their collections.
+See the [PRR page](../ESA%20Project%20Results%20Repository%20(PRR)/) for a detailed, interactive introduction and a bank of examples of how different ESA projects have generated their collections.
 
 ::: details Requesting PRR Storage
 If you have any questions or require suppport please email the EarthCODE support team: [earth-code@esa.int](mailto:earth-code@esa.int) .
@@ -68,18 +68,18 @@ If you have any questions or require suppport please email the EarthCODE support
 
 ### How to publish new data to the catalog?
 
-The Open Science Catalog is built on the Spatio Temporal Asset Catalog (STAC), which is a standardised format for describing geospatial data. Therefore new entries must conform to its specification. There are three ways to add information to the OSC:
+The Open Science Catalog is built on the Spatio Temporal Asset Catalog (STAC), which is a standardised format for describing geospatial data. Therefore new entries must conform to its specification. There are three ways to create the entries:
 
-### 1: Using a Visual GUI
+### 1: Using the Visual OSC Editor
 
-- [Open Science Catalog Editor](https://workspace.earthcode.eox.at/) - A graphical user interface for automatically creating OSC entries and review requests.
+- The [Open Science Catalog Editor](https://workspace.earthcode.eox.at/) is graphical user interface for automatically creating OSC entries and review requests.
 
 ### 2: Manual creation
 - [Directly creating/editing STAC files](https://esa-earthcode.github.io/examples/osc-pr-manual/) - A guide for manually creating OSC entries. Requires knowledge of git.
 
 - [Generating OSC files using pystac](https://esa-earthcode.github.io/examples/osc-pr-pystac/) - A guide for creating OSC entries using pystac. Requires knowledge of git and Python.
 
-### 3: Using one of the platform tools
+### 3: Using platform tools and support
 - [DeepCode](https://github.com/deepesdl/deep-code) - An example using DeepCode: a library for automatically generating product entries for DeepESDL datasets.
 - Additionally, you can contact your platform supplier for support.
  
@@ -87,7 +87,7 @@ The Open Science Catalog is built on the Spatio Temporal Asset Catalog (STAC), w
 
 ## Step 3: Review & Publishing
 
-Regardless of what option for creating OSC Entries you choose, the generated data will be reviewed by EarthCODE team before it is accepted into the PRR. The review process will take place on GitHub via its [pull request functionality](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). The EarthCODE team will:
+Regardless of what option for creating OSC Entries you choose, the generated data will be reviewed by EarthCODE team before it is accepted into the PRR. The review process will take place on GitHub via its [pull request functionality](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). During the review the EarthCODE team will:
 - check the accuracy and completeness of descriptions, links and information
 - ask for a code snippet that shows how to read the data (if applicable)
 - ask for a code snipptet that demonstrates how to run the code (if applicable)

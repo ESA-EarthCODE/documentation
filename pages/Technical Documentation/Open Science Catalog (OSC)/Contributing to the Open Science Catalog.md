@@ -3,7 +3,7 @@ order: 1
 ---
 # Publishing Science Results
 
-This section describes how to publish entries - data, workflows, products and projects - to the (Open Science Catalog)[https://opensciencedata.esa.int/]. 
+This section describes how to publish entries - data, workflows, products and projects - to the [Open Science Catalog](https://opensciencedata.esa.int/). 
 
 ## Who can contribute?
 Contributions to the Open Science Catalog are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.
@@ -93,4 +93,4 @@ Regardless of what option for creating OSC Entries you choose, the generated dat
 - ask for a code snippet that demonstrates how to run the code (if applicable)
 After any required changes are made, the OSC entries are ingested in the catalog.
 
-When a new product or workflow is ingested in the OSC, the team will encourage you to promote it on the (EarthCODE forum)[https://discourse-earthcode.eox.at/].
+When a new product or workflow is ingested in the OSC, the team will encourage you to promote it on the [EarthCODE forum](https://discourse-earthcode.eox.at/).

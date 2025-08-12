@@ -8,9 +8,8 @@ EarthCODE (Earth Science Collaborative Open Development Environment) provides th
 
 1. You can **access necessary data, and develop your workflows, run your experiments** on [integrated EO platforms](https://testing.earthcode.eox.at/computational-research). [Network of Resources (NoR)](https://nor-discover.org/) sponsored compute is also available.
 2. You can **store results** in the [ESA Project Results repository (PRR)](https://esa-earthcode.github.io/examples/index-1/).
-3. You can **explore state-of-the-art data, workflows, and project information** available on the [Open Science Catalog](https://opensciencedata.esa.int/). You can also [publish](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%Open%20Science%20Catalog.md) your own data, workflows, and project information to it.
+3. You can **explore state-of-the-art data, workflows, and project information** available on the [Open Science Catalog](https://opensciencedata.esa.int/). You can also [publish](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md) your own data, workflows, and project information to it.
 5. You can **engage** the EarthCODE and broader EO community [EarthCODE Forum](https://discourse-earthcode.eox.at/), which is directly connected to the catalog.
-
 
 ## Welcome to EarthCODE!
 
@@ -73,7 +72,7 @@ When your research is complete, you:
 :::tip  *Only ESA-funded projects or projects funded by the national members can publish to EarthCODE.*
 :::
 
-The **ESA Project Results Repository (ESA PRR)** is a long-term storage service provided by ESA to persistently host results from ESA-funded projects. Once users have completed their work, they can upload their datasets and workflows to the PRR to ensure they remain accessible and preserved over time. While publishing to the PRR is optional, it is strongly recommended for long-term availability and compliance with FAIR principles. A detailed guide to this process is available in the [publication section](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md).
+The **ESA Project Results Repository (ESA PRR)** is a long-term storage service provided by ESA to persistently host results from ESA-funded projects. Once users have completed their work, they can upload their datasets and workflows to the PRR to ensure they remain accessible and preserved over time. While publishing to the PRR is optional, it is strongly recommended for long-term availability and compliance with FAIR principles. A detailed guide to this process is available in the [publication section](../Technical%20Documentation/ESA%20Project%20Results%20Repository%20(PRR)/index.md).
 
 The [**Open Science Catalog (OSC)**](https://opensciencedata.esa.int/catalog) is a public, web-based application that allows users to explore and access scientific datasets, workflows, and documentation produced through ESA-funded Earth Observation research. Researchers publish metadata describing their outputs to the Open Science Catalog, and after review, this metadata is made discoverable through the OSC. The catalog uses  STAC to describe datasets and  OGC API - Records for workflows. Through this rich metadata on the Open Science Catalog, resources are made FAIR. Additionally, the open science catalog is integrated with the EarthCODE platforms and allows users to reproduce experiments (run workflows that produce products) that they find on the catalog.
 
@@ -93,10 +92,10 @@ Each published item in the OSC can be linked to a discussion thread, enabling ex
 This step will help you become familiar with the platform's tools and resources, and how they integrate to support your research. The best way to follow our tutorials and learn about EarthCODE is by using one of the EarthCODE platforms. We recommend visiting the page where we explain how [to choose the right tools and platforms for your work](../Technical%20Documentation/Platforms/).
 
 EarthCODE offers a variety of features, in the portal you will be able to find:
-- [Datasets](../Technical%20Documentation/Data/): Access a variety of datasets available for your research needs and discovery. 
+- [Datasets](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/): Access a variety of datasets available for your research needs and discovery. 
 - [Computational Research](../Technical%20Documentation/Platforms/): Use EarthCODE integrated platforms with advanced computational tools for Earth System Science on collaborative research environment 
-- [Workflows](../Technical%20Documentation/Workflows/) : Easily find, publish and re-use FAIR workflows to enhance reproducibility and collaboration in research 
-- [Community](../Community%20and%20Collaboration/Getting%20Started%20With%20The%20EarthCODE%20Discourse/): Fostering a collaborative community dedicated to FAIR Open Science and sustainable innovation 
+- [Workflows](../Technical%20Documentation/Workflows%20and%20Experiments/index.md) : Easily find, publish and re-use FAIR workflows to enhance reproducibility and collaboration in research 
+- [Community](../Community%20and%20Collaboration/Getting%20Started%20With%20The%20EarthCODE%20Discourse/): Fostering a collaborative community dedicated to FAIR Open Science and sustainable innovation   
 
 By exploring these sections, you’ll better understand how to leverage EarthCODE’s resources and tools to support your research.
 

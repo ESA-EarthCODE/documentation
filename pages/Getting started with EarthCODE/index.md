@@ -54,7 +54,7 @@ There are two ways to explore EarthCODE:
 
    * [10 minutes to EarthCODE](./10%20minutes%20to%20EarthCODE.md) – A quick overview to get started fast
    * [Accessing EarthCODE](./Accessing%20EarthCODE.md) – Accessing EarthCODE and Platforms
-   * [Troubleshooting and Support](./Troubleshooting%20and%20Support.md) – Help when you need it
+   * [Frequently Asked Questions](./Frequently%20Asked%20Questions.md) – Help when you need it
 
 3. **Explore the EarthCODE Platform Ecosystem** – We have a growing ecosystem of platforms to provide [FAIR and Open Earth Observation science tools and infrastructure](../Technical%20Documentation/Platforms/index.md) to explore.
 
@@ -407,7 +407,7 @@ Once you’ve understood your role and the resources available, it's time to exp
    - Get in touch for onboarding support, fill in the short contact form at <https://earthcode.esa.int/contact> or e‑mail **earth-code@esa.int**.  
 
 3. **Troubleshooting**  
-   If you hit a snag, check the [Common Issues & Solutions](./Troubleshooting%20and%20Support.md#common-issues-and-solutions) section first.  
+   If you hit a snag, check the [Frequently Asked Questions](./Frequently%20Asked%20Questions.md) section first.  
    Still stuck? Ask in the forum or drop us a line at the support address above.
 
 

@@ -3,7 +3,9 @@ order: 1
 ---
 # Publishing Science Results
 
-This section describes how to publish entries - data, workflows, products and projects - to the [Open Science Catalog](https://opensciencedata.esa.int/). 
+This section describes how to publish entries - data, workflows, products and projects - to the [Open Science Catalog](https://opensciencedata.esa.int/).
+ 
+![OSC-main-page](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/a97e40c1-0f69-4204-9aef-95030c5a8455)
 
 ## Who can contribute?
 Contributions to the Open Science Catalog are vital for advancing FAIR Open Science Principles across ESA-funded Earth Science activities.

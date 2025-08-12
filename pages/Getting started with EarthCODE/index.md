@@ -4,20 +4,12 @@ order: 0
 
 # Getting started with EarthCODE
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1; padding-right: 20px;">
-    <p>
-      EarthCODE is a strategic initiative by the <b> European Space Agency (ESA) </b> designed to empower researchers in Earth System Science with FAIR and Open Science practices. By providing a collaborative development environment with integrated tools, cloud services, and expert guidance, EarthCODE helps scientists make their research more impactful, transparent, and reusable—while staying focused on the science itself.
-    </p>
-    <p> <b>Doing Open Science shouldn't be hard, and EarthCODE makes it easy!</b></p>
-  </div>
-  <div>
-    <img src="/img/EarthCODE_kv_transparent.png" alt="Descriptive Alt Text" style="max-width: 250px;" />
-  </div>
-</div>
+EarthCODE (Earth Science Collaborative Open Development Environment) provides the tools to create, find, and collaborate on Earth Observation experiments.
 
-
-
+1. You can **access necessary data, and develop your workflows, run your experiments** on [integrated EO platforms](https://testing.earthcode.eox.at/computational-research). [Network of Resources (NoR)](https://nor-discover.org/) sponsored compute is also available.
+2. You can **store results** in the [ESA Project Results repository (PRR)](https://esa-earthcode.github.io/examples/index-1/).
+3. You can **explore state-of-the-art data, workflows, and project information** available on the [Open Science Catalog](https://opensciencedata.esa.int/). You can also [publish](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md) your own data, workflows, and project information to it.
+5. You can **engage** the EarthCODE and broader EO community [EarthCODE Forum](https://discourse-earthcode.eox.at/), which is directly connected to the catalog.
 
 ## Welcome to EarthCODE!
 
@@ -60,15 +52,9 @@ Familiarize yourself with the [key terms and concepts](./key-terms-and-concepts.
 ### EarthCODE System Overview
 
 EarthCODE provides an integrated ecosystem designed to support scientists through the full lifecycle of doing Open Science.
-Here's how it works:
-1. You access services via the [**EarthCODE Portal**](https://earthcode.esa.int).
-2. You access necessary data, and develop your workflows, **run your experiments** on integrated EO platforms (with NoR sponsored compute), or locally.
-3. You **store results** in the ESA PRR and **publish metadata** to the Open Science Catalog.
-4. Anyone can browse the Open Science Catalog, find your published data and workflows, reuse and reproduce them. 
-5. The community engages via the **EarthCODE Forum**, which is directly connected to the catalog.
 
 ::: tip Reusability of Workflows Across Platforms
-Users can reproduce, reuse and run your workflows through EarthCODE if they are published via an EarthCODE integrated platform and if the user has sufficient resources through self-sponsorship or sponsorship from the Network of Resources. This is why it is important to consider what tooling/platforms one uses so as to ensure reuse-ability from the start of the project.
+Users can reproduce, reuse and run workflows through EarthCODE if they are published via an EarthCODE integrated platform and if the user has sufficient resources through self-sponsorship or sponsorship from the Network of Resources. This is why it is important to consider what tooling/platforms one uses so as to ensure reuse-ability from the start of the project.
 :::
 
 ![EarthCODE Components](/img/gettingstarted/earthcode-components.png)
@@ -81,9 +67,9 @@ For those who prefer to work on their own systems—whether personal computers o
 
 When your research is complete, you:
 - (Optionally) Upload **your datasets and workflows** to the **ESA Project Results Repository (PRR)**.
-- Create and upload **metadata describing your results** to the **Open Science Catalog**, which link to your data.
+- Create and upload **metadata describing your results** to the **Open Science Catalog**, which link to your data and workflows.
 
-:::tip  *Only ESA-funded projects can publish to EarthCODE.*
+:::tip  *Only ESA-funded projects or projects funded by the national members can publish to EarthCODE.*
 :::
 
 The **ESA Project Results Repository (ESA PRR)** is a long-term storage service provided by ESA to persistently host results from ESA-funded projects. Once users have completed their work, they can upload their datasets and workflows to the PRR to ensure they remain accessible and preserved over time. While publishing to the PRR is optional, it is strongly recommended for long-term availability and compliance with FAIR principles. A detailed guide to this process is available in the [publication section](../Technical%20Documentation/ESA%20Project%20Results%20Repository%20(PRR)/index.md).
@@ -115,21 +101,8 @@ By exploring these sections, you’ll better understand how to leverage EarthCOD
 
 ### Tutorials
 
-This compiled table will take you through the basics of EarthCODE. You can choose tutorials in various formats: Hands-on and Slides tutorials focus on text-based learning, while Videos and Case Studies provide a more visual approach.
-
-Choose your best fit, experiment, or try them all!
-
-- Introduction to EarthCODE
-- Introduction to [NoR](https://nor-discover.org) and [Applying for NoR usage](https://youtu.be/IJEZRSac6EE?feature=shared)
-- Working with Copernicus Data 
-- Developing Workflows with EarthCODE  
-- Using Euro Data Cube for Analysis 
-- Introduction to EOxHub/CoCalc
-- Introduction to EOxHub/Pangeo
-- Publishing to the EarthCode Science Catalog
-- Collaborative Research in EarthCODE
  
-Explore the complete list of [Tutorials and other resources](../Training%20and%20Resources/) to learn more about EarthCODE.
+Explore the complete list of [Tutorials](../Training%20and%20Resources/) and [Examples](https://esa-earthcode.github.io/examples/) for a practical introduction EarthCODE and its related tools.
 
 
 ## Step 3: Who is EarthCODE For? 

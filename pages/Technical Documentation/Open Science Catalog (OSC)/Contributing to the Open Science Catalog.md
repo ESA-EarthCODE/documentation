@@ -70,7 +70,7 @@ If you have any questions or require suppport please email the EarthCODE support
 
 The Open Science Catalog is built on the Spatio Temporal Asset Catalog (STAC), which is a standardised format for describing geospatial data. Therefore new entries must conform to its specification. There are three ways to create the entries:
 
-### 1: Using the Visual OSC Editor
+### 1: Using the OSC Publishing GUI
 
 - The [Open Science Catalog Editor](https://workspace.earthcode.eox.at/) is graphical user interface for automatically creating OSC entries and review requests.
 
@@ -90,7 +90,7 @@ The Open Science Catalog is built on the Spatio Temporal Asset Catalog (STAC), w
 Regardless of what option for creating OSC Entries you choose, the generated data will be reviewed by EarthCODE team before it is accepted into the PRR. The review process will take place on GitHub via its [pull request functionality](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). During the review the EarthCODE team will:
 - check the accuracy and completeness of descriptions, links and information
 - ask for a code snippet that shows how to read the data (if applicable)
-- ask for a code snipptet that demonstrates how to run the code (if applicable)
+- ask for a code snippet that demonstrates how to run the code (if applicable)
 After any required changes are made, the OSC entries are ingested in the catalog.
 
 When a new product or workflow is ingested in the OSC, the team will encourage you to promote it on the (EarthCODE forum)[https://discourse-earthcode.eox.at/].

@@ -88,7 +88,7 @@ The OSC Catalog page is built upon the open-source STAC Browser application, all
 - Workflows
 - Experiments
 
-Each entry lists the number of objects of the selected type, which are represented as a STAC Catalog, STAC Collection, or OGC API Record. These objects use the OSC STAC extension to reference elements of other groups they are associated with, e.g., a Product has an `osc:variables` field, that lists the measurement variables this product is comprised of. More information on how the items are linked is provided in the [Uploading Your Data](Contributing%20to%20the%20EarthCODE%20Catalog) section.
+Each entry lists the number of objects of the selected type, which are represented as a STAC Catalog, STAC Collection, or OGC API Record. These objects use the OSC STAC extension to reference elements of other groups they are associated with, e.g., a Product has an `osc:variables` field, that lists the measurement variables this product is comprised of. More information on how the items are linked is provided in the [**Contributing to the OSC section**](./Contributing%20to%20the%20Open%20Science%20Catalog.md)
 
 ![STACBrowser-OSC](https://github.com/EOEPCA/open-science-catalog-metadata/assets/120453810/257daa0c-a567-4ed2-a8bc-3fb594079b2c)
 

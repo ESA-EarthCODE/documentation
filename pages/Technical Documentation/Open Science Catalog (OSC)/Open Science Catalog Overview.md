@@ -7,12 +7,12 @@ order: 1
 
 The Open Science Catalog (OSC) is a key component of the ESA EO Open Science framework. It is built on the Spatio Temporal Asset Catalog (STAC), which is a standardised format for describing geospatial data. The catalog captures information about Projects, Products, Workflows, and Experiments, and their relationships to ESA Themes, Variables, EO missions. These elements contain **information and direct links** to the corresponding research outcomes, which are themselves located in external storage providers.
 
-Users can browse and explore these interlinked elemennts throguht the webrowser, API or directly through the data itself. See [Data Discovery and Access](Discovering%20Resources%20in%20The%20EarthCODE%20Catalog) for more information.
+Users can browse and explore these interlinked elemennts throguht the webrowser, API or directly through the data itself. See [Data Discovery and Access](Discovering%20Resources) for more information.
 
 
 ## Adding / updating entries.
 
-The different ways to add/update/remove entries from the catalog are described in the [Uploading and Managing Your Data section](Contributing%20to%20the%20EarthCODE%20Catalog).
+The different ways to add/update/remove entries from the catalog are described in the [**Contributing to the OSC section**](./Contributing%20to%20the%20Open%20Science%20Catalog.md).
 
 At a core level, each update to metadata is handled via a [Pull Request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 

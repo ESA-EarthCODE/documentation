@@ -3,13 +3,39 @@ order: 0
 ---
 
 # Getting started with EarthCODE
-
 EarthCODE (Earth Science Collaborative Open Development Environment) provides the tools to create, find, and collaborate on Earth Observation experiments.
 
-1. You can **access necessary data, and develop your workflows, run your experiments** on [integrated EO platforms](https://testing.earthcode.eox.at/computational-research). [Network of Resources (NoR)](https://nor-discover.org/) sponsored compute is also available.
-2. You can **store results** in the [ESA Project Results repository (PRR)](https://esa-earthcode.github.io/examples/index-1/).
-3. You can **explore state-of-the-art data, workflows, and project information** available on the [Open Science Catalog](https://opensciencedata.esa.int/). You can also [publish](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md) your own data, workflows, and project information to it.
-5. You can **engage** the EarthCODE and broader EO community [EarthCODE Forum](https://discourse-earthcode.eox.at/), which is directly connected to the catalog.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1; padding-right: 20px;">
+    <ol>
+      <li>
+        You can <strong>access data, and develop your workflows, run your experiments</strong> on 
+        <a href="https://testing.earthcode.eox.at/computational-research" target="_blank">integrated EO platforms</a> with 
+        <a href="https://nor-discover.org/" target="_blank">Network of Resources (NoR)</a> sponsored compute.
+      </li>
+      <li>
+        You can <strong>store results</strong> in the 
+        <a href="https://esa-earthcode.github.io/examples/index-1/" target="_blank">ESA Project Results repository (PRR)</a>.
+      </li>
+      <li>
+        You can <strong>explore state-of-the-art data, workflows, and projects</strong> on the 
+        <a href="https://opensciencedata.esa.int/" target="_blank">Open Science Catalog</a>. 
+        You can also 
+        <a href="../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md" target="_blank">publish</a> 
+        your own data, workflows, and project information to it.
+      </li>
+      <li>
+        You can <strong>engage</strong> the EarthCODE and broader EO community via the 
+        <a href="https://discourse-earthcode.eox.at/" target="_blank">EarthCODE Forum</a>
+      </li>
+    </ol>
+  </div>
+  <div>
+    <img src="/img/EarthCODE_kv_transparent.png" alt="Descriptive Alt Text" style="max-width: 250px;" />
+  </div>
+</div>
+
+<b>Doing Open Science shouldn't be hard, and EarthCODE makes it easy!</b>
 
 ## Welcome to EarthCODE!
 

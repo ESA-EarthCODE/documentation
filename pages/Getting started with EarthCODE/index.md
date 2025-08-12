@@ -21,7 +21,7 @@ EarthCODE (Earth Science Collaborative Open Development Environment) provides th
         You can <strong>explore state-of-the-art data, workflows, and projects</strong> on the 
         <a href="https://opensciencedata.esa.int/" target="_blank">Open Science Catalog</a>. 
         You can also 
-        <a href="../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md" target="_blank">publish</a> 
+        <a href="https://esa-earthcode.github.io/documentation/Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog" target="_blank">publish</a> 
         your own data, workflows, and project information to it.
       </li>
       <li>

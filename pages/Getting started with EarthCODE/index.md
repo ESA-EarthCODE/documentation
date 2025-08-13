@@ -407,7 +407,7 @@ Once you’ve understood your role and the resources available, it's time to exp
    - Get in touch for onboarding support, fill in the short contact form at <https://earthcode.esa.int/contact> or e‑mail **earth-code@esa.int**.  
 
 3. **Troubleshooting**  
-   If you hit a snag, check the [Frequently Asked Questions](./Frequently%20Asked%20Questions.md) section first.  
+   If you hit a blocker, check the [Frequently Asked Questions](./Frequently%20Asked%20Questions.md) section first.  
    Still stuck? Ask in the forum or drop us a line at the support address above.
 
 

@@ -10,7 +10,7 @@ EarthCODE (Earth Science Collaborative Open Development Environment) provides th
     <ol>
       <li>
         You can <strong>access data, and develop your workflows, run your experiments</strong> on 
-        <a href="https://testing.earthcode.eox.at/computational-research" target="_blank">integrated EO platforms</a> with 
+        <a href="https://earthcode.esa.int/computational-research" target="_blank">integrated EO platforms</a> with 
         <a href="https://nor-discover.org/" target="_blank">Network of Resources (NoR)</a> sponsored compute.
       </li>
       <li>

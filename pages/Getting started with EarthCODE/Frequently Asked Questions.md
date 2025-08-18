@@ -15,7 +15,7 @@ This sub-section provides solutions to common issues that users may encounter.
 <details>
 <summary><strong>How do I add entries to the Open Science Catalog?</strong></summary>
 
-Please check the [documentation](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md) or directly the [examples](https://esa-earthcode.github.io/examples/index-2/).
+Please check the [documentation](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) or directly the [examples](https://esa-earthcode.github.io/examples/index-2/).
 </details>
 
 
@@ -46,7 +46,7 @@ Currently, this is decided on a case by case basis. Contact the EarthCODE team w
 <details>
 <summary><strong>How do I upload my data to the PRR?</strong></summary>
 
-Please check the [documentation](../Technical%20Documentation/ESA%20Project%20Results%20Repository%20(PRR)/index.md) or directly the [examples](https://esa-earthcode.github.io/examples/index-1/).
+Please check the [documentation](../Technical%20Documentation/ESA%20Project%20Results%20Repository/index.md) or directly the [examples](https://esa-earthcode.github.io/examples/index-1/).
 </details>
 
 <details>

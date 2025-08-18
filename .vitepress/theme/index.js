@@ -1,6 +1,7 @@
 import Layout from "./Layout.vue";
 import "./style.css";
 import FeatureCard from './components/FeatureCard.vue'
+import Checklist from './components/Checklist.vue'
 
 
 /** @type {import('vitepress').Theme} */
@@ -12,5 +13,6 @@ export default {
       app.use(await import("@eox/esa-ui/components/cookies.js"));
     }
     app.component('FeatureCard', FeatureCard)
+    app.component('Checklist', Checklist)
   }
 };

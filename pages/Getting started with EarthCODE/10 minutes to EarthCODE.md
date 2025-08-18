@@ -27,12 +27,12 @@ Different users of EarthCODE have different needs and goals. To help you find th
 
 ### Researchers looking to contribute to the Open Science Catalog  
 
-If you have 1) completed your research; 2) have your data/workflow prepared in a persitent online repository; and 3) are looking to ** contribute to the Open Science Catalog (OSC)**, head to the [**Contributing to the OSC section**](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md)).
+If you have 1) completed your research; 2) have your data/workflow prepared in a persitent online repository; and 3) are looking to ** contribute to the Open Science Catalog (OSC)**, head to the [**Contributing to the OSC section**](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md)).
 
 
 ### Researchers looking for persistent storage 
 
-If you've 1) completed your research; and 2) want to store your data/workflow prepared in a persitent online repository you can use the ESA Project Results Repository to do so. Head to the [**ESA Project Results Repository (PRR) section**](../Technical%20Documentation/ESA%20Project%20Results%20Repository%20(PRR)/index.md)) to for instructions how to do this. After you have stored your data/workflow in the PRR, add an entry for it in the [Open Science Catalog](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md)).
+If you've 1) completed your research; and 2) want to store your data/workflow prepared in a persitent online repository you can use the ESA Project Results Repository to do so. Head to the [**ESA Project Results Repository (PRR) section**](../Technical%20Documentation/ESA%20Project%20Results%20Repository/index.md)) to for instructions how to do this. After you have stored your data/workflow in the PRR, add an entry for it in the [Open Science Catalog](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md)).
 
 ### New Researchers Starting a Project  
 
@@ -48,7 +48,7 @@ Visit the [**Platform Selection**](../Technical%20Documentation/Platforms/) sect
 - Understanding which tools will streamline your workflow.  
 - Setting up your environment for collaborative or individual work.  
 
-It’s also a good idea to also familiarize yourself with the [**Contributing to the OSC section**](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md)) to understand the requirements early on.  
+It’s also a good idea to also familiarize yourself with the [**Contributing to the OSC section**](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md)) to understand the requirements early on.  
 
 ### Users Exploring Published Research  
 
@@ -158,7 +158,7 @@ To improve discoverability, STAC objects also include metadata fields such as:
 
 Because these objects must follow a strict predefined schema, ensuring compliance can be complex. However, EarthCODE provides example guides to help you structure your data correctly. Additionally, there are automated tools that simplify the creation of STAC objects, reducing manual effort.
 
-You can read more on how to publish entities in the [Contributing to the Open Science Catalog](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md) section, and check out our [examples](https://esa-earthcode.github.io/examples/).
+You can read more on how to publish entities in the [Contributing to the Open Science Catalog](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) section, and check out our [examples](https://esa-earthcode.github.io/examples/).
 
 
 #### Best Practices

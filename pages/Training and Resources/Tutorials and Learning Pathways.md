@@ -1,47 +1,46 @@
 # Tutorials and Learning Pathways
-:::warning 🛠️ Page Under Development
-Content is being actively developed and updated for this page. EarthCODE's documentation is a living document and will be continuously updated with detailed reviews.
-:::
-In this section, we group tutorials into different learning pathways to help you progressively build the skills needed to master EarthCODE. Whether you're just starting or aiming to become an expert, each pathway is designed to guide you through key concepts and features of EarthCODE. You’ll gain practical, hands-on experience as you move from basic to advanced topics, ensuring that you can apply your learning effectively in real-world research projects.
 
-## Start Simple
-For those new to EarthCODE, this pathway covers the basics to get you up and running quickly. Learn the fundamental features, how to set up your environment, and perform simple tasks that are essential for beginning your EarthCODE journey. You’ll start with simple tasks like accessing and browsing data, and gradually move toward publishing data and workflows. Example tutorials may include Jupyter Notebooks for tasks such as:
+In this section, we highlight tutorials, learning pathways, and resources designed to help you progressively build the skills needed to master EarthCODE capabilities.
 
-- Accessing public datasets from Earth observation platforms.
-- Browsing data using simple queries.
-- Executing basic analysis and visualizing results.
-- [Cubes & Clouds](https://eo-college.org/courses/cubes-and-clouds/): This course teaches the concepts of data cubes, cloud platforms, and open science in the context of earth observation.  
+## Starting Point
 
-## Grow Your Skills
-Once you're familiar with the basics, this pathway takes you deeper into EarthCODE. Explore more advanced functionalities, such as configuring workflows, working with larger datasets, and collaborating with other researchers. You’ll gain practical experience in applying EarthCODE’s tools to enhance your research projects. Example tutorials may include:
+The fastest way to gain value from EarthCODE is to first become familiar with its core capabilities by following the [Getting Started with EarthCODE guide](../Getting%20started%20with%20EarthCODE/). Once you understand your role and what EarthCODE can offer, you can explore the relevant guide or go directly to the [Examples Bank](https://esa-earthcode.github.io/examples/). Finding an example that closely matches your data, workflow, or problem is often the best starting point, as most examples are drawn from real-world projects.
 
-- Setting up and executing more complex workflows using different platforms.
-- Collaborative data sharing and version control.
-- Publishing results and workflows to the Open Science Catalog.
+At any point during this process, you can engage in the forum and ask for help. If you are using a platform, you can also contact them directly.
 
-You'll also work with Jupyter Notebooks for more advanced tasks like analyzing geospatial data and automating workflows.
+## Next Steps
 
-## Excel with EarthCODE
-This pathway is for advanced users looking to maximize the potential of EarthCODE. Learn best practices for optimizing workflows, managing large datasets, and contributing to the EarthCODE community. You’ll also explore expert-level features to take your research to the next level, fostering innovation and collaboration. End-to-end workflows will be demonstrated using a set of Jupyter Notebooks across different platforms (e.g., Copernicus Data Space, Euro Data Cube) to execute comprehensive experiments, including:
 
-- Data preprocessing and advanced analytics.
-- Creating and managing large-scale scientific workflows.
-- Publishing and sharing results in collaborative research environments.
+After learning the basics, you can explore EarthCODE in greater depth. This includes reviewing the [Best Practices guide](../Community%20and%20Best%20Practices/) and gaining a thorough understanding of the FAIR principles. Based on what you learn from the guide and your use case, you may want to update your data or workflows to align more closely to FAIR principles.
 
-For real-world examples, check out these case studies:
+At this stage, you can also explore other existing projects to learn from their approaches. In addition, you can examine more advanced examples to discover how others are applying EarthCODE capabilities.
 
-- Case Study 1 - [Sentinel-1 for Science Amazonas](https://project.gisat.cz/s14scienceAmazonas/): In this ESA-funded project, EarthCODE and openEO were used to assess how Sentinel-1 imagery can estimate forest carbon losses and gains due to land use and land cover changes in the Amazon basin. This project emphasizes EarthCODE's integration with external platforms to process and analyze large geospatial datasets.
-- Case Study 2 - [SARwave](https://www.sarwave.org/): This case study demonstrates the use of EarthCODE in creating and refining S1L1B and S1L2 products. By collocating data from the WW3 model with Sentinel-1 (S1L1B) products, researchers can generate S1L1C and ultimately refined wind and wave products. These advanced processing steps are essential for analyzing sea state conditions, such as wave height and period, through data sources like SARwave and the Euro Data Cube platform. 
+Furthermore, you can explore the following advanced materials:
 
-Explore more case studies in the [EarthCODE Gallery](./Gallery) to see how other users are applying EarthCODE in various fields of research.
+## Recommended Materials and Training
 
-## NoR Training: A Key to Collaborative Research and Resource Management
-As part of your journey with EarthCODE, NoR Training is an essential component to learn how to fully leverage the Network of Resources (NoR). The NoR network enables users to connect with various data resources, tools, and services within EarthCODE, as well as collaborate effectively with other researchers across platforms. Understanding NoR is critical because it:
+### Courses
 
-- Facilitates efficient resource management by helping you access and share datasets, workflows, and research outputs.
-- Provides the foundation for seamless collaboration within the EarthCODE community, making it easier to contribute to joint research projects and innovations.
-- Teaches you how to connect your workflows to external resources, increasing the scope and scalability of your research.
+- **[Cubes & Clouds](https://eo-college.org/courses/cubes-and-clouds/)**: A course focused on data cubes, cloud computing, and open science in Earth observation. This aligns well with EarthCODE’s mission to promote open access to scientific data.
 
-This training will guide you through the process of utilizing NoR to access and manage resources, connect with other researchers, and publish your findings. By learning how to integrate NoR with other EarthCODE tools, you will be equipped to conduct high-impact, collaborative research.
+- **External Platforms and Tools**: We also recommend exploring platforms such as the Copernicus Data Space Ecosystem (CDSE) and Euro Data Cube (EDC), which provide additional learning materials that integrate with EarthCODE.
 
-Watch this short [YouTube video](https://youtu.be/IJEZRSac6EE?feature=shared) to learn more about the NoR application process and how to apply for sponsorship, including up to €5,000 in funding to spend on Earth Observation services.
+### Examples
+
+The [Examples Bank](https://esa-earthcode.github.io/examples/) will show you how to carry out a variety of tasks. All examples are based on actual use cases from other ESA projects and demonstrate how they are using EarthCODE. Currently, the focus is on publishing to the Open Science Catalog and uploading data to the ESA PRR, but the examples are continuously expanding.
+
+All examples are runnable directly through the [EarthCODE workspace](https://workspace.earthcode.eox.at).
+
+### Documentation
+
+You can use the documentation provided on this website to learn more about EarthCODE. For deeper insight into the technical aspects of the project, visit the GitHub repositories of the underlying components, such as the [OSC Technical Design](https://github.com/ESA-EarthCODE/open-science-catalog-metadata/wiki/System-Design-Document-%E2%80%90-v1.0.0).
+
+### Training, News, and Updates
+
+For the latest news on upcoming training events and to access past session recordings, visit the **EarthCODE News and Updates** section on our [EarthCODE website](https://earthcode.esa.int/#latest-news-updates) and the [Community Engagement section on the forum](https://discourse-earthcode.eox.at/c/community-engagement/11).
+
+You can request custom training through the NoR page by contacting the platform providers directly.
+
+### Videos and Webinars
+
+- [FOSS4G:UK South West 2024 | Richard Conway & Garin Smith | EarthCODE and EOEPCA+](https://www.youtube.com/watch?v=JUL-lDt3vM4)

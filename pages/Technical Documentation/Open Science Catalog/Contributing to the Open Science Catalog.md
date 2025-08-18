@@ -58,7 +58,7 @@ If your data is already hosted on a reliable storage provider you do **not** nee
 If your data is not yet hosted online or its persistence is uncertain, we recommend uploading it to the **ESA Project Results Repository (PRR)**. The PRR provides access to data, workflows, experiments and documentation from ESA Projects organised across Collections, accessible via the [STAC API](https://github.com/radiantearth/stac-api-spec). Each Collection contains [STAC Items](https://github.com/radiantearth/stac-spec/blob/master/item-spec/item-spec.md), with their related Assets stored within the PRR storage. **Therefore, to upload your data to the PRR you have to generate a STAC collection that describes your data, code and documentation.**
 
 <!-- Change to see the PRR page -->
-See the [PRR page](../ESA%20Project%20Results%20Repository%20(PRR)/) for a detailed, interactive introduction and a bank of examples of how different ESA projects have generated their collections.
+See the [PRR page](../ESA%20Project%20Results%20Repository/) for a detailed, interactive introduction and a bank of examples of how different ESA projects have generated their collections.
 
 ::: details Requesting PRR Storage
 If you have any questions or require suppport please email the EarthCODE support team: [earth-code@esa.int](mailto:earth-code@esa.int) .

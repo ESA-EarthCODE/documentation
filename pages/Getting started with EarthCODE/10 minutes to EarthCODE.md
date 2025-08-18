@@ -10,7 +10,7 @@ This quick-start guide is designed to help you begin working with EarthCODE in j
 EarthCODE is a strategic initiative by the **European Space Agency (ESA)** designed to empower researchers in Earth System Science with FAIR tools and infrastructure, sponsored EO cloud platforms and cloud services:
 1. You can **access data, develop your workflows and run your experiments** on [integrated EO platforms](https://testing.earthcode.eox.at/computational-research). [Network of Resources (NoR)](https://nor-discover.org/) sponsored compute is also available.
 2. You can **store results** in the [ESA Project Results repository (PRR)](https://esa-earthcode.github.io/examples/index-1/).
-3. You can **explore state-of-the-art data, workflows, and project information** available on the [Open Science Catalog](https://opensciencedata.esa.int/). You can also [publish](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md) your own data, workflows, and project information to it.
+3. You can **explore state-of-the-art data, workflows, and project information** available on the [Open Science Catalog](https://opensciencedata.esa.int/). You can also [publish](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) your own data, workflows, and project information to it.
 5. You can **engage** the EarthCODE and broader EO community [EarthCODE Forum](https://discourse-earthcode.eox.at/), which is directly connected to the catalog.
 
 
@@ -36,14 +36,14 @@ See [Accessing EarthCODE](../Getting%20started%20with%20EarthCODE/Accessing%20Ea
 
 ## Suggested Paths
 
-### Researchers looking to contribute to the Open Science Catalog
+### Researchers looking to contribute to the Open Science Catalog  
 
-If you have 1) completed your research; 2) have your data/workflow prepared in a persitent online repository; and 3) are looking to ** contribute to the Open Science Catalog (OSC)**, head to the [**Contributing to the OSC section**].
+If you have 1) completed your research; 2) have your data/workflow prepared in a persitent online repository; and 3) are looking to ** contribute to the Open Science Catalog (OSC)**, head to the [**Contributing to the OSC section**](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md)).
 
 
 ### Researchers looking for persistent storage 
 
-If you've 1) completed your research; and 2) want to store your data/workflow prepared in a persitent online repository you can use the ESA Project Results Repository to do so. Head to the [**ESA Project Results Repository (PRR) section**](../Technical%20Documentation/ESA%20Project%20Results%20Repository%20(PRR)/index.md)) to for instructions how to do this. After you have stored your data/workflow in the PRR, add an entry for it in the [Open Science Catalog](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md)[].
+If you've 1) completed your research; and 2) want to store your data/workflow prepared in a persitent online repository you can use the ESA Project Results Repository to do so. Head to the [**ESA Project Results Repository (PRR) section**](../Technical%20Documentation/ESA%20Project%20Results%20Repository/index.md)) for instructions how to do this. After you have stored your data/workflow in the PRR, add an entry for it in the [Open Science Catalog](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md)).
 
 ### New Researchers Starting a Project / Looking for a Platform  
 
@@ -59,7 +59,16 @@ Visit the [**Platform Selection**](../Technical%20Documentation/Platforms/) sect
 - Understanding which tools will streamline your workflow.  
 - Setting up your environment for collaborative or individual work.  
 
-It’s also a good idea to also familiarize yourself with the [**Contributing to the OSC section**](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md) to understand the requirements early on. 
+It’s also a good idea to also familiarize yourself with the [**Contributing to the OSC section**](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) to understand the requirements early on.  
+
+### Users Exploring Published Research  
+
+If you’re here to **explore existing research outputs**, the Open Science Catalog is your primary destination. The catalog allows you to:  
+- **Search for projects** by area, variable, theme, and more.  
+- Access **datasets, workflows, and documentation** directly from published research.  
+- View detailed **metadata and provenance information** for each project.  
+
+Go to the [**Open Science Catalog**](https://opensciencedata.esa.int/) to start browsing and discovering data relevant to your interests. Whether you're looking for specific datasets, workflows, or scientific results, the catalog provides a centralized and well-organized resource.  
 
 
 ## Choosing a Platform
@@ -151,7 +160,7 @@ Sometimes parts of the data and workflows are protected or private. Although not
 
 3. Request to add them to the PRR via one of the three options described below.
 
-See the [Contributing guide](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md) for a detailed exaplanation or go directly to the [examples](https://esa-earthcode.github.io/examples/index-2/).
+See the [Contributing guide](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) for a detailed exaplanation or go directly to the [examples](https://esa-earthcode.github.io/examples/index-2/).
 
 
 
@@ -160,10 +169,10 @@ See the [Contributing guide](../Technical%20Documentation/Open%20Science%20Catal
 The [ESA Project Results Repository (PRR)](https://eoresults.esa.int/) provides long term storage for research outcomes. It provides access to data, workflows, experiments and documentation from ESA Projects organised across Collections, accessible via the STAC API. To upload you have to:
 
 1. Generate a STAC Collection that is associated to your files. The STAC Collection provides metadata about your files and makes them searchable and machine readable.
-2. Contact the [EarthCODE team](earthcode@esa.int) to request the upload.
+2. Contact the [EarthCODE team](mailto:earthcode@esa.int) to request the upload.
 3. Transfer the data and metadata to the EarthCODE team, who will upload it to the PRR. 
 
-Head to the [PRR guide](../Technical%20Documentation/ESA%20Project%20Results%20Repository%20(PRR)/) to see more details and examples how to generate metadata and upload it .
+Head to the [PRR guide](../Technical%20Documentation/ESA%20Project%20Results%20Repository/) to see more details and examples how to generate metadata and upload it .
 
 ## Exploring the Open Science Catalog
 
@@ -171,4 +180,4 @@ The [Open Science Catalog](https://opensciencedata.esa.int/) includes datasets, 
 
 You can head directly to the website to explore the portal, there is no login required.
 
-You can find more information about the OSC functionality in the [Discovering OSC Resources guide](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Discovering%20Resources.md).
+You can find more information about the OSC functionality in the [Discovering OSC Resources guide](../Technical%20Documentation/Open%20Science%20Catalog/Discovering%20Resources.md).

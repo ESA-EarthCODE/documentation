@@ -132,7 +132,7 @@ By following these guidelines, you help keep the forum organized, useful, and we
 
 **Starting a Discussion About an Item in the Open Science Catalog**
 
-If your discussion relates to an item in the **Open Science Catalog**, it's best to use the [integrated features on the catalog](../../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Discovering%20Resources.md#start-discussions-directly-from-the-catalog):
+If your discussion relates to an item in the **Open Science Catalog**, it's best to use the [integrated features on the catalog](../../Technical%20Documentation/Open%20Science%20Catalog/Discovering%20Resources.md#start-discussions-directly-from-the-catalog):
 1. Navigate to the catalog and locate the item.
 2. Use the **"Start a new topic on the EarthCODE forum"** button.
 

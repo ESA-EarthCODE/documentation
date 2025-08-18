@@ -19,8 +19,8 @@ The access requirements and options depend on each feature and the type of actio
 Browsing and exploring the Open Science Catalog, the ESA Project Results Repository (ESA PRR), and the EarthCODE Forum are freely accessible to anyone via their respective websites. Furthermore, no login is required for downloading data from the Open Science Catalog or the ESA PRR.
 
 For detailed instructions, see the guides and example pages for each:
-- [Open Science catalog (OSC)](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Discovering%20Resources.md>)
-- [ESA Projects Results Repository (PRR)](../Technical%20Documentation/ESA%20Project%20Results%20Repository%20(PRR)/)
+- [Open Science catalog (OSC)](../Technical%20Documentation/Open%20Science%20Catalog/Discovering%20Resources.md)
+- [ESA Projects Results Repository (PRR)](../Technical%20Documentation/ESA%20Project%20Results%20Repository/)
 - [EarthCODE forum](../Community%20and%20Collaboration/Getting%20Started%20With%20The%20EarthCODE%20Discourse/)
 
 ## Authenticated Options
@@ -38,8 +38,8 @@ To create a GitHub account, follow the [GitHUB user guide](https://docs.github.c
 
 After creating an account and logging in, your next steps depend on the feature you want to use:
 
-- [Open Science Catalog](../Technical%20Documentation/Open%20Science%20Catalog%20(OSC)/Contributing%20to%20the%20Open%20Science%20Catalog.md)
-- [ESA PRR](../Technical%20Documentation/ESA%20Project%20Results%20Repository%20(PRR)/Uploading%20To%20PRR.md)
+- [Open Science Catalog](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md)
+- [ESA PRR](../Technical%20Documentation/ESA%20Project%20Results%20Repository/Uploading%20To%20PRR.md)
 - [EarthCODE Forum](../Community%20and%20Collaboration/Getting%20Started%20With%20The%20EarthCODE%20Discourse/)
 - [Integrated Platforms](../Technical%20Documentation/Platforms/)
 

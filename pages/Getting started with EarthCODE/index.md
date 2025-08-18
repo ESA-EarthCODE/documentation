@@ -143,12 +143,12 @@ There are two key type of roles within EarthCODE:
 You can explore what **your role** is in the EarthCODE community below:
 
 
-### I am a:
+### Who's EarthCODE For:
 
-
-:::tip 
+![Roles](/img/EarthCODEroles.png)
+<!-- :::tip 
 Hold down shift to scroll horizontally with your mousewheel
-:::
+::: -->
 <!-- :::tip note to self
 Use Case Examples / Personas
 A few brief examples of how a climate scientist, ML developer, or EO analyst might use EarthCODE end-to-end. Helps make abstract concepts concrete.
@@ -191,7 +191,7 @@ code and documentation of other contributing researchers. -->
 ---
 
 <!-- HTML for actor cards Note: Maybe add some icons here for each of the roles -->
-<div id="post-wrapper" class="role-cards-container">
+<!-- <div id="post-wrapper" class="role-cards-container">
   <div class="role-card">
     <h3>Part of a ESA-Funded Research Project</h3>
     <p>Projects funded by ESA use EarthCODE to discover, develop and publish scientific data and workflows using integrated platforms and FAIR tools. They are supported throughout the full open science lifecycle. They would be interested exploring:</p>
@@ -342,7 +342,7 @@ code and documentation of other contributing researchers. -->
   overflow-x: auto;  
 }
 
-</style>
+</style> -->
 <!-- <script setup>
 import { onMounted } from 'vue'
 

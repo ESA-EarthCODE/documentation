@@ -8,7 +8,7 @@ EarthCODE partners with a growing ecosystem of platforms to provide FAIR and Ope
 <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
   <img src="/img/platforms/platform_logos/deepesdl.webp" alt="DeepESDL" style="max-height: 120px; object-fit: contain;" />
   <img src="/img/platforms/platform_logos/eurodatacube.png" alt="Euro Data Cube" style="max-height: 120px; object-fit: contain;" />
-  <img src="/img/platforms/platform_logos/openeo.png" alt="openEO" style="max-height: 120px; object-fit: contain;" />
+  <img src="/img/platforms/platform_logos/cdse.png" alt="openEO" style="max-height: 120px; object-fit: contain;" />
 </div>
 <div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
   <img src="/img/platforms/platform_logos/PANGEO.png" alt="DeepESDL" style="max-height: 120px; object-fit: contain;" />

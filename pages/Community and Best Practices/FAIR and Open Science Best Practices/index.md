@@ -26,12 +26,14 @@ Open Science is a cultural shift in how we create, share, and use scientific kno
 It is implemented through practices like **Open Access** to publications, **Open Source** software, **Open Data**, and **Open Educational Resources** and — and built on four pillars, **4 Rs** — Reliable, Reproducible, Reusable, and Relevant 
 
 
-| **4 R's of Open Science** | **Supporting Pillars**                                                                                                                     |
+![4R's of Open Science](/img/4RsOpenScience.png)
+
+<!-- | **4 R's of Open Science** | **Supporting Pillars**                                                                                                                     |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | **Reliable** – Ensure research meets scientific standards and remains credible both within and beyond the academic context. | **Data** – Make datasets findable with persistent identifiers (DOIs), rich metadata, and clear licenses to enable validation and reuse. |
 | **Reproducible** – Share methods and decisions openly so results can be independently verified. | **Code** – Use open-source standards, store code in searchable repositories, assign DOIs, and apply clear licenses for reuse.            |
 | **Reusable** – Provide well-documented outputs so others can build on your work. | **Papers** – Publish openly, share preprints, and ensure linked data and code are accessible to support reuse and validation.            |
-| **Relevant** – Maximize academic, societal, and economic impact by making research accessible and interactive. | **Reviews** – Make peer reviews transparent to increase trust, quality, and the relevance of research outputs.                           |
+| **Relevant** – Maximize academic, societal, and economic impact by making research accessible and interactive. | **Reviews** – Make peer reviews transparent to increase trust, quality, and the relevance of research outputs.                           | -->
 
 
 :::tip Collaboration Tips

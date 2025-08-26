@@ -44,17 +44,17 @@ Use this checklist to prepare your **Experiment** for publication in EarthCODE.
       'See available [EarthCODE Integrated Platforms](../../../Technical%20Documentation/Platforms/index.md) and their capabilities for publishing experiments',
       'Checkout an example experiment to see what you need to produce, e.g. [ESA CCI permafrost](https://opensciencedata.esa.int/experiments/esa-cci-permafrost/record)',
       'Link the generating workflow via a stable identifier (e.g., `osc:workflow`) and ensure the workflow record/version exists — see [Workflows](./Workflows.md)',
-      'Document inputs & configuration: provide an `input.yaml` (or JSON) with dataset identifiers, spatial/temporal filters, parameters',
-      'Capture the execution environment: add `environment.yaml` or a container image/tag; include kernel info if using Jupyter',
-      'Add project and contacts (ESA project id, consortium, technical officer, PIs, websites, ORCID)',
-      'Select relevant OSC [Themes](https://opensciencedata.esa.int/themes/catalog), [Variables](https://opensciencedata.esa.int/variables/catalog), and [Missions](https://opensciencedata.esa.int/eo-missions/catalog)',
       'Test on a small sample and re-run to confirm reproducibility; note runtime and resource requirements',
     ]"
     storage-key="earthcode-experiment"
   />
 </ClientOnly>
 
-
+<!--       'Document inputs & configuration: provide an `input.yaml` (or JSON) with dataset identifiers, spatial/temporal filters, parameters',
+      'Capture the execution environment: add `environment.yaml` or a container image/tag; include kernel info if using Jupyter',
+      'Add project and contacts (ESA project id, consortium, technical officer, PIs, websites, ORCID)',
+      'Select relevant OSC [Themes](https://opensciencedata.esa.int/themes/catalog), [Variables](https://opensciencedata.esa.int/variables/catalog), and [Missions](https://opensciencedata.esa.int/eo-missions/catalog)',
+ -->
 ## FAIR EarthCODE Experiments Standards
 EarthCODE's standards for FAIR experiments follow the principles from [Applying the FAIR Principles to computational workflows](https://www.nature.com/articles/s41597-025-04451-9), in combination with [FAIR Workflows](./Workflows.md), where:
 

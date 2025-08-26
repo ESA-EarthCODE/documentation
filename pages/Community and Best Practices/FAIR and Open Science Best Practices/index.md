@@ -53,10 +53,10 @@ The FAIR principles consist of 15 one-liners that define the key behaviors neces
 ![Analysing the FAIR principles](/img/FAIR-interpretation.png)
 
 <!-- go in image above -->
-- **Findable** - Data and metadata must be easily discoverable by both humans and machines. Machine-readable metadata enables automated discovery of datasets and services, making this a cornerstone of the FAIRification process.
+<!-- - **Findable** - Data and metadata must be easily discoverable by both humans and machines. Machine-readable metadata enables automated discovery of datasets and services, making this a cornerstone of the FAIRification process.
 - **Accessible** - Once data is found, users must understand how to access it, including any required authentication and authorization procedures.
 - **Interoperable** - Data must integrate seamlessly with other datasets and work effectively with various applications, workflows, and processing systems.
-- **Reusable** - The ultimate FAIR objective is maximizing data reuse through comprehensive documentation that enables replication and combination across different research contexts
+- **Reusable** - The ultimate FAIR objective is maximizing data reuse through comprehensive documentation that enables replication and combination across different research contexts -->
 
 
 :::warning FAIR is not binary: FAIR is a spectrum

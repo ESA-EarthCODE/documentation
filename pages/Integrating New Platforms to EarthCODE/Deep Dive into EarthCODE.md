@@ -189,7 +189,7 @@ For some examples of what these might look like in practice, refer to the [10 mi
 
 Usage of these platforms, and the data, compute and storage resources on these platforms can be funded through the [ESA Network of Resources (NoR)](https://eo4society.esa.int/network-of-resources/), depending on the project type and eligibility.
 
-Users can also decide to use their own local environments instead of the platforms. For users working outside the integrated platforms—such as on institutional infrastructure or personal systems—EarthCODE supports **manual publishing** of datasets and workflows to the catalog, through the EarthCODE publishing GUI or manually via git pull requests (see more at [Working with Data](../Technical%20Documentation/Data/)).
+Users can also decide to use their own local environments instead of the platforms. For users working outside the integrated platforms—such as on institutional infrastructure or personal systems—EarthCODE supports **manual publishing** of datasets and workflows to the catalog, through the EarthCODE publishing GUI or manually via git pull requests (see more in the [**Contributing to the OSC section**](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md)).
 
 
 ### Network of Resources
@@ -255,7 +255,7 @@ The EarthCODE project runs standard best practice procurement cycles on esa-star
 More information about how integrating with EarthCODE works, where and how to apply, can be found at the [Integrating New Platforms Page](../Integrating%20New%20Platforms%20to%20EarthCODE/).
 
 ### Publishing Experiments Data and Workflows
-Once a research activity is complete, the results can be published to the EarthCODE ecosystem, making them findable, reproducible, and reusable by the broader scientific community. If you are working on an integrated platform, publishing is typically automated. When the experiment is finalized, the platform can generate the appropriate metadata and push it to the Open Science Catalog. If you're working outside of an integrated platform—on institutional infrastructure or locally—you can still publish your results manually by following the Open Science Catalog submission guidelines [Working with Data](../Technical%20Documentation/Data/index.md).
+Once a research activity is complete, the results can be published to the EarthCODE ecosystem, making them findable, reproducible, and reusable by the broader scientific community. If you are working on an integrated platform, publishing is typically automated. When the experiment is finalized, the platform can generate the appropriate metadata and push it to the Open Science Catalog. If you're working outside of an integrated platform—on institutional infrastructure or locally—you can still publish your results manually by following the [Open Science Catalog submission guidelines](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md).
 
 At the time of publishing, it is expected that the outputs have been finalized and, where applicable, reviewed and approved by the ESA project’s Technical Officer. When you're ready to publish you:
 1. (Optional) Upload your **datasets and workflows** to the **ESA Project Results Repository (PRR)** for long-term preservation.
@@ -273,7 +273,7 @@ The core units of publication in EarthCODE are data and workflows (combined in e
 
 In EarthCODE, the final outputs of your research—referred to as **Products** or data products—are stored, described, and published in a way that ensures long-term FAIRness and availability.
 
-These data products can be hosted on the ESA Project Results Repository (PRR) or an external repository of your choice. The PRR is ESA’s dedicated long-term storage service for project results. Uploading to the PRR is optional but recommended, especially for ensuring compliance with FAIR principles and facilitating persistent access to your work. You simply provide a link to the data location as part of the product’s metadata. For detailed instructions on uploading to the PRR, refer to the [Contributing to the Open Science Catalog guide](../Technical%20Documentation/Data/Contributing%20to%20the%20EarthCODE%20Catalog.md).
+These data products can be hosted on the ESA Project Results Repository (PRR) or an external repository of your choice. The PRR is ESA’s dedicated long-term storage service for project results. Uploading to the PRR is optional but recommended, especially for ensuring compliance with FAIR principles and facilitating persistent access to your work. You simply provide a link to the data location as part of the product’s metadata. For detailed instructions on uploading to the PRR, refer to the [**ESA Project Results Repository (PRR) section **](../Technical%20Documentation/ESA%20Project%20Results%20Repository/index.md).
 
 Each product is described using **STAC (SpatioTemporal Asset Catalog) metadata**, specifically through a `Collection` that captures key attributes like the spatial and temporal extent, scientific context, provenance, and more.
 
@@ -340,7 +340,7 @@ The [Open Science Catalog (OSC)](https://opensciencedata.esa.int/catalog) is the
 
 Metadata describing datasets (Products) is published using the **SpatioTemporal Asset Catalog (STAC)** specification. Workflows and experiments are described using the **OGC API - Records** standard. These two metadata models are connected by references. The Open Science Catalog is also integrated with EarthCODE's computing infrastructure. Users with appropriate access—such as NoR-sponsored compute—can reproduce experiments directly from the catalog. This means running the same workflow with the same input and configuration on a compatible platform, enabling reproducible results.
 
-The catalog acts as both a registry of published research artifacts and an operational gateway for executing FAIR experiments across federated EO platforms. More information about the catalog and how it works can be found at [Data - Discovering Resources in The Open Science Catalog)](../Technical%20Documentation/Data/Discovering%20Resources%20in%20The%20EarthCODE%20Catalog)
+The catalog acts as both a registry of published research artifacts and an operational gateway for executing FAIR experiments across federated EO platforms. More information about the catalog and how it works can be found at [Data - Discovering Resources in The Open Science Catalog)](../Technical%20Documentation/Open%20Science%20Catalog/Discovering%20Resources)
 
 <!-- One such component developed on top of EOEPCA open-
 source building blocks and which will be integrated in
@@ -387,7 +387,7 @@ Importantly, EarthCODE doesn't only describe results—it enables others to act 
 
 This end-to-end design ensures that research is not only published, but also **reproducible**, extensible, and open to collaboration.
 
-To learn more about EarthCODE's FAIR best practices and standards, visit the [FAIR and Open Science page](/Community%20and%20Best%20Practices/FAIR%20and%20Open%20Science).
+To learn more about EarthCODE's FAIR best practices and standards, visit the [FAIR and Open Science page](../Community%20and%20Best%20Practices/FAIR%20and%20Open%20Science%20Best%20Practices/index.md).
 
 ### Reviews and Data Stewardship of EarthCODE
 Once a publication request is submitted—either from an integrated platform or manually—the request enters a review process managed by the **EarthCODE data steward**.

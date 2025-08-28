@@ -57,7 +57,7 @@ ESA will review your proposal within 6–10 working days.
 #### **7. Create a Service Provider Account**
 If your application is approved, create an account with your chosen service provider (e.g., UP42 or EarthConsole).
 
-A video walkthrough is available at: https://youtu.be/IJEZRSac6EE?feature=shared
+A video walkthrough is available at: https://www.youtube.com/watch?v=F56p3xkfizs&list=PLvT7fd9OiI9Ws9QtfIxJjUM-RgQbpkpuJ
 
 ### **Pro Tips for a Strong Application**
 - Clearly align your project goals with ESA's objectives, such as **climate monitoring**, **biodiversity conservation**, or **disaster management**.

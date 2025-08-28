@@ -10,4 +10,4 @@ These guides show you how to structure your work in a way that's aligned with Ea
 Explore the following guides:
 
 - [Code, Data and Workflow Quality](./Code%20Data%20and%20Workflow%20Quality.md): A practical walkthrough for preparing your research artefacts for publication and reuse.
-- [FAIR and Open Science](./FAIR%20and%20Open%20Science.md): An in-depth look at how to make your published results FAIR and how EarthCODE supports you in that journey.
+- [FAIR and Open Science](./FAIR%20and%20Open%20Science%20Best%20Practices/index.md): An in-depth look at how to make your published results FAIR and how EarthCODE supports you in that journey.

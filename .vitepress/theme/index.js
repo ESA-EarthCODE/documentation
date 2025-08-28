@@ -1,7 +1,7 @@
 import Layout from "./Layout.vue";
 import "./style.css";
-import FeatureCard from './components/FeatureCard.vue'
-
+import FeatureCard from "./components/FeatureCard.vue";
+import OpenEOCollections from "./components/OpenEOCollections.vue";
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -11,6 +11,7 @@ export default {
       app.use(await import("@eox/esa-ui/components/header.js"));
       app.use(await import("@eox/esa-ui/components/cookies.js"));
     }
-    app.component('FeatureCard', FeatureCard)
-  }
+    app.component("FeatureCard", FeatureCard);
+    app.component("OpenEOCollections", OpenEOCollections);
+  },
 };

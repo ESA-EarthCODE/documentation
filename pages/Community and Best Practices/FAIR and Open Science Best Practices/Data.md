@@ -18,11 +18,11 @@ The data itself is typically uploaded and stored on the ESA Project Results Repo
 
 ![Data Products](/img/terms/data-components.svg)
 
-:::details Variables
+:::details Product Metadata
 - **Product**: A geoscience dataset that captures specific variables over a spatial and temporal extent. Products are distinguished by factors such as the processing method, validation status, and EO mission used.
 - **Project**: The ESA-funded research project under which the product was generated.
 - **Variables**: Scientific or environmental variables measured or estimated in the dataset.
-- **Themes**: Top-level science topics from ESA’s strategic challenges (e.g. climate, biodiversity, atmosphere).
+- **Themes**: Top-level science topics from ESA’s strategic challenges (e.g. cryosphere, atmosphere, oceans).
 - **Keywords**: Hierarchical tags for product discovery, often derived from the variables and broader scientific terms.
 - **EO Mission**: The satellite mission or sensor used to generate the data, referenced in the product’s metadata.
 - **Documentation**: A link to related materials or publications explaining how the product was created.
@@ -43,15 +43,15 @@ Use this checklist to prepare your Product for publication in EarthCODE.
     :items="[
       'Checkout an example product to see what you need to produce, e.g. [EarthCODE FAIR Product Example](./Data.md#earthcode-fair-product-example)',
       'Explore tools from [EarthCODE Integrated Platforms](../../../Technical%20Documentation/Platforms/index.md) that might help you with publishing your Product',
-      'Prepare information about your product, including keywords, title, website, spatial and temporal extens, abstract (≤300 words), contacts', 
-      'Prepare links to relevant Paper, Handbook and/or relevant Documentation',
-      '[Prepare your data for publication](./Data#interoperability); ideally use cloud‑native formats. Add Set CRS, nodata, units; tune tiles/chunks and attach metadata to your data as appropriate - following the [Best Practice guide for data](../../Code%20Data%20and%20Workflow%20Quality.md)',
+      'Prepare information about your product, including: title, meaningful description (<300 words), spatial and temporal extents, contributors names', 
+      'Prepare links to relevant Paper, Handbook and/or relevant Documentation related to your dataset',
+      '[Prepare your data for publication](./Data#interoperability); Ideally prepare your data in cloud‑native formats - to ensure interoberability between different platforms. Enrich your data with CRS, set nodata, units; tune tiles/chunks and attach metadata to your data as appropriate - following the [Best Practice guide for data](../../Code%20Data%20and%20Workflow%20Quality.md)',
       'Choose a [license for your data](./Data#open-data-licensing)',
       'Plan for long term storage of your data - either on the [ESA PRR (default) or an external repository](./Data.md#storage-repositories); if you are using the ESA PRR, prepare your data following the [PRR upload guide and examples](../../Technical%20Documentation/ESA%20Project%20Results%20Repository%20/Uploading%20To%20PRR)',
-      'Check if your project [already exists in the OSC](https://opensciencedata.esa.int/projects/catalog); if not, prepare the project information about the status, name, description, website(s), consortium, start/end dates, technical officer & email, themes and create it as described in [Adding a New Project](https://esa-earthcode.github.io/examples/osc-pr-manual/#id-2-1-add-new-project)',
+      'Check if your project [is already discoverable in the OSC](https://opensciencedata.esa.int/projects/catalog); alternatively, prepare the project information about the project name, description, website links, consortium partners,  status of the project, start/end dates, contact to ESA Technical Officer, associated scientific domain and create a new entry in the OSC as described in [Adding a New Project](https://esa-earthcode.github.io/examples/osc-pr-manual/#id-2-1-add-new-project)',
       'Select the geophysical variable(s) describing your dataset from the OSC [Variables](https://opensciencedata.esa.int/variables/catalog) and [CF name & units](./Data#choosing-the-right-variable-name)',
       'Select the correct OSC [Themes](https://opensciencedata.esa.int/themes/catalog) and [Missions](https://opensciencedata.esa.int/eo-missions/catalog)',
-      'Consider if you want a [DOI from EarthCODE](./Data#doi-assignment) or if you would like to bring your own DOI',
+      'If your data has a DOI assigned already, provide the DOI number that already exists. Apply for the DOI assigned by EarthCODE if you have such request.,
       'Read the [Publishing Guide](../../../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) and checkout [example for publishing to the Open Science Catalog](https://esa-earthcode.github.io/examples/index-2/)',
       'Post on the [EarthCODE forum](https://discourse-earthcode.eox.at/latest) about the new data product! '
     ]"

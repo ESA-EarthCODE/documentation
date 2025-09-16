@@ -1,7 +1,7 @@
 # Deep Earth System Data Laboratory (DeepESDL)
 
 :::warning 🛠️ Page Under Development 
-    Content is being actively developed and updated for this page. EarthCODE's documentation is a living document and will be continuously updated with detailed reviews. 
+Content is being actively developed and updated for this page. EarthCODE's documentation is a living document and will be continuously updated with detailed reviews. 
 :::
 
 Found out more at: [earthsystemdatalab.net/](https://earthsystemdatalab.net/)

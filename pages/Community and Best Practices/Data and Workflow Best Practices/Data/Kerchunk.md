@@ -21,6 +21,6 @@ This is a common requirement when your data must remain interoperable with exter
 
 ## Describing Kerchunk with STAC For EarthCODE
 
-Because Kerchunk presents your data as a virtual Zarr store, the process for describing it in a STAC catalog is [**identical to describing a native Zarr dataset.**](/pages/Community%20and%20Best%20Practices/Data%20and%20Workflow%20Best%20Practices/Data/zarr.md)
+Because Kerchunk presents your data as a virtual Zarr store, the process for describing it in a STAC catalog is [**identical to describing a native Zarr dataset.**](./zarr.md)
 
 The Kerchunk JSON index file is treated as the root of the Zarr store. You will create a single STAC Collection to represent the entire virtual dataset and use the same tools and STAC extensions, such as the **Data Cube Extension**, to describe the variables and dimensions it contains. The asset link in your STAC Collection will simply point to the Kerchunk JSON index file instead of a Zarr directory.

@@ -38,10 +38,10 @@ The outcome should be a concise plan covering user profiles, the chosen formats/
 ## Plan for FAIR-ness
 Establish early on in your project how the data will remain findable, accessible, interoperable, and reusable by uploading to EarthCODE.
 
-Read the [FAIR Data Guide](/pages/Community%20and%20Best%20Practices/FAIR%20and%20Open%20Science%20Best%20Practices/Data.md) for more information.
+Read the [FAIR Data Guide](../../FAIR%20and%20Open%20Science%20Best%20Practices/Data.md) for more information.
 
 ## Preferred Data Formats
-While there are several acceptable formats for EarthCODE, listed at [FAIR Data Best Practices - Interoperability](/pages/Community%20and%20Best%20Practices/FAIR%20and%20Open%20Science%20Best%20Practices/Data#interoperability), we highly encourage and prefer cloud-native geospatial formats.
+While there are several acceptable formats for EarthCODE, listed at [FAIR Data Best Practices - Interoperability](../../FAIR%20and%20Open%20Science%20Best%20Practices/Data.md#interoperability), we highly encourage and prefer cloud-native geospatial formats.
 
 In practice, chunked, self‑describing layouts let clients read exactly what they need, scale cleanly, and keep costs predictable; this leads to:
 - Lower latency: fetch only the required chunks instead of downloading whole files.

@@ -355,7 +355,7 @@ This will preserve the original DOI and make it searchable in the EarthCODE ecos
 
 ## Interoperability
 
-EarthCODE prioritises **cloud-native geospatial formats** so data can be streamed over HTTP/object storage. Wherever possible, publish **[Data Cubes](https://www.youtube.com/watch?v=I6anJ5xaM8E)** (n-D arrays with explicit chunking) rather than directories of files. If you already have many NetCDF/GeoTIFFs, **consolidate** to a single cube (e.g., **Zarr**) or provide **kerchunk** references to avoid file sprawl. Always set CRS, nodata, units, and variable semantics. See the [Data and Workflow Best Practices](../Data%20and%20Workflow%20Best%20Practices/Data.md#data-best-practices) for more details.
+EarthCODE prioritises **cloud-native geospatial formats** so data can be streamed over HTTP/object storage. Wherever possible, publish **[Data Cubes](https://www.youtube.com/watch?v=I6anJ5xaM8E)** (n-D arrays with explicit chunking) rather than directories of files. If you already have many NetCDF/GeoTIFFs, **consolidate** to a single cube (e.g., **Zarr**) or provide **kerchunk** references to avoid file sprawl. Always set CRS, nodata, units, and variable semantics. See the [Data and Workflow Best Practices](../Data%20and%20Workflow%20Best%20Practices/Data/index.md) for more details.
 
 | Data type | Preferred format(s) & notes |
 |---|---|

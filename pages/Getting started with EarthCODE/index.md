@@ -15,7 +15,7 @@ EarthCODE (Earth Science Collaborative Open Development Environment) provides th
       </li>
       <li>
         You can <strong>store results</strong> in the 
-        <a href="https://esa-earthcode.github.io/examples/index-1/" target="_blank">ESA Project Results repository (PRR)</a>.
+        <a href="https://esa-earthcode.github.io/tutorials/index-1/" target="_blank">ESA Project Results repository (PRR)</a>.
       </li>
       <li>
         You can <strong>explore state-of-the-art data, workflows, and projects</strong> on the 
@@ -128,7 +128,7 @@ By exploring these sections, you’ll better understand how to leverage EarthCOD
 ### Tutorials
 
  
-Explore the complete list of [Tutorials](../Training%20and%20Resources/) and [Examples](https://esa-earthcode.github.io/examples/) for a practical introduction EarthCODE and its related tools.
+Explore the complete list of [Tutorials](../Training%20and%20Resources/) and [Examples](https://esa-earthcode.github.io/tutorials/) for a practical introduction EarthCODE and its related tools.
 
 
 ## Step 3: Who is EarthCODE For? 

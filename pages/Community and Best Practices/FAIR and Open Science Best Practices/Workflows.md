@@ -52,14 +52,14 @@ Use this checklist to prepare your Product for publication in EarthCODE.
       'Prepare core metadata: id, title, abstract (≤300 words), description, keywords, version, license, created/updated timestamps',
       'Add project and contact information (ESA project ID, consortium, technical officer, PIs, relevant websites)',
       'Prepare documentation links (papers, handbook, methods, implementation notes)',
-      'Ensure your code follows [best practices](../Code%20Data%20and%20Workflow%20Quality.md), link to your workflow code repository (e.g. GitHub), include version tags or releases',
+      'Ensure your code follows [best practices](../Data%20and%20Workflow%20Best%20Practices/Workflows.md), link to your workflow code repository (e.g. GitHub), include version tags or releases',
       'Provide environment description (`environment.yml`, `Dockerfile`, container image) so others can reproduce your setup',
       'Choose a [license for your workflow](./Workflows.md#open-source--licensing)',
       'Test your workflow on a small dataset to confirm it runs; provide an example dataset if possible (upload as a Product)',
       'Declare related ESA Project (or create one if missing in the [OSC Project Catalog](https://opensciencedata.esa.int/projects/catalog))',
       'Select the relevant OSC [Variables](https://opensciencedata.esa.int/variables/catalog), [Themes](https://opensciencedata.esa.int/themes/catalog), and [Missions](https://opensciencedata.esa.int/eo-missions/catalog)',
       'Consider if you want a [DOI from EarthCODE](./Workflows.md#doi-assignment) or if you bring an existing DOI',
-      'Read the [Publishing Guide](../../../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) and look at [workflow examples](https://esa-earthcode.github.io/examples/osc-pr-pystac/#create-a-metadata-collection-for-new-workflow)',
+      'Read the [Publishing Guide](../../../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) and look at [workflow examples](https://esa-earthcode.github.io/tutorials/osc-pr-pystac/#create-a-metadata-collection-for-new-workflow)',
       'Document inputs and outputs — ideally by linking to an [Experiment](./Experiments.md)',
       'Announce your new workflow on the [EarthCODE forum](https://discourse-earthcode.eox.at/latest)'
     ]"

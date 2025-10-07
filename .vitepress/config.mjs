@@ -108,7 +108,7 @@ const sideBar = withSidebar(
 )
 
 const trainingSection = sideBar.themeConfig.sidebar.find(section => section.text === 'Training and Resources')
-trainingSection.items.push({ text: 'Examples', link: 'https://esa-earthcode.github.io/examples/' })
+trainingSection.items.push({ text: 'Examples', link: 'https://esa-earthcode.github.io/tutorials/' })
 
 sideBar.themeConfig.sidebar.forEach(group => {
   group.collapsed = true;

@@ -45,14 +45,14 @@ Use this checklist to prepare your Product for publication in EarthCODE.
       'Explore tools from [EarthCODE Integrated Platforms](../../../Technical%20Documentation/Platforms/index.md) that might help you with publishing your Product',
       'Prepare information about your product, including keywords, title, website, spatial and temporal extens, abstract (≤300 words), contacts', 
       'Prepare links to relevant Paper, Handbook and/or relevant Documentation',
-      '[Prepare your data for publication](./Data#interoperability); ideally use cloud‑native formats. Add Set CRS, nodata, units; tune tiles/chunks and attach metadata to your data as appropriate - following the [Best Practice guide for data](../../Code%20Data%20and%20Workflow%20Quality.md)',
+      '[Prepare your data for publication](./Data#interoperability); ideally use cloud‑native formats. Add Set CRS, nodata, units; tune tiles/chunks and attach metadata to your data as appropriate — see the [Best Practice guide for data](../Data%20and%20Workflow%20Best%20Practices/Data.md#data-best-practices)',
       'Choose a [license for your data](./Data#open-data-licensing)',
       'Plan for long term storage of your data - either on the [ESA PRR (default) or an external repository](./Data.md#storage-repositories); if you are using the ESA PRR, prepare your data following the [PRR upload guide and examples](../../Technical%20Documentation/ESA%20Project%20Results%20Repository%20/Uploading%20To%20PRR)',
-      'Check if your project [already exists in the OSC](https://opensciencedata.esa.int/projects/catalog); if not, prepare the project information about the status, name, description, website(s), consortium, start/end dates, technical officer & email, themes and create it as described in [Adding a New Project](https://esa-earthcode.github.io/examples/osc-pr-manual/#id-2-1-add-new-project)',
+      'Check if your project [already exists in the OSC](https://opensciencedata.esa.int/projects/catalog); if not, prepare the project information about the status, name, description, website(s), consortium, start/end dates, technical officer & email, themes and create it as described in [Adding a New Project](https://esa-earthcode.github.io/tutorials/osc-pr-manual/#id-2-1-add-new-project)',
       'Select the geophysical variable(s) describing your dataset from the OSC [Variables](https://opensciencedata.esa.int/variables/catalog) and [CF name & units](./Data#choosing-the-right-variable-name)',
       'Select the correct OSC [Themes](https://opensciencedata.esa.int/themes/catalog) and [Missions](https://opensciencedata.esa.int/eo-missions/catalog)',
       'Consider if you want a [DOI from EarthCODE](./Data#doi-assignment) or if you would like to bring your own DOI',
-      'Read the [Publishing Guide](../../../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) and checkout [example for publishing to the Open Science Catalog](https://esa-earthcode.github.io/examples/index-2/)',
+      'Read the [Publishing Guide](../../../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) and checkout [example for publishing to the Open Science Catalog](https://esa-earthcode.github.io/tutorials/index-2/)',
       'Post on the [EarthCODE forum](https://discourse-earthcode.eox.at/latest) about the new data product! '
     ]"
     storage-key="earthcode-product"
@@ -355,12 +355,13 @@ This will preserve the original DOI and make it searchable in the EarthCODE ecos
 
 ## Interoperability
 
-EarthCODE prioritises **cloud-native geospatial formats** so data can be streamed over HTTP/object storage. Wherever possible, publish **[Data Cubes](https://www.youtube.com/watch?v=I6anJ5xaM8E)** (n-D arrays with explicit chunking) rather than directories of files. If you already have many NetCDF/GeoTIFFs, **consolidate** to a single cube (e.g., **Zarr**) or provide **kerchunk** references to avoid file sprawl. Always set CRS, nodata, units, and variable semantics. See the [Code and Data Quality guide](../Code%20Data%20and%20Workflow%20Quality.md) for more details.
+EarthCODE prioritises **cloud-native geospatial formats** so data can be streamed over HTTP/object storage. Wherever possible, publish **[Data Cubes](https://www.youtube.com/watch?v=I6anJ5xaM8E)** (n-D arrays with explicit chunking) rather than directories of files. If you already have many NetCDF/GeoTIFFs, **consolidate** to a single cube (e.g., **Zarr**) or provide **kerchunk** references to avoid file sprawl. Always set CRS, nodata, units, and variable semantics. See the [Data and Workflow Best Practices](../Data%20and%20Workflow%20Best%20Practices/Data.md#data-best-practices) for more details.
 
 | Data type | Preferred format(s) & notes |
 |---|---|
 | Raster scenes & mosaics | **COG (GeoTIFF)** with internal tiling and overviews for fast partial reads; lossless compression by default. |
-| n-D data cubes (time/lat/lon/level) | **Zarr** with sensible chunking and consolidated metadata; if legacy **NetCDF4/HDF5**, add **kerchunk** references. |
+| n-D data cubes (time/lat/lon/level) | **Zarr** with sensible chunking and consolidated metadata |
+| NetCDF Virtualized | **kerchunk** (JSON references) to present existing netCDF‑4/HDF5 or GRIB2 as a virtual Zarr for efficient, chunked cloud reads without rewriting source data. |
 | Vector analytics | **GeoParquet** (columnar, scalable); include a dataset `_metadata` file for multi-shard collections. |
 | Vector delivery/streaming | **FlatGeobuf** with spatial index; suitable for HTTP streaming and subsetting. |
 | Point clouds | **COPC** for efficient partial reads. |
@@ -368,7 +369,19 @@ EarthCODE prioritises **cloud-native geospatial formats** so data can be streame
 | Tabular in-situ/model outputs | **Parquet** (preferred) or **CSV** for small datasets; define schema, units, and time zones. |
 | Documentation | **PDF/Markdown** linked from STAC `describedby`; keep methods and citation text versioned. |
 
+
+While the above are highly encouraged, the following formats are accepted:
+
+- NetCDF‑4 / HDF5 — include CF/ACDD metadata (coordinates, units, standard_name), sensible chunking, and optionally provide kerchunk JSON for cloud access.
+- GeoTIFF (non‑COG) — ensure CRS, nodata, and internal overviews when possible; prefer one primary variable per file; consider migrating to COG for the web.
+- GeoJSON / TopoJSON — suitable for small/medium vector sets; use WGS84 (EPSG:4326) and include properties schema; for large datasets prefer GeoParquet or FlatGeobuf.
+- ESRI Shapefile — legacy support; include the .prj file and field typing guidance; avoid very large files and prefer GeoPackage/GeoParquet where practical.
+- CSV / TSV — include header with clear field names, units, and ISO‑8601 UTC timestamps; for geometry use lon/lat columns or WKT/WKB; provide a data dictionary.
+- Parquet — columnar tabular storage; document schema and encoding; for geospatial adopt GeoParquet conventions.
+- LAS / LAZ (point clouds) — include CRS/EPSG and classification; consider COPC for cloud‑optimized point clouds.
+
 **Minimum best practices:** avoid thousands of small files; align chunk/tiling to dominant access patterns.
+
 
 
 ## Choosing the Right Variable Name
@@ -415,4 +428,3 @@ Providing direct, machine-accessible links ensures that OSC Items are **FAIR** a
 What should I actually store 
 e.g. stac items
 -->
-

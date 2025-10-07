@@ -44,7 +44,7 @@ After creating an account and logging in, your next steps depend on the feature 
 - [Integrated Platforms](../Technical%20Documentation/Platforms/)
 
 ## EarthCODE workspace
-The [EarthCODE workspace](https://workspace.earthcode.eox.at) allows you to access to an integrated Jupyter Lab environment, in order for you to quickly get started with scientific research and experiments. You can also you it to access this documentation page and interactively run all [OSC and PRR examples](https://esa-earthcode.github.io/examples/).
+The [EarthCODE workspace](https://workspace.earthcode.eox.at) allows you to access to an integrated Jupyter Lab environment, in order for you to quickly get started with scientific research and experiments. You can also you it to access this documentation page and interactively run all [OSC and PRR examples](https://esa-earthcode.github.io/tutorials/).
 
 Furthermore, the EarthCODE workspace offers you access to the Open Science Catalog Editor, a user-friendly tool which can be used to add, modify and delete the contents of the Open Science Catalog. It is a convenient helper which abstracts the complexity of working with the file structure of STAC catalogs.
 

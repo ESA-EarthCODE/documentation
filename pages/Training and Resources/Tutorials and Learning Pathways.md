@@ -4,7 +4,7 @@ In this section, we highlight tutorials, learning pathways, and resources design
 
 ## Starting Point
 
-The fastest way to gain value from EarthCODE is to first become familiar with its core capabilities by following the [Getting Started with EarthCODE guide](../Getting%20started%20with%20EarthCODE/). Once you understand your role and what EarthCODE can offer, you can explore the relevant guide or go directly to the [Examples Bank](https://esa-earthcode.github.io/examples/). Finding an example that closely matches your data, workflow, or problem is often the best starting point, as most examples are drawn from real-world projects.
+The fastest way to gain value from EarthCODE is to first become familiar with its core capabilities by following the [Getting Started with EarthCODE guide](../Getting%20started%20with%20EarthCODE/). Once you understand your role and what EarthCODE can offer, you can explore the relevant guide or go directly to the [Examples Bank](https://esa-earthcode.github.io/tutorials/). Finding an example that closely matches your data, workflow, or problem is often the best starting point, as most examples are drawn from real-world projects.
 
 At any point during this process, you can engage in the forum and ask for help. If you are using a platform, you can also contact them directly.
 
@@ -27,7 +27,7 @@ Furthermore, you can explore the following advanced materials:
 
 ### Examples
 
-The [Examples Bank](https://esa-earthcode.github.io/examples/) will show you how to carry out a variety of tasks. All examples are based on actual use cases from other ESA projects and demonstrate how they are using EarthCODE. Currently, the focus is on publishing to the Open Science Catalog and uploading data to the ESA PRR, but the examples are continuously expanding.
+The [Examples Bank](https://esa-earthcode.github.io/tutorials/) will show you how to carry out a variety of tasks. All examples are based on actual use cases from other ESA projects and demonstrate how they are using EarthCODE. Currently, the focus is on publishing to the Open Science Catalog and uploading data to the ESA PRR, but the examples are continuously expanding.
 
 All examples are runnable directly through the [EarthCODE workspace](https://workspace.earthcode.eox.at).
 

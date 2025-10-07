@@ -12,4 +12,4 @@ In order to upload data to the ESA Project Results Repository (PRR) you have to 
 
 **In the examples you will find guides to the whole process, code samples from other ESA projects, as well as instructions how to access data from and traverse the PRR**. We recomend starting with the introductory notebook.
 
-- [PRR Examples](https://esa-earthcode.github.io/examples/index-1/)
+- [PRR Examples](https://esa-earthcode.github.io/tutorials/index-1/)

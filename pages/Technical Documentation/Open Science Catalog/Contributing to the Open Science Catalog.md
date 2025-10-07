@@ -77,9 +77,9 @@ The Open Science Catalog is built on the Spatio Temporal Asset Catalog (STAC), w
 - The [Open Science Catalog Editor](https://workspace.earthcode.eox.at/) is graphical user interface for automatically creating OSC entries and review requests.
 
 ### 2: Manual creation
-- [Directly creating/editing STAC files](https://esa-earthcode.github.io/examples/osc-pr-manual/) - A guide for manually creating OSC entries. Requires knowledge of git.
+- [Directly creating/editing STAC files](https://esa-earthcode.github.io/tutorials/osc-pr-manual/) - A guide for manually creating OSC entries. Requires knowledge of git.
 
-- [Generating OSC files using pystac](https://esa-earthcode.github.io/examples/osc-pr-pystac/) - A guide for creating OSC entries using pystac. Requires knowledge of git and Python.
+- [Generating OSC files using pystac](https://esa-earthcode.github.io/tutorials/osc-pr-pystac/) - A guide for creating OSC entries using pystac. Requires knowledge of git and Python.
 
 ### 3: Using platform tools and support
 - [DeepCode](https://github.com/deepesdl/deep-code) - An example using DeepCode: a library for automatically generating product entries for DeepESDL datasets.

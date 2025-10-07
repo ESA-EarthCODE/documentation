@@ -9,7 +9,7 @@ This quick-start guide is designed to help you begin working with EarthCODE in j
 ## What is EarthCODE?
 EarthCODE is a strategic initiative by the **European Space Agency (ESA)** designed to empower researchers in Earth System Science with FAIR tools and infrastructure, sponsored EO cloud platforms and cloud services:
 1. You can **access data, develop your workflows and run your experiments** on [integrated EO platforms](https://testing.earthcode.eox.at/computational-research). [Network of Resources (NoR)](https://nor-discover.org/) sponsored compute is also available.
-2. You can **store results** in the [ESA Project Results repository (PRR)](https://esa-earthcode.github.io/examples/index-1/).
+2. You can **store results** in the [ESA Project Results repository (PRR)](https://esa-earthcode.github.io/tutorials/index-1/).
 3. You can **explore state-of-the-art data, workflows, and project information** available on the [Open Science Catalog](https://opensciencedata.esa.int/). You can also [publish](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) your own data, workflows, and project information to it.
 5. You can **engage** the EarthCODE and broader EO community [EarthCODE Forum](https://discourse-earthcode.eox.at/), which is directly connected to the catalog.
 
@@ -160,7 +160,7 @@ Sometimes parts of the data and workflows are protected or private. Although not
 
 3. Request to add them to the PRR via one of the three options described below.
 
-See the [Contributing guide](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) for a detailed exaplanation or go directly to the [examples](https://esa-earthcode.github.io/examples/index-2/).
+See the [Contributing guide](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) for a detailed exaplanation or go directly to the [examples](https://esa-earthcode.github.io/tutorials/index-2/).
 
 
 

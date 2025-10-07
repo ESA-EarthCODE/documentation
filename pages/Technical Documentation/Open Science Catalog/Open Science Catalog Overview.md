@@ -25,7 +25,7 @@ The Open Science Catalog is a deployment of several EOEPCA components, in combin
 
 The Open Science Catalog metadata is a STAC catalog comprised of json files, with specific attributes and structure that together describe its elements - Themes, Variables, EO Missions, Projects, Products, Workflows, and Experiments. All files are stored directly on Github [here] (https://github.com/ESA-EarthCODE/open-science-catalog-metadata/tree/main), as they only contain metadata and links and not the actual data in the products, or the code in the workflows.
 
-Detailed information about  Projects, Products, Workflows, and Experiments is available in the tutorial which shows how to manually create files for the OSC - [here](https://esa-earthcode.github.io/examples/osc-pr-manual/) .
+Detailed information about  Projects, Products, Workflows, and Experiments is available in the tutorial which shows how to manually create files for the OSC - [here](https://esa-earthcode.github.io/tutorials/osc-pr-manual/) .
 
 
 ### Projects

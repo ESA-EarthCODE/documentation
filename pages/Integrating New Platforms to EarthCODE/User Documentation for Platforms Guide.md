@@ -111,7 +111,7 @@ and reference them in Markdown like so:
 ```
 
 **Learn By Example**
-Provide an example notebook/code in the [Examples](https://esa-earthcode.github.io/examples/) section of this guide through this repository: [https://github.com/ESA-EarthCODE/examples](https://github.com/ESA-EarthCODE/examples)
+Provide an example notebook/code in the [Examples](https://esa-earthcode.github.io/tutorials/) section of this guide through this repository: [https://github.com/ESA-EarthCODE/examples](https://github.com/ESA-EarthCODE/examples)
 
 **Developing Workflows**
 

@@ -7,4 +7,4 @@ In the "Training and Resources" section, users will find everything they need to
 
 - [Tutorials](./Tutorials%20and%20Learning%20Pathways.md)
 - [Gallery](./Gallery.md)
-- [Examples](https://esa-earthcode.github.io/examples/)
+- [Examples](https://esa-earthcode.github.io/tutorials//)

@@ -59,7 +59,7 @@ Use this checklist to prepare your Product for publication in EarthCODE.
       'Declare related ESA Project (or create one if missing in the [OSC Project Catalog](https://opensciencedata.esa.int/projects/catalog))',
       'Select the relevant OSC [Variables](https://opensciencedata.esa.int/variables/catalog), [Themes](https://opensciencedata.esa.int/themes/catalog), and [Missions](https://opensciencedata.esa.int/eo-missions/catalog)',
       'Consider if you want a [DOI from EarthCODE](./Workflows.md#doi-assignment) or if you bring an existing DOI',
-      'Read the [Publishing Guide](../../../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) and look at [workflow examples](https://esa-earthcode.github.io/examples/osc-pr-pystac/#create-a-metadata-collection-for-new-workflow)',
+      'Read the [Publishing Guide](../../../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md) and look at [workflow examples](https://esa-earthcode.github.io/tutorials/osc-pr-pystac/#create-a-metadata-collection-for-new-workflow)',
       'Document inputs and outputs — ideally by linking to an [Experiment](./Experiments.md)',
       'Announce your new workflow on the [EarthCODE forum](https://discourse-earthcode.eox.at/latest)'
     ]"

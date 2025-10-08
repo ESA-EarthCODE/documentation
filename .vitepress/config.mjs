@@ -110,9 +110,23 @@ const sideBar = withSidebar(
 const trainingSection = sideBar.themeConfig.sidebar.find(section => section.text === 'Training and Resources')
 trainingSection.items.push({ text: 'Examples', link: 'https://esa-earthcode.github.io/tutorials/' })
 
-sideBar.themeConfig.sidebar.forEach(group => {
-  group.collapsed = true;
-});
+// Collapse all sidebar groups at all nesting levels
+const collapseAll = (items) => {
+  if (!items) return;
+  items.forEach((item) => {
+    if (item && Array.isArray(item.items) && item.items.length) {
+      item.collapsed = true;
+      collapseAll(item.items);
+    }
+  });
+};
+
+const { sidebar } = sideBar.themeConfig;
+if (Array.isArray(sidebar)) {
+  collapseAll(sidebar);
+} else if (sidebar && typeof sidebar === 'object') {
+  Object.values(sidebar).forEach((items) => collapseAll(items));
+}
 
 export default defineConfig(
   sideBar

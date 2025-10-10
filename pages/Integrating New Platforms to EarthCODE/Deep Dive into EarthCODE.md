@@ -5,7 +5,7 @@ order: 4
 
 This deep dive targets platform providers and integrators. If you need general background first, see [Step 1: Understand EarthCODE Terminology](/Getting%20started%20with%20EarthCODE/#step-1-understand-earthcode-terminology).
 
-EarthCODE provides an integrated ecosystem designed to support scientists through the full lifecycle of doing Open Science. EarthCODE was designed around supporting the work of scientists and developers from ESRIN, the ESA Science Clusters, the ESA Science Hub, and EC and ESA- Funded Activities.
+EarthCODE provides an integrated ecosystem designed to support scientists through the full lifecycle of doing Open Science. EarthCODE was designed around supporting the work of scientists and developers from ESA-funded activities from all domains of Earth Sciences. The portal and its capabilities are designed to support Earth Observation (EO) projects from ESA Science Clusters, the ESA-ESRIN Science Hub members, ESA Living Planet Fellowship, as well as wider EO research and science community
 
 A detailed concept of what EarthCODE is and the different actors involved can be seen in the figure below:
 <!-- 

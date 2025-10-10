@@ -7,7 +7,7 @@ Content is being actively developed and updated for this page. EarthCODE's docum
 :::
 
 
-This guide walks you through the process of integrating your platform into the EarthCODE ecosystem. It's designed specifically for platform providers interested in connecting their Earth Observation tools, computational resources, and data services to EarthCODE, enabling researchers to collaboratively develop, execute, and share FAIR-compliant Earth science research. This page provides an overview, the [Technical Requirements](./Technical%20Requirements.md) provide detailed requirements for integration and the [How to Apply Page](./How%20To%20Apply.md) gives you details on how to apply to become a platform provider to EarthCODE.
+This guide walks you through the process of integrating your platform into the EarthCODE ecosystem. It's designed specifically for platform providers interested in connecting their Earth Observation tools, computational resources, and data services to EarthCODE, enabling researchers to collaboratively develop, execute, and share FAIR-compliant Earth science research. This page provides an overview, the [Technical Requirements](./Technical%20Requirements/) provide detailed requirements for integration and the [How to Apply Page](./How%20To%20Apply.md) gives you details on how to apply to become a platform provider to EarthCODE.
 
 You are highly encouraged to read through the [Getting Started Pages](../Getting%20started%20with%20EarthCODE/), especially the [Deep Dive into EarthCODE Page](./Deep%20Dive%20into%20EarthCODE.md) for getting an idea about the overall context and concepts of EarthCODE before going through these pages.
 
@@ -30,7 +30,7 @@ From the perspective of the user, the platforms provide a place to develop repro
 ![Integrated Platforms](/img/terms/integrated_platforms.svg)
 *EarthCODE Integrated Platforms - Infrastructure and FAIR Tools*
 
-Please refer to the [Technical Requirements Page](./Technical%20Requirements.md) for technical details of integrating with EarthCODE.
+Please refer to the [Technical Requirements Page](./Technical%20Requirements/) for technical details of integrating with EarthCODE.
 
 
 ### FAIR Open Science Platforms

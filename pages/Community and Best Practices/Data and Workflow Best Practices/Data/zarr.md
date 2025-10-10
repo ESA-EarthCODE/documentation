@@ -4,8 +4,6 @@ order: 3
 
 # Zarr
 
-## What is Zarr 
-
 Zarr is an open-source format designed for storing large, N-dimensional data cubes in the cloud. It is ideal for datasets that are too large to be handled efficiently as single, monolithic files, such as time-series of satellite imagery or outputs from climate and weather models.
 
 Instead of a single file, a Zarr store is a collection of many small files or objects. The large N-dimensional array is broken down into smaller, blocks called **chunks**, and each chunk is  stored as a separate, compressed object (or several [chunks combined and stored as "shards"](https://zarr.readthedocs.io/en/stable/user-guide/arrays.html#user-guide-sharding)). The entire structure of the dataset—including the dimensions, data types, and the location of every chunk—is described in small, JSON metadata files, and is typically consolidated into one metadata file (often named `.zmetadata`).

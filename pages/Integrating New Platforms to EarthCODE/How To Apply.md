@@ -29,6 +29,7 @@ This should also be a page on the site probably at some point I imagine?
 - EarthCODE official website: [https://earthcode.esa.int/](https://earthcode.esa.int/)
 - ESA-STAR registration instructions: [https://www.esa.int/About_Us/Business_with_ESA/How_to_do/esa-star_registration_process](https://www.esa.int/About_Us/Business_with_ESA/How_to_do/esa-star_registration_process)
 - ESA-STAR portal to search for tenders: [https://esastar-publication.sso.esa.int](https://esastar-publication.sso.esa.int)
+- OGC Open Science Initiative: [https://www.ogc.org/initiatives/open-science/](https://www.ogc.org/initiatives/open-science/)
 - ESA "How to do Business" guidance: [https://www.esa.int/About_Us/Business_with_ESA/How_to_do](https://www.esa.int/About_Us/Business_with_ESA/How_to_do)
 - ESA Best Practice procurements overview: [https://www.esa.int/About_Us/Business_with_ESA/How_to_do/Best_practices_for_ITTs_published_by_prime_contractors](https://www.esa.int/About_Us/Business_with_ESA/How_to_do/Best_practices_for_ITTs_published_by_prime_contractors)
 - NoR onboarding documentation (for non-onboarded platforms): [https://esastar-publication.sso.esa.int/nonEsaTenderActions/details/2037](https://esastar-publication.sso.esa.int/nonEsaTenderActions/details/2037)
@@ -74,6 +75,12 @@ If your platform is not already onboarded with ESA’s Network of Resources (NoR
 [https://esastar-publication.sso.esa.int/nonEsaTenderActions/details/2037](https://esastar-publication.sso.esa.int/nonEsaTenderActions/details/2037)
 
 This is necessary to ensure your platform can be used through NoR for sustained scientific operations.
+
+### OGC Open Science Persistent Demonstrator
+
+Another way to apply to become part of EarthCODE's ecosystem is through the **OGC Open Science Persistent Demonstrator**. This OGC-led initiative provides a live, collaborative environment for testing and showcasing reproducible scientific workflows based on open standards.
+
+Learn more at the **OGC Open Science Initiative:** [https://www.ogc.org/initiatives/open-science/](https://www.ogc.org/initiatives/open-science/)
 
 ## Who Can Apply
 

@@ -3,7 +3,9 @@ order: 4
 ---
 # Deep Dive into EarthCODE
 
-As described in [Step 1: Understand EarthCODE Terminology](/Getting%20started%20with%20EarthCODE/#step-1-understand-earthcode-terminology) EarthCODE provides an integrated ecosystem designed to support scientists through the full lifecycle of doing Open Science. EarthCODE was designed around supporting the work of scientists and developers from ESRIN, the ESA Science Clusters, the ESA Science Hub, and EC and ESA- Funded Activities.
+This deep dive targets platform providers and integrators. If you need general background first, see [Step 1: Understand EarthCODE Terminology](/Getting%20started%20with%20EarthCODE/#step-1-understand-earthcode-terminology).
+
+EarthCODE provides an integrated ecosystem designed to support scientists through the full lifecycle of doing Open Science. EarthCODE was designed around supporting the work of scientists and developers from ESRIN, the ESA Science Clusters, the ESA Science Hub, and EC and ESA- Funded Activities.
 
 A detailed concept of what EarthCODE is and the different actors involved can be seen in the figure below:
 <!-- 
@@ -133,10 +135,6 @@ These next sections will explore these components in detail, including their rol
 
 EarthCODE is built to serve as a foundational platform for scientists and research teams engaged in ESA-funded Earth Observation (EO) activities. The primary aim is to enable the adoption of **FAIR and Open Science practices** across all stages of scientific development—ensuring that data, workflows, and documentation are not only reusable and transparent, but also persistently available for the long term.
 
-:::tip Publishing to EarthCODE
-Anyone with an ESA-funded project is encouraged to publish in EarthCODE. If you are not ESA-funded and would like to publish your workflows or data to EarthCODE, contact us at: <earth-code@esa.int>
-:::
-
 The platform specifically supports and connects communities within the **ESA Science Clusters**, helping to streamline research efforts, promote interoperability, and increase the impact of funded projects. The **EarthCODE Portal** is envisioned as the **central hub for the scientific communities** of **ESRIN Science Hub**, the **ESA Science Clusters**, and individual **ESA-funded EO research projects**. **These are currently the groups of projects that publish to EarthCODE**.
 
 As EarthCODE evolves, its scope will gradually expand to support the **broader Earth Observation science community**, fostering cross-disciplinary collaboration and making high-quality, open scientific resources more accessible to a global audience of researchers.
@@ -161,10 +159,6 @@ The key functions of the EarthCODE Portal are:
 
 Users who do not log in can still explore published resources and engage with the community. Logged-in users gain access to advanced tools for workflow development, experiment execution, and publishing tools.
 
-:::tip EarthCODE is Continuously Improving
-The EarthCODE team are continuously improving the portal to provide an evermore integrated user experience
-:::
-
 The EarthCODE Portal is the default workspace for Earth science development, supporting reproducible workflows, cross-platform execution, and collaboration at scale.
 
 
@@ -185,34 +179,25 @@ As integrated platforms, they offer some form of the following capabilities:
 - Automated publishing of workflows and data products to the **Open Science Catalog**
 - Execution of published **experiments**, using FAIR-compliant metadata and reproducible experiments
 
-For some examples of what these might look like in practice, refer to the [10 minutes to EarthCODE Page](../Getting%20started%20with%20EarthCODE/10%20minutes%20to%20EarthCODE#data-access)
-
 Usage of these platforms, and the data, compute and storage resources on these platforms can be funded through the [ESA Network of Resources (NoR)](https://eo4society.esa.int/network-of-resources/), depending on the project type and eligibility.
 
 Users can also decide to use their own local environments instead of the platforms. For users working outside the integrated platforms—such as on institutional infrastructure or personal systems—EarthCODE supports **manual publishing** of datasets and workflows to the catalog, through the EarthCODE publishing GUI or manually via git pull requests (see more in the [**Contributing to the OSC section**](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md)).
 
 
 ### Network of Resources
-EarthCODE projects can request cloud compute resources through ESA’s **Network of Resources (NoR)**. This allows eligible research and development activities to access integrated EarthCODE platforms with sponsored processing, data access and storage capabilities. Sponsorship is available for activities that do not generate revenue, including scientific research, demonstration projects, and pre-commercial development.
 
-To explore available services and platforms, visit the [NoR Portfolio](https://eo4society.esa.int/network-of-resources/portfolio/) and refer to [the Platforms Page](../Technical%20Documentation/Platforms/) for guidance within EarthCODE.
+The **ESA Network of Resources (NoR)** is one of the ways through which integrated platforms offer their services to ESA-sponsored projects. For a platform provider, becoming a registered NoR supplier is a key requirement for integration with EarthCODE, as it enables the sponsorship of processing, data acces for eligible research activities.
 
-We recommend reviewing the [NoR Sponsorship Guidelines](https://eo4society.esa.int/network-of-resources/nor-sponsorship/) to confirm eligibility and understand the application steps.
+As a platform provider, your responsibilities within the NoR framework include:
 
-To make a NoR request you need to go through the following steps:
-1. Select your project type and specify whether it is ESA-funded and if co-funding is expected.
-2. Provide contact information and fill in the project objectives, methodology, and beneficiaries.
-3. Justify the need for the selected service and platform, and describe your planned cloud-based work.
-4. Indicate the geographical area of interest, any related previous projects, and—if applicable—ESA contract details and Technical Officer information.
-5. State when you expect to submit a short summary presentation on the impact of cloud use.
-6. Download and sign the completed form. Send it by email to `NoR-Sponsorship-Requests@esa.int`. For ESA-funded projects, the form must also be signed by the ESA Technical Officer.
+* **Onboarding to the NoR Portfolio:** Your platform and its service offerings must be officially onboarded and listed in the [NoR Portfolio](https://eo4society.esa.int/network-of-resources/portfolio/). This makes your services discoverable and selectable by ESA-funded projects.
+* **Service Provisioning:** You are responsible for delivering the compute, storage, and data access capabilities as described in your service offering.
+* **Resource Reporting:** Your platform must have a technical mechanism to monitor, manage, and report on the consumption of sponsored resources for each project. This is essential for project accounting and billing.
+* **User Support:** You must provide technical support to the sponsored researchers using your platform's resources.
 
-NoR helps bring users to the data—supporting both scientific and operational uses of EO data—by simplifying access to computing resources across a network of European platforms. The role of NoR in EarthCODE is to provide open access to the compute required to initially develop, reuse or reproduce research when required.
-
+By integrating with NoR, platform providers gain visibility within the ESA community and a direct channel to offer their specialized capabilities to sponsored, high-impact scientific projects. The platform's role is to deliver the reliable, scalable infrastructure that these projects depend on. To understand the sponsorship model from the user's perspective, providers can review the [NoR Sponsorship Guidelines](https://eo4society.esa.int/network-of-resources/nor-sponsorship/).
 
 ### EO Platform Providers
-*The Platform Provider Perspective*
-
 From the perspective of the user, the platforms provide a place to develop reproducible workflows (potentially across several platforms), accessing data, and publishing items to the catalog. Platform providers play a key role in the EarthCODE ecosystem by providing the functionality for this in two ways:
 
 1. By providing the FAIR Open Science Platforms for creating workflows, discovering and reusing data and publishing to the catalog and;
@@ -255,34 +240,35 @@ The EarthCODE project runs standard best practice procurement cycles on esa-star
 More information about how integrating with EarthCODE works, where and how to apply, can be found at the [Integrating New Platforms Page](../Integrating%20New%20Platforms%20to%20EarthCODE/).
 
 ### Publishing Experiments Data and Workflows
-Once a research activity is complete, the results can be published to the EarthCODE ecosystem, making them findable, reproducible, and reusable by the broader scientific community. If you are working on an integrated platform, publishing is typically automated. When the experiment is finalized, the platform can generate the appropriate metadata and push it to the Open Science Catalog. If you're working outside of an integrated platform—on institutional infrastructure or locally—you can still publish your results manually by following the [Open Science Catalog submission guidelines](../Technical%20Documentation/Open%20Science%20Catalog/Contributing%20to%20the%20Open%20Science%20Catalog.md).
 
-At the time of publishing, it is expected that the outputs have been finalized and, where applicable, reviewed and approved by the ESA project’s Technical Officer. When you're ready to publish you:
-1. (Optional) Upload your **datasets and workflows** to the **ESA Project Results Repository (PRR)** for long-term preservation.
-2. Create and upload metadata that describes your experiment, products, and workflows to the Open Science Catalog. This metadata links to your data storage location and provides sufficient context for reuse.
+Once a research activity is complete, the results can be published to the EarthCODE ecosystem, making them findable, reproducible, and reusable by the broader scientific community. On an integrated platform, this publishing process is expected to be **automated**. When an experiment is finalized, the platform is responsible for generating the appropriate metadata and pushing it to the Open Science Catalog.
 
-Publishing your experiment ensures others can discover, cite, and reproduce your results using EarthCODE’s integrated platforms or their own environments.
+At the time of publishing, it is expected that the outputs have been finalized and, where applicable, reviewed and approved by the ESA project’s Technical Officer. The platform's automated publishing workflow must handle two core steps:
 
-The core units of publication in EarthCODE are data and workflows (combined in experiments):
+1.  Facilitate the upload of **datasets and workflows** to the **ESA Project Results Repository (PRR)** for long-term preservation.
+2.  Create and submit metadata that describes the experiment, products, and workflows to the Open Science Catalog. This metadata links to the data's storage location and provides sufficient context for reuse.
+
+By providing this functionality, the platform ensures others can discover, cite, and reproduce results using EarthCODE’s integrated platforms or their own environments.
+
+The core units of publication that a platform must handle are data and workflows (combined in experiments):
 - **Data Products**: the final outputs of your scientific analysis (e.g. geospatial datasets).
-- **Workflows**: the code or processing steps used to generate those products and the computing environemnt (platform or other) required to run the code.
-
+- **Workflows**: the code or processing steps used to generate those products and the computing environment (platform or other) required to run the code.
 
 
 ### Data Products
 
-In EarthCODE, the final outputs of your research—referred to as **Products** or data products—are stored, described, and published in a way that ensures long-term FAIRness and availability.
+From a platform integrator's perspective, a **Product** is the final data output that your platform helps a user create, describe, and publish in a way that ensures long-term FAIRness and availability.
 
-These data products can be hosted on the ESA Project Results Repository (PRR) or an external repository of your choice. The PRR is ESA’s dedicated long-term storage service for project results. Uploading to the PRR is optional but recommended, especially for ensuring compliance with FAIR principles and facilitating persistent access to your work. You simply provide a link to the data location as part of the product’s metadata. For detailed instructions on uploading to the PRR, refer to the [**ESA Project Results Repository (PRR) section **](../Technical%20Documentation/ESA%20Project%20Results%20Repository/index.md).
+Your platform must support users in storing these products and must automate the generation of the required metadata. The platform should provide an integration path for users to host their data on the **ESA Project Results Repository (PRR)**, which is the recommended service. Alternatively, the platform must allow users to reference products hosted on an external repository. For technical details on PRR integration, refer to the [**ESA Project Results Repository (PRR) section**](../Technical%20Documentation/ESA%20Project%20Results%20Repository/index.md).
 
-Each product is described using **STAC (SpatioTemporal Asset Catalog) metadata**, specifically through a `Collection` that captures key attributes like the spatial and temporal extent, scientific context, provenance, and more.
+The platform is responsible for generating a **STAC (SpatioTemporal Asset Catalog) `Collection`** to describe each product. This metadata must be created automatically, capturing key attributes like the spatial and temporal extent, scientific context, provenance, and more.
 
-A product in EarthCODE typically includes:
-- A dataset representing the measured or derived values of one or more environmental or geoscience variables.
-- Documentation links that describe the methodology or related publications.
+The STAC metadata generated by the platform for a product must include:
+- A link to the dataset representing the measured or derived values of one or more variables.
+- Links to documentation that describe the methodology or related publications.
 - Metadata fields to indicate the EO satellite mission(s), project affiliation, and classification tags.
 
-To ensure FAIRness, the catalog uses a shared dictionary and metadata standard. This structure enables users to explore products across diverse sources by theme, variable, and mission.
+To ensure discoverability, the platform must populate the STAC metadata using EarthCODE's shared dictionary and metadata standard. This structure enables products to be explored across diverse sources. The platform is responsible for correctly tagging the product with its associated `Project`, `Themes`, `Variables`, and `EO Mission`.
 
 ![Data Products](/img/terms/data-components.svg)
 
@@ -319,9 +305,6 @@ A **workflow** defines the set of processing steps used in an experiment. It is 
 
 The source code that supports a workflow may be referenced, but the workflow itself must be described in a way that allows it to be executed by integrated EarthCODE platforms. This distinction enables reproducibility and compatibility across platforms. Platforms handle these definitions.
 
-:::tip if you have not used a platform to develop your workflow, or have not ported it to run on a platform, it would not be reproducible on EarthCODE. You can still publish it to the catalog and allow for reuse-ability and recognition of your work.
-:::
-
 Workflows are typically stored in the **EarthCODE GitHub organization**, and referenced in the Open Science Catalog as part of the workflow metadata.
 
 Experiments also declare the **input datasets** used and a **configuration** that defines any parameters passed to the workflow at runtime. Inputs are referenced using unique identifiers, making it easier to validate and re-run experiments with the same data. Configuration values are usually a set of simple name–value pairs, but can vary depending on workflow complexity.
@@ -331,9 +314,6 @@ Experiments also declare the **input datasets** used and a **configuration** tha
 In summary, an experiment combines the concepts of workflows and products. A product is the result of a successfully run experiment. The product metadata links back to the experiment metadata, which in turn references the workflow, input, and config. Together, this structure ensures reproducibility, FAIRness and Openness.
 
 ![all together](/img/terms/metadata-components.svg)
-
-:::tip While not ideal, one can also publish a workflow independently, without a linked product, or publish a dataset without a defined experiment or workflow.
-:::
 
 ### Open Science Catalog
 The [Open Science Catalog (OSC)](https://opensciencedata.esa.int/catalog) is the central interface for publishing, discovering and accessing scientific resources produced through ESA-funded Earth Observation research. It is where metadata describing published data products, experiments, and workflows is made publicly available and reusable. Integrated platforms also may provide re-usable workflow services that support FAIR an Open Science on the catalog. Researchers use EarthCODE platforms to generate and submit metadata, which—after validation and a manual review—is published to the Open Science Catalog.

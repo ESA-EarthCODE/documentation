@@ -27,13 +27,13 @@ features:
       light: "/img/icons/data.svg"
     title: "Datasets"
     details: "Learn about accessing diverse, high-quality Earth observation datasets for scientific analysis and discovery."
-    link: Technical Documentation/Data/index.md
+    link: Technical Documentation/Open Science Catalog/index.md
   - details: "Learn how to find, publish, and re-use FAIR workflows to enhance reproducibility and collaboration."
     icon:
       dark: "/img/icons/workflows-light.svg"
       light: "/img/icons/workflows.svg"
     title: "Workflows"
-    link: Technical Documentation/Workflows/index.md
+    link: Technical Documentation/Workflows and Experiments/index.md
   - icon:
       dark: "/img/icons/community-light.svg"
       light: "/img/icons/community.svg"

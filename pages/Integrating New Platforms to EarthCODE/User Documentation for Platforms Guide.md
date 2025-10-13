@@ -122,7 +122,9 @@ First describe your platform’s dev environment. Include details such as:
 - Versioning / code manageemnt mechanisms
 - Links to further documentation
 
-Link to your example/examples in this section.
+**Example Platfrom Workflows Published to EarthCODE**
+
+Please link to one or more workflows on the Open Science Catalog that demonstrate a real-world use case, published to EarthCODE.
 
 **Publishing to EarthCODE**
 
@@ -221,6 +223,8 @@ Lorem ipsum description of a platform
 
 **Developing Workflows**
 
+**Example Platfrom Workflows Published to EarthCODE**
+
 **Publishing to EarthCODE**
 
 ### Data Access
@@ -277,6 +281,8 @@ Lorem ipsum description of a platform
 ### Developing Workflows
 
 **Developing Workflows**
+
+**Example Platfrom Workflows Published to EarthCODE**
 
 **Publishing to EarthCODE**
 

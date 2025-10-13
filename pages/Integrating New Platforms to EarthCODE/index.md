@@ -102,5 +102,5 @@ Regarding examples of functionalities that EarthCODE platforms might provide, pl
 
 ## Maintenance and Support
 :::tip WIP
-ESA to provide text for how this will be maintained after the end of the project and guidelines to the Bast procurements.  
+Content is being actively developed and updated for this page. EarthCODE's documentation is a living document and will be continuously updated with detailed reviews.
 :::

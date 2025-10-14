@@ -32,10 +32,56 @@ Make a pull merge request back to main
 We will manually review and merge
 
 
+
+## Platform Summary
+
+This should be a summary of your platform’s capabilities. These details feed the interactive platform explorer at the top of the [Platforms section](../Technical%20Documentation/Platforms/index.md)
+
+Add a JSON file for your platform in the repository at:
+
+`.vitepress/data/platforms/<your-id>.json`
+
+Required fields
+- `id` (string): short, URL‑safe slug (e.g. `edc-eoxhub`, `deepesdl`).
+- `name` (string): human‑readable name.
+- `logo` (string): path under `/img/platforms/platform_logos/` (see Logo guidance above).
+- `href` (string): link to your platform documentation page, use an ext‑less path (e.g. `/Technical%20Documentation/Platforms/EDC/`).
+- `datasets` (string[]): describe which datasets are available on your platform (e.g. `Sentinel-1`, `Landsat-8`, `MODIS`). 
+- `languages` (string[]): supported languages (e.g. `Python`, `R`, `JavaScript`).
+- `features` (string[]): primary access/processing interfaces (e.g. `openEO`, `OGC API Processes`, `Dask Gateway`).
+
+Example
+```json
+{
+  "id": "cdse-openeo",
+  "name": "CDSE openEO Federation",
+  "logo": "/img/platforms/platform_logos/cdse.png",
+  "href": "/Technical%20Documentation/Platforms/OpenEO",
+  "datasets": [
+    "Sentinel-1",
+    "Sentinel-2",
+    "Sentinel-3",
+    "Sentinel-5P",
+    "Copernicus Services",
+    "Landsat",
+    "WorldCover"
+  ],
+  "languages": ["Python", "R", "JavaScript"],
+  "features": ["openEO"],
+}
+```
+
+Notes
+- The explorer auto‑discovers all files in `.vitepress/data/platforms/`. No manifest is needed.
+- Use consistent names for datasets (e.g. `Sentinel-5P` not `S5P`)
+- Check consistency with other json files.
+
+
 # Format
 Please follow the format guidelines below when creating EarthCODE platform documentation pages. Consistency across platform entries helps users easily compare capabilities and navigate the documentation site.
 
 This does not aim to be an extensive documentation about your platform, just a summary of its key features and its integrations which EarthCODE users will use.
+
 
 ## Title and File name
 Each platform documentation page must begin with a properly formatted title and use a consistent file naming convention:
@@ -62,49 +108,6 @@ Upload your logo to the following path:
 DeepESDL is designed for interactive Earth System Data Lab exploration and analytics. It provides ready-to-use EO datacubes and powerful cloud-based tooling for data scientists and researchers. Ideal for climate, land, and atmosphere research, the platform supports datacube-driven workflows and reproducible experiment design.
 </FeatureCard>
 ```
-
-## Summary
-
-This should be a summary of your platform’s capabilities. Be concise, accurate, and focus on how your platform supports FAIR, open, and reproducible science. These details feed both the platform’s page and the interactive platform explorer at the top of the [Platforms section](../Technical%20Documentation/Platforms/index.md)
-
-Add a JSON file for your platform in the repository at:
-
-`.vitepress/data/platforms/<your-id>.json`
-
-Required fields
-- `id` (string): short, URL‑safe slug (e.g. `edc-eoxhub`, `deepesdl`).
-- `name` (string): human‑readable name.
-- `logo` (string): path under `/img/platforms/platform_logos/` (see Logo guidance above).
-- `href` (string): link to your platform documentation page, use an ext‑less path (e.g. `/Technical%20Documentation/Platforms/EDC/`).
-- `datasets` (string[]): describe which datasets are available on your platform (e.g. `Sentinel-1`, `Landsat-8`, `MODIS`). 
-- `languages` (string[]): supported languages (e.g. `Python`, `R`, `JavaScript`).
-- `access` (string[]): primary access/processing interfaces (e.g. `openEO`, `OGC API Processes`, `Dask Gateway`).
-
-Example
-```json
-{
-  "id": "cdse-openeo",
-  "name": "CDSE openEO Federation",
-  "logo": "/img/platforms/platform_logos/cdse.png",
-  "href": "/Technical%20Documentation/Platforms/OpenEO",
-  "datasets": [
-    "Sentinel-1",
-    "Sentinel-2",
-    "Sentinel-3",
-    "Sentinel-5P",
-    "Copernicus Services",
-    "Landsat",
-    "WorldCover"
-  ],
-  "languages": ["Python", "R", "JavaScript"],
-  "access": ["openEO"],
-}
-```
-
-Notes
-- The explorer auto‑discovers all files in `.vitepress/data/platforms/`. No manifest is needed.
-- Use consistent names for datasets (e.g. `Sentinel-5P` not `S5P`)
-- Check consistency with other json files.
 
 ## Developing and Publishing Workflows & Data
 

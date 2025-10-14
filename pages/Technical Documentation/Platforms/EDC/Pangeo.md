@@ -8,22 +8,6 @@
 On EarthCODE, Pangeo is provided through the **Euro Data Cube (EDC) EOxHub Workspace**. Pangeo offers a powerful, interactive environment for scalable geoscience, built on an open-source ecosystem of key Python tools including Jupyter, Xarray, Dask, STAC, and Zarr. It is designed for scientists to scale to massive, cloud-based Earth Observation datasets with little to no changes to your python workflows.
 </FeatureCard>
 
-## Summary
-
-**Infrastructure Capabilities**
-
-| Platform                                 | Data Access                                                                                                                                                                         | Specialised Hardware & Services                                                                      | Compatible Workflows                      |
-|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------|
-| [Pangeo](./Pangeo.md)                    | | On-demand, scalable Dask clusters via Dask Gateway. | Jupyter Notebooks, Python scripts, containerized applications. |
-
-<br>
-
-**FAIR Open Science Development Capabilities**
-
-| Platform                                 | Development Tools                                                                | Supported Languages                                | Visualization Tools                                                                                                    | Produced Workflow Type                      |
-|------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| [Pangeo](./Pangeo.md)                    | JupyterLab and Jupyter Notebooks are the primary interactive development environment. | Python with core libraries like Xarray, Dask, and NumPy. | In-notebook visualization using libraries like Matplotlib and the HoloViz suite (hvPlot, GeoViews). | Reproducible Jupyter Notebooks and containerized Python applications. |
-
 ## Developing and Publishing Workflows & Data
 
 You develop workflows within the managed EDC EOxHub Workspace, an interactive JupyterLab environment. This setup allows you to use Dask Gateway to seamlessly scale your analysis from a single notebook to a powerful compute cluster.

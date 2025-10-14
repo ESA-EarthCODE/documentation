@@ -13,6 +13,8 @@
     "WorldCover"
   ],
   "languages": ["Python", "R", "JavaScript"],
-  "access": ["openEO"]
+  "features": [
+    "openEO",
+    "CDSE Jupyter Notebooks"
+  ]
 }
-

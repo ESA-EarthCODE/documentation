@@ -20,6 +20,5 @@
     "SRTM"
   ],
   "languages": ["Python"],
-  "access": ["Dask Gateway", "Jupyter"]
+  "features": ["Dask Gateway", "Jupyter"]
 }
-

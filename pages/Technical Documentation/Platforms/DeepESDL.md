@@ -17,22 +17,6 @@ and scalable processing resources.
 
 </FeatureCard>
 
-## Summary
-
-**Infrastructure Capabilities**
-
-| Platform                                                                                               | Data Access                                                                                                              | Specialised Hardware & Services                                                                | Compatible Workflows                                |
-| ------------------------------------------------------------------------------------------------------ |--------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| [DeepESDL](https://esa-earthcode.github.io/documentation/Technical%20Documentation/Platforms/DeepESDL) | CDS, CMEMS, CLMS, EOPF Sample Service, ESA CCI, ESA SMOS, GEDI, Sentinel Hub, STAC, Zenodo | GPU, CPU, Dask cluster, [geodb](https://xcube-dev.github.io/xcube-geodb/),  MLflow, TensorFlow | Jupyter notebooks |
-
-**FAIR Open Science Development Capabilities**
-
-| Platform | Development Tools                                 | Supported Languages    | Visualization Tools                                                                                                                                       | Produced Workflow Type        |
-| -------- |---------------------------------------------------| ---------------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------| ----------------------------- |
-| [DeepESDL](https://esa-earthcode.github.io/documentation/Technical%20Documentation/Platforms/DeepESDL) | JupyterLab, conda environments, [xcube](https://xcube.readthedocs.io/en/latest/), Git | Python | [xcube Viewer](https://viewer.earthsystemdatalab.net/), [Lexcube](https://earthsystemdatalab.net/guide/visualisation/lexcube-viewer/), [4D Viewer](https://4dviewer.com/), Jupyter | Jupyter notebooks  |
-
----
-
 ### Developing Workflows
 
 **Learn By Example**  

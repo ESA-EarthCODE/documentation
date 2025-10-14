@@ -16,21 +16,6 @@ The **Copernicus Data Space Ecosystem (CDSE) openEO federation** provides a unif
   
 </FeatureCard>
 
-## Summary
-
-**Infrastructure Capabilities**
-
-| Platform | Data Access | Specialized Hardware & Services | Compatible Workflows |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------|---------------------------|
-| Copernicus Data Space Ecosystem (CDSE) openEO Federation | Offers unified access to a broad selection of Earth Observation (EO) datasets, such as Sentinel-1, Sentinel-2, Sentinel-3, Sentinel-5p, Copernicus Services, Landsat, WorldCover, and more. Users can also process their own data using openEO’s [`load_stac`](https://open-eo.github.io/openeo-python-client/api.html#openeo.rest.connection.Connection.load_stac) function. For a comprehensive list of available datasets, visit [openeofed.dataspace.copernicus.eu](https://openeofed.dataspace.copernicus.eu). | Leverages cloud infrastructure across multiple openEO backends within the federation. Details about available backends are provided on the [openEO Federation page](https://documentation.dataspace.copernicus.eu/APIs/openEO/federation/openeo_federation.html#federation-members). | Built on the openEO API, the platform supports execution of openEO Process Graphs and User Defined Processes. |
-
-**FAIR Open Science Development Capabilities**
-
-| Platform | Development Tools | Supported Languages | Visualization Tools | Workflow Type |
-| --- | --- | --- | --- | --- |
-| Copernicus Data Space Ecosystem (CDSE) openEO Federation | openEO offers multiple tools for workflow and experiment development, including the [openEO Web Editor](https://openeofed.dataspace.copernicus.eu/) and platform independent [client libraries](https://openeo.org/documentation). These libraries can be used in various environments, such as the [CDSE Jupyter Notebooks](http://jupyterhub.dataspace.copernicus.eu/) or on a user's local machine. | Python, R, JavaScript | The [openEO Web Editor](https://openeofed.dataspace.copernicus.eu/) enables users to visualize processing job results. | openEO process graphs as standardized, interoperable workflows/experiments |
-
-
 ## Developing and Publishing Workflows & Data
 
 **Learn By Example**

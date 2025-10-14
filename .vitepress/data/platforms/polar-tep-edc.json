@@ -20,6 +20,5 @@
     "SRTM"
   ],
   "languages": ["Python"],
-  "access": ["OGC API Processes", "Jupyter"]
+  "features": ["OGC API Processes", "Jupyter"]
 }
-

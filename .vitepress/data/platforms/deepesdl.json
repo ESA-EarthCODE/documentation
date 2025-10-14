@@ -4,15 +4,22 @@
   "logo": "/img/platforms/platform_logos/deepesdl.webp",
   "href": "/Technical%20Documentation/Platforms/DeepESDL",
   "datasets": [
-    "Sentinel-1",
-    "Sentinel-2",
-    "Sentinel-3",
-    "Sentinel-5P",
-    "CLMS",
-    "SPOT 4/5",
-    "Proba-V"
+    "Copernicus Climate Data Store (CDS)",
+    "Copernicus Marine Service (CMEMS)",
+    "Copernicus Land Monitoring Service (CLMS)",
+    "DeepESDL Public Data Cubes",
+    "EOPF Sample Service",
+    "ESA Climate Change Initiative (CCI)",
+    "ESA SMOS",
+    "GEDI"
   ],
   "languages": ["Python"],
-  "access": ["OGC API Processes", "Jupyter"]
+  "features": [
+    "xcube",
+    "STAC",
+    "Sentinel Hub",
+    "Jupyter",
+    "Conda",
+    "Git"
+  ]
 }
-

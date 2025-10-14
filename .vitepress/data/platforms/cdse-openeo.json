@@ -1,0 +1,18 @@
+{
+  "id": "cdse-openeo",
+  "name": "CDSE openEO Federation",
+  "logo": "/img/platforms/platform_logos/cdse.png",
+  "href": "/Technical%20Documentation/Platforms/OpenEO",
+  "datasets": [
+    "Sentinel-1",
+    "Sentinel-2",
+    "Sentinel-3",
+    "Sentinel-5P",
+    "Copernicus Services",
+    "Landsat",
+    "WorldCover"
+  ],
+  "languages": ["Python", "R", "JavaScript"],
+  "access": ["openEO"]
+}
+

@@ -1,0 +1,18 @@
+{
+  "id": "deepesdl",
+  "name": "DeepESDL",
+  "logo": "/img/platforms/platform_logos/deepesdl.webp",
+  "href": "/Technical%20Documentation/Platforms/DeepESDL",
+  "datasets": [
+    "Sentinel-1",
+    "Sentinel-2",
+    "Sentinel-3",
+    "Sentinel-5P",
+    "CLMS",
+    "SPOT 4/5",
+    "Proba-V"
+  ],
+  "languages": ["Python"],
+  "access": ["OGC API Processes", "Jupyter"]
+}
+

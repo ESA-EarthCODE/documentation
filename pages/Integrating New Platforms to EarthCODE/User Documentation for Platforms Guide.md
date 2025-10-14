@@ -14,7 +14,6 @@ import AcronymsTable from '../Getting started with EarthCODE/key-terms-and-conce
 <AcronymsTable /> -->
 
 
-
 Guidance on how to integrate external cloud computing services and other relevant platforms to EarthCODE.
 
 You need to maintain your own documentation and provide documentation about your EarthCODE integration, to this portal.
@@ -66,33 +65,46 @@ DeepESDL is designed for interactive Earth System Data Lab exploration and analy
 
 ## Summary
 
-This should be a summary table of your platforms' capabilites. This helps other users and project partners understand what your platform offers. Entries should be concise, accurate, and written in the context of how your platform supports FAIR, open, and reproducible science. The tables will be directly copied in the [Platforms Page](../Technical%20Documentation/Platforms/) of the documentation.
+This should be a summary of your platform’s capabilities. Be concise, accurate, and focus on how your platform supports FAIR, open, and reproducible science. These details feed both the platform’s page and the interactive platform explorer at the top of the [Platforms section](../Technical%20Documentation/Platforms/index.md)
 
----
+Add a JSON file for your platform in the repository at:
 
-### Infrastructure Capabilities
+`.vitepress/data/platforms/<your-id>.json`
 
-| Field                           | Description and Guidance                                                                                                         |
-|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **Platform**                    | Provide the name of your platform and a link to your EarthCODE documentation page hosted on this site. |
-| **Data Access**                 | Describe which datasets are available on your platform. Include key EO missions (e.g. Sentinel-1, MODIS, Landsat), thematic focus areas, and whether access is via APIs, STAC, OGC endpoints, or catalog services. |
-| **Specialised Hardware & Services** | Summarise what compute infrastructure is available. This could include for example aspects like access to GPUs, TPUs, Machine Learning Services (e.g. Seldon Core for inference, MLflow), support for scalable frameworks like Dask, batch processing, orchestration services, or anything that enables high-performance data processing. |
-| **Compatible Workflows**       | Indicate the types of workflows your platform supports execution of. For example, OGC API Processes, OpenEO Process Graphs, MLflow pipelines, or Application Packages. |
+Required fields
+- `id` (string): short, URL‑safe slug (e.g. `edc-eoxhub`, `deepesdl`).
+- `name` (string): human‑readable name.
+- `logo` (string): path under `/img/platforms/platform_logos/` (see Logo guidance above).
+- `href` (string): link to your platform documentation page, use an ext‑less path (e.g. `/Technical%20Documentation/Platforms/EDC/`).
+- `datasets` (string[]): describe which datasets are available on your platform (e.g. `Sentinel-1`, `Landsat-8`, `MODIS`). 
+- `languages` (string[]): supported languages (e.g. `Python`, `R`, `JavaScript`).
+- `access` (string[]): primary access/processing interfaces (e.g. `openEO`, `OGC API Processes`, `Dask Gateway`).
 
----
+Example
+```json
+{
+  "id": "cdse-openeo",
+  "name": "CDSE openEO Federation",
+  "logo": "/img/platforms/platform_logos/cdse.png",
+  "href": "/Technical%20Documentation/Platforms/OpenEO",
+  "datasets": [
+    "Sentinel-1",
+    "Sentinel-2",
+    "Sentinel-3",
+    "Sentinel-5P",
+    "Copernicus Services",
+    "Landsat",
+    "WorldCover"
+  ],
+  "languages": ["Python", "R", "JavaScript"],
+  "access": ["openEO"],
+}
+```
 
-### FAIR Open Science Development Capabilities
-
-| Field                           | Description and Guidance                                                                                                         |
-|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **Platform**                    | Provide the name of your platform and a link to your EarthCODE documentation page hosted on this site. |
-| **Development Tools**          | Describe the tools available for scientists to build, test, and run experiments. This could include Jupyter, GUI-based editors, sepcialised SDKs/APIs, or custom development environments. |
-| **Supported Languages**        | List the programming languages and frameworks supported by your platform (e.g. Python, R, JavaScript). |
-| **Visualization Tools**        | Summarise built-in tools that allow users to visualise data. This may include datacube viewers, dashboard interfaces, time-series plots, maps, or support for WMS/WMTS. |
-| **Produced Workflow Type**     | Describe the format or interface of the workflows produced by your platform. For example, OGC API Processes, OpenEO Process Graphs, or other reusable, workflows. |
----
-
-When filling out your entry, focus on what users can do with your platform in the context of EarthCODE. Avoid overly general descriptions—aim for clarity, specificity, and practical insight into your platform’s capabilities. We would advise filling this table last and summarizing from the other sections.
+Notes
+- The explorer auto‑discovers all files in `.vitepress/data/platforms/`. No manifest is needed.
+- Use consistent names for datasets (e.g. `Sentinel-5P` not `S5P`)
+- Check consistency with other json files.
 
 ## Developing and Publishing Workflows & Data
 
@@ -205,18 +217,6 @@ Lorem ipsum description of a platform
 - **Try it out for free** and kick‑start your Earth Observation application!
 </FeatureCard>
 
-## Summary
-
-**Infrastructure Capabilities**
-
-| Platform                             | Data Access                                                                                             | Specialised Hardware & Services | Compatible Workflows     |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------|---------------------------|
-
-**FAIR Open Science Development Capabilities**
-| Platform                             | Development Tools                      | Supported Languages          | Visualization Tools                             | Produced Workflow Type    |
-|--------------------------------------|----------------------------------------|------------------------------|--------------------------------------------------|----------------------------|
-
-
 ### Developing Workflows
 
 **Learn By Example**
@@ -265,18 +265,6 @@ Lorem ipsum description of a platform
 - **Customize your data pipeline** to suit specific needs  
 - **Try it out for free** and kick‑start your Earth Observation application!
 </FeatureCard>
-
-## Summary
-
-**Infrastructure Capabilities**
-
-| Platform                             | Data Access                                                                                             | Specialised Hardware & Services | Compatible Workflows     |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------|---------------------------|
-
-**FAIR Open Science Development Capabilities**
-| Platform                             | Development Tools                      | Supported Languages          | Visualization Tools                             | Produced Workflow Type    |
-|--------------------------------------|----------------------------------------|------------------------------|--------------------------------------------------|----------------------------|
-
 
 ### Developing Workflows
 

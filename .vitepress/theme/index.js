@@ -3,6 +3,7 @@ import "./style.css";
 import FeatureCard from "./components/FeatureCard.vue";
 import OpenEOCollections from "./components/OpenEOCollections.vue";
 import Checklist from './components/Checklist.vue'
+import PlatformExplorer from './components/PlatformExplorer.vue'
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -16,5 +17,6 @@ export default {
     app.component("FeatureCard", FeatureCard);
     app.component("OpenEOCollections", OpenEOCollections);
     app.component('Checklist', Checklist)
+    app.component('PlatformExplorer', PlatformExplorer)
   },
 };

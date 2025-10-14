@@ -1,0 +1,25 @@
+{
+  "id": "edc-eoxhub",
+  "name": "EDC EOxHub Workspaces",
+  "logo": "/img/platforms/platform_logos/eurodatacube.png",
+  "href": "/Technical%20Documentation/Platforms/EDC/",
+  "datasets": [
+    "Sentinel-1",
+    "Sentinel-2",
+    "Sentinel-3",
+    "Sentinel-5P",
+    "Landsat-8",
+    "WorldView",
+    "CBERS-3/4",
+    "GOES-16/17",
+    "MODIS",
+    "PlanetScope",
+    "SPOT 6/7",
+    "SkySat",
+    "Pleiades",
+    "SRTM"
+  ],
+  "languages": ["Python"],
+  "access": ["OGC API Processes", "Jupyter"]
+}
+

@@ -5,51 +5,9 @@ order: 0
 
 EarthCODE partners with a growing ecosystem of platforms to provide FAIR and Open Earth Observation science tools and infrastructure!
 
-<table style="width: 100%; max-width: 1000px; margin: 2rem auto; border-collapse: separate; border-spacing: 1.25rem;">
-  <tbody>
-  <tr>
-    <td style="text-align: center; padding: 1rem; border-radius: 12px; background: var(--vp-c-bg-soft, #f6f7f9); box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
-      <a href="./DeepESDL" title="DeepESDL" aria-label="DeepESDL">
-        <img src="/img/platforms/platform_logos/deepesdl.webp" alt="DeepESDL logo" style="display:block; margin:0 auto; height: 80px; max-width: 180px; object-fit: contain; transition: transform .15s ease;" />
-      </a>
-      <div style="margin-top: .5rem; font-weight: 600;"><a href="./DeepESDL" style="text-decoration: none;">DeepESDL</a></div>
-    </td>
-    <td style="text-align: center; padding: 1rem; border-radius: 12px; background: var(--vp-c-bg-soft, #f6f7f9); box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
-      <a href="./EDC/" title="Euro Data Cube (EOxHub)" aria-label="Euro Data Cube (EOxHub)">
-        <img src="/img/platforms/platform_logos/eurodatacube.png" alt="Euro Data Cube logo" style="display:block; margin:0 auto; height: 80px; max-width: 180px; object-fit: contain; transition: transform .15s ease;" />
-      </a>
-      <div style="margin-top: .5rem; font-weight: 600;"><a href="./EDC/" style="text-decoration: none;">Euro Data Cube (EOxHub)</a></div>
-    </td>
-    <td style="text-align: center; padding: 1rem; border-radius: 12px; background: var(--vp-c-bg-soft, #f6f7f9); box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
-      <a href="./OpenEO" title="CDSE openEO Federation" aria-label="CDSE openEO Federation">
-        <img src="/img/platforms/platform_logos/cdse.png" alt="CDSE openEO Federation logo" style="display:block; margin:0 auto; height: 80px; max-width: 180px; object-fit: contain; transition: transform .15s ease;" />
-      </a>
-      <div style="margin-top: .5rem; font-weight: 600;"><a href="./OpenEO" style="text-decoration: none;">CDSE openEO Federation</a></div>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; padding: 1rem; border-radius: 12px; background: var(--vp-c-bg-soft, #f6f7f9); box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
-      <a href="./EDC/Pangeo" title="Pangeo (via EDC)" aria-label="Pangeo (via EDC)">
-        <img src="/img/platforms/platform_logos/PANGEO.png" alt="Pangeo logo" style="display:block; margin:0 auto; height: 80px; max-width: 180px; object-fit: contain; transition: transform .15s ease;" />
-      </a>
-      <div style="margin-top: .5rem; font-weight: 600;"><a href="./EDC/Pangeo" style="text-decoration: none;">Pangeo (via EDC)</a></div>
-    </td>
-    <td style="text-align: center; padding: 1rem; border-radius: 12px; background: var(--vp-c-bg-soft, #f6f7f9); box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
-      <a href="./EDC/Polar-TEP" title="Polar TEP (via EDC)" aria-label="Polar TEP (via EDC)">
-        <img src="/img/platforms/platform_logos/Polar-TEP-Logo.png" alt="Polar TEP logo" style="display:block; margin:0 auto; height: 80px; max-width: 180px; object-fit: contain; transition: transform .15s ease;" />
-      </a>
-      <div style="margin-top: .5rem; font-weight: 600;"><a href="./EDC/Polar-TEP" style="text-decoration: none;">Polar TEP (via EDC)</a></div>
-    </td>
-    <td style="text-align: center; padding: 1rem; border-radius: 12px; background: var(--vp-c-bg-soft, #f6f7f9); box-shadow: 0 1px 2px rgba(0,0,0,0.04);">
-      <a href="./EDC/CoCalc" title="CoCalc (via EDC)" aria-label="CoCalc (via EDC)">
-        <img src="/img/platforms/platform_logos/CoCalc_logo.svg.png" alt="CoCalc logo" style="display:block; margin:0 auto; height: 80px; max-width: 180px; object-fit: contain; transition: transform .15s ease;" />
-      </a>
-      <div style="margin-top: .5rem; font-weight: 600;"><a href="./EDC/CoCalc" style="text-decoration: none;">CoCalc (via EDC)</a></div>
-    </td>
-  </tr>
-  </tbody>
-</table>
-
+<ClientOnly>
+  <PlatformExplorer />
+</ClientOnly>
 
 This section is your starting point for exploring the platforms and tools available in the EarthCODE ecosystem. Whether you're launching a new project or streamlining an existing workflow, you'll find guidance on choosing the right platform and understanding its capabilities.
 
@@ -105,7 +63,7 @@ EarthCODE's integrated platforms provide the tools to build, test, and ultimatel
 
 More detailed examples for developing workflows can be found on the platform pages and main tutorial page.
 
-## Infrastructure Capabilities
+<!-- ## Infrastructure Capabilities
 
 | Platform                             | Data Access                                                                                             | Specialised Hardware & Services | Compatible Workflows     |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------|---------------------------|
@@ -125,7 +83,7 @@ More detailed examples for developing workflows can be found on the platform pag
 | [**Pangeo (via EDC)**](./EDC/Pangeo.md) | Jupyter                                | Python                       | [eodash](https://eodash.org) - Dashboard as a Service, Jupyter                                          | OGC API Processes          |
 | [**CDSE openEO Federation**](./OpenEO.md) | Jupyter, openEO Web Editor, openEO client libraries         | Python, R, JavaScript        | GUI, Jupyter                                     | OpenEO Process Graphs      |
 | [**CoCalc (via EDC)**](./EDC/CoCalc.md) | Jupyter                                | Python                       | [eodash](https://eodash.org) - Dashboard as a Service, Jupyter                                          | OGC API Processes          |
-| [**Polar TEP (via EDC)**](./EDC/Polar-TEP.md) | Jupyter                                | Python                       | [eodash](https://eodash.org) - Dashboard as a Service, Jupyter                                          | OGC API Processes          |
+| [**Polar TEP (via EDC)**](./EDC/Polar-TEP.md) | Jupyter                                | Python                       | [eodash](https://eodash.org) - Dashboard as a Service, Jupyter                                          | OGC API Processes          | -->
 
 
 <!-- Additional links removed for clarity; see individual platform pages above. -->

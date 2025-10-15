@@ -18,13 +18,15 @@ EarthCODE is a strategic initiative by the **European Space Agency (ESA)** desig
 
 Browsing and exploring the Open Science Catalog, the ESA Project Results Repository (ESA PRR), and the EarthCODE Forum are freely accessible to anyone via their respective websites. Furthermore, no login is required for downloading data from the Open Science Catalog or the ESA PRR.
 
+There is not authentication required to explore or download information from the [EarthCODE Portal](https://earthcode.esa.int), the [Open Science Catalog](https://opensciencedata.esa.int/catalog), the [EarthCODE Forum](https://discourse-earthcode.eox.at), or the [ESA Project Results Repository (PRR)](https://eoresults.esa.int/).
+
 If you wish to add, remove, or update information in the Open Science Catalog, the ESA PRR, or EarthCODE Forum, you must create a GitHub account.
 
 Similarly, you need an account to access the integrated platforms or the  EarthCODE portal.
 
-There is not authentication required to explore or download information from the [EarthCODE Portal](https://earthcode.esa.int), the [Open Science Catalog](https://opensciencedata.esa.int/catalog), the [EarthCODE Forum](https://discourse-earthcode.eox.at), or the [ESA Project Results Repository (PRR)](https://eoresults.esa.int/).
-
 If you want to publish workflows and code, contribute to the forum, use integrated platforms, the EarthCODE workspace you need a GitHub account. 
+
+EarthCODE's Single Sign-On (SSO) system allows you to use a single identity to log in once and gain seamless access to the portal and all integrated platforms, without needing to manage separate accounts.
 
 See [Accessing EarthCODE](../Getting%20started%20with%20EarthCODE/Accessing%20EarthCODE.md) for more information.
 

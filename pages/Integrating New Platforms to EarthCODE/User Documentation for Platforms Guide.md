@@ -13,10 +13,7 @@ import AcronymsTable from '../Getting started with EarthCODE/key-terms-and-conce
 
 <AcronymsTable /> -->
 
-
-Guidance on how to integrate external cloud computing services and other relevant platforms to EarthCODE.
-
-You need to maintain your own documentation and provide documentation about your EarthCODE integration, to this portal.
+As part of integrating into the EarthCODE ecosystem, you need to maintain your own documentation and provide documentation about your EarthCODE integration, to this portal.
 
 Note that technical documentation about the inner workings of your platform and it's integration with EarthCODE is separate from this. This is the user-facing documentation for your platform on EarthCODE.
 
@@ -191,7 +188,7 @@ Include a link to the NoR page of your platform at the end of this section.
 
 ## Tutorials
 
-Provide a list of currated tutorials for anyone interested in learning about your platform.
+Provide a list of links to currated tutorials for anyone interested in learning about your platform.
 
 ## Support and Communities
 Describe where users can get support for the platform (technical issues and/or general querries) - provide links to support forms, emails or other website links.
@@ -199,7 +196,7 @@ Describe where users can get support for the platform (technical issues and/or g
 If you have a community forum, please share a link here and provide a summary of it.
 
 ## Full Documentation Can be Found At
-Finally, provide a link to your comprehensive documentation, API reference, tutorials and the page where users can find more about your platform offering.
+Finally, provide a link to your official platform documentation.
 
 
 # Template

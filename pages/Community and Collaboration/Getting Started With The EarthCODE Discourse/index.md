@@ -1,5 +1,5 @@
 ---
-order: 0
+order: 2
 ---
 # Getting started with the EarthCODE Forum
 This page guides you through using the [EarthCODE Forum](https://discourse-earthcode.eox.at/). Hosted on Discourse, this forum serves the user community by facilitating discussions on FAIR and Open Science, as well as exploring the diverse tools, published research, and solutions offered by the EarthCODE platform. As a new user, we hope you will find this space intuitive and well-structured. 

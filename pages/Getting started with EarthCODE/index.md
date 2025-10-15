@@ -132,7 +132,7 @@ Explore the complete list of [Tutorials](../Training%20and%20Resources/) and [Ex
 
 
 ## Step 3: Who is EarthCODE For? 
-EarthCODE is designed for the community of Earth‑science practitioners, including ESRIN Science Hub members, the ESA Science Hub and teams working on ESA‑funded projects to enable them to do science and publish their results. A key stakeholder group are the ESA Science Clusters which aim at promoting networking, collaborative research, and fostering international collaboration in various Earth science domains, including: atmosphere, ocean, carbon, water cycle, polar, extremes and natural disasters, biosphere, land and agriculture, solid and magnetic earth. Clusters involve different ESA funded projects and activities bringing together expertise, data and resources in a synergistic manner.
+EarthCODE is designed for the community of Earth‑science practitioners, including ESA Earth System Science Hub members and researchers, teams working on ESA‑funded projects from Earth Observation programmes to enable them to do science and publish their results. A key stakeholder group are the ESA Science Clusters which aim at promoting networking, collaborative research, and fostering international collaboration in various Earth science domains, including: atmosphere, ocean, carbon, water cycle, polar, extremes and natural disasters, biosphere, land and agriculture, solid and magnetic earth. Clusters involve different ESA funded projects and activities bringing together expertise, data and resources in a synergistic manner.
 
 There are two key type of roles within EarthCODE:
 

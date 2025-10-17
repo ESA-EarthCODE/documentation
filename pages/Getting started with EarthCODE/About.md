@@ -15,6 +15,6 @@ The **Open Science and Innovation Vision** outlined in ESA’s Earth Observation
 
 ![Open Science](/img/terms/open-science-esa.png)
 
-ESA’s vision for [EO Open Science and Innovation](doi.org/10.5281/zenodo.13819557) provides a structured framework to embed FAIR and Open Science practices across its Earth Observation activities.
+ESA’s vision for [EO Open Science and Innovation](https://zenodo.org/records/13973612) provides a structured framework to embed FAIR and Open Science practices across its Earth Observation activities.
 
 EarthCODE ([earthcode.esa.int](https://earthcode.esa.int)) is part of this larger panorama of strategic initiatives. Through its ecosystem of tools and platforms, it aims to transform FAIR and Open principles from an aspiration to routine practice for Earth Science activities funded through its programme and beyond.

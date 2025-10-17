@@ -8,3 +8,9 @@ Content is being actively developed and updated for this page. EarthCODE's docum
 :::
 
 How to incorporate data into your workflows and experiments within EarthCODE.
+
+<!-- 
+
+Accessing workflows giff
+
+ -->

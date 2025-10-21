@@ -1,12 +1,11 @@
 # Pangeo
-
-*pangeo.io*
-
 ## About
 
 <FeatureCard img="/img/platforms/platform_logos/pangeo-logo.png" alt="Pangeo Logo">
-On EarthCODE, Pangeo is provided through the **Euro Data Cube (EDC) EOxHub Workspace**. Pangeo offers a powerful, interactive environment for scalable geoscience, built on an open-source ecosystem of key Python tools including Jupyter, Xarray, Dask, STAC, and Zarr. It is designed for scientists to scale to massive, cloud-based Earth Observation datasets with little to no changes to your python workflows.
+On EarthCODE, Pangeo is provided through the Euro Data Cube (EDC) EOxHub Workspace. Pangeo offers a powerful, interactive environment for scalable geoscience, built on an open-source ecosystem of key Python tools including Jupyter, Xarray, Dask, STAC, and Zarr. It is designed for scientists to scale to massive, cloud-based Earth Observation datasets with little to no changes to your python workflows.
 </FeatureCard>
+
+Learn more at [*pangeo.io*](https://pangeo.io)
 
 ## Developing and Publishing Workflows & Data
 

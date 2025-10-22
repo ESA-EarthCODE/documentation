@@ -12,17 +12,17 @@ A well-organized project directory makes your workflow easier for others (and yo
 
 Consider using separate directories for distinct components of your project:
 
-* `code/` or `src/`: For primary source code files, including scripts (`.py`) and notebooks (`.ipynb`).
-* `data/`: For input data files. Note that large data files should generally not be committed to version control (see next section). This directory might contain small sample datasets or scripts to download larger inputs.
-* `docs/`: For detailed documentation, figures, or reports.
-* `environment/`: For files defining the software environment (e.g., `environment.yml`, `Dockerfile`).
+- `code/` or `src/`: For primary source code files, including scripts (`.py`) and notebooks (`.ipynb`).
+- `data/`: For input data files. Note that large data files should generally not be committed to version control (see next section). This directory might contain small sample datasets or scripts to download larger inputs.
+- `docs/`: For detailed documentation, figures, or reports.
+- `environment/`: For files defining the software environment (e.g., `environment.yml`, `Dockerfile`).
 
 At the root level of your project, always include a `README.md` file. This file serves as the entry point and should clearly explain:
 
-* The purpose of the project and workflow.
-* The contents of the repository and the directory structure.
-* Instructions on how to set up the environment and run the workflow.
-* Information about required input data and how to obtain it.
+- The purpose of the project and workflow.
+- The contents of the repository and the directory structure.
+- Instructions on how to set up the environment and run the workflow.
+- Information about required input data and how to obtain it.
 
 ## Use Version Control Effectively
 
@@ -41,23 +41,23 @@ git push -u origin main
 ```
 
 Version control provides several key benefits:
-* It acts as a complete history log, allowing you to track every change and revert to previous versions if needed.
-* It facilitates collaboration by allowing multiple people to work on the same codebase simultaneously using branches and merging.
-* It serves as a reliable backup mechanism for your code and project history.
-* Crucially, it allows you to link specific versions of your code (via commits or tags) to the results generated, which is fundamental for reproducibility.
+- It acts as a complete history log, allowing you to track every change and revert to previous versions if needed.
+- It facilitates collaboration by allowing multiple people to work on the same codebase simultaneously using branches and merging.
+- It serves as a reliable backup mechanism for your code and project history.
+- Crucially, it allows you to link specific versions of your code (via commits or tags) to the results generated, which is fundamental for reproducibility.
 
 When setting up your repository, carefully consider what should and should not be tracked, following common recommendations:
 
-* Track These:
-    * Source code files (.ipynb, .py).
-    * Configuration files.
-    * Environment definition files (environment.yml, requirements.txt, Dockerfile).
-    * Documentation files (README.md, other .md or text files).
+- Track These:
+    - Source code files (.ipynb, .py).
+    - Configuration files.
+    - Environment definition files (environment.yml, requirements.txt, Dockerfile).
+    - Documentation files (README.md, other .md or text files).
 
-* Do Not Track These:
-    * Large data files. Data should be stored separately and accessed via links or download scripts.
-    * Credentials, API keys, or any sensitive information (secrets).
-    * Generated outputs like plots, figures, or intermediate/final data files.
+- Do Not Track These:
+    - Large data files. Data should be stored separately and accessed via links or download scripts.
+    - Credentials, API keys, or any sensitive information (secrets).
+    - Generated outputs like plots, figures, or intermediate/final data files.
 
 Use a `.gitignore` file to explicitly tell Git which files and directories to ignore. To use version control effectively:
 - Make frequent, small commits. Each commit should represent a single logical change.
@@ -369,7 +369,7 @@ Once your notebook runs reliably, think about making it even more reusable with 
 
 ## Implement Basic Testing
 
-Adding checks to your code helps ensure it behaves as expected and increases confidence in your results ✔️. Even simple tests can catch errors early, saving significant debugging time later.
+Adding checks to your code helps ensure it behaves as expected and increases confidence in your results. Even simple tests can catch errors early, saving significant debugging time later.
 
 A straightforward way to add checks directly within your notebook is using `assert` statements. These statements test whether a condition is true; if it's false, the code will stop and raise an error, immediately alerting you to a problem. Use them to verify assumptions about your data or the results of calculations.
 
@@ -421,48 +421,8 @@ A crucial step for ensuring true reproducibility is explicitly connecting the sp
 
 In EarthCODE, this vital link is captured within the **Experiment** metadata record. When you publish a data **Product**, its metadata should reference the **Workflow** that created it and the details of the code run are in the metadata of an **Experiment**. The Experiment record, in turn, contains precise references to:
 
-* The specific **Workflow** version used (e.g., a Git commit hash or tag).
-* The exact **Input Data** consumed.
-* The **Configuration** parameters applied during that run.
+- The specific **Workflow** version used (e.g., a Git commit hash or tag).
+- The exact **Input Data** consumed.
+- The **Configuration** parameters applied during that run.
 
 This creates a complete, traceable chain from the final data product back to the exact code and conditions that generated it. By formally linking the code version to the results via an Experiment, you provide the necessary provenance for others to verify your findings and confidently reproduce your work.
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-# Workflow Best Practices
-## Plan for Reproducibility from day 1
-
-## Best Practices for high-quality Code, Data and Workflows
-
-Maintaining high-quality code and data throughout your project ensures that your outputs are reusable, trustworthy, and easier to publish. Below are tips and recommended practices to support quality assurance and reproducibility:
-
-- Code Quality
-     - Use Version Control: Track your development using Git and a shared repository (e.g., GitHub or GitLab).
-     - Automate Testing: Implement unit tests and integration tests using tools like pytest, unittest, or CI/CD workflows.
-     - Follow Coding Standards: Adopt a consistent style (e.g., PEP8 for Python) and use linters (e.g., flake8, black) to maintain code clarity.
-     - Write Documentation: Provide clear usage instructions and inline comments. Consider using Jupyter Notebooks or Markdown README files to explain workflows.
-- Data Quality
-     - Validate Your Data: Apply automated checks for data formats, missing values, and schema consistency.
-     - Document Your Data: Create or maintain metadata alongside your datasets, including descriptions of variables, units, and collection methods.
-     - Use Standard Formats: Choose interoperable, machine-readable formats (e.g., NetCDF, GeoTIFF, Zarr) and community-agreed standards (such as CF-Conventions).
-     - Track Data Changes: when needed, version datasets as they evolve and log processing steps to support reproducibility.
-- Integration with EarthCODE
-     - Use EarthCODE-Compatible Tools: When possible, rely on tools and environments that are natively supported within EarthCODE platforms.
-     - Test Workflows in EarthCODE Early: Validate your workflows in the target platform before final publication to avoid integration issues.
-     - Publish Intermediate Outputs: Store and document intermediate results to help others understand and reuse your work incrementally.
-     - Regularly revisiting these practices during the project lifecycle will reduce last-minute issues and make your results easier to share and build upon. -->
-
-
-
-

@@ -13,6 +13,7 @@ When developing and publishing your workflow, consider these best practices:
 - [Structure Your Project Logically](./workflow-best-practices.md#structure-your-project-logically) — Organize files consistently.
 - [Use Version Control Effectively](./workflow-best-practices.md#use-version-control-effectively) — Track changes using Git.
 - [Explicitly Define the Environment](./workflow-best-practices.md#explicitly-define-the-environment) — List dependencies and versions.
+- [Package FAIR ML Models](./fair-ml-models.md) — Publish trained models with model cards, pinned runtimes, portable inference artefacts, and validation notes.
 - [Tell a Story (in Notebooks)](./workflow-best-practices.md#tell-a-story-in-notebooks) — Explain context/methods/results in Markdown.
 - [Modularize and Refactor Code](./workflow-best-practices.md#modularize-and-refactor-code) — Avoid duplication; use functions/modules.
 - [Adopt a Consistent Coding Style](./workflow-best-practices.md#adopt-a-consistent-coding-style) — Follow style guides (e.g., PEP 8).
@@ -32,6 +33,7 @@ When developing and publishing your workflow, consider these best practices:
       'Use .gitignore to exclude data, secrets, environment files e.g. .env, and outputs.',
       'Explicitly list all software dependencies in an environment file e.g., environment.yml, requirements.txt, Dockerfile.',
       'Pin key dependency versions in the environment file.',
+      'For ML workflows, publish a model card, pinned inference environment, validated model artefact, and small inference example.',
       'Follow a standard code style guide e.g., PEP 8 for Python.',
       'Refactor repetitive code into functions or classes.',
       'Consider moving complex/reusable code into separate modules e.g., .py files.',
@@ -74,4 +76,3 @@ https://github.com/jupyter-guide/jupyter-guide
 https://best-practice-and-impact.github.io/qa-of-code-guidance/managers_guide.html 
 https://goodresearch.dev/ 
 -->
-

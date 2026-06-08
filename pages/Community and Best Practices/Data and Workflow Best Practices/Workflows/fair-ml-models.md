@@ -6,8 +6,6 @@ order: 2
 
 Machine-learning models published through EarthCODE should be treated as reusable workflow artefacts. The model files, source code, runtime environment, metadata, and example inference path should be clear enough that another user can inspect the model and run it in a compatible Python environment.
 
-This guide complements the general [Workflow Best Practices](./workflow-best-practices.md) with a practical packaging pattern for trained Earth observation models. The aim is not to create a complex model registry. The aim is to make every model package predictable: users should be able to find the weights, understand the intended inputs and outputs, install the runtime, and run inference without reverse-engineering the original training notebook.
-
 :::tip Minimum expectation
 At publication time, a model package should include a model card, a pinned runtime environment, at least one reproducible inference artefact, and validation notes showing that the artefact matches the model described in the documentation.
 :::

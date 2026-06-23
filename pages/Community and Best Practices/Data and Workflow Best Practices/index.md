@@ -12,4 +12,4 @@ EarthCODE prioritises **cloud-native geospatial formats**, specifically:
 - [COG](./Data/COG.md)
 - [Zarr](./Data/zarr.md)
 - [Kerchunk](./Data/Kerchunk.md)
-- [FlatGeobuf](./Data/flatgeobuff.md)
+- [FlatGeobuf](./Data/geoparquet.md)

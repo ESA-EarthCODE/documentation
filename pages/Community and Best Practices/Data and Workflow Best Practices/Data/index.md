@@ -64,9 +64,7 @@ In the following sections we will discuss the most common formats submitted to E
 | Raster scenes & mosaics | [**COG (GeoTIFF)**](./COG.md) with internal tiling and overviews for fast partial reads; lossless compression by default. |
 | n-D data cubes (time/lat/lon/level) | [**Zarr/GeoZarr**](./zarr.md) with sensible chunking and consolidated metadata |
 | NetCDF Virtualized | [**kerchunk**](./Kerchunk.md) (JSON references) to present existing netCDF‑4/HDF5 or GRIB2 as a virtual Zarr for efficient, chunked cloud reads without rewriting source data. |
-| Vector Data | [**FlatGeobuf**](./flatgeobuff.md) with spatial index; suitable for HTTP streaming and subsetting. |
-| Tabular in-situ/model outputs | **Parquet** (preferred) or **CSV** for small datasets; define schema, units, and time zones. |
-
+| Vector Data / Tabular in-situ/model outputs | [**GeoParquet**](./geoparquet.md) with spatial index. |
 
 When deciding how to created and distribute your cloud‑optimized dataset, think about:
 1. Which variable(s) and fields should be included?

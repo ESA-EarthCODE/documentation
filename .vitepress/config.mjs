@@ -108,7 +108,7 @@ const sideBar = withSidebar(
 )
 
 const trainingSection = sideBar.themeConfig.sidebar.find(section => section.text === 'Training and Resources')
-trainingSection.items.push({ text: 'Examples', link: 'https://esa-earthcode.github.io/tutorials/' })
+trainingSection.items.push({ text: 'Tutorial Notebooks', link: 'https://esa-earthcode.github.io/tutorials/' })
 
 // Collapse all sidebar groups at all nesting levels
 const collapseAll = (items) => {

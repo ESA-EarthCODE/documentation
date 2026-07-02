@@ -128,7 +128,7 @@ By exploring these sections, you’ll better understand how to leverage EarthCOD
 ### Tutorials
 
  
-Explore the complete list of [Tutorials](../Training%20and%20Resources/) and [Examples](https://esa-earthcode.github.io/tutorials/) for a practical introduction EarthCODE and its related tools.
+Explore the complete list of [Tutorials](../Training%20and%20Resources/) and [Tutorial Notebooks](https://esa-earthcode.github.io/tutorials/) for a practical introduction EarthCODE and its related tools.
 
 
 ## Step 3: Who is EarthCODE For? 

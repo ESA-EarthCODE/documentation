@@ -58,10 +58,10 @@ EarthCODE's integrated platforms provide the tools to build, test, and ultimatel
     -   [https://esa-earthcode.github.io/tutorials/workflow/](https://esa-earthcode.github.io/tutorials/workflow/)
 * **Example Developing an Analysis on Pangeo**
     -   [https://esa-earthcode.github.io/tutorials/pangeo-on-earthcode/](https://esa-earthcode.github.io/tutorials/pangeo-on-earthcode/)
-* **Example: Publishing a Data Cube and Workflow to EarthCODE**
-    -   [https://esa-earthcode.github.io/tutorials/publish-pangeo/](https://esa-earthcode.github.io/tutorials/publish-pangeo/)
+* **Example: Publishing Data and Workflows to EarthCODE**
+    -   [https://esa-earthcode.github.io/tutorials/](https://esa-earthcode.github.io/tutorials/)
+    -   [https://esa-earthcode.github.io/earthcode-library/](https://esa-earthcode.github.io/earthcode-library/)
 
-More detailed examples for developing workflows can be found on the platform pages and main tutorial page.
 
 <!-- ## Infrastructure Capabilities
 
